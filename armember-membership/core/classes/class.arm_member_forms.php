@@ -311,7 +311,7 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 			
 			$ARMemberLite->arm_check_user_cap( '', '1' ); //phpcs:ignore --Reason:Verifying nonce
 			$denyExts = array( 'php', 'php3', 'php4', 'php5', 'pl', 'py', 'jsp', 'asp', 'exe', 'cgi', 'css', 'js', 'html', 'htm' );
-			$ARMemberLite->arm_session_start();
+			$ARMemberLite->arm_session_start(true);
 
 			if ( ! empty( $_POST['file_name'] ) ) { //phpcs:ignore
 				$file_name     = $ARMemberLite->arm_get_basename( sanitize_text_field( $_POST['file_name'] ) ); //phpcs:ignore
@@ -1121,7 +1121,7 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 			if ( $arm_check_is_gutenberg_page ) {
 				return;
 			}
-			$ARMemberLite->arm_session_start();
+			$ARMemberLite->arm_session_start(true);
 			/* ====================/.Begin Set Shortcode Attributes./==================== */
 
 			$short_atts = array(
@@ -5877,6 +5877,10 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 						{
 							$arm_form_field_slug_array[] = $arm_form_field_slug;
 							$arm_form_field_option_array[$arm_form_field_slug] = $arm_form_fields_check_val;
+                            if( $arm_form_fields_check_val_option['type'] == 'checkbox' )
+                            {
+                                $arm_form_field_slug_array[] = $arm_form_field_slug.'_arm_hidden';
+                            }
 						}
 					}
 					if(isset($_SESSION['arm_additional_form_fields']) && is_array($_SESSION['arm_additional_form_fields']) && isset($_SESSION['arm_additional_form_fields'][$form_id]) && is_array($_SESSION['arm_additional_form_fields'][$form_id]))
@@ -6147,7 +6151,11 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 					{
 						$val = intval($val);
 					}
-
+                    $pattern1 = '/^((.*)\_arm\_hidden)/';
+                    if (preg_match($pattern1, $key)) {
+                        $key = str_replace('_arm_hidden', '', $key);
+                        unset($posted_data[$key]);
+                    }
 					update_user_meta( $user_ID, $key, $val );
 				}
 			}

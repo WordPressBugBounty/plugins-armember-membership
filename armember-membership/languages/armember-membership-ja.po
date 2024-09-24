@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.42\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.43\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-09-16 07:21:22+0000\n"
+"PO-Revision-Date: 2024-09-24 05:22:20+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Japanese (Japan)\n"
 "MIME-Version: 1.0\n"
@@ -256,29 +256,28 @@ msgstr "ユーザーが現在のプランからメンバーシップをアップ
 #: core/classes/class.arm_members.php:3857
 #: core/classes/class.arm_members.php:4836
 #: core/classes/class.arm_members.php:4856
-#: core/views/arm_feature_settings.php:78
-#: core/views/arm_feature_settings.php:100
-#: core/views/arm_feature_settings.php:120
-#: core/views/arm_feature_settings.php:141
-#: core/views/arm_feature_settings.php:161
-#: core/views/arm_feature_settings.php:181
-#: core/views/arm_feature_settings.php:201
-#: core/views/arm_feature_settings.php:221
-#: core/views/arm_feature_settings.php:241
-#: core/views/arm_feature_settings.php:261
-#: core/views/arm_feature_settings.php:281
-#: core/views/arm_feature_settings.php:300
-#: core/views/arm_feature_settings.php:321
-#: core/views/arm_feature_settings.php:342
-#: core/views/arm_feature_settings.php:362
-#: core/views/arm_feature_settings.php:382
-#: core/views/arm_feature_settings.php:409
-#: core/views/arm_feature_settings.php:436
-#: core/views/arm_feature_settings.php:463
-#: core/views/arm_feature_settings.php:490
-#: core/views/arm_feature_settings.php:517
-#: core/views/arm_feature_settings.php:545
-#: core/views/arm_feature_settings.php:574
+#: core/views/arm_feature_settings.php:73
+#: core/views/arm_feature_settings.php:94
+#: core/views/arm_feature_settings.php:115
+#: core/views/arm_feature_settings.php:135
+#: core/views/arm_feature_settings.php:155
+#: core/views/arm_feature_settings.php:175
+#: core/views/arm_feature_settings.php:195
+#: core/views/arm_feature_settings.php:215
+#: core/views/arm_feature_settings.php:235
+#: core/views/arm_feature_settings.php:255
+#: core/views/arm_feature_settings.php:274
+#: core/views/arm_feature_settings.php:295
+#: core/views/arm_feature_settings.php:316
+#: core/views/arm_feature_settings.php:336
+#: core/views/arm_feature_settings.php:356
+#: core/views/arm_feature_settings.php:383
+#: core/views/arm_feature_settings.php:410
+#: core/views/arm_feature_settings.php:437
+#: core/views/arm_feature_settings.php:464
+#: core/views/arm_feature_settings.php:491
+#: core/views/arm_feature_settings.php:519
+#: core/views/arm_feature_settings.php:548
 #@ armember-membership
 msgid "Activate"
 msgstr "活性化"
@@ -464,7 +463,7 @@ msgid "Add URL"
 msgstr "URLを追加"
 
 #: autoload.php:3466
-#: core/classes/class.arm_social_feature.php:396
+#: core/classes/class.arm_social_feature.php:395
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "アドオンのリストは現在利用できません。 後でもう一度試してください。"
@@ -490,11 +489,6 @@ msgstr "追加情報/メモラベル"
 #@ armember-membership
 msgid "Additional Info/Note Label can not be left blank."
 msgstr "追加情報/メモラベルを空白のままにすることはできません。"
-
-#: core/views/arm_feature_settings.php:66
-#@ armember-membership
-msgid "Additional Membership Modules"
-msgstr "追加のメンバーシップ モジュール"
 
 #: core/classes/class.arm_payment_gateways.php:1650
 #: core/classes/class.arm_transaction.php:241
@@ -550,7 +544,7 @@ msgstr "先端分野"
 msgid "Advanced Security"
 msgstr "高度なセキュリティ"
 
-#: core/classes/class.arm_member_forms.php:9370
+#: core/classes/class.arm_member_forms.php:9378
 #@ armember-membership
 msgid "Afghanistan"
 msgstr "アフガニスタン"
@@ -605,7 +599,7 @@ msgstr "メンバーシップ/プラン取得後のリダイレクト ルール"
 msgid "After Registration Form"
 msgstr "登録フォーム後"
 
-#: core/classes/class.arm_member_forms.php:9371
+#: core/classes/class.arm_member_forms.php:9379
 #@ armember-membership
 msgid "Albania"
 msgstr "アルバニア"
@@ -615,7 +609,7 @@ msgstr "アルバニア"
 msgid "Albanian"
 msgstr "アルバニア人"
 
-#: core/classes/class.arm_member_forms.php:9372
+#: core/classes/class.arm_member_forms.php:9380
 #@ armember-membership
 msgid "Algeria"
 msgstr "アルジェリア"
@@ -653,7 +647,7 @@ msgstr "アクセスを許可します"
 msgid "Allow Auto debit method only"
 msgstr "自動引き落とし方法のみを許可する"
 
-#: core/views/arm_feature_settings.php:259
+#: core/views/arm_feature_settings.php:233
 #@ armember-membership
 msgid "Allow members to subscribe multiple plans simultaneously."
 msgstr "メンバーが複数のプランを同時に購読できるようにします。"
@@ -663,7 +657,7 @@ msgstr "メンバーが複数のプランを同時に購読できるようにし
 msgid "Allow Semi Automatic(manual) method only"
 msgstr "半自動(手動)方式のみを許可する"
 
-#: core/views/arm_feature_settings.php:159
+#: core/views/arm_feature_settings.php:133
 #@ armember-membership
 msgid "Allow users to sign up / login with their social accounts by enabling this feature."
 msgstr "この機能を有効にすることで、ユーザーがソーシャル アカウントでサインアップ/ログインできるようになります。"
@@ -673,22 +667,22 @@ msgstr "この機能を有効にすることで、ユーザーがソーシャル
 msgid "Allowed File Extension"
 msgstr "許可されるファイル拡張子"
 
-#: core/views/arm_feature_settings.php:407
+#: core/views/arm_feature_settings.php:381
 #@ armember-membership
 msgid "Allows Beaver Builder widgets to restrict based on Membership Plan."
 msgstr "Beaver Builder ウィジェットをメンバーシップ プランに基づいて制限できるようにします。"
 
-#: core/views/arm_feature_settings.php:434
+#: core/views/arm_feature_settings.php:408
 #@ armember-membership
 msgid "Allows facility to set the access for Divi Builder content Like Section and Row per Membership Plan."
 msgstr "メンバーシッププランごとにセクションや行などのDivi Builderコンテンツへのアクセスを設定できるようにします。"
 
-#: core/views/arm_feature_settings.php:380
+#: core/views/arm_feature_settings.php:354
 #@ armember-membership
 msgid "Allows facility to set the Access for Gutenberg Blocks per Membership Plan or Logged in member."
 msgstr "メンバーシップ プランまたはログインしているメンバーごとに、Gutenberg ブロックへのアクセスを設定できるようにします。"
 
-#: core/views/arm_feature_settings.php:461
+#: core/views/arm_feature_settings.php:435
 #@ armember-membership
 msgid "Allows to set restrict content on WPBakery Elements per Membership Plan."
 msgstr "メンバーシッププランごとにWPBakery Elementsのコンテンツ制限を設定できます。"
@@ -705,7 +699,7 @@ msgstr "アルファベット順"
 msgid "Already have an account?"
 msgstr "すでにアカウントをお持ちですか？"
 
-#: core/classes/class.arm_member_forms.php:9373
+#: core/classes/class.arm_member_forms.php:9381
 #@ armember-membership
 msgid "American Samoa"
 msgstr "アメリカ領サモア"
@@ -755,27 +749,27 @@ msgstr "金額タイプ"
 msgid "and"
 msgstr "そして"
 
-#: core/classes/class.arm_member_forms.php:9374
+#: core/classes/class.arm_member_forms.php:9382
 #@ armember-membership
 msgid "Andorra"
 msgstr "アンドラ"
 
-#: core/classes/class.arm_member_forms.php:9375
+#: core/classes/class.arm_member_forms.php:9383
 #@ armember-membership
 msgid "Angola"
 msgstr "アンゴラ"
 
-#: core/classes/class.arm_member_forms.php:9376
+#: core/classes/class.arm_member_forms.php:9384
 #@ armember-membership
 msgid "Anguilla"
 msgstr "アンギラ"
 
-#: core/classes/class.arm_member_forms.php:9377
+#: core/classes/class.arm_member_forms.php:9385
 #@ armember-membership
 msgid "Antarctica"
 msgstr "南極大陸"
 
-#: core/classes/class.arm_member_forms.php:9378
+#: core/classes/class.arm_member_forms.php:9386
 #@ armember-membership
 msgid "Antigua and Barbuda"
 msgstr "アンティグア・バーブーダ"
@@ -832,7 +826,7 @@ msgstr "単一のページまたは投稿"
 msgid "API Password can not be left blank."
 msgstr "API パスワードを空白のままにすることはできません。"
 
-#: core/views/arm_feature_settings.php:297
+#: core/views/arm_feature_settings.php:271
 #@ armember-membership
 msgid "API Services"
 msgstr "APIサービス"
@@ -1043,7 +1037,7 @@ msgstr "確認メールを再送信してもよろしいですか?"
 msgid "ARForms Successfully installed."
 msgstr "ARForms が正常にインストールされました。"
 
-#: core/classes/class.arm_member_forms.php:9379
+#: core/classes/class.arm_member_forms.php:9387
 #@ armember-membership
 msgid "Argentina"
 msgstr "アルゼンチン"
@@ -1296,7 +1290,7 @@ msgstr "ARMember ユーザー名"
 msgid "ARMember Warning"
 msgstr "ARMember 警告"
 
-#: core/classes/class.arm_member_forms.php:9380
+#: core/classes/class.arm_member_forms.php:9388
 #@ armember-membership
 msgid "Armenia"
 msgstr "アルメニア"
@@ -1311,7 +1305,7 @@ msgstr "アルメニア語"
 msgid "ARPrice Successfully installed."
 msgstr "ARPrice が正常にインストールされました。"
 
-#: core/classes/class.arm_member_forms.php:9381
+#: core/classes/class.arm_member_forms.php:9389
 #@ armember-membership
 msgid "Aruba"
 msgstr "アルバ"
@@ -1357,12 +1351,12 @@ msgstr "関連するプラン:"
 msgid "Atleast one payment gateway configuration is required for paid plan(s) selection."
 msgstr "有料プランを選択するには、少なくとも 1 つの支払いゲートウェイ構成が必要です。"
 
-#: core/classes/class.arm_member_forms.php:9382
+#: core/classes/class.arm_member_forms.php:9390
 #@ armember-membership
 msgid "Australia"
 msgstr "オーストラリア"
 
-#: core/classes/class.arm_member_forms.php:9383
+#: core/classes/class.arm_member_forms.php:9391
 #@ armember-membership
 msgid "Austria"
 msgstr "オーストリア"
@@ -1428,8 +1422,8 @@ msgstr "自動購読ラベル"
 #: core/classes/class.arm_global_settings.php:874
 #: core/classes/class.arm_member_forms.php:1948
 #: core/classes/class.arm_member_forms.php:1975
-#: core/classes/class.arm_member_forms.php:6593
-#: core/classes/class.arm_member_forms.php:9972
+#: core/classes/class.arm_member_forms.php:6601
+#: core/classes/class.arm_member_forms.php:9980
 #: core/classes/class.arm_members.php:4363
 #: core/views/arm_form_editor.php:289
 #: core/views/arm_member_add.php:503
@@ -1441,7 +1435,7 @@ msgstr "自動購読ラベル"
 msgid "Avatar"
 msgstr "アバター"
 
-#: core/classes/class.arm_member_forms.php:9384
+#: core/classes/class.arm_member_forms.php:9392
 #@ armember-membership
 msgid "Azerbaijan"
 msgstr "アゼルバイジャン"
@@ -1503,17 +1497,17 @@ msgstr "背景色"
 msgid "Background Overlay"
 msgstr "背景オーバーレイ"
 
-#: core/classes/class.arm_member_forms.php:9385
+#: core/classes/class.arm_member_forms.php:9393
 #@ armember-membership
 msgid "Bahamas"
 msgstr "バハマ"
 
-#: core/classes/class.arm_member_forms.php:9386
+#: core/classes/class.arm_member_forms.php:9394
 #@ armember-membership
 msgid "Bahrain"
 msgstr "バーレーン"
 
-#: core/classes/class.arm_member_forms.php:9387
+#: core/classes/class.arm_member_forms.php:9395
 #@ armember-membership
 msgid "Bangladesh"
 msgstr "バングラデシュ"
@@ -1559,7 +1553,7 @@ msgstr "銀行振込リクエストが承認されました。"
 msgid "Bank transfer request has been cancelled."
 msgstr "銀行振込リクエストはキャンセルされました。"
 
-#: core/classes/class.arm_member_forms.php:9388
+#: core/classes/class.arm_member_forms.php:9396
 #@ armember-membership
 msgid "Barbados"
 msgstr "バルバドス"
@@ -1589,7 +1583,7 @@ msgstr "基本オプション"
 msgid "Basque"
 msgstr "バスク語"
 
-#: core/views/arm_feature_settings.php:406
+#: core/views/arm_feature_settings.php:380
 #@ armember-membership
 msgid "Beaver Builder Restriction"
 msgstr "ビーバービルダーの制限事項"
@@ -1606,32 +1600,32 @@ msgstr "有効期限が切れる前に"
 msgid "Before Registration Form"
 msgstr "登録フォームの前に"
 
-#: core/classes/class.arm_member_forms.php:9389
+#: core/classes/class.arm_member_forms.php:9397
 #@ armember-membership
 msgid "Belarus"
 msgstr "ベラルーシ"
 
-#: core/classes/class.arm_member_forms.php:9390
+#: core/classes/class.arm_member_forms.php:9398
 #@ armember-membership
 msgid "Belgium"
 msgstr "ベルギー"
 
-#: core/classes/class.arm_member_forms.php:9391
+#: core/classes/class.arm_member_forms.php:9399
 #@ armember-membership
 msgid "Belize"
 msgstr "ベリーズ"
 
-#: core/classes/class.arm_member_forms.php:9392
+#: core/classes/class.arm_member_forms.php:9400
 #@ armember-membership
 msgid "Benin"
 msgstr "ベナン"
 
-#: core/classes/class.arm_member_forms.php:9393
+#: core/classes/class.arm_member_forms.php:9401
 #@ armember-membership
 msgid "Bermuda"
 msgstr "バミューダ"
 
-#: core/classes/class.arm_member_forms.php:9394
+#: core/classes/class.arm_member_forms.php:9402
 #@ armember-membership
 msgid "Bhutan"
 msgstr "ブータン"
@@ -1647,7 +1641,7 @@ msgstr "請求サイクル"
 msgid "Billing Cycle Starts From"
 msgstr "請求サイクルの開始日"
 
-#: core/classes/class.arm_member_forms.php:6835
+#: core/classes/class.arm_member_forms.php:6843
 #: core/vc/class_vc_extend.php:1260
 #: core/widgets/class.arm_widgetloginwidget.php:141
 #: core/widgets/class.arm_widgetloginwidget.php:158
@@ -1656,7 +1650,7 @@ msgstr "請求サイクルの開始日"
 msgid "Biography"
 msgstr "バイオグラフィー"
 
-#: core/classes/class.arm_member_forms.php:6839
+#: core/classes/class.arm_member_forms.php:6847
 #@ armember-membership
 msgid "Biography can not be left blank."
 msgstr "経歴を空白のままにすることはできません。"
@@ -1719,7 +1713,7 @@ msgstr "ブログURL"
 msgid "Body Content Color"
 msgstr "本文の内容の色"
 
-#: core/classes/class.arm_member_forms.php:9395
+#: core/classes/class.arm_member_forms.php:9403
 #@ armember-membership
 msgid "Bolivia"
 msgstr "ボリビア"
@@ -1748,7 +1742,7 @@ msgstr "ボーダの色"
 msgid "Border Radius"
 msgstr "境界半径"
 
-#: core/classes/class.arm_member_forms.php:9396
+#: core/classes/class.arm_member_forms.php:9404
 #@ armember-membership
 msgid "Bosnia and Herzegovina"
 msgstr "ボスニア・ヘルツェゴビナ"
@@ -1763,7 +1757,7 @@ msgstr "ボスニア語"
 msgid "Both (allow user to select payment method)"
 msgstr "両方 (ユーザーが支払い方法を選択できるようにします)"
 
-#: core/classes/class.arm_member_forms.php:9397
+#: core/classes/class.arm_member_forms.php:9405
 #@ armember-membership
 msgid "Botswana"
 msgstr "ボツワナ"
@@ -1788,27 +1782,22 @@ msgstr "ボックスホバー"
 msgid "Box Hover Effect"
 msgstr "ボックスホバー効果"
 
-#: core/classes/class.arm_member_forms.php:9398
+#: core/classes/class.arm_member_forms.php:9406
 #@ armember-membership
 msgid "Brazil"
 msgstr "ブラジル"
 
-#: core/classes/class.arm_member_forms.php:9399
+#: core/classes/class.arm_member_forms.php:9407
 #@ armember-membership
 msgid "Brunei"
 msgstr "ブルネイ"
 
-#: core/views/arm_feature_settings.php:318
+#: core/views/arm_feature_settings.php:292
 #@ armember-membership
 msgid "Buddypress/Buddyboss Integration"
 msgstr "Buddypress/Buddyboss の統合"
 
-#: core/views/arm_feature_settings.php:97
-#@ armember-membership
-msgid "build you subscription list with external list builder like Aweber, Mailchimp while user registration."
-msgstr "ユーザー登録中に、Aweber、Mailchimp などの外部リスト ビルダーを使用してサブスクリプション リストを作成します。"
-
-#: core/classes/class.arm_member_forms.php:9400
+#: core/classes/class.arm_member_forms.php:9408
 #@ armember-membership
 msgid "Bulgaria"
 msgstr "ブルガリア"
@@ -1828,12 +1817,12 @@ msgstr "ブルガリア語"
 msgid "Bulk Actions"
 msgstr "一括操作"
 
-#: core/classes/class.arm_member_forms.php:9401
+#: core/classes/class.arm_member_forms.php:9409
 #@ armember-membership
 msgid "Burkina Faso"
 msgstr "ブルキナファソ"
 
-#: core/classes/class.arm_member_forms.php:9402
+#: core/classes/class.arm_member_forms.php:9410
 #@ armember-membership
 msgid "Burundi"
 msgstr "ブルンジ"
@@ -1966,17 +1955,17 @@ msgstr "カレンダーのローカリゼーション"
 msgid "Calendar Style"
 msgstr "カレンダースタイル"
 
-#: core/classes/class.arm_member_forms.php:9403
+#: core/classes/class.arm_member_forms.php:9411
 #@ armember-membership
 msgid "Cambodia"
 msgstr "カンボジア"
 
-#: core/classes/class.arm_member_forms.php:9404
+#: core/classes/class.arm_member_forms.php:9412
 #@ armember-membership
 msgid "Cameroon"
 msgstr "カメルーン"
 
-#: core/classes/class.arm_member_forms.php:9405
+#: core/classes/class.arm_member_forms.php:9413
 #@ armember-membership
 msgid "Canada"
 msgstr "カナダ"
@@ -2096,7 +2085,7 @@ msgstr "アップロードされたファイルからデータを抽出できな
 msgid "Cannot Set Past Dates."
 msgstr "過去の日付は設定できません。"
 
-#: core/classes/class.arm_member_forms.php:9406
+#: core/classes/class.arm_member_forms.php:9414
 #@ armember-membership
 msgid "Cape Verde"
 msgstr "カーボベルデ"
@@ -2136,7 +2125,7 @@ msgstr "カテゴリは管理者によって制限されています"
 msgid "category(s)"
 msgstr "カテゴリ"
 
-#: core/classes/class.arm_member_forms.php:9407
+#: core/classes/class.arm_member_forms.php:9415
 #@ armember-membership
 msgid "Cayman Islands"
 msgstr "ケイマン諸島"
@@ -2158,12 +2147,12 @@ msgstr "ケイマン諸島"
 msgid "Center"
 msgstr "中心"
 
-#: core/classes/class.arm_member_forms.php:9408
+#: core/classes/class.arm_member_forms.php:9416
 #@ armember-membership
 msgid "Central African Republic"
 msgstr "中央アフリカ共和国"
 
-#: core/classes/class.arm_member_forms.php:9409
+#: core/classes/class.arm_member_forms.php:9417
 #@ armember-membership
 msgid "Chad"
 msgstr "チャド"
@@ -2195,7 +2184,7 @@ msgstr "有効期限の変更"
 msgid "Change Font Settings"
 msgstr "フォント設定の変更"
 
-#: core/classes/class.arm_member_forms.php:7388
+#: core/classes/class.arm_member_forms.php:7396
 #: core/classes/templates.arm_member_forms_templates.php:643
 #: core/classes/templates.arm_member_forms_templates.php:644
 #: core/classes/templates.arm_member_forms_templates.php:1401
@@ -2295,7 +2284,7 @@ msgstr "デフォルトのアクセス ルールを確認する"
 msgid "Check If User In Trial Period"
 msgstr "ユーザーが試用期間中かどうかを確認する"
 
-#: core/classes/class.arm_member_forms.php:6539
+#: core/classes/class.arm_member_forms.php:6547
 #: core/views/arm_form_editor.php:242
 #@ armember-membership
 msgid "Checkbox"
@@ -2306,12 +2295,12 @@ msgstr "チェックボックス"
 msgid "Cheque"
 msgstr "チェック"
 
-#: core/classes/class.arm_member_forms.php:9410
+#: core/classes/class.arm_member_forms.php:9418
 #@ armember-membership
 msgid "Chile"
 msgstr "チリ"
 
-#: core/classes/class.arm_member_forms.php:9411
+#: core/classes/class.arm_member_forms.php:9419
 #@ armember-membership
 msgid "China"
 msgstr "中国"
@@ -2503,7 +2492,7 @@ msgstr "アカウントを閉じる"
 msgid "Code Copied"
 msgstr "コードがコピーされました"
 
-#: core/classes/class.arm_member_forms.php:9412
+#: core/classes/class.arm_member_forms.php:9420
 #@ armember-membership
 msgid "Colombia"
 msgstr "コロンビア"
@@ -2523,7 +2512,7 @@ msgstr "カラースキーム"
 msgid "Common Messages"
 msgstr "よくあるメッセージ"
 
-#: core/classes/class.arm_member_forms.php:9413
+#: core/classes/class.arm_member_forms.php:9421
 #@ armember-membership
 msgid "Comoros"
 msgstr "コモロ"
@@ -2553,30 +2542,30 @@ msgstr "簡単な手順を完了して開始してください。"
 msgid "Completed Recurrence"
 msgstr "完了した再発"
 
-#: core/views/arm_feature_settings.php:79
-#: core/views/arm_feature_settings.php:85
-#: core/views/arm_feature_settings.php:101
-#: core/views/arm_feature_settings.php:106
+#: core/views/arm_feature_settings.php:74
+#: core/views/arm_feature_settings.php:80
+#: core/views/arm_feature_settings.php:95
+#: core/views/arm_feature_settings.php:100
+#: core/views/arm_feature_settings.php:116
 #: core/views/arm_feature_settings.php:121
-#: core/views/arm_feature_settings.php:126
-#: core/views/arm_feature_settings.php:142
-#: core/views/arm_feature_settings.php:147
-#: core/views/arm_feature_settings.php:162
-#: core/views/arm_feature_settings.php:167
-#: core/views/arm_feature_settings.php:182
-#: core/views/arm_feature_settings.php:187
-#: core/views/arm_feature_settings.php:202
-#: core/views/arm_feature_settings.php:207
-#: core/views/arm_feature_settings.php:222
-#: core/views/arm_feature_settings.php:227
-#: core/views/arm_feature_settings.php:242
-#: core/views/arm_feature_settings.php:247
+#: core/views/arm_feature_settings.php:136
+#: core/views/arm_feature_settings.php:141
+#: core/views/arm_feature_settings.php:156
+#: core/views/arm_feature_settings.php:161
+#: core/views/arm_feature_settings.php:176
+#: core/views/arm_feature_settings.php:181
+#: core/views/arm_feature_settings.php:196
+#: core/views/arm_feature_settings.php:201
+#: core/views/arm_feature_settings.php:216
+#: core/views/arm_feature_settings.php:221
+#: core/views/arm_feature_settings.php:296
+#: core/views/arm_feature_settings.php:301
+#: core/views/arm_feature_settings.php:317
 #: core/views/arm_feature_settings.php:322
-#: core/views/arm_feature_settings.php:327
-#: core/views/arm_feature_settings.php:343
-#: core/views/arm_feature_settings.php:348
-#: core/views/arm_feature_settings.php:363
-#: core/views/arm_feature_settings.php:368
+#: core/views/arm_feature_settings.php:337
+#: core/views/arm_feature_settings.php:342
+#: core/views/arm_feature_settings.php:636
+#: core/views/arm_feature_settings.php:641
 #@ armember-membership
 msgid "Configure"
 msgstr "構成、設定"
@@ -2598,18 +2587,18 @@ msgstr "「プランの設定 + サインアップ」ページ"
 msgid "Configure Submission Redirection"
 msgstr "送信リダイレクトの構成"
 
-#: core/classes/class.arm_member_forms.php:6673
+#: core/classes/class.arm_member_forms.php:6681
 #@ armember-membership
 msgid "Confirm Email Address"
 msgstr "メールアドレスを確認"
 
-#: core/classes/class.arm_member_forms.php:6678
+#: core/classes/class.arm_member_forms.php:6686
 #@ armember-membership
 msgid "Confirm Email Address can not be left blank."
 msgstr "メールアドレスの確認は空白のままにすることはできません。"
 
-#: core/classes/class.arm_member_forms.php:6652
-#: core/classes/class.arm_member_forms.php:7283
+#: core/classes/class.arm_member_forms.php:6660
+#: core/classes/class.arm_member_forms.php:7291
 #: core/classes/templates.arm_member_forms_templates.php:742
 #: core/classes/templates.arm_member_forms_templates.php:1500
 #: core/classes/templates.arm_member_forms_templates.php:2263
@@ -2623,8 +2612,8 @@ msgstr "メールアドレスの確認は空白のままにすることはでき
 msgid "Confirm Password"
 msgstr "パスワードを認証する"
 
-#: core/classes/class.arm_member_forms.php:6667
-#: core/classes/class.arm_member_forms.php:7298
+#: core/classes/class.arm_member_forms.php:6675
+#: core/classes/class.arm_member_forms.php:7306
 #: core/classes/templates.arm_member_forms_templates.php:745
 #: core/classes/templates.arm_member_forms_templates.php:1503
 #: core/classes/templates.arm_member_forms_templates.php:2267
@@ -2636,12 +2625,12 @@ msgstr "パスワードを認証する"
 msgid "Confirm Password can not be left blank."
 msgstr "パスワードの確認を空白のままにすることはできません。"
 
-#: core/views/arm_feature_settings.php:636
+#: core/views/arm_feature_settings.php:684
 #@ armember-membership
 msgid "Confirmation"
 msgstr "確認"
 
-#: core/classes/class.arm_member_forms.php:9414
+#: core/classes/class.arm_member_forms.php:9422
 #@ armember-membership
 msgid "Congo"
 msgstr "コンゴ"
@@ -2710,12 +2699,12 @@ msgstr "続く"
 msgid "Cosidering duplicate"
 msgstr "重複を検討中"
 
-#: core/classes/class.arm_member_forms.php:9415
+#: core/classes/class.arm_member_forms.php:9423
 #@ armember-membership
 msgid "Costa Rica"
 msgstr "コスタリカ"
 
-#: core/classes/class.arm_member_forms.php:6240
+#: core/classes/class.arm_member_forms.php:6248
 #@ armember-membership
 msgid "Could not save password reset key to database."
 msgstr "パスワード リセット キーをデータベースに保存できませんでした。"
@@ -2726,7 +2715,7 @@ msgstr "パスワード リセット キーをデータベースに保存でき�
 msgid "Couldn't register you... please contact the"
 msgstr "登録できませんでした... までお問い合わせください"
 
-#: core/classes/class.arm_member_forms.php:6824
+#: core/classes/class.arm_member_forms.php:6832
 #: core/vc/class_vc_extend.php:1240
 #: core/widgets/class.arm_widgetloginwidget.php:140
 #: core/widgets/class.arm_widgetloginwidget.php:157
@@ -2735,7 +2724,7 @@ msgstr "登録できませんでした... までお問い合わせください"
 msgid "Country/Region"
 msgstr "国/地域"
 
-#: core/views/arm_feature_settings.php:198
+#: core/views/arm_feature_settings.php:172
 #@ armember-membership
 msgid "Coupon"
 msgstr "クーポン"
@@ -2766,7 +2755,7 @@ msgstr "クレジットカードのラベル"
 msgid "Credit Card Number"
 msgstr "クレジットカード番号"
 
-#: core/classes/class.arm_member_forms.php:9416
+#: core/classes/class.arm_member_forms.php:9424
 #@ armember-membership
 msgid "Croatia"
 msgstr "クロアチア"
@@ -2797,7 +2786,7 @@ msgstr "作物"
 msgid "crop"
 msgstr "作物"
 
-#: core/classes/class.arm_member_forms.php:9417
+#: core/classes/class.arm_member_forms.php:9425
 #@ armember-membership
 msgid "Cuba"
 msgstr "キューバ"
@@ -2927,7 +2916,7 @@ msgstr "サイクル日"
 msgid "cycles due"
 msgstr "期限が切れたサイクル"
 
-#: core/classes/class.arm_member_forms.php:9418
+#: core/classes/class.arm_member_forms.php:9426
 #@ armember-membership
 msgid "Cyprus"
 msgstr "キプロス"
@@ -2937,7 +2926,7 @@ msgstr "キプロス"
 msgid "Czech"
 msgstr "チェコ語"
 
-#: core/classes/class.arm_member_forms.php:9419
+#: core/classes/class.arm_member_forms.php:9427
 #@ armember-membership
 msgid "Czech Republic"
 msgstr "チェコ共和国"
@@ -2959,7 +2948,7 @@ msgstr "デンマーク語"
 msgid "Danish/Denmark"
 msgstr "デンマーク/デンマーク"
 
-#: core/classes/class.arm_member_forms.php:6572
+#: core/classes/class.arm_member_forms.php:6580
 #: core/views/arm_form_editor.php:257
 #@ armember-membership
 msgid "Date"
@@ -3035,29 +3024,29 @@ msgstr "日々"
 
 #: core/classes/class.arm_members_activity.php:708
 #: core/classes/class.armemberlite.php:65
-#: core/views/arm_feature_settings.php:84
-#: core/views/arm_feature_settings.php:105
-#: core/views/arm_feature_settings.php:125
-#: core/views/arm_feature_settings.php:146
-#: core/views/arm_feature_settings.php:166
-#: core/views/arm_feature_settings.php:186
-#: core/views/arm_feature_settings.php:206
-#: core/views/arm_feature_settings.php:226
-#: core/views/arm_feature_settings.php:246
-#: core/views/arm_feature_settings.php:266
-#: core/views/arm_feature_settings.php:286
-#: core/views/arm_feature_settings.php:305
-#: core/views/arm_feature_settings.php:326
-#: core/views/arm_feature_settings.php:347
-#: core/views/arm_feature_settings.php:367
-#: core/views/arm_feature_settings.php:390
-#: core/views/arm_feature_settings.php:417
-#: core/views/arm_feature_settings.php:444
-#: core/views/arm_feature_settings.php:471
-#: core/views/arm_feature_settings.php:498
-#: core/views/arm_feature_settings.php:525
-#: core/views/arm_feature_settings.php:553
-#: core/views/arm_feature_settings.php:582
+#: core/views/arm_feature_settings.php:79
+#: core/views/arm_feature_settings.php:99
+#: core/views/arm_feature_settings.php:120
+#: core/views/arm_feature_settings.php:140
+#: core/views/arm_feature_settings.php:160
+#: core/views/arm_feature_settings.php:180
+#: core/views/arm_feature_settings.php:200
+#: core/views/arm_feature_settings.php:220
+#: core/views/arm_feature_settings.php:240
+#: core/views/arm_feature_settings.php:260
+#: core/views/arm_feature_settings.php:279
+#: core/views/arm_feature_settings.php:300
+#: core/views/arm_feature_settings.php:321
+#: core/views/arm_feature_settings.php:341
+#: core/views/arm_feature_settings.php:364
+#: core/views/arm_feature_settings.php:391
+#: core/views/arm_feature_settings.php:418
+#: core/views/arm_feature_settings.php:445
+#: core/views/arm_feature_settings.php:472
+#: core/views/arm_feature_settings.php:499
+#: core/views/arm_feature_settings.php:527
+#: core/views/arm_feature_settings.php:556
+#: core/views/arm_feature_settings.php:640
 #@ armember-membership
 msgid "Deactivate"
 msgstr "非アクティブ化"
@@ -3224,12 +3213,12 @@ msgstr "セットアップの削除"
 msgid "Delete Transaction(s)"
 msgstr "トランザクションの削除"
 
-#: core/classes/class.arm_member_forms.php:6700
+#: core/classes/class.arm_member_forms.php:6708
 #@ armember-membership
 msgid "Delicious"
 msgstr "美味しい"
 
-#: core/classes/class.arm_member_forms.php:9420
+#: core/classes/class.arm_member_forms.php:9428
 #@ armember-membership
 msgid "Denmark"
 msgstr "デンマーク"
@@ -3479,18 +3468,18 @@ msgstr "ユーザープロファイルのアドレスを表示します"
 msgid "Displays the Username of user"
 msgstr "ユーザーのユーザー名を表示します"
 
-#: core/views/arm_feature_settings.php:433
+#: core/views/arm_feature_settings.php:407
 #@ armember-membership
 msgid "Divi Builder Restriction"
 msgstr "ディビビルダーの制限事項"
 
-#: core/classes/class.arm_member_forms.php:6630
+#: core/classes/class.arm_member_forms.php:6638
 #: core/views/arm_form_editor.php:273
 #@ armember-membership
 msgid "Divider"
 msgstr "ディバイダー"
 
-#: core/classes/class.arm_member_forms.php:9421
+#: core/classes/class.arm_member_forms.php:9429
 #@ armember-membership
 msgid "Djibouti"
 msgstr "ジブチ"
@@ -3513,12 +3502,12 @@ msgstr "再び表示しない。"
 msgid "Documentation"
 msgstr "ドキュメンテーション"
 
-#: core/classes/class.arm_member_forms.php:9422
+#: core/classes/class.arm_member_forms.php:9430
 #@ armember-membership
 msgid "Dominica"
 msgstr "ドミニカ"
 
-#: core/classes/class.arm_member_forms.php:9423
+#: core/classes/class.arm_member_forms.php:9431
 #@ armember-membership
 msgid "Dominican Republic"
 msgstr "ドミニカ共和国"
@@ -3549,12 +3538,12 @@ msgstr "ダウングレードプラン"
 msgid "Downgrade to other plan after current plan expiration ( After End Of Term)"
 msgstr "現在のプランの有効期限が切れた後（期間終了後）、他のプランにダウングレードします"
 
-#: core/classes/class.arm_member_forms.php:6699
+#: core/classes/class.arm_member_forms.php:6707
 #@ armember-membership
 msgid "Dribbble"
 msgstr "ドリブル"
 
-#: core/views/arm_feature_settings.php:137
+#: core/views/arm_feature_settings.php:111
 #@ armember-membership
 msgid "Drip Content"
 msgstr "ドリップコンテンツ"
@@ -3574,17 +3563,17 @@ msgstr "ここにファイルをドロップするか、クリックして選択
 #: core/classes/class.arm_member_forms.php:2006
 #: core/classes/class.arm_member_forms.php:2328
 #: core/classes/class.arm_member_forms.php:3623
-#: core/classes/class.arm_member_forms.php:6583
-#: core/classes/class.arm_member_forms.php:6594
-#: core/classes/class.arm_member_forms.php:9973
-#: core/classes/class.arm_member_forms.php:9991
+#: core/classes/class.arm_member_forms.php:6591
+#: core/classes/class.arm_member_forms.php:6602
+#: core/classes/class.arm_member_forms.php:9981
+#: core/classes/class.arm_member_forms.php:9999
 #: core/views/arm_member_add.php:504
 #: core/views/arm_member_add.php:537
 #@ armember-membership
 msgid "Drop file here or click to select."
 msgstr "ここにファイルをドロップするか、クリックして選択します。"
 
-#: core/classes/class.arm_member_forms.php:6561
+#: core/classes/class.arm_member_forms.php:6569
 #: core/views/arm_form_editor.php:252
 #@ armember-membership
 msgid "Dropdown"
@@ -3605,12 +3594,12 @@ msgstr "オランダ/オランダ"
 msgid "e.g."
 msgstr "例えば"
 
-#: core/classes/class.arm_member_forms.php:9424
+#: core/classes/class.arm_member_forms.php:9432
 #@ armember-membership
 msgid "East Timor"
 msgstr "東ティモール"
 
-#: core/classes/class.arm_member_forms.php:9425
+#: core/classes/class.arm_member_forms.php:9433
 #@ armember-membership
 msgid "Ecuador"
 msgstr "エクアドル"
@@ -3671,7 +3660,7 @@ msgstr "計画の編集"
 msgid "Edit Plan + Signup Page"
 msgstr "プラン編集+サインアップページ"
 
-#: core/classes/class.arm_member_forms.php:7466
+#: core/classes/class.arm_member_forms.php:7474
 #: core/classes/class.arm_shortcodes.php:1373
 #: core/vc/class_vc_extend.php:363
 #: core/vc/class_vc_extend.php:414
@@ -3719,12 +3708,12 @@ msgstr "エフェクトカラー"
 msgid "Effective from"
 msgstr "から有効"
 
-#: core/classes/class.arm_member_forms.php:9426
+#: core/classes/class.arm_member_forms.php:9434
 #@ armember-membership
 msgid "Egypt"
 msgstr "エジプト"
 
-#: core/classes/class.arm_member_forms.php:9427
+#: core/classes/class.arm_member_forms.php:9435
 #@ armember-membership
 msgid "El Salvador"
 msgstr "エルサルバドル"
@@ -3737,9 +3726,9 @@ msgstr "エルサルバドル"
 msgid "Email"
 msgstr "Eメール"
 
-#: core/classes/class.arm_member_forms.php:6764
-#: core/classes/class.arm_member_forms.php:7192
-#: core/classes/class.arm_member_forms.php:7437
+#: core/classes/class.arm_member_forms.php:6772
+#: core/classes/class.arm_member_forms.php:7200
+#: core/classes/class.arm_member_forms.php:7445
 #: core/classes/class.arm_members.php:1996
 #: core/classes/class.arm_members.php:2098
 #: core/classes/class.arm_members.php:4366
@@ -3760,9 +3749,9 @@ msgstr "Eメール"
 msgid "Email Address"
 msgstr "電子メールアドレス"
 
-#: core/classes/class.arm_member_forms.php:6770
-#: core/classes/class.arm_member_forms.php:7197
-#: core/classes/class.arm_member_forms.php:7442
+#: core/classes/class.arm_member_forms.php:6778
+#: core/classes/class.arm_member_forms.php:7205
+#: core/classes/class.arm_member_forms.php:7450
 #: core/classes/templates.arm_member_forms_templates.php:206
 #: core/classes/templates.arm_member_forms_templates.php:989
 #: core/classes/templates.arm_member_forms_templates.php:1750
@@ -3818,7 +3807,7 @@ msgstr "メール確認済み承認"
 msgid "Enable Bank Transfer Payment"
 msgstr "銀行振込による支払いを有効にする"
 
-#: core/views/arm_feature_settings.php:219
+#: core/views/arm_feature_settings.php:193
 #@ armember-membership
 msgid "Enable facility to send Invoice and apply Sales Tax on membership plans."
 msgstr "請求書を送信し、メンバーシップ プランに売上税を適用する機能を有効にします。"
@@ -3896,7 +3885,7 @@ msgstr "英語/米国 ( en_US )"
 msgid "English/Western"
 msgstr "英語/西洋"
 
-#: core/classes/class.arm_member_forms.php:6161
+#: core/classes/class.arm_member_forms.php:6169
 #@ armember-membership
 msgid "Enter a username or e-mail address."
 msgstr "ユーザー名または電子メール アドレスを入力します。"
@@ -3962,12 +3951,12 @@ msgstr "ユーザーメタ名を入力してください"
 msgid "entries"
 msgstr "エントリ"
 
-#: core/classes/class.arm_member_forms.php:9428
+#: core/classes/class.arm_member_forms.php:9436
 #@ armember-membership
 msgid "Equatorial Guinea"
 msgstr "赤道ギニア"
 
-#: core/classes/class.arm_member_forms.php:9429
+#: core/classes/class.arm_member_forms.php:9437
 #@ armember-membership
 msgid "Eritrea"
 msgstr "エリトリア"
@@ -4031,7 +4020,7 @@ msgstr "エスキモー アレウト/アンギラ"
 msgid "Esperanto"
 msgstr "エスペラント"
 
-#: core/classes/class.arm_member_forms.php:9430
+#: core/classes/class.arm_member_forms.php:9438
 #@ armember-membership
 msgid "Estonia"
 msgstr "エストニア"
@@ -4041,7 +4030,7 @@ msgstr "エストニア"
 msgid "Estonian"
 msgstr "エストニア語"
 
-#: core/classes/class.arm_member_forms.php:9431
+#: core/classes/class.arm_member_forms.php:9439
 #@ armember-membership
 msgid "Ethiopia"
 msgstr "エチオピア"
@@ -4195,7 +4184,7 @@ msgstr "日数の延長"
 msgid "External"
 msgstr "外部"
 
-#: core/classes/class.arm_member_forms.php:6692
+#: core/classes/class.arm_member_forms.php:6700
 #: core/classes/class.arm_social_feature.php:70
 #@ armember-membership
 msgid "Facebook"
@@ -4352,7 +4341,7 @@ msgstr "分野の人に使用されるどこか他の、あなたは削除され
 msgid "Fields to be included in payment form"
 msgstr "分野に含まれる支払書式"
 
-#: core/classes/class.arm_member_forms.php:9432
+#: core/classes/class.arm_member_forms.php:9440
 #@ armember-membership
 msgid "Fiji"
 msgstr "フィジー"
@@ -4374,7 +4363,7 @@ msgstr "ファイルサイズ不可"
 msgid "File type is not allowed."
 msgstr "ファイルの種類はできません。"
 
-#: core/classes/class.arm_member_forms.php:6582
+#: core/classes/class.arm_member_forms.php:6590
 #: core/views/arm_form_editor.php:268
 #@ armember-membership
 msgid "File Upload"
@@ -4404,7 +4393,7 @@ msgstr "フィルターオプション"
 msgid "filtered from"
 msgstr "フィルタから"
 
-#: core/classes/class.arm_member_forms.php:9433
+#: core/classes/class.arm_member_forms.php:9441
 #@ armember-membership
 msgid "Finland"
 msgstr "フィンランド"
@@ -4414,9 +4403,9 @@ msgstr "フィンランド"
 msgid "Finnish"
 msgstr "フィンランド"
 
-#: core/classes/class.arm_member_forms.php:6721
-#: core/classes/class.arm_member_forms.php:7144
-#: core/classes/class.arm_member_forms.php:7399
+#: core/classes/class.arm_member_forms.php:6729
+#: core/classes/class.arm_member_forms.php:7152
+#: core/classes/class.arm_member_forms.php:7407
 #: core/classes/class.arm_members.php:1999
 #: core/classes/class.arm_members.php:2101
 #: core/classes/class.arm_members.php:4371
@@ -4439,8 +4428,8 @@ msgstr "フィンランド"
 msgid "First Name"
 msgstr "名前"
 
-#: core/classes/class.arm_member_forms.php:7150
-#: core/classes/class.arm_member_forms.php:7405
+#: core/classes/class.arm_member_forms.php:7158
+#: core/classes/class.arm_member_forms.php:7413
 #: core/classes/templates.arm_member_forms_templates.php:155
 #: core/classes/templates.arm_member_forms_templates.php:938
 #: core/classes/templates.arm_member_forms_templates.php:1699
@@ -4566,7 +4555,7 @@ msgid "Forgot / Register Link"
 msgstr "忘れ/登録リンク"
 
 #: core/classes/class.arm_member_forms.php:1337
-#: core/classes/class.arm_member_forms.php:7377
+#: core/classes/class.arm_member_forms.php:7385
 #: core/classes/templates.arm_member_forms_templates.php:560
 #: core/classes/templates.arm_member_forms_templates.php:561
 #: core/classes/templates.arm_member_forms_templates.php:1317
@@ -4732,7 +4721,7 @@ msgstr "形態"
 msgid "Francais/Canada"
 msgstr "フランセ/カナダ"
 
-#: core/classes/class.arm_member_forms.php:9434
+#: core/classes/class.arm_member_forms.php:9442
 #@ armember-membership
 msgid "France"
 msgstr "フランス"
@@ -4775,12 +4764,12 @@ msgstr "無料プラン"
 msgid "French"
 msgstr "フランス"
 
-#: core/classes/class.arm_member_forms.php:9435
+#: core/classes/class.arm_member_forms.php:9443
 #@ armember-membership
 msgid "French Guiana"
 msgstr "フランスのナ"
 
-#: core/classes/class.arm_member_forms.php:9436
+#: core/classes/class.arm_member_forms.php:9444
 #@ armember-membership
 msgid "French Polynesia"
 msgstr "フランス領ポリネシア"
@@ -4816,12 +4805,12 @@ msgstr "取引日"
 msgid "Future Membership"
 msgstr "将来のメンバー"
 
-#: core/classes/class.arm_member_forms.php:9437
+#: core/classes/class.arm_member_forms.php:9445
 #@ armember-membership
 msgid "Gabon"
 msgstr "ガボン"
 
-#: core/classes/class.arm_member_forms.php:9438
+#: core/classes/class.arm_member_forms.php:9446
 #@ armember-membership
 msgid "Gambia"
 msgstr "ガンビア"
@@ -4841,7 +4830,7 @@ msgstr "玄関"
 msgid "Gateways"
 msgstr "ゲートウェイ"
 
-#: core/classes/class.arm_member_forms.php:6799
+#: core/classes/class.arm_member_forms.php:6807
 #: core/vc/class_vc_extend.php:1200
 #: core/widgets/class.arm_widgetloginwidget.php:138
 #: core/widgets/class.arm_widgetloginwidget.php:155
@@ -4871,7 +4860,7 @@ msgstr "一般オプション"
 msgid "General Settings"
 msgstr "一般設定"
 
-#: core/classes/class.arm_member_forms.php:9439
+#: core/classes/class.arm_member_forms.php:9447
 #@ armember-membership
 msgid "Georgia"
 msgstr "ジョージア"
@@ -4886,7 +4875,7 @@ msgstr "ドイツ"
 msgid "German/Germany"
 msgstr "ドイツ／ドイツ"
 
-#: core/classes/class.arm_member_forms.php:9440
+#: core/classes/class.arm_member_forms.php:9448
 #@ armember-membership
 msgid "Germany"
 msgstr "ドイツ"
@@ -4901,12 +4890,12 @@ msgstr "はじめに"
 msgid "Getting Started With Setup"
 msgstr "はじめにセッティング"
 
-#: core/classes/class.arm_member_forms.php:9441
+#: core/classes/class.arm_member_forms.php:9449
 #@ armember-membership
 msgid "Ghana"
 msgstr "ガーナ"
 
-#: core/classes/class.arm_member_forms.php:9442
+#: core/classes/class.arm_member_forms.php:9450
 #@ armember-membership
 msgid "Gibraltar"
 msgstr "ジブラルタル"
@@ -4942,7 +4931,7 @@ msgstr "の一般設定メニューからの管理インタフェース。 こ�
 msgid "Good Text"
 msgstr "良いテキスト"
 
-#: core/classes/class.arm_member_forms.php:9299
+#: core/classes/class.arm_member_forms.php:9307
 #@ armember-membership
 msgid "Google Fonts"
 msgstr "Google フォント"
@@ -4977,7 +4966,7 @@ msgstr "猶予期間限定"
 msgid "Grace Period Failed Payment"
 msgstr "猶予期間に失敗したお支払い"
 
-#: core/classes/class.arm_member_forms.php:9443
+#: core/classes/class.arm_member_forms.php:9451
 #@ armember-membership
 msgid "Greece"
 msgstr "ギリシャ"
@@ -4987,12 +4976,12 @@ msgstr "ギリシャ"
 msgid "Greek"
 msgstr "ギリシャ"
 
-#: core/classes/class.arm_member_forms.php:9444
+#: core/classes/class.arm_member_forms.php:9452
 #@ armember-membership
 msgid "Greenland"
 msgstr "グリーンランド"
 
-#: core/classes/class.arm_member_forms.php:9445
+#: core/classes/class.arm_member_forms.php:9453
 #@ armember-membership
 msgid "Grenada"
 msgstr "グレナダ"
@@ -5004,12 +4993,12 @@ msgstr "グレナダ"
 msgid "Growth Plugins"
 msgstr "成長のプラグイン"
 
-#: core/classes/class.arm_member_forms.php:9446
+#: core/classes/class.arm_member_forms.php:9454
 #@ armember-membership
 msgid "Guam"
 msgstr "グアム"
 
-#: core/classes/class.arm_member_forms.php:9447
+#: core/classes/class.arm_member_forms.php:9455
 #@ armember-membership
 msgid "Guatemala"
 msgstr "グアテマラ"
@@ -5019,27 +5008,27 @@ msgstr "グアテマラ"
 msgid "Guest page"
 msgstr "客ページ"
 
-#: core/classes/class.arm_member_forms.php:9448
+#: core/classes/class.arm_member_forms.php:9456
 #@ armember-membership
 msgid "Guinea"
 msgstr "ギニア"
 
-#: core/classes/class.arm_member_forms.php:9449
+#: core/classes/class.arm_member_forms.php:9457
 #@ armember-membership
 msgid "Guinea-Bissau"
 msgstr "ギニアビサウ"
 
-#: core/views/arm_feature_settings.php:379
+#: core/views/arm_feature_settings.php:353
 #@ armember-membership
 msgid "Gutenberg Block Restriction"
 msgstr "グーテンベルグブロック制限"
 
-#: core/classes/class.arm_member_forms.php:9450
+#: core/classes/class.arm_member_forms.php:9458
 #@ armember-membership
 msgid "Guyana"
 msgstr "ガイアナ"
 
-#: core/classes/class.arm_member_forms.php:9451
+#: core/classes/class.arm_member_forms.php:9459
 #@ armember-membership
 msgid "Haiti"
 msgstr "ハイチ"
@@ -5082,7 +5071,7 @@ msgstr "こちらの"
 msgid "Here you will get all different types of Free/Paid membership plans with various general options and Subscription Types & Amount related options."
 msgstr "こちらについて一覧を取得しま異なる種類の無料/有料会員プランの様々な一般オプションとサブスクリプションタイ&量に関連す。"
 
-#: core/classes/class.arm_member_forms.php:6615
+#: core/classes/class.arm_member_forms.php:6623
 #@ armember-membership
 msgid "Hidden Field"
 msgstr "隠し"
@@ -5181,12 +5170,12 @@ msgstr "Hideのユーザ名の入力欄を割り当てユーザー名とメー�
 msgid "Home Page"
 msgstr "ホームページ"
 
-#: core/classes/class.arm_member_forms.php:9452
+#: core/classes/class.arm_member_forms.php:9460
 #@ armember-membership
 msgid "Honduras"
 msgstr "ホンジュラス"
 
-#: core/classes/class.arm_member_forms.php:9453
+#: core/classes/class.arm_member_forms.php:9461
 #@ armember-membership
 msgid "Hong Kong"
 msgstr "香港"
@@ -5245,13 +5234,13 @@ msgstr "どのようにしたいなどこのフォームのページに表示す
 msgid "How you want to pay?"
 msgstr "どのようにしたい。"
 
-#: core/classes/class.arm_member_forms.php:6622
+#: core/classes/class.arm_member_forms.php:6630
 #@ armember-membership
 msgid "Html Area"
 msgstr "HTMLエリア"
 
 #: core/classes/class.arm_member_forms.php:2393
-#: core/classes/class.arm_member_forms.php:6623
+#: core/classes/class.arm_member_forms.php:6631
 #: core/views/arm_form_editor.php:262
 #@ armember-membership
 msgid "Html Text"
@@ -5269,7 +5258,7 @@ msgstr "https://www.armemberplugin.com"
 msgid "Hungarian"
 msgstr "ハンガリー"
 
-#: core/classes/class.arm_member_forms.php:9454
+#: core/classes/class.arm_member_forms.php:9462
 #@ armember-membership
 msgid "Hungary"
 msgstr "ハンガリー"
@@ -5284,7 +5273,7 @@ msgstr "フレー!! をお迎えする準備は出来てを最初の会員サイ
 msgid "I agree"
 msgstr "同意する"
 
-#: core/classes/class.arm_member_forms.php:9455
+#: core/classes/class.arm_member_forms.php:9463
 #@ armember-membership
 msgid "Iceland"
 msgstr "アイスランド"
@@ -5325,7 +5314,7 @@ msgstr "場合は登録書"
 msgid "If SignUp form is"
 msgstr "場合は登録書"
 
-#: core/classes/class.arm_member_forms.php:6287
+#: core/classes/class.arm_member_forms.php:6295
 #: core/classes/class.arm_members.php:2590
 #: core/classes/class.arm_members.php:2789
 #@ armember-membership
@@ -5471,12 +5460,12 @@ msgstr "不活性"
 msgid "Inactive Members"
 msgstr "不活性員"
 
-#: core/classes/class.arm_member_forms.php:9456
+#: core/classes/class.arm_member_forms.php:9464
 #@ armember-membership
 msgid "India"
 msgstr "インド"
 
-#: core/classes/class.arm_member_forms.php:9457
+#: core/classes/class.arm_member_forms.php:9465
 #@ armember-membership
 msgid "Indonesia"
 msgstr "インドネシア"
@@ -5503,7 +5492,7 @@ msgstr "詳細情報"
 msgid "Inherit Access Rules Of Membership Plan"
 msgstr "受け継ぐアクセスルールの会員プラン"
 
-#: core/classes/class.arm_member_forms.php:9292
+#: core/classes/class.arm_member_forms.php:9300
 #@ armember-membership
 msgid "Inherit Fonts"
 msgstr "フォントを受け継ぐ"
@@ -5519,7 +5508,7 @@ msgstr "入力フィールドのオプション"
 msgid "Input Style"
 msgstr "入力方式"
 
-#: core/classes/class.arm_member_forms.php:6696
+#: core/classes/class.arm_member_forms.php:6704
 #@ armember-membership
 msgid "Instagram"
 msgstr "インスタグラム"
@@ -5532,12 +5521,12 @@ msgstr "インスタグラム"
 msgid "installments"
 msgstr "分割払い"
 
-#: core/views/arm_feature_settings.php:360
+#: core/views/arm_feature_settings.php:334
 #@ armember-membership
 msgid "Integrate myCRED adaptive points management system with ARMember."
 msgstr "myCRED アダプティブ ポイント管理システムを ARMember と統合します。"
 
-#: core/views/arm_feature_settings.php:339
+#: core/views/arm_feature_settings.php:313
 #@ armember-membership
 msgid "Integrate Woocommerce with ARMember."
 msgstr "Woocommerce を ARMember と統合します。"
@@ -5568,7 +5557,7 @@ msgstr "無効です。"
 msgid "Invalid conditional argument(s)."
 msgstr "無効条件の引数(s)."
 
-#: core/classes/class.arm_member_forms.php:6578
+#: core/classes/class.arm_member_forms.php:6586
 #@ armember-membership
 msgid "Invalid Date."
 msgstr "無効な日です。"
@@ -5581,8 +5570,8 @@ msgstr "無効な日です。"
 msgid "Invalid field message"
 msgstr "無効な分野でのメッセージ"
 
-#: core/classes/class.arm_member_forms.php:6590
-#: core/classes/class.arm_member_forms.php:6602
+#: core/classes/class.arm_member_forms.php:6598
+#: core/classes/class.arm_member_forms.php:6610
 #@ armember-membership
 msgid "Invalid file selected."
 msgstr "無効なファイルを選択します。"
@@ -5594,8 +5583,8 @@ msgstr "無効なファイルをアップしました。"
 
 #: core/classes/class.arm_member_forms.php:1966
 #: core/classes/class.arm_member_forms.php:2014
-#: core/classes/class.arm_member_forms.php:9981
-#: core/classes/class.arm_member_forms.php:9999
+#: core/classes/class.arm_member_forms.php:9989
+#: core/classes/class.arm_member_forms.php:10007
 #: core/views/arm_member_add.php:512
 #: core/views/arm_member_add.php:545
 #@ armember-membership
@@ -5612,12 +5601,12 @@ msgstr "無効なプラン金額"
 msgid "Invalid taxonomy."
 msgstr "無効な分類."
 
-#: core/classes/class.arm_member_forms.php:6818
+#: core/classes/class.arm_member_forms.php:6826
 #@ armember-membership
 msgid "Invalid URL"
 msgstr "無効なURL"
 
-#: core/classes/class.arm_member_forms.php:6193
+#: core/classes/class.arm_member_forms.php:6201
 #: core/classes/class.arm_restriction.php:2408
 #@ armember-membership
 msgid "Invalid username or e-mail."
@@ -5628,7 +5617,7 @@ msgstr "無効なユーザー名またはeメールで連絡)。"
 msgid "Invalid username or incorrect password."
 msgstr "無効なユーザー名または誤ったパスワードになります。"
 
-#: core/views/arm_feature_settings.php:218
+#: core/views/arm_feature_settings.php:192
 #@ armember-membership
 msgid "Invoice and Tax"
 msgstr "請求書および税金"
@@ -5638,17 +5627,17 @@ msgstr "請求書および税金"
 msgid "Invoice Detail"
 msgstr "請求書の詳細"
 
-#: core/classes/class.arm_member_forms.php:9458
+#: core/classes/class.arm_member_forms.php:9466
 #@ armember-membership
 msgid "Iran"
 msgstr "イラン"
 
-#: core/classes/class.arm_member_forms.php:9459
+#: core/classes/class.arm_member_forms.php:9467
 #@ armember-membership
 msgid "Iraq"
 msgstr "イラク"
 
-#: core/classes/class.arm_member_forms.php:9460
+#: core/classes/class.arm_member_forms.php:9468
 #@ armember-membership
 msgid "Ireland"
 msgstr "アイルランド"
@@ -5663,7 +5652,7 @@ msgstr "有効"
 msgid "is meta field name."
 msgstr "するメタ分野の名前です。"
 
-#: core/classes/class.arm_member_forms.php:9461
+#: core/classes/class.arm_member_forms.php:9469
 #@ armember-membership
 msgid "Israel"
 msgstr "イスラエル"
@@ -5683,17 +5672,17 @@ msgstr "イタリア"
 msgid "Italian/Italy"
 msgstr "イタリア/イタリア"
 
-#: core/classes/class.arm_member_forms.php:9462
+#: core/classes/class.arm_member_forms.php:9470
 #@ armember-membership
 msgid "Italy"
 msgstr "イタリア"
 
-#: core/classes/class.arm_member_forms.php:9463
+#: core/classes/class.arm_member_forms.php:9471
 #@ armember-membership
 msgid "Jamaica"
 msgstr "ジャマイカ"
 
-#: core/classes/class.arm_member_forms.php:9464
+#: core/classes/class.arm_member_forms.php:9472
 #@ armember-membership
 msgid "Japan"
 msgstr "日本"
@@ -5732,22 +5721,22 @@ msgstr "入"
 msgid "Joined Date"
 msgstr "参加日程"
 
-#: core/classes/class.arm_member_forms.php:9465
+#: core/classes/class.arm_member_forms.php:9473
 #@ armember-membership
 msgid "Jordan"
 msgstr "ヨルダン"
 
-#: core/classes/class.arm_member_forms.php:9466
+#: core/classes/class.arm_member_forms.php:9474
 #@ armember-membership
 msgid "Kazakhstan"
 msgstr "カザフスタン"
 
-#: core/classes/class.arm_member_forms.php:9467
+#: core/classes/class.arm_member_forms.php:9475
 #@ armember-membership
 msgid "Kenya"
 msgstr "ケニア"
 
-#: core/classes/class.arm_member_forms.php:9468
+#: core/classes/class.arm_member_forms.php:9476
 #@ armember-membership
 msgid "Kiribati"
 msgstr "キリバス"
@@ -5762,12 +5751,12 @@ msgstr "韓国語"
 msgid "Korean/South Korea"
 msgstr "韓国語/韓国"
 
-#: core/classes/class.arm_member_forms.php:9471
+#: core/classes/class.arm_member_forms.php:9479
 #@ armember-membership
 msgid "Kuwait"
 msgstr "クウェート"
 
-#: core/classes/class.arm_member_forms.php:9472
+#: core/classes/class.arm_member_forms.php:9480
 #@ armember-membership
 msgid "Kyrgyzstan"
 msgstr "キルギス"
@@ -5819,7 +5808,7 @@ msgstr "ラベルの幅"
 msgid "Language"
 msgstr "言語"
 
-#: core/classes/class.arm_member_forms.php:9473
+#: core/classes/class.arm_member_forms.php:9481
 #@ armember-membership
 msgid "Laos"
 msgstr "ラオス"
@@ -5834,9 +5823,9 @@ msgstr "最終ログイン日"
 msgid "Last Modified"
 msgstr "最終更新日"
 
-#: core/classes/class.arm_member_forms.php:6732
-#: core/classes/class.arm_member_forms.php:7156
-#: core/classes/class.arm_member_forms.php:7411
+#: core/classes/class.arm_member_forms.php:6740
+#: core/classes/class.arm_member_forms.php:7164
+#: core/classes/class.arm_member_forms.php:7419
 #: core/classes/class.arm_members.php:2002
 #: core/classes/class.arm_members.php:2104
 #: core/classes/class.arm_members.php:4372
@@ -5859,8 +5848,8 @@ msgstr "最終更新日"
 msgid "Last Name"
 msgstr "氏名"
 
-#: core/classes/class.arm_member_forms.php:7162
-#: core/classes/class.arm_member_forms.php:7417
+#: core/classes/class.arm_member_forms.php:7170
+#: core/classes/class.arm_member_forms.php:7425
 #: core/classes/templates.arm_member_forms_templates.php:181
 #: core/classes/templates.arm_member_forms_templates.php:964
 #: core/classes/templates.arm_member_forms_templates.php:1725
@@ -5870,7 +5859,7 @@ msgstr "氏名"
 msgid "Last Name can not be left blank."
 msgstr "名前姓はできません白紙になっています。"
 
-#: core/classes/class.arm_member_forms.php:9474
+#: core/classes/class.arm_member_forms.php:9482
 #@ armember-membership
 msgid "Latvia"
 msgstr "ラトビア"
@@ -5896,7 +5885,7 @@ msgstr "空白の場合のための手続きにより、すべてのファイル
 msgid "Leave blank to display all plan's members."
 msgstr "空白の場合に表示すべてのプランテーションを行います。"
 
-#: core/classes/class.arm_member_forms.php:9475
+#: core/classes/class.arm_member_forms.php:9483
 #@ armember-membership
 msgid "Lebanon"
 msgstr "レバノン"
@@ -5925,27 +5914,27 @@ msgstr "レバノン"
 msgid "Left"
 msgstr "左"
 
-#: core/classes/class.arm_member_forms.php:9476
+#: core/classes/class.arm_member_forms.php:9484
 #@ armember-membership
 msgid "Lesotho"
 msgstr "レソト"
 
-#: core/views/arm_feature_settings.php:199
+#: core/views/arm_feature_settings.php:173
 #@ armember-membership
 msgid "Let users get benefit of discounts coupons while making payment with your site."
 msgstr "うユーザの利益の割引クーポンをお支払いします。"
 
-#: core/classes/class.arm_member_forms.php:9477
+#: core/classes/class.arm_member_forms.php:9485
 #@ armember-membership
 msgid "Liberia"
 msgstr "リベリア"
 
-#: core/classes/class.arm_member_forms.php:9478
+#: core/classes/class.arm_member_forms.php:9486
 #@ armember-membership
 msgid "Libya"
 msgstr "リビア"
 
-#: core/classes/class.arm_member_forms.php:9479
+#: core/classes/class.arm_member_forms.php:9487
 #@ armember-membership
 msgid "Liechtenstein"
 msgstr "リヒテンシュタイン"
@@ -6063,7 +6052,7 @@ msgstr "リンクテキストをドキュメント"
 msgid "Link Type"
 msgstr "リンク型"
 
-#: core/classes/class.arm_member_forms.php:6694
+#: core/classes/class.arm_member_forms.php:6702
 #: core/classes/class.arm_social_feature.php:72
 #@ armember-membership
 msgid "LinkedIn"
@@ -6075,7 +6064,7 @@ msgstr "リンクトイン"
 msgid "List"
 msgstr "リスト"
 
-#: core/classes/class.arm_member_forms.php:9480
+#: core/classes/class.arm_member_forms.php:9488
 #@ armember-membership
 msgid "Lithuania"
 msgstr "リトアニア"
@@ -6193,7 +6182,7 @@ msgid "Loggedin Users"
 msgstr "ログインしているユーザー"
 
 #: core/classes/class.arm_member_forms.php:4345
-#: core/classes/class.arm_member_forms.php:7320
+#: core/classes/class.arm_member_forms.php:7328
 #@ armember-membership
 msgid "LOGIN"
 msgstr "ログイン"
@@ -6255,7 +6244,7 @@ msgstr "ログインURL"
 msgid "Logout"
 msgstr "ログアウト"
 
-#: core/classes/class.arm_member_forms.php:7355
+#: core/classes/class.arm_member_forms.php:7363
 #@ armember-membership
 msgid "Lost Your Password"
 msgstr "パスワードを忘れましたか"
@@ -6270,17 +6259,17 @@ msgstr "小文字"
 msgid "LTR"
 msgstr "LTR"
 
-#: core/classes/class.arm_member_forms.php:9481
+#: core/classes/class.arm_member_forms.php:9489
 #@ armember-membership
 msgid "Luxembourg"
 msgstr "ルクセンブルク"
 
-#: core/classes/class.arm_member_forms.php:9482
+#: core/classes/class.arm_member_forms.php:9490
 #@ armember-membership
 msgid "Macedonia"
 msgstr "マケドニア"
 
-#: core/classes/class.arm_member_forms.php:9483
+#: core/classes/class.arm_member_forms.php:9491
 #@ armember-membership
 msgid "Madagascar"
 msgstr "マダガスカル"
@@ -6309,27 +6298,27 @@ msgstr "支払う"
 msgid "Make Payment Text"
 msgstr "支払いテキストを作成する"
 
-#: core/classes/class.arm_member_forms.php:9484
+#: core/classes/class.arm_member_forms.php:9492
 #@ armember-membership
 msgid "Malawi"
 msgstr "マラウイ"
 
-#: core/classes/class.arm_member_forms.php:9485
+#: core/classes/class.arm_member_forms.php:9493
 #@ armember-membership
 msgid "Malaysia"
 msgstr "マレーシアq"
 
-#: core/classes/class.arm_member_forms.php:9486
+#: core/classes/class.arm_member_forms.php:9494
 #@ armember-membership
 msgid "Maldives"
 msgstr "モルディブ"
 
-#: core/classes/class.arm_member_forms.php:9487
+#: core/classes/class.arm_member_forms.php:9495
 #@ armember-membership
 msgid "Mali"
 msgstr "マリ"
 
-#: core/classes/class.arm_member_forms.php:9488
+#: core/classes/class.arm_member_forms.php:9496
 #@ armember-membership
 msgid "Malta"
 msgstr "マルタ"
@@ -6475,7 +6464,7 @@ msgstr "手動支払いが正常に追加されました。"
 msgid "Margin"
 msgstr "マージン"
 
-#: core/classes/class.arm_member_forms.php:9489
+#: core/classes/class.arm_member_forms.php:9497
 #@ armember-membership
 msgid "Marshall Islands"
 msgstr "マーシャル諸島"
@@ -6492,12 +6481,12 @@ msgstr "材質概要"
 msgid "Material Style"
 msgstr "マテリアルスタイル"
 
-#: core/classes/class.arm_member_forms.php:9490
+#: core/classes/class.arm_member_forms.php:9498
 #@ armember-membership
 msgid "Mauritania"
 msgstr "モーリタニア"
 
-#: core/classes/class.arm_member_forms.php:9491
+#: core/classes/class.arm_member_forms.php:9499
 #@ armember-membership
 msgid "Mauritius"
 msgstr "モーリシャス"
@@ -6676,7 +6665,7 @@ msgstr "メンバーシップがに変更されました"
 msgid "Membership History"
 msgstr "会員履歴"
 
-#: core/views/arm_feature_settings.php:278
+#: core/views/arm_feature_settings.php:252
 #@ armember-membership
 msgid "Membership Limit"
 msgstr "会員制限会員制限"
@@ -6822,12 +6811,12 @@ msgstr "メタキー"
 msgid "Meta Value"
 msgstr "メタ値"
 
-#: core/classes/class.arm_member_forms.php:9492
+#: core/classes/class.arm_member_forms.php:9500
 #@ armember-membership
 msgid "Mexico"
 msgstr "メキシコ"
 
-#: core/classes/class.arm_member_forms.php:9493
+#: core/classes/class.arm_member_forms.php:9501
 #@ armember-membership
 msgid "Micronesia"
 msgstr "ミクロネシア"
@@ -6865,22 +6854,22 @@ msgstr "一時フォルダーがありません。"
 msgid "Mobile View"
 msgstr "モバイルビュー"
 
-#: core/classes/class.arm_member_forms.php:9494
+#: core/classes/class.arm_member_forms.php:9502
 #@ armember-membership
 msgid "Moldova"
 msgstr "モルドバ"
 
-#: core/classes/class.arm_member_forms.php:9495
+#: core/classes/class.arm_member_forms.php:9503
 #@ armember-membership
 msgid "Monaco"
 msgstr "モナコ"
 
-#: core/classes/class.arm_member_forms.php:9496
+#: core/classes/class.arm_member_forms.php:9504
 #@ armember-membership
 msgid "Mongolia"
 msgstr "モンゴル"
 
-#: core/classes/class.arm_member_forms.php:9497
+#: core/classes/class.arm_member_forms.php:9505
 #@ armember-membership
 msgid "Montenegro"
 msgstr "モンテネグロ"
@@ -6951,39 +6940,39 @@ msgstr "月"
 msgid "Months(s)"
 msgstr "月"
 
-#: core/classes/class.arm_member_forms.php:9498
+#: core/classes/class.arm_member_forms.php:9506
 #@ armember-membership
 msgid "Montserrat"
 msgstr "モントセラト"
 
-#: core/views/arm_feature_settings.php:89
-#: core/views/arm_feature_settings.php:110
-#: core/views/arm_feature_settings.php:130
-#: core/views/arm_feature_settings.php:151
-#: core/views/arm_feature_settings.php:171
-#: core/views/arm_feature_settings.php:191
-#: core/views/arm_feature_settings.php:211
-#: core/views/arm_feature_settings.php:231
-#: core/views/arm_feature_settings.php:251
-#: core/views/arm_feature_settings.php:271
-#: core/views/arm_feature_settings.php:291
-#: core/views/arm_feature_settings.php:310
-#: core/views/arm_feature_settings.php:331
-#: core/views/arm_feature_settings.php:352
-#: core/views/arm_feature_settings.php:372
-#: core/views/arm_feature_settings.php:399
-#: core/views/arm_feature_settings.php:426
-#: core/views/arm_feature_settings.php:453
-#: core/views/arm_feature_settings.php:480
-#: core/views/arm_feature_settings.php:507
-#: core/views/arm_feature_settings.php:534
-#: core/views/arm_feature_settings.php:562
-#: core/views/arm_feature_settings.php:591
+#: core/views/arm_feature_settings.php:84
+#: core/views/arm_feature_settings.php:104
+#: core/views/arm_feature_settings.php:125
+#: core/views/arm_feature_settings.php:145
+#: core/views/arm_feature_settings.php:165
+#: core/views/arm_feature_settings.php:185
+#: core/views/arm_feature_settings.php:205
+#: core/views/arm_feature_settings.php:225
+#: core/views/arm_feature_settings.php:245
+#: core/views/arm_feature_settings.php:265
+#: core/views/arm_feature_settings.php:284
+#: core/views/arm_feature_settings.php:305
+#: core/views/arm_feature_settings.php:326
+#: core/views/arm_feature_settings.php:346
+#: core/views/arm_feature_settings.php:373
+#: core/views/arm_feature_settings.php:400
+#: core/views/arm_feature_settings.php:427
+#: core/views/arm_feature_settings.php:454
+#: core/views/arm_feature_settings.php:481
+#: core/views/arm_feature_settings.php:508
+#: core/views/arm_feature_settings.php:536
+#: core/views/arm_feature_settings.php:565
+#: core/views/arm_feature_settings.php:645
 #@ armember-membership
 msgid "More Info"
 msgstr "より詳しい情報"
 
-#: core/classes/class.arm_member_forms.php:9499
+#: core/classes/class.arm_member_forms.php:9507
 #@ armember-membership
 msgid "Morocco"
 msgstr "モロッコ"
@@ -6994,12 +6983,12 @@ msgstr "モロッコ"
 msgid "Move"
 msgstr "動く"
 
-#: core/classes/class.arm_member_forms.php:9500
+#: core/classes/class.arm_member_forms.php:9508
 #@ armember-membership
 msgid "Mozambique"
 msgstr "モザンビーク"
 
-#: core/views/arm_feature_settings.php:258
+#: core/views/arm_feature_settings.php:232
 #@ armember-membership
 msgid "Multiple Membership/Plans"
 msgstr "複数のメンバーシップ/プラン"
@@ -7009,12 +6998,12 @@ msgstr "複数のメンバーシップ/プラン"
 msgid "My Profile"
 msgstr "私のプロフィール"
 
-#: core/classes/class.arm_member_forms.php:9501
+#: core/classes/class.arm_member_forms.php:9509
 #@ armember-membership
 msgid "Myanmar"
 msgstr "ミャンマーミャンマー"
 
-#: core/views/arm_feature_settings.php:359
+#: core/views/arm_feature_settings.php:333
 #@ armember-membership
 msgid "myCRED Integration"
 msgstr "myCREDの統合"
@@ -7030,12 +7019,12 @@ msgstr "myCREDの統合"
 msgid "Name"
 msgstr "名前"
 
-#: core/classes/class.arm_member_forms.php:9502
+#: core/classes/class.arm_member_forms.php:9510
 #@ armember-membership
 msgid "Namibia"
 msgstr "ナミビア"
 
-#: core/classes/class.arm_member_forms.php:9503
+#: core/classes/class.arm_member_forms.php:9511
 #@ armember-membership
 msgid "Nauru"
 msgstr "ナウル"
@@ -7045,12 +7034,12 @@ msgstr "ナウル"
 msgid "Need Help?"
 msgstr "助けが必要？"
 
-#: core/classes/class.arm_member_forms.php:9504
+#: core/classes/class.arm_member_forms.php:9512
 #@ armember-membership
 msgid "Nepal"
 msgstr "ネパール"
 
-#: core/classes/class.arm_member_forms.php:9505
+#: core/classes/class.arm_member_forms.php:9513
 #@ armember-membership
 msgid "Netherlands"
 msgstr "オランダ"
@@ -7097,7 +7086,7 @@ msgstr "新しいメンバーが正常に追加されました。"
 msgid "New Pages"
 msgstr "新しいページ"
 
-#: core/classes/class.arm_member_forms.php:7260
+#: core/classes/class.arm_member_forms.php:7268
 #: core/classes/templates.arm_member_forms_templates.php:705
 #: core/classes/templates.arm_member_forms_templates.php:1463
 #: core/classes/templates.arm_member_forms_templates.php:2226
@@ -7130,7 +7119,7 @@ msgstr "新規購読"
 msgid "New User Approval"
 msgstr "新規ユーザーの承認"
 
-#: core/classes/class.arm_member_forms.php:9506
+#: core/classes/class.arm_member_forms.php:9514
 #@ armember-membership
 msgid "New Zealand"
 msgstr "ニュージーランド"
@@ -7149,7 +7138,7 @@ msgstr "次"
 msgid "Next Due Date"
 msgstr "次の締切日Q"
 
-#: core/classes/class.arm_member_forms.php:9507
+#: core/classes/class.arm_member_forms.php:9515
 #@ armember-membership
 msgid "Nicaragua"
 msgstr "ニカラグア"
@@ -7160,12 +7149,12 @@ msgstr "ニカラグア"
 msgid "Nick Name"
 msgstr "ニックネーム"
 
-#: core/classes/class.arm_member_forms.php:9508
+#: core/classes/class.arm_member_forms.php:9516
 #@ armember-membership
 msgid "Niger"
 msgstr "ニジェール"
 
-#: core/classes/class.arm_member_forms.php:9509
+#: core/classes/class.arm_member_forms.php:9517
 #@ armember-membership
 msgid "Nigeria"
 msgstr "ナイジェリア"
@@ -7273,7 +7262,7 @@ msgstr "ファイルはアップロードされませんでした。"
 
 #: core/classes/class.arm_member_forms.php:2927
 #: core/classes/class.arm_member_forms.php:2953
-#: core/classes/class.arm_member_forms.php:8390
+#: core/classes/class.arm_member_forms.php:8398
 #: core/views/arm_font_awesome.php:1657
 #@ armember-membership
 msgid "No Icon"
@@ -7449,17 +7438,17 @@ msgstr "Nonce は 12 時間未満です"
 msgid "None"
 msgstr "なし"
 
-#: core/classes/class.arm_member_forms.php:9469
+#: core/classes/class.arm_member_forms.php:9477
 #@ armember-membership
 msgid "North Korea"
 msgstr "北朝鮮"
 
-#: core/classes/class.arm_member_forms.php:9511
+#: core/classes/class.arm_member_forms.php:9519
 #@ armember-membership
 msgid "Northern Mariana Islands"
 msgstr "北マリアナ諸島"
 
-#: core/classes/class.arm_member_forms.php:9510
+#: core/classes/class.arm_member_forms.php:9518
 #@ armember-membership
 msgid "Norway"
 msgstr "ノルウェー"
@@ -7566,7 +7555,7 @@ msgstr "わかりました"
 msgid "Ok"
 msgstr "わかりました"
 
-#: core/classes/class.arm_member_forms.php:9512
+#: core/classes/class.arm_member_forms.php:9520
 #@ armember-membership
 msgid "Oman"
 msgstr "オマーン"
@@ -7641,11 +7630,6 @@ msgstr "不透明度"
 msgid "Open Settings & Styles"
 msgstr "設定とスタイルを開く"
 
-#: core/views/arm_feature_settings.php:96
-#@ armember-membership
-msgid "Opt-ins"
-msgstr "オプトイン"
-
 #: autoload.php:1739
 #@ armember-membership
 msgid "Opt-ins Settings Saved Successfully."
@@ -7656,7 +7640,7 @@ msgstr "オプトイン設定が正常に保存されました。"
 msgid "Options"
 msgstr "または"
 
-#: core/classes/class.arm_member_forms.php:8039
+#: core/classes/class.arm_member_forms.php:8047
 #: core/views/arm_global_settings.php:269
 #@ armember-membership
 msgid "OR"
@@ -7771,41 +7755,41 @@ msgstr "有料プラン（無制限）"
 msgid "Paid With"
 msgstr "支払い方法"
 
-#: core/classes/class.arm_member_forms.php:9513
+#: core/classes/class.arm_member_forms.php:9521
 #@ armember-membership
 msgid "Pakistan"
 msgstr "パキスタン"
 
-#: core/classes/class.arm_member_forms.php:9514
+#: core/classes/class.arm_member_forms.php:9522
 #@ armember-membership
 msgid "Palau"
 msgstr "パラオ"
 
-#: core/classes/class.arm_member_forms.php:9515
+#: core/classes/class.arm_member_forms.php:9523
 #@ armember-membership
 msgid "Palestine"
 msgstr "パレスチナ"
 
-#: core/classes/class.arm_member_forms.php:9516
+#: core/classes/class.arm_member_forms.php:9524
 #@ armember-membership
 msgid "Panama"
 msgstr "パナマ"
 
-#: core/classes/class.arm_member_forms.php:9517
+#: core/classes/class.arm_member_forms.php:9525
 #@ armember-membership
 msgid "Papua New Guinea"
 msgstr "パプアニューギニア"
 
-#: core/classes/class.arm_member_forms.php:9518
+#: core/classes/class.arm_member_forms.php:9526
 #@ armember-membership
 msgid "Paraguay"
 msgstr "パラグアイ"
 
-#: core/classes/class.arm_member_forms.php:6515
-#: core/classes/class.arm_member_forms.php:6776
-#: core/classes/class.arm_member_forms.php:7205
-#: core/classes/class.arm_member_forms.php:7225
-#: core/classes/class.arm_member_forms.php:7450
+#: core/classes/class.arm_member_forms.php:6523
+#: core/classes/class.arm_member_forms.php:6784
+#: core/classes/class.arm_member_forms.php:7213
+#: core/classes/class.arm_member_forms.php:7233
+#: core/classes/class.arm_member_forms.php:7458
 #: core/classes/templates.arm_member_forms_templates.php:227
 #: core/classes/templates.arm_member_forms_templates.php:474
 #: core/classes/templates.arm_member_forms_templates.php:1010
@@ -7837,12 +7821,12 @@ msgid "Password can not be left blank"
 msgstr "パスワードを空白のままにすることはできません"
 
 #: autoload.php:1704
-#: core/classes/class.arm_member_forms.php:6528
-#: core/classes/class.arm_member_forms.php:6792
-#: core/classes/class.arm_member_forms.php:7220
-#: core/classes/class.arm_member_forms.php:7240
-#: core/classes/class.arm_member_forms.php:7275
-#: core/classes/class.arm_member_forms.php:7456
+#: core/classes/class.arm_member_forms.php:6536
+#: core/classes/class.arm_member_forms.php:6800
+#: core/classes/class.arm_member_forms.php:7228
+#: core/classes/class.arm_member_forms.php:7248
+#: core/classes/class.arm_member_forms.php:7283
+#: core/classes/class.arm_member_forms.php:7464
 #: core/classes/templates.arm_member_forms_templates.php:242
 #: core/classes/templates.arm_member_forms_templates.php:490
 #: core/classes/templates.arm_member_forms_templates.php:681
@@ -7888,7 +7872,7 @@ msgstr "ユーザーのパスワードの紛失および変更"
 msgid "Password Lost/Changed"
 msgstr "パスワードの紛失/変更"
 
-#: core/classes/class.arm_member_forms.php:6283
+#: core/classes/class.arm_member_forms.php:6291
 #: core/classes/class.arm_members.php:2586
 #: core/classes/class.arm_members.php:2785
 #@ armember-membership
@@ -7896,15 +7880,15 @@ msgid "Password Reset"
 msgstr "パスワードのリセット"
 
 #: core/classes/class.arm_global_settings.php:859
-#: core/classes/class.arm_member_forms.php:6211
-#: core/classes/class.arm_member_forms.php:6224
+#: core/classes/class.arm_member_forms.php:6219
+#: core/classes/class.arm_member_forms.php:6232
 #@ armember-membership
 msgid "Password reset is not allowed for this user."
 msgstr "このユーザーにはパスワードのリセットが許可されていません。"
 
 #: core/classes/class.arm_member_forms.php:3524
-#: core/classes/class.arm_member_forms.php:6668
-#: core/classes/class.arm_member_forms.php:7299
+#: core/classes/class.arm_member_forms.php:6676
+#: core/classes/class.arm_member_forms.php:7307
 #: core/classes/templates.arm_member_forms_templates.php:746
 #: core/classes/templates.arm_member_forms_templates.php:1504
 #: core/classes/templates.arm_member_forms_templates.php:2268
@@ -7919,7 +7903,7 @@ msgstr "パスワードが一致しません。"
 msgid "Pay Once, No Monthly Fees"
 msgstr "一度支払うだけで月額料金はかかりません"
 
-#: core/views/arm_feature_settings.php:178
+#: core/views/arm_feature_settings.php:152
 #@ armember-membership
 msgid "Pay Per Post"
 msgstr "投稿ごとに支払う"
@@ -8167,17 +8151,17 @@ msgstr "ログイン試行後にユーザーを永続的にロックする"
 msgid "Permanent lockdown Duration"
 msgstr "永久ロックダウンの期間"
 
-#: core/classes/class.arm_member_forms.php:9519
+#: core/classes/class.arm_member_forms.php:9527
 #@ armember-membership
 msgid "Peru"
 msgstr "ペルー"
 
-#: core/classes/class.arm_member_forms.php:9520
+#: core/classes/class.arm_member_forms.php:9528
 #@ armember-membership
 msgid "Philippines"
 msgstr "フィリピン"
 
-#: core/classes/class.arm_member_forms.php:6697
+#: core/classes/class.arm_member_forms.php:6705
 #@ armember-membership
 msgid "Pinterest"
 msgstr "ピンタレスト"
@@ -8355,7 +8339,7 @@ msgstr "予定"
 msgid "Plans Cycles"
 msgstr "計画サイクル"
 
-#: core/views/arm_feature_settings.php:677
+#: core/views/arm_feature_settings.php:725
 #@ armember-membership
 msgid "Please activate the \\\"Social Feature\\\" module to make this feature work."
 msgstr "この機能を動作させるには、「ソーシャル機能」モジュールをアクティブにしてください。"
@@ -8370,7 +8354,7 @@ msgstr "新しいプランを追加してください。"
 msgid "Please check atleast one option"
 msgstr "少なくとも 1 つのオプションをチェックしてください"
 
-#: core/classes/class.arm_member_forms.php:6547
+#: core/classes/class.arm_member_forms.php:6555
 #@ armember-membership
 msgid "Please check atleast one option."
 msgstr "少なくとも 1 つのオプションをチェックしてください。"
@@ -8430,7 +8414,7 @@ msgid "Please enter correct card details."
 msgstr "正しいカード情報を入力してください。"
 
 #: core/classes/class.arm_member_forms.php:3435
-#: core/classes/class.arm_member_forms.php:6679
+#: core/classes/class.arm_member_forms.php:6687
 #@ armember-membership
 msgid "Please enter email address again."
 msgstr "メールアドレスを再度入力してください。"
@@ -8535,19 +8519,19 @@ msgstr "URLを入力してください。"
 msgid "Please enter valid data"
 msgstr "有効なデータを入力してください"
 
-#: core/classes/class.arm_member_forms.php:6408
+#: core/classes/class.arm_member_forms.php:6416
 #@ armember-membership
 msgid "Please enter valid data."
 msgstr "有効なデータを入力してください。"
 
-#: core/classes/class.arm_member_forms.php:6904
+#: core/classes/class.arm_member_forms.php:6912
 #@ armember-membership
 msgid "Please enter valid detail."
 msgstr "有効な詳細を入力してください。"
 
-#: core/classes/class.arm_member_forms.php:6771
-#: core/classes/class.arm_member_forms.php:7198
-#: core/classes/class.arm_member_forms.php:7443
+#: core/classes/class.arm_member_forms.php:6779
+#: core/classes/class.arm_member_forms.php:7206
+#: core/classes/class.arm_member_forms.php:7451
 #: core/classes/class.arm_members.php:1559
 #: core/classes/class.arm_members.php:1563
 #: core/classes/templates.arm_member_forms_templates.php:207
@@ -8568,12 +8552,12 @@ msgstr "有効なメールアドレスを入力してください。"
 msgid "Please enter valid password"
 msgstr "有効なパスワードを入力してください"
 
-#: core/classes/class.arm_member_forms.php:6529
-#: core/classes/class.arm_member_forms.php:6793
-#: core/classes/class.arm_member_forms.php:7221
-#: core/classes/class.arm_member_forms.php:7241
-#: core/classes/class.arm_member_forms.php:7276
-#: core/classes/class.arm_member_forms.php:7457
+#: core/classes/class.arm_member_forms.php:6537
+#: core/classes/class.arm_member_forms.php:6801
+#: core/classes/class.arm_member_forms.php:7229
+#: core/classes/class.arm_member_forms.php:7249
+#: core/classes/class.arm_member_forms.php:7284
+#: core/classes/class.arm_member_forms.php:7465
 #: core/classes/templates.arm_member_forms_templates.php:243
 #: core/classes/templates.arm_member_forms_templates.php:1026
 #: core/classes/templates.arm_member_forms_templates.php:1787
@@ -8599,10 +8583,10 @@ msgstr "有効な URL を入力してください。"
 msgid "Please enter valid username"
 msgstr "有効なユーザー名を入力してください"
 
-#: core/classes/class.arm_member_forms.php:6759
-#: core/classes/class.arm_member_forms.php:7175
-#: core/classes/class.arm_member_forms.php:7187
-#: core/classes/class.arm_member_forms.php:7430
+#: core/classes/class.arm_member_forms.php:6767
+#: core/classes/class.arm_member_forms.php:7183
+#: core/classes/class.arm_member_forms.php:7195
+#: core/classes/class.arm_member_forms.php:7438
 #: core/classes/templates.arm_member_forms_templates.php:452
 #: core/classes/templates.arm_member_forms_templates.php:595
 #: core/classes/templates.arm_member_forms_templates.php:1210
@@ -8623,7 +8607,7 @@ msgstr "有効なユーザー名を入力してください。"
 msgid "Please enter your email address or username below"
 msgstr "以下にメールアドレスまたはユーザー名を入力してください"
 
-#: core/classes/class.arm_member_forms.php:7383
+#: core/classes/class.arm_member_forms.php:7391
 #: core/classes/templates.arm_member_forms_templates.php:575
 #: core/classes/templates.arm_member_forms_templates.php:1332
 #: core/classes/templates.arm_member_forms_templates.php:2095
@@ -8637,7 +8621,7 @@ msgstr "以下にメールアドレスまたはユーザー名を入力してく
 msgid "PLEASE LOGIN"
 msgstr "ログインしてください"
 
-#: core/classes/class.arm_member_forms.php:7371
+#: core/classes/class.arm_member_forms.php:7379
 #: core/classes/templates.arm_member_forms_templates.php:288
 #: core/classes/templates.arm_member_forms_templates.php:289
 #: core/classes/templates.arm_member_forms_templates.php:1069
@@ -8693,8 +8677,8 @@ msgstr "アカウントを選択してください"
 msgid "Please select atleast one membership"
 msgstr "少なくとも 1 つのメンバーシップを選択してください"
 
-#: core/classes/class.arm_member_forms.php:6569
-#: core/classes/class.arm_member_forms.php:6829
+#: core/classes/class.arm_member_forms.php:6577
+#: core/classes/class.arm_member_forms.php:6837
 #@ armember-membership
 msgid "Please select atleast one option."
 msgstr "少なくとも 1 つのオプションを選択してください。"
@@ -8715,13 +8699,13 @@ msgstr "少なくとも 1 つのプランを選択してください"
 msgid "Please select atleast one plan."
 msgstr "少なくとも 1 つのプランを選択してください。"
 
-#: core/classes/class.arm_member_forms.php:6612
+#: core/classes/class.arm_member_forms.php:6620
 #@ armember-membership
 msgid "Please select atleast one role."
 msgstr "少なくとも 1 つの役割を選択してください。"
 
 #: core/classes/class.arm_member_forms.php:1965
-#: core/classes/class.arm_member_forms.php:9980
+#: core/classes/class.arm_member_forms.php:9988
 #: core/views/arm_member_add.php:511
 #@ armember-membership
 msgid "Please select avatar."
@@ -8734,7 +8718,7 @@ msgstr "アバターを選択してください。"
 msgid "Please select condition."
 msgstr "状態を選択してください。"
 
-#: core/classes/class.arm_member_forms.php:6577
+#: core/classes/class.arm_member_forms.php:6585
 #@ armember-membership
 msgid "Please select date."
 msgstr "日付を選択してください。"
@@ -8744,13 +8728,13 @@ msgstr "日付を選択してください。"
 msgid "Please select expiry date."
 msgstr "有効期限を選択してください。"
 
-#: core/classes/class.arm_member_forms.php:6589
-#: core/classes/class.arm_member_forms.php:6601
+#: core/classes/class.arm_member_forms.php:6597
+#: core/classes/class.arm_member_forms.php:6609
 #@ armember-membership
 msgid "Please select file."
 msgstr "ファイルを選択してください。"
 
-#: core/classes/class.arm_member_forms.php:6558
+#: core/classes/class.arm_member_forms.php:6566
 #@ armember-membership
 msgid "Please select one option."
 msgstr "オプションを 1 つ選択してください。 "
@@ -8770,7 +8754,7 @@ msgstr "1 つ以上のレコードを選択してください。"
 msgid "Please select one or more setting."
 msgstr "1 つ以上の設定を選択してください。"
 
-#: core/classes/class.arm_member_forms.php:6807
+#: core/classes/class.arm_member_forms.php:6815
 #@ armember-membership
 msgid "Please select one."
 msgstr "1つを選択してください。"
@@ -8819,7 +8803,7 @@ msgid "Please select plan."
 msgstr "プランを選択してください。"
 
 #: core/classes/class.arm_member_forms.php:2013
-#: core/classes/class.arm_member_forms.php:9998
+#: core/classes/class.arm_member_forms.php:10006
 #: core/views/arm_member_add.php:544
 #@ armember-membership
 msgid "Please select profile cover."
@@ -8887,7 +8871,7 @@ msgstr "選んでください.."
 msgid "Please set default redirection rules for users when they try to access restricetd content."
 msgstr "ユーザーが制限されたコンテンツにアクセスしようとする場合は、デフォルトのリダイレクト ルールを設定してください。"
 
-#: core/classes/class.arm_member_forms.php:7332
+#: core/classes/class.arm_member_forms.php:7340
 #: core/classes/templates.arm_member_forms_templates.php:19
 #: core/classes/templates.arm_member_forms_templates.php:799
 #: core/classes/templates.arm_member_forms_templates.php:1558
@@ -8923,7 +8907,7 @@ msgstr "少なくとも 1 つ使用してください"
 msgid "Plese confirm that while changing Template, all colors will be reset to default."
 msgstr "テンプレートを変更すると、すべての色がデフォルトにリセットされることを確認してください。"
 
-#: core/classes/class.arm_member_forms.php:9521
+#: core/classes/class.arm_member_forms.php:9529
 #@ armember-membership
 msgid "Poland"
 msgstr "ポーランド"
@@ -8938,7 +8922,7 @@ msgstr "研磨"
 msgid "Polish/Poland"
 msgstr "ポーランド/ポーランド"
 
-#: core/classes/class.arm_member_forms.php:9522
+#: core/classes/class.arm_member_forms.php:9530
 #@ armember-membership
 msgid "Portugal"
 msgstr "ポルトガル"
@@ -8975,7 +8959,7 @@ msgstr "考えられる引数:"
 msgid "Possible only in the case of semi-automatic / manual subscription"
 msgstr "半自動・手動購読の場合のみ可能"
 
-#: core/classes/class.arm_member_forms.php:6299
+#: core/classes/class.arm_member_forms.php:6307
 #@ armember-membership
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "考えられる理由: ホストが mail() 関数を無効にしている可能性があります..."
@@ -9036,7 +9020,7 @@ msgstr "プロフィール"
 
 #: core/classes/class.arm_member_forms.php:1949
 #: core/classes/class.arm_member_forms.php:2002
-#: core/classes/class.arm_member_forms.php:9990
+#: core/classes/class.arm_member_forms.php:9998
 #: core/views/arm_member_add.php:536
 #: core/views/arm_member_add.php:551
 #: core/views/arm_tinymce_options_shortcodes.php:230
@@ -9054,7 +9038,7 @@ msgstr "プロフィールカバー。"
 msgid "Profile Detail"
 msgstr "プロフィールの詳細"
 
-#: core/classes/class.arm_member_forms.php:6744
+#: core/classes/class.arm_member_forms.php:6752
 #@ armember-membership
 msgid "Profile Display Name"
 msgstr "プロファイルの表示名"
@@ -9099,17 +9083,17 @@ msgstr "プロファイルテンプレート名"
 msgid "Profiles & Directories"
 msgstr "プロフィールとディレクトリq"
 
-#: core/views/arm_feature_settings.php:138
+#: core/views/arm_feature_settings.php:112
 #@ armember-membership
 msgid "Publish your site content based on different time intervals by enabling this feature."
 msgstr "この機能を有効にすることで、さまざまな時間間隔に基づいてサイト コンテンツを公開します。"
 
-#: core/classes/class.arm_member_forms.php:9523
+#: core/classes/class.arm_member_forms.php:9531
 #@ armember-membership
 msgid "Puerto Rico"
 msgstr "プエルトリコ"
 
-#: core/classes/class.arm_member_forms.php:9524
+#: core/classes/class.arm_member_forms.php:9532
 #@ armember-membership
 msgid "Qatar"
 msgstr "カタール"
@@ -9119,7 +9103,7 @@ msgstr "カタール"
 msgid "Radio"
 msgstr "無線"
 
-#: core/classes/class.arm_member_forms.php:6550
+#: core/classes/class.arm_member_forms.php:6558
 #@ armember-membership
 msgid "Radio Button"
 msgstr "ラジオボタン"
@@ -9341,8 +9325,8 @@ msgstr "残りのログイン試行回数:"
 msgid "Remaining Occurence"
 msgstr "残りのオカレンス"
 
-#: core/classes/class.arm_member_forms.php:6643
-#: core/classes/class.arm_member_forms.php:7307
+#: core/classes/class.arm_member_forms.php:6651
+#: core/classes/class.arm_member_forms.php:7315
 #: core/classes/templates.arm_member_forms_templates.php:513
 #: core/classes/templates.arm_member_forms_templates.php:1270
 #: core/classes/templates.arm_member_forms_templates.php:2033
@@ -9492,7 +9476,7 @@ msgstr "コンテンツを制限する"
 msgid "Restriction Type"
 msgstr "制限の種類"
 
-#: core/classes/class.arm_member_forms.php:9525
+#: core/classes/class.arm_member_forms.php:9533
 #@ armember-membership
 msgid "Reunion Island"
 msgstr "レユニオン島"
@@ -9532,13 +9516,13 @@ msgstr "右"
 msgid "Role"
 msgstr "役割"
 
-#: core/classes/class.arm_member_forms.php:6605
+#: core/classes/class.arm_member_forms.php:6613
 #: core/views/arm_form_editor.php:284
 #@ armember-membership
 msgid "Roles"
 msgstr "役割"
 
-#: core/classes/class.arm_member_forms.php:9526
+#: core/classes/class.arm_member_forms.php:9534
 #@ armember-membership
 msgid "Romania"
 msgstr "ルーマニア"
@@ -9592,7 +9576,7 @@ msgstr "ルールは正常に削除されました。"
 msgid "Rusia/Rusia"
 msgstr "ロシア/ロシア"
 
-#: core/classes/class.arm_member_forms.php:9527
+#: core/classes/class.arm_member_forms.php:9535
 #@ armember-membership
 msgid "Russia"
 msgstr "ロシア"
@@ -9602,32 +9586,32 @@ msgstr "ロシア"
 msgid "Russian"
 msgstr "ロシア"
 
-#: core/classes/class.arm_member_forms.php:9528
+#: core/classes/class.arm_member_forms.php:9536
 #@ armember-membership
 msgid "Rwanda"
 msgstr "ルワンダ"
 
-#: core/classes/class.arm_member_forms.php:9529
+#: core/classes/class.arm_member_forms.php:9537
 #@ armember-membership
 msgid "Saint Kitts and Nevis"
 msgstr "セントクリストファー・ネイビス"
 
-#: core/classes/class.arm_member_forms.php:9530
+#: core/classes/class.arm_member_forms.php:9538
 #@ armember-membership
 msgid "Saint Lucia"
 msgstr "セントルシア"
 
-#: core/classes/class.arm_member_forms.php:9531
+#: core/classes/class.arm_member_forms.php:9539
 #@ armember-membership
 msgid "Saint Vincent and the Grenadines"
 msgstr "セントビンセントおよびグレナディーン諸島"
 
-#: core/classes/class.arm_member_forms.php:9532
+#: core/classes/class.arm_member_forms.php:9540
 #@ armember-membership
 msgid "Samoa"
 msgstr "サモア"
 
-#: core/classes/class.arm_member_forms.php:9533
+#: core/classes/class.arm_member_forms.php:9541
 #@ armember-membership
 msgid "San Marino"
 msgstr "サンマリノ"
@@ -9657,12 +9641,12 @@ msgstr "サンドボックス API 署名"
 msgid "Sandbox API Username"
 msgstr "サンドボックス API ユーザー名サンドボックス API ユーザー名"
 
-#: core/classes/class.arm_member_forms.php:9534
+#: core/classes/class.arm_member_forms.php:9542
 #@ armember-membership
 msgid "Sao Tome and Principe"
 msgstr "サントメ・プリンシペ"
 
-#: core/classes/class.arm_member_forms.php:9535
+#: core/classes/class.arm_member_forms.php:9543
 #@ armember-membership
 msgid "Saudi Arabia"
 msgstr "サウジアラビア"
@@ -9750,7 +9734,7 @@ msgstr "の検索結果"
 msgid "second"
 msgstr "2番"
 
-#: core/classes/class.arm_member_forms.php:6631
+#: core/classes/class.arm_member_forms.php:6639
 #@ armember-membership
 msgid "Section"
 msgstr "セクション"
@@ -10228,7 +10212,7 @@ msgstr "テスト電子メールを送信する"
 msgid "Send test mail"
 msgstr "テストメールを送信する"
 
-#: core/classes/class.arm_member_forms.php:9536
+#: core/classes/class.arm_member_forms.php:9544
 #@ armember-membership
 msgid "Senegal"
 msgstr "セネガル"
@@ -10239,7 +10223,7 @@ msgstr "セネガル"
 msgid "Separate values format should be label:value."
 msgstr "個別の値の形式べきレーベル:値です。"
 
-#: core/classes/class.arm_member_forms.php:9537
+#: core/classes/class.arm_member_forms.php:9545
 #@ armember-membership
 msgid "Serbia and Montenegro"
 msgstr "セルビアとモンテネグロ"
@@ -10323,7 +10307,7 @@ msgstr "設定名を空白にすることはできません。"
 msgid "Setup(s) has been deleted successfully."
 msgstr "セットアップは正常に削除されました。"
 
-#: core/classes/class.arm_member_forms.php:9538
+#: core/classes/class.arm_member_forms.php:9546
 #@ armember-membership
 msgid "Seychelles"
 msgstr "セーシェル"
@@ -10436,7 +10420,7 @@ msgstr "0 人のメンバー中 0 ～ 0 を表示しています"
 msgid "Showing 0 to 0 of 0 Subscriptions"
 msgstr "0 件中 0 ～ 0 件を表示しています0 件中 0 ～ 0 件を表示しています"
 
-#: core/classes/class.arm_member_forms.php:9539
+#: core/classes/class.arm_member_forms.php:9547
 #@ armember-membership
 msgid "Sierra Leone"
 msgstr "シエラレオネシエラレオネ"
@@ -10446,7 +10430,7 @@ msgstr "シエラレオネシエラレオネ"
 msgid "signup"
 msgstr "サインアップ"
 
-#: core/classes/class.arm_member_forms.php:9540
+#: core/classes/class.arm_member_forms.php:9548
 #@ armember-membership
 msgid "Singapore"
 msgstr "シンガポール"
@@ -10461,7 +10445,7 @@ msgstr "スキップ"
 msgid "Skip The Wizard and Setup Manually"
 msgstr "ウィザードをスキップして手動でセットアップする"
 
-#: core/classes/class.arm_member_forms.php:6703
+#: core/classes/class.arm_member_forms.php:6711
 #@ armember-membership
 msgid "Skype"
 msgstr "スカイプ"
@@ -10489,12 +10473,12 @@ msgstr "スライダー"
 msgid "Slovak"
 msgstr "スロバキア語"
 
-#: core/classes/class.arm_member_forms.php:9541
+#: core/classes/class.arm_member_forms.php:9549
 #@ armember-membership
 msgid "Slovakia"
 msgstr "スロバキア"
 
-#: core/classes/class.arm_member_forms.php:9542
+#: core/classes/class.arm_member_forms.php:9550
 #@ armember-membership
 msgid "Slovenia"
 msgstr "スロベニア"
@@ -10509,12 +10493,12 @@ msgstr "スロベニア語"
 msgid "SMTP Test E-Mail"
 msgstr "SMTPテストメール"
 
-#: core/views/arm_feature_settings.php:158
+#: core/views/arm_feature_settings.php:132
 #@ armember-membership
 msgid "Social Connect"
 msgstr "ソーシャルコネクト"
 
-#: core/views/arm_feature_settings.php:74
+#: core/views/arm_feature_settings.php:69
 #@ armember-membership
 msgid "Social Feature"
 msgstr "ソーシャル機能"
@@ -10524,7 +10508,7 @@ msgstr "ソーシャル機能"
 msgid "Social Fields"
 msgstr "ソーシャルフィールド"
 
-#: core/classes/class.arm_member_forms.php:6845
+#: core/classes/class.arm_member_forms.php:6853
 #: core/classes/class.arm_members_directory.php:1418
 #: core/views/arm_form_editor.php:214
 #: core/views/arm_form_editor.php:215
@@ -10541,12 +10525,12 @@ msgstr "ソーシャルプロフィールフィールド"
 msgid "Social Setting(s) has been Saved Successfully."
 msgstr "ソーシャル設定は正常に保存されました。"
 
-#: core/classes/class.arm_member_forms.php:9543
+#: core/classes/class.arm_member_forms.php:9551
 #@ armember-membership
 msgid "Solomon Islands"
 msgstr "ソロモン諸島"
 
-#: core/classes/class.arm_member_forms.php:9544
+#: core/classes/class.arm_member_forms.php:9552
 #@ armember-membership
 msgid "Somalia"
 msgstr "ソマリア"
@@ -10557,7 +10541,7 @@ msgstr "ソマリア"
 msgid "Some of users are having administrator previlegs. So those cant be block."
 msgstr "一部のユーザーは管理者権限を持っています。 これにはブロックできません。"
 
-#: core/classes/class.arm_member_forms.php:6284
+#: core/classes/class.arm_member_forms.php:6292
 #: core/classes/class.arm_members.php:2587
 #: core/classes/class.arm_members.php:2786
 #@ armember-membership
@@ -10686,12 +10670,12 @@ msgstr "並べ替え"
 msgid "Sort Field Order"
 msgstr "フィールドの並べ替え順序"
 
-#: core/classes/class.arm_member_forms.php:9545
+#: core/classes/class.arm_member_forms.php:9553
 #@ armember-membership
 msgid "South Africa"
 msgstr "南アフリカ"
 
-#: core/classes/class.arm_member_forms.php:9470
+#: core/classes/class.arm_member_forms.php:9478
 #@ armember-membership
 msgid "South Korea"
 msgstr "韓国"
@@ -10701,7 +10685,7 @@ msgstr "韓国"
 msgid "Space not allowed in password field"
 msgstr "パスワードフィールドにはスペースを使用できません"
 
-#: core/classes/class.arm_member_forms.php:9546
+#: core/classes/class.arm_member_forms.php:9554
 #@ armember-membership
 msgid "Spain"
 msgstr "スペイン"
@@ -10751,7 +10735,7 @@ msgstr "特定のページ"
 msgid "Specific URL"
 msgstr "特定の URL"
 
-#: core/classes/class.arm_member_forms.php:9547
+#: core/classes/class.arm_member_forms.php:9555
 #@ armember-membership
 msgid "Sri Lanka"
 msgstr "スリランカ"
@@ -10889,7 +10873,7 @@ msgid "Subject"
 msgstr "主題"
 
 #: core/classes/class.arm_global_settings.php:868
-#: core/classes/class.arm_member_forms.php:7314
+#: core/classes/class.arm_member_forms.php:7322
 #: core/classes/class.arm_members_activity.php:707
 #: core/classes/class.arm_membership_setup.php:887
 #: core/classes/class.arm_membership_setup.php:2433
@@ -10994,7 +10978,7 @@ msgstr "成功"
 msgid "success"
 msgstr "成功"
 
-#: core/classes/class.arm_member_forms.php:9548
+#: core/classes/class.arm_member_forms.php:9556
 #@ armember-membership
 msgid "Sudan"
 msgstr "スーダン"
@@ -11011,7 +10995,7 @@ msgstr "サフィックス"
 msgid "Summary Text"
 msgstr "概要テキスト"
 
-#: core/classes/class.arm_member_forms.php:9549
+#: core/classes/class.arm_member_forms.php:9557
 #@ armember-membership
 msgid "Suriname"
 msgstr "スリナム"
@@ -11030,12 +11014,12 @@ msgstr "スリナム"
 msgid "Suspended"
 msgstr "一時停止中"
 
-#: core/classes/class.arm_member_forms.php:9550
+#: core/classes/class.arm_member_forms.php:9558
 #@ armember-membership
 msgid "Swaziland"
 msgstr "スワジランド"
 
-#: core/classes/class.arm_member_forms.php:9551
+#: core/classes/class.arm_member_forms.php:9559
 #@ armember-membership
 msgid "Sweden"
 msgstr "スウェーデン"
@@ -11050,12 +11034,12 @@ msgstr "スウェーデンの"
 msgid "Swedish/Sweden"
 msgstr "スウェーデン語/スウェーデン語"
 
-#: core/classes/class.arm_member_forms.php:9552
+#: core/classes/class.arm_member_forms.php:9560
 #@ armember-membership
 msgid "Switzerland"
 msgstr "スイススイス"
 
-#: core/classes/class.arm_member_forms.php:9553
+#: core/classes/class.arm_member_forms.php:9561
 #@ armember-membership
 msgid "Syria"
 msgstr "シリア"
@@ -11070,12 +11054,12 @@ msgstr "タブの色"
 msgid "Tablet View"
 msgstr "タブレットビュー"
 
-#: core/classes/class.arm_member_forms.php:9554
+#: core/classes/class.arm_member_forms.php:9562
 #@ armember-membership
 msgid "Taiwan"
 msgstr "台湾"
 
-#: core/classes/class.arm_member_forms.php:9555
+#: core/classes/class.arm_member_forms.php:9563
 #@ armember-membership
 msgid "Tajikistan"
 msgstr "タジキスタン"
@@ -11085,7 +11069,7 @@ msgstr "タジキスタン"
 msgid "Tamil"
 msgstr "タミル語"
 
-#: core/classes/class.arm_member_forms.php:9556
+#: core/classes/class.arm_member_forms.php:9564
 #@ armember-membership
 msgid "Tanzania"
 msgstr "タンザニア"
@@ -11240,18 +11224,18 @@ msgstr "文章"
 msgid "Text Direction"
 msgstr "テキストの方向"
 
-#: core/classes/class.arm_member_forms.php:6512
+#: core/classes/class.arm_member_forms.php:6520
 #@ armember-membership
 msgid "Text field can not be left blank."
 msgstr "テキストフィールドを空白のままにすることはできません。"
 
-#: core/classes/class.arm_member_forms.php:6532
+#: core/classes/class.arm_member_forms.php:6540
 #: core/views/arm_form_editor.php:237
 #@ armember-membership
 msgid "Textarea"
 msgstr "テキストエリア"
 
-#: core/classes/class.arm_member_forms.php:6508
+#: core/classes/class.arm_member_forms.php:6516
 #: core/views/arm_form_editor.php:227
 #@ armember-membership
 msgid "Textbox"
@@ -11267,7 +11251,7 @@ msgstr "タイ語"
 msgid "Thai/Thailand"
 msgstr "タイ/タイ"
 
-#: core/classes/class.arm_member_forms.php:9557
+#: core/classes/class.arm_member_forms.php:9565
 #@ armember-membership
 msgid "Thailand"
 msgstr "タイ"
@@ -11282,7 +11266,7 @@ msgstr "お支払いありがとうございます。すぐにご連絡いたし
 msgid "The account validation URL that user receives after signing up (If you enable e-mail validation feature)"
 msgstr "ユーザーがサインアップ後に受け取るアカウント検証 URL (電子メール検証機能を有効にした場合)"
 
-#: core/classes/class.arm_member_forms.php:6299
+#: core/classes/class.arm_member_forms.php:6307
 #@ armember-membership
 msgid "The e-mail could not be sent."
 msgstr "電子メールを送信できませんでした。"
@@ -11448,7 +11432,7 @@ msgstr "エラーはなく、ファイルは正常にアップロードされま
 msgid "There is no membership found."
 msgstr "メンバーシップが見つかりません。"
 
-#: core/classes/class.arm_member_forms.php:6168
+#: core/classes/class.arm_member_forms.php:6176
 #@ armember-membership
 msgid "There is no user registered with that email address."
 msgstr "そのメールアドレスにはユーザーが登録されていません。"
@@ -11458,7 +11442,7 @@ msgstr "そのメールアドレスにはユーザーが登録されていませ
 msgid "There is no user registered with that email address/Username."
 msgstr "そのメールアドレス/ユーザー名で登録されているユーザーはいません。"
 
-#: core/classes/class.arm_member_forms.php:6176
+#: core/classes/class.arm_member_forms.php:6184
 #@ armember-membership
 msgid "There is no user registered with that username."
 msgstr "ありませんのユーザー登録するユーザ名です。"
@@ -11468,7 +11452,7 @@ msgstr "ありませんのユーザー登録するユーザ名です。"
 msgid "This action cannot be reverted, Are you sure you want to change membership plan of selected member(s)?"
 msgstr "この操作は元に戻すことができません。選択したメンバーのメンバーシップ プランを変更してもよろしいですか?"
 
-#: core/views/arm_feature_settings.php:675
+#: core/views/arm_feature_settings.php:723
 #@ armember-membership
 msgid "This Addon is not compatible with current ARMember version. Please update ARMember to latest version."
 msgstr "このアドオンは、現在の ARMember バージョンと互換性がありません。 ARMemberを最新バージョンに更新してください。"
@@ -11494,13 +11478,13 @@ msgstr "このメールアドレスはすでに登録されています。別の
 msgid "This field can not be left blank"
 msgstr "このフィールドを空白のままにすることはできません"
 
-#: core/classes/class.arm_member_forms.php:6536
+#: core/classes/class.arm_member_forms.php:6544
 #@ armember-membership
 msgid "This Field can not be left blank."
 msgstr "このフィールドを空白のままにすることはできません。"
 
-#: core/classes/class.arm_member_forms.php:6405
-#: core/classes/class.arm_member_forms.php:6900
+#: core/classes/class.arm_member_forms.php:6413
+#: core/classes/class.arm_member_forms.php:6908
 #@ armember-membership
 msgid "This field can not be left blank."
 msgstr "このフィールドを空白のままにすることはできません。"
@@ -11510,11 +11494,11 @@ msgstr "このフィールドを空白のままにすることはできません
 msgid "This file could not be processed due file limit exceeded."
 msgstr "ファイル制限を超えたため、このファイルは処理できませんでした。"
 
-#: core/classes/class.arm_member_forms.php:6410
-#: core/classes/class.arm_member_forms.php:6727
-#: core/classes/class.arm_member_forms.php:6902
-#: core/classes/class.arm_member_forms.php:7151
-#: core/classes/class.arm_member_forms.php:7406
+#: core/classes/class.arm_member_forms.php:6418
+#: core/classes/class.arm_member_forms.php:6735
+#: core/classes/class.arm_member_forms.php:6910
+#: core/classes/class.arm_member_forms.php:7159
+#: core/classes/class.arm_member_forms.php:7414
 #@ armember-membership
 msgid "This first name is invalid. Please enter a valid first name."
 msgstr "この名は無効です。 有効な名を入力してください。"
@@ -11535,11 +11519,11 @@ msgstr "無料会員プランです。"
 msgid "This is not a valid import file data."
 msgstr "これは有効なインポート ファイル データではありません。"
 
-#: core/classes/class.arm_member_forms.php:6411
-#: core/classes/class.arm_member_forms.php:6738
-#: core/classes/class.arm_member_forms.php:6903
-#: core/classes/class.arm_member_forms.php:7163
-#: core/classes/class.arm_member_forms.php:7418
+#: core/classes/class.arm_member_forms.php:6419
+#: core/classes/class.arm_member_forms.php:6746
+#: core/classes/class.arm_member_forms.php:6911
+#: core/classes/class.arm_member_forms.php:7171
+#: core/classes/class.arm_member_forms.php:7426
 #@ armember-membership
 msgid "This last name is invalid. Please enter a valid last name."
 msgstr "この姓は無効です。 有効な姓を入力してください。"
@@ -11603,9 +11587,9 @@ msgstr "このユーザー名はすでに登録されています。別のユー
 msgid "This username is invalid because it uses illegal characters. Please enter a valid username."
 msgstr "このユーザー名は無効な文字を使用しているため無効です。 有効なユーザー名を入力してください。"
 
-#: core/classes/class.arm_member_forms.php:6409
-#: core/classes/class.arm_member_forms.php:7176
-#: core/classes/class.arm_member_forms.php:7431
+#: core/classes/class.arm_member_forms.php:6417
+#: core/classes/class.arm_member_forms.php:7184
+#: core/classes/class.arm_member_forms.php:7439
 #@ armember-membership
 msgid "This username is invalid. Please enter a valid username."
 msgstr "このユーザー名は無効です。 有効なユーザー名を入力してください。"
@@ -11647,7 +11631,7 @@ msgstr "ここに入力した電子メール アドレスは、新規ユーザ�
 msgid "Those username(s) which are entered here, will be blocked on new user registration, that means those keywords will not be allowed to use as username upon signup. For example, if you will enter 'test' here, then all usernames which contain 'test' will be banned, like %s"
 msgstr "ここに入力したユーザー名は、新規ユーザー登録時にブロックされます。つまり、サインアップ時にこれらのキーワードをユーザー名として使用することはできません。 たとえば、ここに「test」と入力すると、%s のように「test」を含むすべてのユーザー名が禁止されます。"
 
-#: core/classes/class.arm_member_forms.php:6705
+#: core/classes/class.arm_member_forms.php:6713
 #@ armember-membership
 msgid "Tiktok"
 msgstr "チクタク"
@@ -11747,14 +11731,14 @@ msgstr "ユーザーのメタフィールド値を表示します。"
 msgid "To make partial part of sentence clickable, please use this pattern"
 msgstr "文章の一部をクリック可能にするには、このパターンを使用してください"
 
-#: core/classes/class.arm_member_forms.php:6288
+#: core/classes/class.arm_member_forms.php:6296
 #: core/classes/class.arm_members.php:2591
 #: core/classes/class.arm_members.php:2790
 #@ armember-membership
 msgid "To reset your password, visit the following address:"
 msgstr "パスワードをリセットするには、次のアドレスにアクセスしてください。"
 
-#: core/classes/class.arm_member_forms.php:9558
+#: core/classes/class.arm_member_forms.php:9566
 #@ armember-membership
 msgid "Togo"
 msgstr "持ち帰り"
@@ -11764,7 +11748,7 @@ msgstr "持ち帰り"
 msgid "Token"
 msgstr "トークン"
 
-#: core/classes/class.arm_member_forms.php:9559
+#: core/classes/class.arm_member_forms.php:9567
 #@ armember-membership
 msgid "Tonga"
 msgstr "トンガ"
@@ -11994,27 +11978,27 @@ msgstr "試用期間"
 msgid "Trial Start Date"
 msgstr "トライアル開始日"
 
-#: core/classes/class.arm_member_forms.php:9560
+#: core/classes/class.arm_member_forms.php:9568
 #@ armember-membership
 msgid "Trinidad and Tobago"
 msgstr "トリニダード・トバゴ"
 
-#: core/classes/class.arm_member_forms.php:6901
+#: core/classes/class.arm_member_forms.php:6909
 #@ armember-membership
 msgid "TThis username is invalid. Please enter a valid username."
 msgstr "このユーザー名は無効です。 有効なユーザー名を入力してください。"
 
-#: core/classes/class.arm_member_forms.php:6701
+#: core/classes/class.arm_member_forms.php:6709
 #@ armember-membership
 msgid "Tumblr"
 msgstr "タンブラー"
 
-#: core/classes/class.arm_member_forms.php:9561
+#: core/classes/class.arm_member_forms.php:9569
 #@ armember-membership
 msgid "Tunisia"
 msgstr "チュニジア"
 
-#: core/classes/class.arm_member_forms.php:9562
+#: core/classes/class.arm_member_forms.php:9570
 #@ armember-membership
 msgid "Turkey"
 msgstr "七面鳥"
@@ -12024,17 +12008,17 @@ msgstr "七面鳥"
 msgid "Turkish"
 msgstr "トルコ語"
 
-#: core/classes/class.arm_member_forms.php:9563
+#: core/classes/class.arm_member_forms.php:9571
 #@ armember-membership
 msgid "Turkmenistan"
 msgstr "トルクメニスタン"
 
-#: core/classes/class.arm_member_forms.php:9564
+#: core/classes/class.arm_member_forms.php:9572
 #@ armember-membership
 msgid "Tuvalu"
 msgstr "ツバル"
 
-#: core/classes/class.arm_member_forms.php:6693
+#: core/classes/class.arm_member_forms.php:6701
 #: core/classes/class.arm_social_feature.php:71
 #@ armember-membership
 msgid "Twitter"
@@ -12050,12 +12034,12 @@ msgstr "タイプ"
 msgid "Type username to select user"
 msgstr "ユーザー名を入力してユーザーを選択します"
 
-#: core/classes/class.arm_member_forms.php:9565
+#: core/classes/class.arm_member_forms.php:9573
 #@ armember-membership
 msgid "Uganda"
 msgstr "ウガンダ"
 
-#: core/classes/class.arm_member_forms.php:9566
+#: core/classes/class.arm_member_forms.php:9574
 #@ armember-membership
 msgid "Ukraine"
 msgstr "ウクライナ"
@@ -12072,17 +12056,17 @@ msgstr "ウクライナ語"
 msgid "Uncover"
 msgstr "明らかにする"
 
-#: core/classes/class.arm_member_forms.php:9567
+#: core/classes/class.arm_member_forms.php:9575
 #@ armember-membership
 msgid "United Arab Emirates"
 msgstr "アラブ首長国連邦"
 
-#: core/classes/class.arm_member_forms.php:9568
+#: core/classes/class.arm_member_forms.php:9576
 #@ armember-membership
 msgid "United Kingdom"
 msgstr "イギリス"
 
-#: core/classes/class.arm_member_forms.php:9569
+#: core/classes/class.arm_member_forms.php:9577
 #@ armember-membership
 msgid "United States"
 msgstr "アメリカ"
@@ -12129,7 +12113,7 @@ msgstr "メンバーを更新する"
 
 #: core/classes/class.arm_member_forms.php:487
 #: core/classes/class.arm_member_forms.php:1911
-#: core/classes/class.arm_member_forms.php:7461
+#: core/classes/class.arm_member_forms.php:7469
 #: core/views/arm_manage_forms.php:193
 #: core/views/arm_manage_forms.php:207
 #@ armember-membership
@@ -12185,7 +12169,7 @@ msgstr "プロフィール写真をアップロードする"
 msgid "uppercase"
 msgstr "大文字"
 
-#: core/classes/class.arm_member_forms.php:9570
+#: core/classes/class.arm_member_forms.php:9578
 #@ armember-membership
 msgid "Uruguay"
 msgstr "ウルグアイ"
@@ -12332,7 +12316,7 @@ msgstr "ユーザープラン"
 msgid "User Plan Information"
 msgstr "ユーザープラン情報"
 
-#: core/views/arm_feature_settings.php:238
+#: core/views/arm_feature_settings.php:212
 #@ armember-membership
 msgid "User Private Content"
 msgstr "ユーザーのプライベートコンテンツ"
@@ -12410,10 +12394,10 @@ msgstr "ユーザーは正常にインポートされました"
 #: core/classes/class.arm_manage_subscription.php:521
 #: core/classes/class.arm_manage_subscription.php:750
 #: core/classes/class.arm_manage_subscription.php:1100
-#: core/classes/class.arm_member_forms.php:6286
-#: core/classes/class.arm_member_forms.php:6752
-#: core/classes/class.arm_member_forms.php:7168
-#: core/classes/class.arm_member_forms.php:7423
+#: core/classes/class.arm_member_forms.php:6294
+#: core/classes/class.arm_member_forms.php:6760
+#: core/classes/class.arm_member_forms.php:7176
+#: core/classes/class.arm_member_forms.php:7431
 #: core/classes/class.arm_members.php:1993
 #: core/classes/class.arm_members.php:2095
 #: core/classes/class.arm_members.php:2244
@@ -12471,10 +12455,10 @@ msgstr "ユーザー名"
 msgid "Username can not be left blank"
 msgstr "ユーザー名を空白のままにすることはできません"
 
-#: core/classes/class.arm_member_forms.php:6758
-#: core/classes/class.arm_member_forms.php:7174
-#: core/classes/class.arm_member_forms.php:7186
-#: core/classes/class.arm_member_forms.php:7429
+#: core/classes/class.arm_member_forms.php:6766
+#: core/classes/class.arm_member_forms.php:7182
+#: core/classes/class.arm_member_forms.php:7194
+#: core/classes/class.arm_member_forms.php:7437
 #: core/classes/templates.arm_member_forms_templates.php:451
 #: core/classes/templates.arm_member_forms_templates.php:594
 #: core/classes/templates.arm_member_forms_templates.php:1209
@@ -12490,7 +12474,7 @@ msgstr "ユーザー名を空白のままにすることはできません"
 msgid "Username can not be left blank."
 msgstr "ユーザー名を空白のままにすることはできません。"
 
-#: core/classes/class.arm_member_forms.php:7181
+#: core/classes/class.arm_member_forms.php:7189
 #: core/views/upgrade_latest_data.php:213
 #@ armember-membership
 msgid "Username OR Email Address"
@@ -12510,7 +12494,7 @@ msgstr "ユーザー名には悪い言葉を含めないでください。"
 msgid "Users Having No Plan"
 msgstr "計画のないユーザー"
 
-#: core/classes/class.arm_member_forms.php:9571
+#: core/classes/class.arm_member_forms.php:9579
 #@ armember-membership
 msgid "Uzbekistan"
 msgstr "ウズベキスタン"
@@ -12556,17 +12540,17 @@ msgstr "検証URL"
 msgid "Value"
 msgstr "価値"
 
-#: core/classes/class.arm_member_forms.php:9572
+#: core/classes/class.arm_member_forms.php:9580
 #@ armember-membership
 msgid "Vanuatu"
 msgstr "バヌアツ"
 
-#: core/classes/class.arm_member_forms.php:9573
+#: core/classes/class.arm_member_forms.php:9581
 #@ armember-membership
 msgid "Vatican City"
 msgstr "バチカン市"
 
-#: core/classes/class.arm_member_forms.php:9574
+#: core/classes/class.arm_member_forms.php:9582
 #@ armember-membership
 msgid "Venezuela"
 msgstr "ベネズエラ"
@@ -12581,7 +12565,7 @@ msgstr "非常に弱いテキスト"
 msgid "Video Tutorials"
 msgstr "ビデオチュートリアル"
 
-#: core/classes/class.arm_member_forms.php:9575
+#: core/classes/class.arm_member_forms.php:9583
 #@ armember-membership
 msgid "Vietnam"
 msgstr "ベトナム"
@@ -12641,22 +12625,22 @@ msgstr "プロフィールを見る"
 msgid "View profile"
 msgstr "プロフィールを見る"
 
-#: core/classes/class.arm_member_forms.php:6702
+#: core/classes/class.arm_member_forms.php:6710
 #@ armember-membership
 msgid "Vine"
 msgstr "ぶどうの木"
 
-#: core/classes/class.arm_member_forms.php:9576
+#: core/classes/class.arm_member_forms.php:9584
 #@ armember-membership
 msgid "Virgin Islands, British"
 msgstr "バージン諸島、イギリス"
 
-#: core/classes/class.arm_member_forms.php:9577
+#: core/classes/class.arm_member_forms.php:9585
 #@ armember-membership
 msgid "Virgin Islands, U.S."
 msgstr "バージン諸島、米国"
 
-#: core/classes/class.arm_member_forms.php:6695
+#: core/classes/class.arm_member_forms.php:6703
 #: core/classes/class.arm_social_feature.php:73
 #@ armember-membership
 msgid "VK"
@@ -12671,7 +12655,7 @@ msgid "Watch Tutorial"
 msgstr "チュートリアルを見る"
 
 #: core/classes/class.arm_member_forms.php:5134
-#: core/classes/class.arm_member_forms.php:7382
+#: core/classes/class.arm_member_forms.php:7390
 #@ armember-membership
 msgid "We have sent you a password reset link, Please check your mail."
 msgstr "パスワードリセットリンクを送信しましたので、メールをご確認ください。"
@@ -12701,13 +12685,13 @@ msgstr "ウェブマスター"
 msgid "Website"
 msgstr "Webサイト"
 
-#: core/classes/class.arm_member_forms.php:6813
+#: core/classes/class.arm_member_forms.php:6821
 #: core/vc/class_vc_extend.php:1220
 #@ armember-membership
 msgid "Website (URL)"
 msgstr "ウェブサイトのURL）"
 
-#: core/classes/class.arm_member_forms.php:6817
+#: core/classes/class.arm_member_forms.php:6825
 #@ armember-membership
 msgid "Website (URL) can not be left blank."
 msgstr "ウェブサイト（URL）を空白にすることはできません。"
@@ -12792,7 +12776,7 @@ msgstr "ARMember で収集される個人データの内容"
 msgid "What to display when content is restricted"
 msgstr "コンテンツが制限されている場合に表示する内容"
 
-#: core/classes/class.arm_member_forms.php:6704
+#: core/classes/class.arm_member_forms.php:6712
 #@ armember-membership
 msgid "WhatsApp"
 msgstr "ワッツアップ"
@@ -12825,27 +12809,27 @@ msgstr "から効果が出ます"
 msgid "With Respect to its container"
 msgstr "容器に関して"
 
-#: core/views/arm_feature_settings.php:279
+#: core/views/arm_feature_settings.php:253
 #@ armember-membership
 msgid "With this feature, you can limit plan, Pay Per Post purchases for members."
 msgstr "この機能を使用すると、メンバー向けのプラン、Pay Per Post の購入を制限できます。"
 
-#: core/views/arm_feature_settings.php:179
+#: core/views/arm_feature_settings.php:153
 #@ armember-membership
 msgid "With this feature, you can sell post separately without creating plan(s)."
 msgstr "この機能を使用すると、プランを作成せずにポストを個別に販売できます。"
 
-#: core/views/arm_feature_settings.php:239
+#: core/views/arm_feature_settings.php:213
 #@ armember-membership
 msgid "With this feature, you can set different content for different user."
 msgstr "この機能を使用すると、ユーザーごとに異なるコンテンツを設定できます。"
 
-#: core/views/arm_feature_settings.php:298
+#: core/views/arm_feature_settings.php:272
 #@ armember-membership
 msgid "With this feature, you will able to use Membership API Services for your Application."
 msgstr "この機能を使用すると、アプリケーションでメンバーシップ API サービスを使用できるようになります。"
 
-#: core/views/arm_feature_settings.php:338
+#: core/views/arm_feature_settings.php:312
 #@ armember-membership
 msgid "Woocommerce Integration"
 msgstr "Woocommerce の統合"
@@ -12855,7 +12839,7 @@ msgstr "Woocommerce の統合"
 msgid "Wp Role"
 msgstr "Wp の役割"
 
-#: core/views/arm_feature_settings.php:460
+#: core/views/arm_feature_settings.php:434
 #@ armember-membership
 msgid "WPBakery Page Builder Restriction"
 msgstr "WPBakery ページビルダーの制限事項"
@@ -12923,7 +12907,7 @@ msgstr "年"
 msgid "years"
 msgstr "年"
 
-#: core/classes/class.arm_member_forms.php:9578
+#: core/classes/class.arm_member_forms.php:9586
 #@ armember-membership
 msgid "Yemen"
 msgstr "イエメン"
@@ -12990,7 +12974,7 @@ msgstr "すべてのプランを削除することはできません。"
 msgid "You have already added password field in you form."
 msgstr "フォームにはすでにパスワードフィールドが追加されています。"
 
-#: core/views/arm_feature_settings.php:631
+#: core/views/arm_feature_settings.php:679
 #@ armember-membership
 msgid "You need to have ARMember version 1.6 OR higher to install this addon."
 msgstr "このアドオンをインストールするには、ARMember バージョン 1.6 以降が必要です。"
@@ -13099,7 +13083,7 @@ msgstr "現在のパスワードは無効です。"
 msgid "Your Password"
 msgstr "あなたのパスワード"
 
-#: core/classes/class.arm_member_forms.php:7393
+#: core/classes/class.arm_member_forms.php:7401
 #: core/classes/templates.arm_member_forms_templates.php:656
 #: core/classes/templates.arm_member_forms_templates.php:1414
 #: core/classes/templates.arm_member_forms_templates.php:2177
@@ -13187,17 +13171,17 @@ msgstr "何らかの理由でテストメールが送信されません。SMTP �
 msgid "Your test mail is successfully sent."
 msgstr "テストメールは正常に送信されました。"
 
-#: core/classes/class.arm_member_forms.php:6698
+#: core/classes/class.arm_member_forms.php:6706
 #@ armember-membership
 msgid "Youtube"
 msgstr "ユーチューブ"
 
-#: core/classes/class.arm_member_forms.php:9579
+#: core/classes/class.arm_member_forms.php:9587
 #@ armember-membership
 msgid "Zambia"
 msgstr "ザンビア"
 
-#: core/classes/class.arm_member_forms.php:9580
+#: core/classes/class.arm_member_forms.php:9588
 #@ armember-membership
 msgid "Zimbabwe"
 msgstr "ジンバブエ"
@@ -13917,27 +13901,27 @@ msgstr "無効な引数 (ARM If ショートコード)"
 msgid "NOTE : Please add %1$sbr%2$s to use line break in plain text."
 msgstr "注: プレーン テキストで改行を使用するには、%1$sbr%2$s を追加してください。"
 
-#: core/views/arm_feature_settings.php:75
+#: core/views/arm_feature_settings.php:70
 #@ armember-membership
 msgid "With this feature, enable social activities like Member Directory/Public Profile, Social Profile Fields etc."
 msgstr "この機能を使用すると、メンバー ディレクトリ/公開プロフィール、ソーシャル プロフィール フィールドなどのソーシャル アクティビティが有効になります。"
 
-#: core/views/arm_feature_settings.php:319
+#: core/views/arm_feature_settings.php:293
 #@ armember-membership
 msgid "Integrate BuddyPress/Buddyboss with ARMember."
 msgstr "BuddyPress/Buddyboss を ARMember と統合します。"
 
-#: core/views/arm_feature_settings.php:340
+#: core/views/arm_feature_settings.php:314
 #@ armember-membership
 msgid "Minimum Required Woocommerce Version: 3.0.2"
 msgstr "最低限必要な Woocommerce バージョン: 3.0.2"
 
-#: core/views/arm_feature_settings.php:645
+#: core/views/arm_feature_settings.php:693
 #@ armember-membership
 msgid "This feature is available only in Pro version."
 msgstr "この機能は Pro バージョンでのみ利用可能です。"
 
-#: core/views/arm_feature_settings.php:653
+#: core/views/arm_feature_settings.php:701
 #@ armember-membership
 msgid "Get ARMember Pro Now"
 msgstr "今すぐ ARMember Pro を入手"
@@ -14712,14 +14696,14 @@ msgid "You are not allowed to access the content."
 msgstr "コンテンツへのアクセスは許可されていません。"
 
 #: core/classes/class.arm_member_forms.php:4989
-#: core/classes/class.arm_member_forms.php:7253
+#: core/classes/class.arm_member_forms.php:7261
 #: core/views/upgrade_latest_data.php:457
 #@ armember-membership
 msgid "Please enter valid current password."
 msgstr "有効な現在のパスワードを入力してください。"
 
-#: core/classes/class.arm_member_forms.php:7246
-#: core/classes/class.arm_member_forms.php:7247
+#: core/classes/class.arm_member_forms.php:7254
+#: core/classes/class.arm_member_forms.php:7255
 #: core/classes/templates.arm_member_forms_templates.php:668
 #: core/classes/templates.arm_member_forms_templates.php:669
 #: core/classes/templates.arm_member_forms_templates.php:1426
@@ -14735,7 +14719,7 @@ msgstr "有効な現在のパスワードを入力してください。"
 msgid "Current Password"
 msgstr "現在のパスワード"
 
-#: core/classes/class.arm_member_forms.php:7252
+#: core/classes/class.arm_member_forms.php:7260
 #: core/views/upgrade_latest_data.php:456
 #@ armember-membership
 msgid "Current password can not be left blank."
@@ -14782,42 +14766,42 @@ msgstr "このラッパー内でブロックをネストして、メンバーシ
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "以下の条件のいずれかに該当する場合、コンテンツに制限が適用されます"
 
-#: core/views/arm_feature_settings.php:487
+#: core/views/arm_feature_settings.php:461
 #@ armember-membership
 msgid "Fusion Builder Integration"
 msgstr "Fusion Builder の統合"
 
-#: core/views/arm_feature_settings.php:488
+#: core/views/arm_feature_settings.php:462
 #@ armember-membership
 msgid "Allows to set restrict content on Fusion Builder Containers & Columns per Membership Plan."
 msgstr "メンバーシップ プランごとに Fusion Builder のコンテナと列のコンテンツを制限するように設定できます。"
 
-#: core/views/arm_feature_settings.php:514
+#: core/views/arm_feature_settings.php:488
 #@ armember-membership
 msgid "Oxygen Builder Integration"
 msgstr "酸素ビルダーの統合"
 
-#: core/views/arm_feature_settings.php:515
+#: core/views/arm_feature_settings.php:489
 #@ armember-membership
 msgid "Allows to set restrict content on Oxygen Builder Container, Section, Column and Components per Membership Plan."
 msgstr "メンバーシップ プランごとに、Oxygen Builder のコンテナ、セクション、カラム、およびコンポーネントのコンテンツ制限を設定できます。"
 
-#: core/views/arm_feature_settings.php:542
+#: core/views/arm_feature_settings.php:516
 #@ armember-membership
 msgid "SiteOrigin Builder Integration"
 msgstr "SiteOrigin ビルダーの統合"
 
-#: core/views/arm_feature_settings.php:543
+#: core/views/arm_feature_settings.php:517
 #@ armember-membership
 msgid "Allows to set restrict content on SiteOrigin Builder Row and Column per Membership Plan."
 msgstr "メンバーシップ プランごとに SiteOrigin Builder の行と列のコンテンツを制限するように設定できます。"
 
-#: core/views/arm_feature_settings.php:571
+#: core/views/arm_feature_settings.php:545
 #@ armember-membership
 msgid "Bricks Builder Integration"
 msgstr "Bricks Builder の統合"
 
-#: core/views/arm_feature_settings.php:572
+#: core/views/arm_feature_settings.php:546
 #@ armember-membership
 msgid "Allows to set restrict content on Bricks Builder Elements per Membership Plan."
 msgstr "メンバーシップ プランごとに Bricks Builder 要素のコンテンツを制限するように設定できます。"
@@ -15461,12 +15445,12 @@ msgstr "プロフィール/ディレクトリ関連メッセージ"
 msgid "Miscellaneous Messages"
 msgstr "その他のメッセージ"
 
-#: core/views/arm_feature_settings.php:117
+#: core/views/arm_feature_settings.php:91
 #@ armember-membership
 msgid "Pro-Rata"
 msgstr "Pro-Rata"
 
-#: core/views/arm_feature_settings.php:118
+#: core/views/arm_feature_settings.php:92
 #@ armember-membership
 msgid "Allows member to purchase membership plan through Pro-Rata.."
 msgstr "メンバーが Pro-Rata を通じてメンバーシップ プランを購入できるようにします。"
@@ -15697,6 +15681,31 @@ msgstr "メンバーシップとユーザー プロファイル - Repute Infosys
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.42"
-msgstr "4.0.42"
+msgid "4.0.43"
+msgstr "4.0.43"
+
+#: core/views/arm_feature_settings.php:61
+#@ armember-membership
+msgid "In-built Modules"
+msgstr "組み込みモジュール"
+
+#: core/views/arm_feature_settings.php:608
+#@ armember-membership
+msgid "Additional Functionality Addon"
+msgstr "追加機能アドオン"
+
+#: core/views/arm_feature_settings.php:611
+#@ armember-membership
+msgid "Payment Gateways Addons"
+msgstr "決済ゲートウェイアドオン"
+
+#: core/views/arm_feature_settings.php:614
+#@ armember-membership
+msgid "Third-Party Integrations"
+msgstr "サードパーティ統合"
+
+#: core/views/arm_feature_settings.php:635
+#@ armember-membership
+msgid "Upgrade Pro"
+msgstr "プロにアップグレード"
 

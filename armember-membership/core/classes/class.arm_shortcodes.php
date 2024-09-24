@@ -603,7 +603,7 @@ if ( ! class_exists( 'ARM_shortcodes_Lite' ) ) {
 					$content              = apply_filters( 'arm_change_content_before_display_profile_and_directory', $content, $opts );
 					$randomTempID         = $id . '_' . arm_generate_random_code();
 
-					$ARMemberLite->arm_session_start();
+					$ARMemberLite->arm_session_start(true);
 					$captcha_code = arm_generate_captcha_code();
 					if ( ! isset( $_SESSION['ARM_FILTER_INPUT'] ) ) {
 						$_SESSION['ARM_FILTER_INPUT'] = array();

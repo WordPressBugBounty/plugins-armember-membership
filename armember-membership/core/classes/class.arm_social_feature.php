@@ -330,73 +330,75 @@ if ( ! class_exists( 'ARM_social_feature_Lite' ) ) {
 			return $myicon;
 		}
 
-		function addons_page() {
-			$plugins           = get_plugins();
-			$installed_plugins = array();
-			foreach ( $plugins as $key => $plugin ) {
-				$is_active                            = is_plugin_active( $key );
-				$installed_plugin                     = array(
-					'plugin'    => $key,
-					'name'      => $plugin['Name'],
-					'is_active' => $is_active,
-				);
-				$installed_plugin['activation_url']   = $is_active ? '' : wp_nonce_url( "plugins.php?action=activate&plugin={$key}", "activate-plugin_{$key}" );
-				$installed_plugin['deactivation_url'] = ! $is_active ? '' : wp_nonce_url( "plugins.php?action=deactivate&plugin={$key}", "deactivate-plugin_{$key}" );
+		function addons_page( $force_check = 0 ) {
+			$armember_addons_page = get_transient("arm_addons_listing_data_page");
+			if(false === $armember_addons_page || $force_check == 1 || 1==1) {
+				$plugins           = get_plugins();
+				$installed_plugins = array();
+				foreach ( $plugins as $key => $plugin ) {
+					$is_active                            = is_plugin_active( $key );
+					$installed_plugin                     = array(
+						'plugin'    => $key,
+						'name'      => $plugin['Name'],
+						'is_active' => $is_active,
+					);
+					$installed_plugin['activation_url']   = $is_active ? '' : wp_nonce_url( "plugins.php?action=activate&plugin={$key}", "activate-plugin_{$key}" );
+					$installed_plugin['deactivation_url'] = ! $is_active ? '' : wp_nonce_url( "plugins.php?action=deactivate&plugin={$key}", "deactivate-plugin_{$key}" );
 
-				$installed_plugins[] = $installed_plugin;
-			}
+					$installed_plugins[] = $installed_plugin;
+				}
 
-			global $arm_lite_version;
-			$bloginformation = array();
-			$str             = $this->get_rand_alphanumeric( 10 );
+				global $arm_lite_version;
+				$bloginformation = array();
+				$str             = $this->get_rand_alphanumeric( 10 );
 
-			if ( is_multisite() ) {
-				$multisiteenv = 'Multi Site';
+				if ( is_multisite() ) {
+					$multisiteenv = 'Multi Site';
+				} else {
+					$multisiteenv = 'Single Site';
+				}
+
+				$addon_listing = 1;
+
+				$bloginformation[] = get_bloginfo( 'name' );
+				$bloginformation[] = get_bloginfo( 'description' );
+				$bloginformation[] = ARMLITE_HOME_URL;
+				$bloginformation[] = get_bloginfo( 'admin_email' );
+				$bloginformation[] = get_bloginfo( 'version' );
+				$bloginformation[] = get_bloginfo( 'language' );
+				$bloginformation[] = $arm_lite_version;
+				$bloginformation[] = sanitize_text_field($_SERVER['REMOTE_ADDR']); //phpcs:ignore
+				$bloginformation[] = $str;
+				$bloginformation[] = $multisiteenv;
+				$bloginformation[] = $addon_listing;
+				$bloginformation[] = 'armemberlite';
+
+				$valstring  = implode( '||', $bloginformation );
+				$encodedval = base64_encode( $valstring );
+
+				$urltopost = 'https://www.armemberplugin.com/armember_addons/addon_list.php';
+
+				$raw_response = wp_remote_post($urltopost, array(
+                    'method' => 'POST',
+                    'timeout' => 45,
+                    'redirection' => 5,
+                    'httpversion' => '1.0',
+                    'blocking' => true,
+                    'headers' => array(),
+                    'body' => array('wpversion' => $encodedval),
+                    'cookies' => array()
+                        )
+                );
+
+				if ( is_wp_error( $raw_response ) || $raw_response['response']['code'] != 200 ) {
+					return "0|^^|<div class='error_message' style='margin-top:100px; padding:20px;'>" . esc_html__( 'Add-On listing is currently unavailable. Please try again later.', 'armember-membership' ) . '</div>';
+				} else {
+					set_transient("arm_addons_listing_data_page", $raw_response['body'], DAY_IN_SECONDS);
+					return '1|^^|' . $raw_response['body'];
+				}
 			} else {
-				$multisiteenv = 'Single Site';
-			}
-
-			$addon_listing = 1;
-
-			$bloginformation[] = get_bloginfo( 'name' );
-			$bloginformation[] = get_bloginfo( 'description' );
-			$bloginformation[] = ARMLITE_HOME_URL;
-			$bloginformation[] = get_bloginfo( 'admin_email' );
-			$bloginformation[] = get_bloginfo( 'version' );
-			$bloginformation[] = get_bloginfo( 'language' );
-			$bloginformation[] = $arm_lite_version;
-			$bloginformation[] = sanitize_text_field($_SERVER['REMOTE_ADDR']); //phpcs:ignore
-			$bloginformation[] = $str;
-			$bloginformation[] = $multisiteenv;
-			$bloginformation[] = $addon_listing;
-
-			$valstring  = implode( '||', $bloginformation );
-			$encodedval = base64_encode( $valstring );
-
-			$urltopost = 'https://www.armemberplugin.com/armember_addons/addon_list.php';
-
-			$raw_response = wp_remote_post(
-				$urltopost,
-				array(
-					'method'      => 'POST',
-					'timeout'     => 45,
-					'redirection' => 5,
-					'httpversion' => '1.0',
-					'blocking'    => true,
-					'headers'     => array(),
-					'body'        => array(
-						'plugins'   => urlencode( serialize( $installed_plugins ) ),
-						'wpversion' => $encodedval,
-					),
-					'cookies'     => array(),
-				)
-			);
-
-			if ( is_wp_error( $raw_response ) || $raw_response['response']['code'] != 200 ) {
-				return "0|^^|<div class='error_message' style='margin-top:100px; padding:20px;'>" . esc_html__( 'Add-On listing is currently unavailable. Please try again later.', 'armember-membership' ) . '</div>';
-			} else {
-				return '1|^^|' . $raw_response['body'];
-			}
+                return "1|^^|" . $armember_addons_page;
+            }
 		}
 
 		function arm_install_plugin_install_status( $api, $loop = false ) {

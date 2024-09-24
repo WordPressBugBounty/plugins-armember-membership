@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.6.2
 Requires PHP: 5.6
-Stable tag: 4.0.42
+Stable tag: 4.0.43
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -187,7 +187,8 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
   Configure various type of coupons including plan specific coupons.
 
 * **Opt-ins (Email Marketing Tools)**
-  ARMember offers email marketing softwares like Aweber, Mailchimp, Constant Contact, Mailster, GetResponse, Mad Mimi, MailerLite, Brevo (formerly Sendinblue), ActiveCampaign (Free), Campaign Monitor (Free).
+  ARMember offers email marketing tools like AWeber, Mailchimp, Constant Contact, Mailster, GetResponse, MailerLite, Brevo (formerly Sendinblue), ActiveCampaign, Campaign Monitor - [These are Free Addons]
+  MailPoet, Mautic, Keap (formley infusionsoft) - [These are Paid Addons]
 
 * **Badges & Achievements**
   Easy to create badges and configure steps to achieve different badges upon various actions. Motivate members to earn badges and increase traffic.
@@ -262,6 +263,13 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**AffiliatesPro**](https://www.armemberplugin.com/downloads/affiliatespro-integration/)
 * [**Mautic**](https://www.armemberplugin.com/downloads/mautic-integration/)
 * [**WooCommerce Discount**](https://www.armemberplugin.com/downloads/woocommerce-discount/)
+* [**MailChimp**](https://www.armemberplugin.com/downloads/armember-mailchimp-addon/) **(Free)**
+* [**Aweber**](https://www.armemberplugin.com/downloads/armember-aweber-addon/) **(Free)**
+* [**GetResponse**](https://www.armemberplugin.com/downloads/armember-getresponse-addon/) **(Free)**
+* [**Constant Contact**](https://www.armemberplugin.com/downloads/armember-constant-contact-addon/) **(Free)**
+* [**MailerLite**](https://www.armemberplugin.com/downloads/armember-mailer-lite-addon/) **(Free)**
+* [**Mailster**](https://www.armemberplugin.com/downloads/armember-mailster-addon/) **(Free)**
+* [**Brevo**](https://www.armemberplugin.com/downloads/armember-brevo-addon/) **(Free)**
 
 ###🎁 In-Built Addons:
 * [**Drip Contents**](https://www.armemberplugin.com/downloads/drip-contents/)
@@ -359,6 +367,9 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.43 =
+* Minor bug fixes.
+
 = 4.0.42 =
 * Minor bug fixes.
 
@@ -369,16 +380,6 @@ Please follow the steps for installation:
 = 4.0.40 =
 * Minor bug fixes.
 
-= 4.0.39 =
-* Minor bug fixes.
-
-= 4.0.38 =
-* Minor bug fixes.
-
-= 4.0.37 =
-* Added New inbuilt addon "Divi Builder Restriction".
-* Other minor bug fixes.
-
 For a complete list of changelog of earlier versions, please check the website [here](https://www.armemberplugin.com/documents/changelog/#lite-version)
 
 
@@ -387,20 +388,64 @@ Nothing Yet.
 
 == Frequently Asked Questions ==
 
-= How easy is it to setup? =
-We have an in-depth step by step guide to getting the plugin initially setup and configured [here](https://www.armemberplugin.com/documentation/ "here")
+= How easy is it to set up ARMember? =
+The Membership Setup Wizard of ARMember is very powerful and makes it easy to configure your membership site.
 
-= Get Support =
+
+Step - 1 Install the ARMember Lite Plugin from the WordPress Plugin Repository and Activate it
+Step - 2 Account Setup - Complete simple steps to getting started
+Step - 3 General Options - Check and enable the General Options
+Step - 4 Membership Plans - Create a desired membership plan from 4 options 
+Step - 5 Payment Options - Setup your PayPal and Bank Account integration 
+Step - 6 Content Access Rule - Allow/Restrict certain page for your chosen plan
+
+Don’t worry, you can edit, change, and add new options for all the above given steps once you access the ARMember Lite dashboard. 
+
+That's it, your basic configuration has been completed!! 
+
+= How Can I Get Support for ARMember? =
 We provide comprehensive support at [Our Helpdesk System](https://support.arpluginshop.com/ "Our Helpdesk System")
 
-= How to remove fields from preset fields list? =
-You will get all information about clearing preset fields from ARMember documentation [here](https://www.armemberplugin.com/documents/clear-unused-form-fields/ "here") 
+= ARMember is suitable for what kinds of businesses? =
+ARMember can aid businesses like consulting services, online communities, health & wellness businesses, OTTs, online coaching, podcasts, food & lifestyle blogging, and parenting, among many others.
 
-= Does I need to use any spam protection plugins with ARMember to avoid spam registration? =
-As ARMember provides strong in built anti spam mechanism, so you don't need to use any ugly looking catcha with any ARMember sign up/login form for spam protection. Please refer [here](https://www.armemberplugin.com/documents/spam-protection/ "here") for more details.
+= How to upgrade to ARMember Pro? =
+You can upgrade to the Pro version from the ARMember Lite setup or get your ARMember Pro from [here](https://codecanyon.net/item/armember-complete-wordpress-membership-system/17785056).
+
+= Can I install Addons with the free version of ARMember? = 
+ARMember Lite provides all the features to set up a basic membership site. However, the [Premium Addons](https://www.armemberplugin.com/addons/) are easily available with the Pro version.
+
+= Which Page Builders are supported with ARMember? = 
+ARMember provides support for all major page builders like Gutenberg, Divi, Beaver Builder, Fusion Builder, Elementor, Oxygen Builder, Site Origin Builder, and many more for seamless experience.
+
+= Where can I read the documentation of ARMember? =
+The detailed documentation of ARMember can be [accessed here](https://www.armemberplugin.com/documentation/) to solve your queries on the go.
+
+= I want to learn more about ARMember Features =
+Explore All ARMember features from [here](https://www.armemberplugin.com/content-restriction/). 
+
+= Can I create multiple membership levels with ARMember? =
+ARMember allows you to set up four different types of membership levels viz. Free Plan, Paid Plan (Finite), Paid Plan (Infinite), & Recurring Subscription Plan.
+
+= Can ARMember handle recurring payments for subscriptions? =
+You can set a subscription plan and its renewal time for enabling recurring payments on ARMember. You can set up auto-debit or semi-automatic (manual) for [recurring subscription payments](https://www.armemberplugin.com/documents/payment-methods-recurring-plan/).
+
+= Is it possible to pay online using ARMember? =
+The ARMember Lite version supports PayPal and Bank Transfer to aid online payments. With ARMember Pro, you can access 17+ Payment Gateways.
+
+= Is it possible to customize the emails? =
+Yes, definitely. Check out our helpful [guide](https://www.armemberplugin.com/documents/wordpress-standard-email-responses/) on how to customize emails.
+
+= Do I need to use any Spam Protection Plugins with ARMember to avoid spam registration? =
+ARMember provides a solid in-built anti-spam mechanism so that you can avoid annoying Captchas or heavy spam protection tools. Please refer [here](https://www.armemberplugin.com/documents/spam-protection/) for more details.
 
 = How to restrict content using ARMember? =
-You will be able to set access rules for all pages/posts in bulk from ARMember->Access Rules. 
+You will be able to set Content Access Rules for all pages/posts in bulk from 
+ARMember > Access Rules.
+
+You will also see ‘Access Rules’ Metabox in the add/edit page/post to set access rules for individual pages/posts.
+
+Partial content restriction is also possible with ARMember. Please refer here. You will get all the answers about setting restrictions under the Content Restriction section in the documentation.
 
 Also you will see 'Access Rules' Metabox in add/edit page/post to set access rules for individual page/post. 
 
@@ -408,10 +453,18 @@ If you want to restrict partial content, then it is also possible with ARMember.
 
 You will get all answers about setting restriction under [Content Restriction](https://www.armemberplugin.com/documentation/ "Content Restriction") section in the documentation.
 
+= How to Add Custom Fields using ARMember Plugin? =
+ARMember supports custom form fields from the Manage Forms section. Edit the desired form and go to the Form Fields tab. Here, you can customize and edit various fields like textbox, password, text-area, checkbox, radio buttons, dropdown, date, HTML text, and file upload.
+
+You can also add a divider, roles, and avatar to create custom fields
+
 = Does ARMember support Multisite/Network installs? =
-When you install ARMember in multisite environment, it can not be network activated.
+When you install ARMember in a multi-site environment, it can not be network activated. You need to activate it individually to use it for each site of your network.
 
 You need to activate in each site of your network in which you want to use it.
 
+= Do I need any coding skills to customize ARMember? =
+No, with ARMember you get an easy, coding-free set up to run your membership business seamlessly.
+
 = How do I suggest a feature for future versions of ARMember? =
-Please share your valuable Feedback/Suggestion/Feature Request, [click here](https://ideas.armemberplugin.com/ "click here").
+We value your feedback, suggestions, and feature requests that can be shared with us by clicking [here](https://ideas.armemberplugin.com/).

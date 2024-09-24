@@ -35,35 +35,30 @@ if ( is_rtl() ) {
 }
 ?>
 <style>
-	.purchased_info{
-		color:#7cba6c;
-		font-weight:bold;
-		font-size: 15px;
-	}
+	.purchased_info{ color:#7cba6c; font-weight:bold; font-size: 15px; }
 	.arperrmessage{color:red;}
-	#wpcontent{
-		background: #EEF2F8;
-	}
-	.arfnewmodalclose
-	{
-		font-size: 15px;
-		font-weight: bold;
-		height: 19px;
-		position: absolute;
-		right: 3px;
-		top:5px;
-		width: 19px;
-		cursor:pointer;
-		color:#D1D6E5;
-	}
+	#wpcontent{ background: #EEF2F8; }
+	.arfnewmodalclose { font-size: 15px; font-weight: bold; height: 19px; position: absolute; right: 3px; top:5px; width: 19px; cursor:pointer; color:#D1D6E5; }
 	.newform_modal_title { font-size:25px; line-height:25px; margin-bottom: 10px; }
-	.newmodal_field_title { font-size: 16px;
-	line-height: 16px;
-	margin-bottom: 10px; }
+	.newmodal_field_title { font-size: 16px; line-height: 16px; margin-bottom: 10px; }
+	.page_title.arm_new_addon_page_design{ font-size: 28px; line-height: 48px; text-align: center; padding: 24px 0; }
+    .page_title.arm_new_addon_page_design.arm_new_addon_page_design_other_sec{ padding-top: 35px !important; }
+    @media only screen and (max-width: 1024px) {
+        .arm_feature_settings_wrapper{ margin: 0 15px; }
+        .wrap.arm_page:not(.arm_manage_form_main_wrapper){ padding: 25px 15px; }
+        .page_title.arm_new_addon_page_design.arm_new_addon_page_design_other_sec{ font-size: 25px; padding-top: 26px !important; padding-bottom: 0; }
+        .page_title.arm_new_addon_page_design{ font-size: 25px; padding: 15px 0 10px 0; }
+    }
+    @media only screen and (max-width: 576px) {
+        .arm_feature_settings_wrapper{ margin: 0 10px; }
+        .page_title.arm_new_addon_page_design{ font-size: 22px; padding: 20px 0; }
+        .page_title.arm_new_addon_page_design.arm_new_addon_page_design_other_sec{ padding-top: 20px !important; padding-bottom: 0; }
+        .arm_feature_list .arm_feature_text { padding: 0 10px }
+    }
 </style>
 <div class="wrap arm_page arm_feature_settings_main_wrapper">
 	<div class="content_wrapper arm_feature_settings_content" id="content_wrapper">
-		<div class="page_title"><?php esc_html_e( 'Additional Membership Modules', 'armember-membership' ); ?></div>
+		<div class="page_title arm_new_addon_page_design"><?php esc_html_e( 'In-built Modules', 'armember-membership' ); ?></div>
 		<div class="armclear"></div>
 		<div class="arm_feature_settings_wrapper">            
 			<div class="arm_feature_settings_container">
@@ -87,27 +82,6 @@ if ( is_rtl() ) {
 						</div>
 					</div>
 					<a class="arm_ref_info_links arm_feature_link" target="_blank" href="https://www.armemberplugin.com/documents/brief-of-social-features/"><?php esc_html_e( 'More Info', 'armember-membership' ); ?></a>
-				</div>
-
-				<div class="arm_feature_list opt_ins_enable <?php echo ( $opt_ins_feature == 1 ) ? 'active' : ''; ?>">
-					<div class="arm_feature_icon"></div>
-					<div class="arm_feature_active_icon"><div class="arm_check_mark"></div></div>
-					<div class="arm_feature_content">
-						<div class="arm_feature_title"><?php esc_html_e( 'Opt-ins', 'armember-membership' ); ?></div>
-						<div class="arm_feature_text"><?php esc_html_e( 'build you subscription list with external list builder like Aweber, Mailchimp while user registration.', 'armember-membership' ); ?></div>
-						
-						<div class="arm_feature_button_activate_wrapper <?php echo ( $opt_ins_feature == 1 ) ? 'hidden_section' : ''; ?>">
-							<a href="javascript:void(0)" class="arm_feature_activate_btn arm_feature_settings_switch" data-feature_val="1" data-feature="opt_ins"><?php esc_html_e( 'Activate', 'armember-membership' ); ?></a>
-							<a href="javascript:void(0)" class="arm_feature_configure_btn"><?php esc_html_e( 'Configure', 'armember-membership' ); ?></a>
-							<img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL) . '/arm_loader.gif'; //phpcs:ignore ?>" class="arm_addon_loader_img" width="24" height="24" />
-						</div>
-						<div class="arm_feature_button_deactivate_wrapper <?php echo ( $opt_ins_feature == 1 ) ? '' : 'hidden_section'; ?>">
-							<a href="javascript:void(0)" class="arm_feature_deactivate_btn arm_feature_settings_switch" data-feature_val="0" data-feature="opt_ins"><?php esc_html_e( 'Deactivate', 'armember-membership' ); ?></a>
-							<a href="#" class="arm_feature_configure_btn"><?php esc_html_e( 'Configure', 'armember-membership' ); ?></a>
-							<img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL) . '/arm_loader.gif'; //phpcs:ignore ?>" class="arm_addon_loader_img" width="24" height="24" />
-						</div>
-					</div>
-					<a class="arm_ref_info_links arm_feature_link" target="_blank" href="https://www.armemberplugin.com/documents/armember-opt-ins-provide-ease-of-email-marketing/"><?php esc_html_e( 'More Info', 'armember-membership' ); ?></a>
 				</div>
 
 				<div class="arm_feature_list pro_ration_enable <?php echo ( $pro_ration_feature == 1 ) ? 'active' : ''; ?>">
@@ -615,6 +589,80 @@ if ( is_rtl() ) {
 					$installed_plugin['deactivation_url'] = ! $is_active ? '' : wp_nonce_url( "plugins.php?action=deactivate&plugin={$key}", "deactivate-plugin_{$key}" );
 
 					$installed_plugins[] = $installed_plugin;
+				}
+
+				if ($addon_resp != "") {
+					$resp = explode("|^^|", $addon_resp);
+		
+					if ($resp[0] == 1) {
+					$myplugarr = array();
+					$myplugarr = unserialize(base64_decode($resp[1]));
+		
+		
+					$is_active = 0;
+					if (is_array($myplugarr) && count($myplugarr) > 0) {
+						?><?php
+						foreach ($myplugarr as $key => $plug_1) {
+							if($key == 'feature' ) {
+							?>
+								<div class="page_title arm_new_addon_page_design arm_new_addon_page_design_other_sec"><?php esc_html_e('Additional Functionality Addon', 'armember-membership' ); ?></div>
+							<?php } 
+							if($key == 'payment_gateways' ) { ?>
+								<div class="page_title arm_new_addon_page_design arm_new_addon_page_design_other_sec"><?php esc_html_e('Payment Gateways Addons', 'armember-membership' ); ?></div>
+							<?php }  
+							if($key == 'integrations' ) { ?>
+								<div class="page_title arm_new_addon_page_design arm_new_addon_page_design_other_sec"><?php esc_html_e('Third-Party Integrations', 'armember-membership' ); ?></div>
+							<?php }  ?>
+							<div class="arm_feature_settings_container arm_margin_top_30 arm_margin_bottom_25">
+							<?php 
+							foreach ($plug_1 as $key_1 => $plug) {
+							
+								$is_active_plugin = is_plugin_active($plug['plugin_installer']);
+								
+								$is_config = ( isset( $plug['display_config'] ) && 'yes' == $plug['display_config'] ) ? true : false;
+								$config_url = isset( $plug['config_args'] ) ? admin_url( $plug['config_args'] ) : '';
+								?>
+								
+
+								<div class="arm_feature_list <?php echo esc_attr($plug['short_name']); ?>_enable <?php echo ($is_active_plugin == 1) ? 'active' : ''; ?>">
+									<div class="arm_feature_icon" style="background-image:url(<?php echo esc_attr($plug['icon']); ?>);"></div>
+									<div class="arm_feature_active_icon"><div class="arm_check_mark"></div></div>
+									<div class="arm_feature_content">
+										<div class="arm_feature_title"><?php echo esc_html($plug['full_name']); ?></div>
+										<div class="arm_feature_text"><?php echo esc_html($plug['description']); ?></div>
+										
+										<div class="arm_feature_button_activate_wrapper <?php echo ( $opt_ins_feature == 1 ) ? 'hidden_section' : ''; ?>">
+											<a href="javascript:void(0)" style="padding:0 15px !important;" class="arm_feature_activate_btn arm_feature_settings_switch arm_feature_activation_license" data-feature_val="1" data-feature="<?php echo esc_attr($plug['short_name']); ?>"><?php esc_html_e( 'Upgrade Pro', 'armember-membership' ); ?></a>
+											<a href="javascript:void(0)" class="arm_feature_configure_btn"><?php esc_html_e( 'Configure', 'armember-membership' ); ?></a>
+											<img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL) . '/arm_loader.gif'; //phpcs:ignore ?>" class="arm_addon_loader_img" width="24" height="24" />
+										</div>
+										<div class="arm_feature_button_deactivate_wrapper <?php echo ( $opt_ins_feature == 1 ) ? '' : 'hidden_section'; ?>">
+											<a href="javascript:void(0)" class="arm_feature_deactivate_btn arm_feature_settings_switch" data-feature_val="0" data-feature="opt_ins"><?php esc_html_e( 'Deactivate', 'armember-membership' ); ?></a>
+											<a href="#" class="arm_feature_configure_btn"><?php esc_html_e( 'Configure', 'armember-membership' ); ?></a>
+											<img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL) . '/arm_loader.gif'; //phpcs:ignore ?>" class="arm_addon_loader_img" width="24" height="24" />
+										</div>
+									</div>
+									<a class="arm_ref_info_links arm_feature_link" target="_blank" href="<?php echo esc_url($plug['detail_url']); ?>"><?php esc_html_e( 'More Info', 'armember-membership' ); ?></a>
+								</div>
+
+
+
+								
+									
+									
+									
+								<?php
+							}
+		
+						}
+					?>
+						</div>
+					<?php
+					}
+					}
+					else if(!empty($resp[1])) {
+						echo $resp[1]; //phpcs:ignore
+					}
 				}
 
 
