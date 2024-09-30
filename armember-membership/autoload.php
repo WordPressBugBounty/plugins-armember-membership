@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.43';
+$arm_lite_version = '4.0.44';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -1116,7 +1116,7 @@ class ARMemberlite {
 			}
 			if(!$this->is_arm_pro_active) {
 				$armAddonsLink = admin_url( 'admin.php?page=' . $arm_slugs->feature_settings );
-				$link          = '<a title="' . esc_attr__( 'Modules', 'armember-membership' ) . '" href="' . esc_url( $armAddonsLink ) . '">' . esc_html__( 'Modules', 'armember-membership' ) . '</a>';
+				$link          = '<a title="' . esc_attr__( 'Add-ons', 'armember-membership' ) . '" href="' . esc_url( $armAddonsLink ) . '">' . esc_html__( 'Add-ons', 'armember-membership' ) . '</a>';
 				$link          = '<a title="' . esc_attr__( 'Upgrade To Pro', 'armember-membership' ) . '" href="https://www.armemberplugin.com/pricing/" style="font-weight:bold;">' . esc_html__( 'Upgrade To Pro', 'armember-membership' ) . '</a>';
 				array_unshift( $links, $link ); /* Add Link To First Position */
 			}
@@ -1232,8 +1232,8 @@ class ARMemberlite {
 		$arm_black_friday = ( $arm_bf_start_time <= $arm_current_date_for_bf_popup && $arm_bf_end_time >= $arm_current_date_for_bf_popup ) ? esc_html__( 'Black Friday Sale', 'armember-membership' ) : esc_html__( 'Upgrade to Pro', 'armember-membership' );
 		$admin_menu_items = array(
 			$arm_slugs->feature_settings => array(
-				'name'       => esc_html__( 'Modules', 'armember-membership' ),
-				'title'      => esc_html__( 'Modules', 'armember-membership' ),
+				'name'       => esc_html__( 'Add-ons', 'armember-membership' ),
+				'title'      => esc_html__( 'Add-ons', 'armember-membership' ),
 				'capability' => 'arm_manage_feature_settings',
 			),
 			$arm_slugs->documentation    => array(
@@ -3604,7 +3604,7 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.43 Changes',
+			'critical_title'      => 'Version 4.0.44 Changes',
 			'critical'            => array(
 				'Minor bug fixes.',
 			),

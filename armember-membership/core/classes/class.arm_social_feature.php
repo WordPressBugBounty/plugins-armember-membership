@@ -332,7 +332,7 @@ if ( ! class_exists( 'ARM_social_feature_Lite' ) ) {
 
 		function addons_page( $force_check = 0 ) {
 			$armember_addons_page = get_transient("arm_addons_listing_data_page");
-			if(false === $armember_addons_page || $force_check == 1 || 1==1) {
+			if(false === $armember_addons_page || $force_check == 1) {
 				$plugins           = get_plugins();
 				$installed_plugins = array();
 				foreach ( $plugins as $key => $plugin ) {
@@ -398,6 +398,34 @@ if ( ! class_exists( 'ARM_social_feature_Lite' ) ) {
 				}
 			} else {
                 return "1|^^|" . $armember_addons_page;
+            }
+		}
+
+		function upgrade_to_pro_content()
+		{
+			$armember_upgrade_to_pro_page = get_transient("arm_upgrade_to_pro_listing_data_page");
+			if( false === $armember_upgrade_to_pro_page ) {
+				$urltopost = 'https://www.armemberplugin.com/?action=get_upgrade_to_pro_content';
+				$raw_response = wp_remote_post($urltopost, array(
+                    'method' => 'POST',
+                    'timeout' => 45,
+                    'redirection' => 5,
+                    'httpversion' => '1.0',
+                    'blocking' => true,
+                    'headers' => array(),
+                    'body' => array(),
+                    'cookies' => array()
+                        )
+                );
+
+				if ( is_wp_error( $raw_response ) || $raw_response['response']['code'] != 200 ) {
+					return 0;
+				} else {
+					set_transient("arm_upgrade_to_pro_listing_data_page", $raw_response['body'], WEEK_IN_SECONDS);
+					return isset( $raw_response['body'] ) ? $raw_response['body'] : 0;
+				}
+			} else {
+                return $armember_upgrade_to_pro_page;
             }
 		}
 

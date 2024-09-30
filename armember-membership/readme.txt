@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.6.2
 Requires PHP: 5.6
-Stable tag: 4.0.43
+Stable tag: 4.0.44
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -367,6 +367,9 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.44 =
+* Minor bug fixes.
+
 = 4.0.43 =
 * Minor bug fixes.
 
@@ -410,13 +413,13 @@ We provide comprehensive support at [Our Helpdesk System](https://support.arplug
 ARMember can aid businesses like consulting services, online communities, health & wellness businesses, OTTs, online coaching, podcasts, food & lifestyle blogging, and parenting, among many others.
 
 = How to upgrade to ARMember Pro? =
-You can upgrade to the Pro version from the ARMember Lite setup or get your ARMember Pro from [here](https://codecanyon.net/item/armember-complete-wordpress-membership-system/17785056).
+You can upgrade to the Pro version from the ARMember Lite setup or get your ARMember Pro from [here](https://www.armemberplugin.com/pricing/).
 
 = Can I install Addons with the free version of ARMember? = 
 ARMember Lite provides all the features to set up a basic membership site. However, the [Premium Addons](https://www.armemberplugin.com/addons/) are easily available with the Pro version.
 
 = Which Page Builders are supported with ARMember? = 
-ARMember provides support for all major page builders like Gutenberg, Divi, Beaver Builder, Fusion Builder, Elementor, Oxygen Builder, Site Origin Builder, and many more for seamless experience.
+ARMember provides support for all standard page builders like Beaver Builder, Gutenberg, Divi Builder, Fusion Builder, Elementor, Oxygen Builder, Site Origin Builder, Bricks Builder, Cornerstone, and WPBakery Page Builder.
 
 = Where can I read the documentation of ARMember? =
 The detailed documentation of ARMember can be [accessed here](https://www.armemberplugin.com/documentation/) to solve your queries on the go.
