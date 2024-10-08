@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.44\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.45\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-09-27 06:18:48+0000\n"
+"PO-Revision-Date: 2024-10-08 05:25:41+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -15686,16 +15686,16 @@ msgstr "Integrazioni di terze parti"
 msgid "Upgrade Pro"
 msgstr "Aggiornamento Pro"
 
-#. translators: plugin header field 'Version'
-#: armember-membership.php:0
-#@ armember-membership
-msgid "4.0.44"
-msgstr "4.0.44"
-
 #: autoload.php:1119
 #: autoload.php:1235
 #: autoload.php:1236
 #@ armember-membership
 msgid "Add-ons"
 msgstr "Componenti aggiuntivi"
+
+#. translators: plugin header field 'Version'
+#: armember-membership.php:0
+#@ armember-membership
+msgid "4.0.45"
+msgstr "4.0.45"
 

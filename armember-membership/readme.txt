@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.6.2
 Requires PHP: 5.6
-Stable tag: 4.0.44
+Stable tag: 4.0.45
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,7 +71,7 @@ ARMember provides super easy interface that you can [**restrict any content of y
  
 
 ###🔗 USEFUL LINKS
-[**Official Site**](https://www.armemberplugin.com/) || [**ARMember Plugin Demo**](https://newdemo.armemberplugin.com/) || [**Documentation**](https://www.armemberplugin.com/documents/getting-started-with-armember/) || [**Facebook**](https://www.facebook.com/armemberplugin) || [**YouTube Tutorials**](https://www.youtube.com/@armember/videos?sub_confirmation=1) || [**LinkedIn**](https://www.linkedin.com/company/armember/) || [**Join Facebook Community**](https://www.facebook.com/groups/arplugins) 👍
+[**Official Site**](https://www.armemberplugin.com/) || [**ARMember Plugin Demo**](https://newdemo.armemberplugin.com/) || [**Documentation**](https://www.armemberplugin.com/documents/getting-started-with-armember/) || [**Facebook**](https://www.facebook.com/armemberplugin) || [**YouTube Tutorials**](https://www.youtube.com/@armember/videos?sub_confirmation=1) || [**LinkedIn**](https://www.linkedin.com/company/armember/) || [**Join Facebook Community**](https://www.facebook.com/groups/arplugins) 👍 || [**Buy ARMember Pro**](https://www.armemberplugin.com/pricing/) 👈
 
 <p>&nbsp;</p>
 [youtube https://www.youtube.com/watch?v=Yh_X00tHzMw]
@@ -89,7 +89,7 @@ ARMember provides super easy interface that you can [**restrict any content of y
 * **Captcha Free Anti-spam Facility**
 * **User friendly interface for Content Restriction**
 * **Email Notifications With Template**
-* **Front-end member registration,login,edit profile, forgot password, change password page**
+* **Front-end member registration, login, edit profile, forgot password, change password page**
 * **User Profile & Member Directory**
 * **Import/Export Users & Settings**
 * **Brute Force login protection**
@@ -101,31 +101,31 @@ ARMember provides super easy interface that you can [**restrict any content of y
 
 ###Other Features
 
-* Works with any WordPress theme.
+* Works with any WordPress theme and page builders
 * Advanced Drag and Drop Form Builder
 * Material style forms
-* Ability to manually approve your members.
+* Ability to manually approve your members
 * Best member management with various filters
 * Facility to extend next payment due date and expiry date
-* Hide the admin toolbar from the frontend of your site.
+* Hide the admin toolbar from the frontend of your site
 * Gutenberg, Visual Composer, Cornerstone dedicated blocks
 * Elementor page builder supported
-* Allow your members to delete their accounts.
+* Allow your members to delete their accounts
 * Facility to add login widget in sidebar
-* Front-end member profiles.
+* Front-end member profiles
 * Member directories
-* Inbuilt anti-spam mechanism ( captcha free forms )
+* Inbuilt anti-spam mechanism (captcha free forms)
 * Trial and sign-up fees
 * Gutenberg Block Integration (Restriction Support)
 
 
 Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.com/memberpress-vs-paid-membership-pro-vs-s2-member/ "comparison guide") to know how ARMember's features stand out from other membership plugins like MemberPress, Paid Membership Pro, s2Member, and Ultimate Member.
 
-###**Payment gateway support in Lite version** 💸:
+###**Payment gateway support in Lite version** 💸👇
 * **PayPal** ✔️
 * **Bank Transfer** 💳
 
-###**Free In-built Modules (Addons) Support in Lite version** 👇:
+###**Free In-built Modules (Addons) Support in Lite version** 👇
 * **Social Feature Module** (Member Directories, Member Profiles)
 * **Content Access Rules**
 * **Live Form Editor**
@@ -135,7 +135,7 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * **Login/Signup Security**
 * **Custom Redirection**
 * **Gutenberg Blocks**
-* **WPBakery Page Builder**
+* **WPBakery Page Builder (Visual Composer)**
 * **Divi Builder**  🆕
 * **Oxygen Builder**  🆕
 
@@ -146,12 +146,12 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 
 
 ###Upgrade to the full version now:
-[☑️ **Buy ARMember Pro Now** 👈 ](https://www.armemberplugin.com/product.php?rdt=t15 "Buy Now")
+[☑️ **Buy ARMember Pro Now** 👈 ](https://www.armemberplugin.com/pricing/)
 
 
 ###ARMEMBER PRO PLUGIN’S MOST AMAZING FEATURES:
 
-* **[Pay Per Post](https://www.armemberplugin.com/pay-per-post-setup-wizard/ "Pay Per Post")**
+* **[Pay Per Post (Paid Post)](https://www.armemberplugin.com/pay-per-post-setup-wizard/ "Pay Per Post")**
   With this feature, you can sell post/course separately without creating plan(s).
 
 * **Multiple payment cycle per plan**
@@ -177,8 +177,8 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * **[Drip/Scheduled Content Facility](https://www.armemberplugin.com/drip-rules/ "Drip/Scheduled Content Facility")**
   An inbuilt ARMember module includes full drip content/periodic content functionality which allows you to reveal your content periodically.
 
-* **Social Login/connect**
-  ARmember provides a popular Social media configuration - Facebook, twitter, linkedin, vk.
+* **Social Login with Multiple Platforms**
+  ARMember allows social login through  Facebook, Twitter, LinkedIn, Google+, VK, Instagram, Tumblr and simplify login process. Thus, no need for manual account creation. 
 
 * **Member Profile & Directory Templates**
   ARMember provides wide range of beautiful templates for member profile and directory with many template customization options.
@@ -187,8 +187,8 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
   Configure various type of coupons including plan specific coupons.
 
 * **Opt-ins (Email Marketing Tools)**
-  ARMember offers email marketing tools like AWeber, Mailchimp, Constant Contact, Mailster, GetResponse, MailerLite, Brevo (formerly Sendinblue), ActiveCampaign, Campaign Monitor - [These are Free Addons]
-  MailPoet, Mautic, Keap (formley infusionsoft) - [These are Paid Addons]
+  ARMember offers email marketing tools like AWeber, Mailchimp, Constant Contact, Mailster, GetResponse, MailerLite, Brevo (formerly Sendinblue), ActiveCampaign, Campaign Monitor, Omnisend - [These are Free Addons] 
+MailPoet, Mautic, Keap (formley infusionsoft) - [These are Paid Addons]
 
 * **Badges & Achievements**
   Easy to create badges and configure steps to achieve different badges upon various actions. Motivate members to earn badges and increase traffic.
@@ -260,6 +260,7 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**AffiliateWP**](https://www.armemberplugin.com/downloads/affiliatewp-integration/)
 * [**Zapier**](https://www.armemberplugin.com/downloads/zapier-integration/)
 * [**Keap (Infusionsoft)**](https://www.armemberplugin.com/downloads/infusionsoft-integration/)
+* [**MailPoet**](https://www.armemberplugin.com/downloads/mailpoet-integration/)
 * [**AffiliatesPro**](https://www.armemberplugin.com/downloads/affiliatespro-integration/)
 * [**Mautic**](https://www.armemberplugin.com/downloads/mautic-integration/)
 * [**WooCommerce Discount**](https://www.armemberplugin.com/downloads/woocommerce-discount/)
@@ -270,6 +271,7 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**MailerLite**](https://www.armemberplugin.com/downloads/armember-mailer-lite-addon/) **(Free)**
 * [**Mailster**](https://www.armemberplugin.com/downloads/armember-mailster-addon/) **(Free)**
 * [**Brevo**](https://www.armemberplugin.com/downloads/armember-brevo-addon/) **(Free)**
+* [**Omnisend**](https://www.armemberplugin.com/downloads/armember-omnisend-addon/) **(Free)**
 
 ###🎁 In-Built Addons:
 * [**Drip Contents**](https://www.armemberplugin.com/downloads/drip-contents/)
@@ -296,7 +298,6 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**Invoice**](https://www.armemberplugin.com/downloads/invoice/)
 * [**Page Setup**](https://www.armemberplugin.com/downloads/page-setup/)
 * [**Member Profiles**](https://www.armemberplugin.com/downloads/member-profiles/)
-* [**Opt-ins**](https://www.armemberplugin.com/downloads/opt-ins/)
 * [**Import/Export Users**](https://www.armemberplugin.com/downloads/import-export-users/)
 * [**BuddyBoss Integration**](https://www.armemberplugin.com/downloads/buddyboss-integration-addon/)
 * [**Login/Signup Security**](https://www.armemberplugin.com/downloads/login-signup-security/)
@@ -367,6 +368,9 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.45 =
+* Minor bug fixes.
+
 = 4.0.44 =
 * Minor bug fixes.
 
@@ -379,9 +383,6 @@ Please follow the steps for installation:
 = 4.0.41 =
 * Added New inbuilt addon "Oxygen Builder Restriction".
 * Other minor bug fixes.
-
-= 4.0.40 =
-* Minor bug fixes.
 
 For a complete list of changelog of earlier versions, please check the website [here](https://www.armemberplugin.com/documents/changelog/#lite-version)
 

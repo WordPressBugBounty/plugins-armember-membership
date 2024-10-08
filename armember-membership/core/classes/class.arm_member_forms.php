@@ -2105,7 +2105,7 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 										if ( $required == 1 ) {
 											$field_content .= '<span class="arm-df__label-asterisk arm-df__label-asterisk_' . esc_attr($form_field_id) . '">* </span>';
 										}
-										$field_content .= '<label class="arm_form_field_label_text">';
+										$field_content .= '<label class="arm_form_field_label_text" for="arm-df__form-control_' . esc_attr($form_field_id) . '_'. esc_attr($formRandomID) .'">';
 										$field_content .= html_entity_decode( stripslashes( $label ) );
 										$field_content .= '</label>';
 									}
@@ -3960,7 +3960,7 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 						}
 						$output .= '<input type="text" id="' . esc_attr( $value['id'] ) . '_' . esc_attr( $formRandomID ) . '" class="arm-selectpicker-input-control ' . esc_attr( $class ) . '" ' . $field_attr . $ng_change_func . ' ' . $onchange . ' />';
 						$output .= '<dl class="arm-df__dropdown-control column_level_dd arm_member_form_dropdown ' . esc_attr( $writter_class ) . '">';
-						$output .= '<dt class="arm__dc--head"><span class="arm__dc--head__title">' . esc_html($default_option) . '</span><input type="text" style="display:none;" value="" class="arm-df__dc--head__autocomplete arm_autocomplete" autocomplete="' . esc_attr( $value['id'] ) . '_' . esc_attr( $formRandomID ) . '" /><i class="armfa armfa-caret-down armfa-lg"></i></dt>';
+						$output .= '<dt class="arm__dc--head"><span class="arm__dc--head__title" id="arm-df__form-control_' . esc_attr($field_id) . '_'. esc_attr($formRandomID) .'">' . esc_html($default_option) . '</span><input type="text" style="display:none;" value="" class="arm-df__dc--head__autocomplete arm_autocomplete" autocomplete="' . esc_attr( $value['id'] ) . '_' . esc_attr( $formRandomID ) . '" /><i class="armfa armfa-caret-down armfa-lg"></i></dt>';
 						$output .= '<dd class="arm__dc--items-wrap"><ul class="arm__dc--items" data-id="' . esc_attr( $value['id'] ) . '_' . esc_attr( $formRandomID ) . '" style="display:none;">';
 						$output .= $arm_select_field_options;
 						$output .= '';
