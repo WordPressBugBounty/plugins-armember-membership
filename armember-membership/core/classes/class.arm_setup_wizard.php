@@ -217,7 +217,7 @@ if (!class_exists('ARM_setup_Wizard_Lite')) {
             $create_setup_page = array(
                     'post_title' => 'Setup',
                     'post_name' => 'setup',
-                    'post_content' => '[arm_setup id="' . $setup_id . '"]',
+                    'post_content' => '[arm_setup id="' . $setup_id . '" hide_title="1"]',
                     'post_status' => 'publish',
                     'post_parent' => 0,
                     'post_author' => 1,

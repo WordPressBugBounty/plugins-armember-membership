@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.45';
+$arm_lite_version = '4.0.46';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -257,6 +257,10 @@ if(!$ARMemberLite->is_arm_pro_active){
 
 	if(file_exists(MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_wpbakery_builder_restriction.php")){
 		require_once( MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_wpbakery_builder_restriction.php");
+	}
+
+	if(file_exists(MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_fusion_builder_restriction.php")){
+		require_once( MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_fusion_builder_restriction.php");
 	}
 
 	if(file_exists(MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_oxygen_builder_restriction.php")){
@@ -2236,7 +2240,10 @@ class ARMemberlite {
 				update_option( 'arm_show_document_video', 1 );
 				update_option( 'arm_is_social_feature', 0 );
 				update_option( 'arm_is_gutenberg_block_restriction_feature', 0 );
+				update_option( 'arm_is_divi_builder_restriction_feature', 0 );
 				update_option( 'arm_is_wpbakery_page_builder_restriction_feature', 0 );
+				update_option( 'arm_is_fusion_builder_restriction_feature', 0 );
+				update_option( 'arm_is_oxygen_builder_restriction_feature', 0 );
 
 				$arm_dbtbl_create = array();
 				/* Table structure for `Members activity` */
@@ -3604,9 +3611,10 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.45 Changes',
+			'critical_title'      => 'Version 4.0.46 Changes',
 			'critical'            => array(
-				'Minor bug fixes.',
+				'Added New inbuilt addon "Fusion Builder Integration".',
+				'Other minor bug fixes.',
 			),
 			'show_major_title'    => 0,
 			'major_title'         => 'Major Changes',

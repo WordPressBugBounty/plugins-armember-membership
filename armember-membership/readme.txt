@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.6.2
 Requires PHP: 5.6
-Stable tag: 4.0.45
+Stable tag: 4.0.46
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,8 +136,9 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * **Custom Redirection**
 * **Gutenberg Blocks**
 * **WPBakery Page Builder (Visual Composer)**
-* **Divi Builder**  🆕
-* **Oxygen Builder**  🆕
+* **Divi Builder** 
+* **Oxygen Builder**
+* **Avada Builder (Fusion Builder)**  🆕
 
 ###Try an online demo of the pro version:
 
@@ -368,21 +369,15 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.46 =
+* Added New inbuilt addon "Fusion Builder Integration".
+* Other minor bug fixes.
+
 = 4.0.45 =
 * Minor bug fixes.
 
 = 4.0.44 =
 * Minor bug fixes.
-
-= 4.0.43 =
-* Minor bug fixes.
-
-= 4.0.42 =
-* Minor bug fixes.
-
-= 4.0.41 =
-* Added New inbuilt addon "Oxygen Builder Restriction".
-* Other minor bug fixes.
 
 For a complete list of changelog of earlier versions, please check the website [here](https://www.armemberplugin.com/documents/changelog/#lite-version)
 
