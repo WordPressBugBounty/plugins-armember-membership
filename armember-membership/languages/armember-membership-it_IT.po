@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.46\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.47\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-10-15 05:18:45+0000\n"
+"PO-Revision-Date: 2024-10-23 09:50:22+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Italian\n"
 "MIME-Version: 1.0\n"
@@ -15707,12 +15707,6 @@ msgstr "Aggiornamento Pro"
 msgid "Add-ons"
 msgstr "Componenti aggiuntivi"
 
-#. translators: plugin header field 'Version'
-#: armember-membership.php:0
-#@ armember-membership
-msgid "4.0.46"
-msgstr "4.0.46"
-
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:68
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:76
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:94
@@ -15729,4 +15723,10 @@ msgstr "Attiva Fusion Builder o Avada Theme e prova ad attivare questo component
 #@ armember-membership
 msgid "Please install Fusion Builder or Avada Theme and try to active this add-on."
 msgstr "Installa Fusion Builder o Avada Theme e prova ad attivare questo componente aggiuntivo."
+
+#. translators: plugin header field 'Version'
+#: armember-membership.php:0
+#@ armember-membership
+msgid "4.0.47"
+msgstr "4.0.47"
 
