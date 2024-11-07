@@ -155,10 +155,13 @@ if (!function_exists('arm_membership_plans')) {
 		global $arm_subscription_plans;
 
         $arm_membership_plan = $arm_subscription_plans->arm_get_all_subscription_plans('arm_subscription_plan_id, arm_subscription_plan_name');
+	$arm_membership_plan = (is_array($arm_membership_plan) && !empty($arm_membership_plan)) ? $arm_membership_plan : array();
         $plans = array();
-        foreach ( array_reverse($arm_membership_plan) as $plan ) {
-			$plans[ $plan['arm_subscription_plan_id'] ] = $plan['arm_subscription_plan_name'];
-        }
+		if(!empty($arm_membership_plan)) {
+			foreach ( array_reverse($arm_membership_plan) as $plan ) {
+				$plans[ $plan['arm_subscription_plan_id'] ] = $plan['arm_subscription_plan_name'];
+			}
+		}
 		$plans['any_plan'] = esc_html__( 'Any Plan', 'armember-membership' );
 		$plans['unregistered'] = esc_html__( 'Non Loggedin Users', 'armember-membership' );
 		$plans['registered'] = esc_html__( 'Loggedin Users', 'armember-membership' );
