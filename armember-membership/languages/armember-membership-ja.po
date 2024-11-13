@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.49\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.50\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-11-07 04:15:38+0000\n"
+"PO-Revision-Date: 2024-11-13 04:42:18+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: Japanese (Japan)\n"
 "MIME-Version: 1.0\n"
@@ -140,7 +140,7 @@ msgstr "アクセスルール"
 msgid "Access Rules Updated Successfully."
 msgstr "アクセス ルールが正常に更新されました。"
 
-#: autoload.php:1012
+#: autoload.php:1015
 #@ armember-membership
 msgid "Account Closed"
 msgstr "アカウントが閉鎖されました"
@@ -186,12 +186,12 @@ msgstr "アカウント保留中"
 msgid "Account Setup"
 msgstr "アカウントのセットアップ"
 
-#: autoload.php:3839
+#: autoload.php:3833
 #@ armember-membership
 msgid "Achievements Added Successfully."
 msgstr "実績が正常に追加されました。"
 
-#: autoload.php:3840
+#: autoload.php:3834
 #@ armember-membership
 msgid "Achievements Updated Successfully."
 msgstr "実績が正常に更新されました。"
@@ -280,7 +280,7 @@ msgstr "プランのアクティブ化"
 msgid "Activation link is expired or invalid."
 msgstr "アクティベーションリンクの有効期限が切れているか、無効です。"
 
-#: autoload.php:1005
+#: autoload.php:1008
 #: core/classes/class.arm_manage_subscription.php:923
 #: core/views/arm_email_templates.php:132
 #: core/views/arm_manage_payment_gateways.php:54
@@ -308,7 +308,7 @@ msgid "Active Tab Color"
 msgstr "アクティブなタブの色"
 
 #: core/views/arm_form_editor.php:2107
-#: core/views/arm_global_settings.php:317
+#: core/views/arm_global_settings.php:270
 #: core/views/arm_import_export.php:282
 #: core/views/arm_manage_forms.php:377
 #: core/views/arm_member_add.php:1037
@@ -446,7 +446,7 @@ msgstr "メニューに追加"
 msgid "Add URL"
 msgstr "URLを追加"
 
-#: autoload.php:3473
+#: autoload.php:3467
 #: core/classes/class.arm_social_feature.php:394
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
@@ -485,20 +485,20 @@ msgstr "追記"
 msgid "Additional Shortcodes"
 msgstr "追加のショートコード"
 
-#: autoload.php:1767
-#: autoload.php:3851
+#: autoload.php:1761
+#: autoload.php:3845
 #@ armember-membership
 msgid "Addon activated successfully."
 msgstr "アドオンが正常に有効化されました。"
 
-#: autoload.php:1768
-#: autoload.php:3852
+#: autoload.php:1762
+#: autoload.php:3846
 #@ armember-membership
 msgid "Addon deactivated successfully."
 msgstr "アドオンが正常に無効化されました。"
 
-#: autoload.php:1765
-#: autoload.php:3849
+#: autoload.php:1759
+#: autoload.php:3843
 #@ armember-membership
 msgid "Addon installed successfully."
 msgstr "アドオンは正常にインストールされました。"
@@ -553,12 +553,12 @@ msgstr "新しいメニュー項目を追加した後。 新しいメニュー�
 msgid "After Basic SignUp Redirection Rules"
 msgstr "基本的なサインアップ リダイレクト ルールの後"
 
-#: autoload.php:1701
+#: autoload.php:1695
 #@ armember-membership
 msgid "After certain time of post is modified"
 msgstr "一定時間後に投稿が変更される"
 
-#: autoload.php:1700
+#: autoload.php:1694
 #@ armember-membership
 msgid "After certain time of post is published"
 msgstr "投稿が一定時間後に公開される"
@@ -780,8 +780,8 @@ msgstr "あらゆる条件"
 msgid "Any Date or Time Archive"
 msgstr "任意の日付または時刻のアーカイブ"
 
-#: autoload.php:645
-#: core/classes/arm_builder/class.arm_divi_builder_restriction.php:162
+#: autoload.php:648
+#: core/classes/arm_builder/class.arm_divi_builder_restriction.php:165
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:49
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:22
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:84
@@ -876,7 +876,7 @@ msgstr "アーカイブ: 時間"
 msgid "Archive: Year"
 msgstr "アーカイブ: 年"
 
-#: autoload.php:1745
+#: autoload.php:1739
 #@ armember-membership
 msgid "Are you sure to delete configuration?"
 msgstr "設定を削除してもよろしいですか?"
@@ -897,10 +897,10 @@ msgstr "アクティブ化してもよろしいですか"
 msgid "Are you sure you want to active this plan?"
 msgstr "このプランを有効にしてもよろしいですか?"
 
-#: autoload.php:1769
-#: autoload.php:3778
-#: autoload.php:3853
-#: autoload.php:3856
+#: autoload.php:1763
+#: autoload.php:3772
+#: autoload.php:3847
+#: autoload.php:3850
 #@ armember-membership
 msgid "Are you sure you want to cancel subscription?"
 msgstr "サブスクリプションをキャンセルしてもよろしいですか?"
@@ -987,15 +987,15 @@ msgstr "このトランザクションを削除してもよろしいですか?"
 msgid "Are you sure you want to delete your account? This will erase all of your account data from the site. To delete your account enter your password below."
 msgstr "アカウントを削除してもよろしいですか? これにより、サイトからすべてのアカウント データが消去されます。 アカウントを削除するには、以下にパスワードを入力してください。"
 
-#: autoload.php:1694
-#: autoload.php:3774
+#: autoload.php:1688
+#: autoload.php:3768
 #: core/classes/class.arm_members_directory.php:320
 #@ armember-membership
 msgid "Are you sure you want to remove cover photo?"
 msgstr "カバー写真を削除してもよろしいですか?"
 
-#: autoload.php:1695
-#: autoload.php:3775
+#: autoload.php:1689
+#: autoload.php:3769
 #: core/classes/class.arm_members_directory.php:321
 #@ armember-membership
 msgid "Are you sure you want to remove profile photo?"
@@ -1092,7 +1092,7 @@ msgstr "ARMember アカウントを閉じる"
 msgid "ARMember Current Membership"
 msgstr "ARMember 現在のメンバーシップ"
 
-#: autoload.php:1279
+#: autoload.php:1273
 #@ armember-membership
 msgid "ARMember Debug"
 msgstr "ARMember デバッグ"
@@ -1382,7 +1382,7 @@ msgstr "自動電子メールメッセージ"
 msgid "Automatic"
 msgstr "自動"
 
-#: core/views/arm_global_settings.php:223
+#: core/views/arm_global_settings.php:176
 #: core/views/arm_setup_wizard.php:157
 #@ armember-membership
 msgid "Automatic approve"
@@ -1910,7 +1910,7 @@ msgstr "ボタンのスタイル"
 msgid "Button Text"
 msgstr "ボタンのテキスト"
 
-#: autoload.php:1011
+#: autoload.php:1014
 #@ armember-membership
 msgid "by admin"
 msgstr "管理者による"
@@ -1978,9 +1978,9 @@ msgstr "カナダ"
 #: core/vc/class_vc_extend.php:1806
 #: core/views/arm_email_templates.php:532
 #: core/views/arm_form_editor.php:2108
-#: core/views/arm_global_settings.php:318
-#: core/views/arm_global_settings.php:736
-#: core/views/arm_global_settings.php:812
+#: core/views/arm_global_settings.php:271
+#: core/views/arm_global_settings.php:689
+#: core/views/arm_global_settings.php:765
 #: core/views/arm_import_export.php:283
 #: core/views/arm_import_export.php:350
 #: core/views/arm_import_export.php:378
@@ -2046,7 +2046,7 @@ msgstr "ユーザーのサブスクリプションをキャンセルします。
 msgid "Canceled"
 msgstr "キャンセル"
 
-#: autoload.php:1017
+#: autoload.php:1020
 #: core/classes/class.arm_shortcodes.php:2408
 #: core/views/arm_transactions_add.php:74
 #: core/views/arm_transactions_list_records.php:344
@@ -2064,8 +2064,8 @@ msgstr "キャンセル"
 msgid "Cannot extract data from uploaded file or no file was uploaded."
 msgstr "アップロードされたファイルからデータを抽出できないか、ファイルがアップロードされませんでした。"
 
-#: autoload.php:1758
-#: autoload.php:3842
+#: autoload.php:1752
+#: autoload.php:3836
 #@ armember-membership
 msgid "Cannot Set Past Dates."
 msgstr "過去の日付は設定できません。"
@@ -2437,9 +2437,9 @@ msgstr "クリックしてプレビューします"
 msgid "Clone from existing forms"
 msgstr "既存のフォームからクローンを作成する"
 
-#: autoload.php:3396
-#: autoload.php:3557
-#: autoload.php:3645
+#: autoload.php:3390
+#: autoload.php:3551
+#: autoload.php:3639
 #: core/classes/class.arm_members.php:776
 #: core/views/arm_form_editor.php:151
 #: core/views/arm_member_add.php:1072
@@ -2560,8 +2560,8 @@ msgstr "構成、設定"
 msgid "Configure More Gateways"
 msgstr "追加のゲートウェイを構成する"
 
-#: autoload.php:1171
-#: autoload.php:1172
+#: autoload.php:1174
+#: autoload.php:1175
 #: core/views/arm_membership_setup_list.php:28
 #@ armember-membership
 msgid "Configure Plan + Signup Page"
@@ -2635,8 +2635,8 @@ msgstr "おめでとう！"
 msgid "Content Access"
 msgstr "コンテンツへのアクセス"
 
-#: autoload.php:1181
-#: autoload.php:1182
+#: autoload.php:1184
+#: autoload.php:1185
 #: core/views/arm_access_rules.php:61
 #@ armember-membership
 msgid "Content Access Rules"
@@ -2832,7 +2832,7 @@ msgstr "現在のユーザー プロファイルの URL パターン"
 msgid "Custom Color"
 msgstr "カスタムカラー"
 
-#: core/views/arm_global_settings.php:327
+#: core/views/arm_global_settings.php:280
 #@ armember-membership
 msgid "Custom Currency"
 msgstr "カスタム通貨"
@@ -3111,8 +3111,8 @@ msgstr "デフォルトの制限"
 msgid "Default Restriction Rules"
 msgstr "デフォルトの制限ルール"
 
-#: autoload.php:1741
-#: autoload.php:3824
+#: autoload.php:1735
+#: autoload.php:3818
 #: core/classes/class.arm_access_rules.php:109
 #@ armember-membership
 msgid "Default Rules Saved Successfully."
@@ -3123,7 +3123,7 @@ msgstr "デフォルトのルールが正常に保存されました。"
 msgid "Default Selected Plan"
 msgstr "デフォルトの選択されたプラン"
 
-#: autoload.php:2916
+#: autoload.php:2910
 #@ armember-membership
 msgid "Default Set"
 msgstr "デフォルトセット"
@@ -3474,14 +3474,14 @@ msgstr "ジブチ"
 msgid "Do not cancel subscription until plan expired"
 msgstr "プランの有効期限が切れるまでサブスクリプションをキャンセルしないでください"
 
-#: autoload.php:3394
+#: autoload.php:3388
 #@ armember-membership
 msgid "Do not show again."
 msgstr "再び表示しない。"
 
-#: autoload.php:1244
-#: autoload.php:1245
-#: autoload.php:3633
+#: autoload.php:1238
+#: autoload.php:1239
+#: autoload.php:3627
 #: core/views/arm_setup_wizard.php:939
 #@ armember-membership
 msgid "Documentation"
@@ -3589,8 +3589,8 @@ msgstr "東ティモール"
 msgid "Ecuador"
 msgstr "エクアドル"
 
-#: autoload.php:1772
-#: core/views/arm_global_settings.php:327
+#: autoload.php:1766
+#: core/views/arm_global_settings.php:280
 #@ armember-membership
 msgid "Edit"
 msgstr "編集"
@@ -3756,8 +3756,8 @@ msgstr "メールアドレスには悪い言葉を含めないでください。
 msgid "Email Notification"
 msgstr "電子メール通知"
 
-#: autoload.php:1196
-#: autoload.php:1197
+#: autoload.php:1199
+#: autoload.php:1200
 #@ armember-membership
 msgid "Email Notifications"
 msgstr "電子メール通知"
@@ -3773,15 +3773,15 @@ msgstr "電子メールには悪い言葉を含めてはいけません。"
 msgid "Email Subject Required."
 msgstr "電子メールの件名は必須です。"
 
-#: autoload.php:1755
-#: autoload.php:3836
+#: autoload.php:1749
+#: autoload.php:3830
 #: core/classes/class.arm_email_settings.php:162
 #: core/classes/class.arm_email_settings.php:188
 #@ armember-membership
 msgid "Email Template Updated Successfully."
 msgstr "電子メール テンプレートが正常に更新されました。"
 
-#: core/views/arm_global_settings.php:224
+#: core/views/arm_global_settings.php:177
 #: core/views/arm_setup_wizard.php:158
 #@ armember-membership
 msgid "Email verified approve"
@@ -3953,7 +3953,7 @@ msgstr "エリトリア"
 msgid "ERROR"
 msgstr "エラー"
 
-#: autoload.php:3684
+#: autoload.php:3678
 #@ armember-membership
 msgid "Error"
 msgstr "エラー"
@@ -4064,8 +4064,8 @@ msgstr "有効期限年"
 msgid "Expire Date"
 msgstr "有効期限"
 
-#: autoload.php:1760
-#: autoload.php:3844
+#: autoload.php:1754
+#: autoload.php:3838
 #@ armember-membership
 msgid "Expire date can not be earlier than current date."
 msgstr "有効期限を現在の日付より前にすることはできません。"
@@ -4104,7 +4104,7 @@ msgstr "有効期限ラベル"
 msgid "Expire/Next Renewal"
 msgstr "期限切れ/次回の更新"
 
-#: autoload.php:1014
+#: autoload.php:1017
 #: core/classes/class.arm_manage_subscription.php:918
 #: core/views/arm_manage_subscription_list.php:614
 #: core/views/arm_transactions_add.php:76
@@ -4235,7 +4235,7 @@ msgstr "フェロー"
 msgid "Farsi/Persian"
 msgstr "ファルシ語／ペルシア語"
 
-#: autoload.php:3636
+#: autoload.php:3630
 #@ armember-membership
 msgid "Feature Request"
 msgstr "機能の要求"
@@ -4596,8 +4596,8 @@ msgstr "形の背景"
 msgid "Form Border"
 msgstr "形態ボーダー"
 
-#: autoload.php:1720
-#: autoload.php:3803
+#: autoload.php:1714
+#: autoload.php:3797
 #@ armember-membership
 msgid "Form deleted successfully."
 msgstr "形削除されました。"
@@ -4659,8 +4659,8 @@ msgstr "形のパディング"
 msgid "Form Position"
 msgstr "位置"
 
-#: autoload.php:1718
-#: autoload.php:3801
+#: autoload.php:1712
+#: autoload.php:3795
 #@ armember-membership
 msgid "Form Set Deleted Successfully."
 msgstr "形式セットの削除に成功した."
@@ -4838,10 +4838,10 @@ msgstr "男女別"
 msgid "General Options"
 msgstr "一般オプション"
 
-#: autoload.php:1207
-#: autoload.php:1208
+#: autoload.php:1210
+#: autoload.php:1211
 #: core/views/arm_general_settings.php:11
-#: core/views/arm_global_settings.php:100
+#: core/views/arm_global_settings.php:53
 #@ armember-membership
 msgid "General Settings"
 msgstr "一般設定"
@@ -4972,9 +4972,9 @@ msgstr "グリーンランド"
 msgid "Grenada"
 msgstr "グレナダ"
 
-#: autoload.php:1042
-#: autoload.php:1249
-#: autoload.php:1250
+#: autoload.php:1045
+#: autoload.php:1243
+#: autoload.php:1244
 #@ armember-membership
 msgid "Growth Plugins"
 msgstr "成長のプラグイン"
@@ -5036,12 +5036,12 @@ msgstr "ヘブライ語/イスラエル"
 msgid "Height"
 msgstr "身長"
 
-#: autoload.php:3387
+#: autoload.php:3381
 #@ armember-membership
 msgid "Help Tutorial"
 msgstr "ヘチュートリアル"
 
-#: core/views/arm_global_settings.php:391
+#: core/views/arm_global_settings.php:344
 #: core/views/arm_setup_wizard.php:196
 #@ armember-membership
 msgid "Help us improve ARMember by sending anonymous usage stats"
@@ -5080,14 +5080,14 @@ msgstr "隠れた価値"
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:67
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:86
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:78
-#: core/views/arm_global_settings.php:148
-#: core/views/arm_global_settings.php:154
+#: core/views/arm_global_settings.php:101
+#: core/views/arm_global_settings.php:107
 #: core/widgets/arm_elm_widgets/class.arm_membership_edit_form_element_add.php:128
 #@ armember-membership
 msgid "Hide"
 msgstr "隠す"
 
-#: autoload.php:673
+#: autoload.php:676
 #: core/views/arm_tinymce_options_shortcodes.php:1183
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:64
 #@ armember-membership
@@ -5179,7 +5179,7 @@ msgid "hour"
 msgstr "時間"
 
 #: core/views/arm_block_settings.php:66
-#: core/views/arm_global_settings.php:619
+#: core/views/arm_global_settings.php:572
 #@ armember-membership
 msgid "Hours"
 msgstr "時間"
@@ -5255,7 +5255,7 @@ msgstr "ハンガリー"
 msgid "Hurray!! Everything is ready to create your first membership site"
 msgstr "フレー!! をお迎えする準備は出来てを最初の会員サイト"
 
-#: autoload.php:3555
+#: autoload.php:3549
 #@ armember-membership
 msgid "I agree"
 msgstr "同意する"
@@ -5436,7 +5436,7 @@ msgstr "試"
 msgid "Inactivate"
 msgstr "Inactivate"
 
-#: autoload.php:1006
+#: autoload.php:1009
 #@ armember-membership
 msgid "Inactive"
 msgstr "不活性"
@@ -5684,7 +5684,7 @@ msgstr "日本語"
 msgid "Japanese/Japan"
 msgstr "日本語/日本"
 
-#: autoload.php:3641
+#: autoload.php:3635
 #@ armember-membership
 msgid "Join Community"
 msgstr "参加地域"
@@ -6109,9 +6109,9 @@ msgstr "負荷をよりリンク"
 msgid "Loading"
 msgstr "荷重"
 
-#: autoload.php:1699
-#: autoload.php:3779
-#: autoload.php:3857
+#: autoload.php:1693
+#: autoload.php:3773
+#: autoload.php:3851
 #@ armember-membership
 msgid "Loading.."
 msgstr "荷重.."
@@ -6158,8 +6158,8 @@ msgstr "ログインしたメッセージ"
 msgid "Logged in Message"
 msgstr "ログインしたメッセージ"
 
-#: autoload.php:647
-#: core/classes/arm_builder/class.arm_divi_builder_restriction.php:164
+#: autoload.php:650
+#: core/classes/arm_builder/class.arm_divi_builder_restriction.php:167
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:51
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:24
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:86
@@ -6184,8 +6184,8 @@ msgstr "ログイン"
 msgid "Login"
 msgstr "ログイン"
 
-#: autoload.php:1706
-#: autoload.php:3789
+#: autoload.php:1700
+#: autoload.php:3783
 #@ armember-membership
 msgid "Login attempts cleared successfully."
 msgstr "ログイン試行は正常にクリアされました。"
@@ -6200,8 +6200,8 @@ msgstr "ログインに失敗しました。もう一度お試しください。
 msgid "Login Form Options"
 msgstr "ログインフォームのオプション"
 
-#: autoload.php:1707
-#: autoload.php:3790
+#: autoload.php:1701
+#: autoload.php:3784
 #@ armember-membership
 msgid "Login History cleared successfully."
 msgstr "ログイン履歴が正常に消去されました。"
@@ -6311,61 +6311,61 @@ msgstr "マリ"
 msgid "Malta"
 msgstr "マルタ"
 
-#: autoload.php:1030
+#: autoload.php:1033
 #@ armember-membership
 msgid "Manage Access Rules"
 msgstr "アクセスルールの管理"
 
-#: autoload.php:1038
+#: autoload.php:1041
 #@ armember-membership
 msgid "Manage Block Settings"
 msgstr "管理ブロックの設定"
 
-#: autoload.php:1034
+#: autoload.php:1037
 #@ armember-membership
 msgid "Manage Communication"
 msgstr "コミュニケーションの管理"
 
-#: autoload.php:1033
+#: autoload.php:1036
 #@ armember-membership
 msgid "Manage Email Notifications"
 msgstr "管理メール通知"
 
-#: autoload.php:1037
+#: autoload.php:1040
 #@ armember-membership
 msgid "Manage Feature Settings"
 msgstr "管理機能の設定a機能設定の管理"
 
-#: autoload.php:1029
+#: autoload.php:1032
 #@ armember-membership
 msgid "Manage Form Settings"
 msgstr "フォーム設定の管理"
 
-#: autoload.php:1176
-#: autoload.php:1177
+#: autoload.php:1179
+#: autoload.php:1180
 #: core/views/arm_manage_forms.php:10
 #@ armember-membership
 msgid "Manage Forms"
 msgstr "フォームの管理"
 
-#: autoload.php:1036
+#: autoload.php:1039
 #@ armember-membership
 msgid "Manage General Settings"
 msgstr "一般設定の管理"
 
-#: autoload.php:1041
+#: autoload.php:1044
 #@ armember-membership
 msgid "Manage Import/Export"
 msgstr "インポート/エクスポートの管理"
 
-#: autoload.php:1035
+#: autoload.php:1038
 #@ armember-membership
 msgid "Manage Member Templates"
 msgstr "メンバーテンプレートの管理"
 
-#: autoload.php:1026
-#: autoload.php:1161
-#: autoload.php:1162
+#: autoload.php:1029
+#: autoload.php:1164
+#: autoload.php:1165
 #: core/views/arm_members_list.php:5
 #@ armember-membership
 msgid "Manage Members"
@@ -6376,14 +6376,14 @@ msgstr "メンバーの管理"
 msgid "Manage Membership plans"
 msgstr "メンバーシッププランを管理する"
 
-#: autoload.php:1040
+#: autoload.php:1043
 #@ armember-membership
 msgid "Manage Payment Gateways"
 msgstr "支払いゲートウェイの管理"
 
-#: autoload.php:1027
-#: autoload.php:1166
-#: autoload.php:1167
+#: autoload.php:1030
+#: autoload.php:1169
+#: autoload.php:1170
 #: core/classes/class.arm_members.php:3884
 #: core/classes/class.arm_members.php:4882
 #: core/views/arm_members_list.php:118
@@ -6391,20 +6391,20 @@ msgstr "支払いゲートウェイの管理"
 msgid "Manage Plans"
 msgstr "計画の管理"
 
-#: autoload.php:1028
+#: autoload.php:1031
 #@ armember-membership
 msgid "Manage Setups"
 msgstr "セットアップの管理"
 
-#: autoload.php:1025
-#: autoload.php:1186
-#: autoload.php:1187
+#: autoload.php:1028
+#: autoload.php:1189
+#: autoload.php:1190
 #: core/views/arm_manage_subscription_list.php:556
 #@ armember-membership
 msgid "Manage Subscriptions"
 msgstr "サブスクリプションの管理"
 
-#: autoload.php:1032
+#: autoload.php:1035
 #@ armember-membership
 msgid "Manage Transactions"
 msgstr "トランザクションの管理"
@@ -6429,7 +6429,7 @@ msgstr "マニュアル"
 msgid "manual"
 msgstr "マニュアル"
 
-#: core/views/arm_global_settings.php:225
+#: core/views/arm_global_settings.php:178
 #: core/views/arm_setup_wizard.php:159
 #@ armember-membership
 msgid "Manual approve by admin"
@@ -6624,9 +6624,9 @@ msgstr "メンバー"
 msgid "Members Directory Templates"
 msgstr "会員ディレクトリテンプレート"
 
-#: autoload.php:660
-#: autoload.php:664
-#: autoload.php:668
+#: autoload.php:663
+#: autoload.php:667
+#: autoload.php:671
 #: core/classes/class.arm_manage_subscription.php:520
 #: core/classes/class.arm_manage_subscription.php:749
 #: core/classes/class.arm_manage_subscription.php:1099
@@ -6687,7 +6687,7 @@ msgstr "会員プラン"
 msgid "Membership plan is already exist for selected member."
 msgstr "選択したメンバーにはメンバーシップ プランがすでに存在します。"
 
-#: autoload.php:675
+#: autoload.php:678
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:79
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:91
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:128
@@ -6728,7 +6728,7 @@ msgstr "メンバーシップ設定ウィザードが正常に更新されまし
 msgid "MEMBERSHIP SHORTCODES"
 msgstr "メンバーシップのショートコード"
 
-#: autoload.php:659
+#: autoload.php:662
 #: core/views/arm_tinymce_options_shortcodes.php:21
 #@ armember-membership
 msgid "Membership Shortcodes"
@@ -6747,33 +6747,33 @@ msgstr "販売者のメールアドレスを空白のままにすることはで
 
 #: core/vc/class_vc_extend.php:369
 #: core/views/arm_email_templates.php:423
-#: core/views/arm_global_settings.php:541
+#: core/views/arm_global_settings.php:494
 #: core/views/arm_tinymce_options_shortcodes.php:238
 #: core/widgets/arm_elm_widgets/class.arm_membership_edit_form_element_add.php:115
 #@ armember-membership
 msgid "Message"
 msgstr "メッセージ"
 
-#: core/views/arm_global_settings.php:544
+#: core/views/arm_global_settings.php:497
 #@ armember-membership
 msgid "Message can not be left blank."
 msgstr "メッセージを空白のままにすることはできません。"
 
-#: autoload.php:1734
-#: autoload.php:3817
+#: autoload.php:1728
+#: autoload.php:3811
 #: core/classes/class.arm_manage_communication.php:29
 #@ armember-membership
 msgid "Message has been deleted successfully."
 msgstr "メッセージは正常に削除されました。"
 
-#: autoload.php:1756
-#: autoload.php:3837
+#: autoload.php:1750
+#: autoload.php:3831
 #@ armember-membership
 msgid "Message Updated Successfully."
 msgstr "メッセージが正常に更新されました。"
 
-#: autoload.php:1736
-#: autoload.php:3819
+#: autoload.php:1730
+#: autoload.php:3813
 #: core/classes/class.arm_manage_communication.php:67
 #@ armember-membership
 msgid "Message(s) has been deleted successfully."
@@ -7018,7 +7018,7 @@ msgstr "ナミビア"
 msgid "Nauru"
 msgstr "ナウル"
 
-#: autoload.php:3647
+#: autoload.php:3641
 #@ armember-membership
 msgid "Need Help?"
 msgstr "助けが必要？"
@@ -7229,8 +7229,8 @@ msgstr "まだトランザクションが見つかりません。"
 msgid "No cycles due"
 msgstr "期限切れのサイクルはありません"
 
-#: autoload.php:3703
-#: autoload.php:3708
+#: autoload.php:3697
+#: autoload.php:3702
 #@ armember-membership
 msgid "No data found"
 msgstr "何もデータが見つかりませんでした"
@@ -7339,7 +7339,7 @@ msgstr "レコードが見つかりませんでした"
 msgid "No Records Message"
 msgstr "記録なしメッセージ"
 
-#: core/views/arm_global_settings.php:136
+#: core/views/arm_global_settings.php:89
 #: core/views/arm_member_add.php:591
 #@ armember-membership
 msgid "No Roles Available"
@@ -7402,8 +7402,8 @@ msgstr "いいえ。"
 msgid "No. Of Members Per Page"
 msgstr "ページあたりのメンバー数"
 
-#: autoload.php:646
-#: core/classes/arm_builder/class.arm_divi_builder_restriction.php:163
+#: autoload.php:649
+#: core/classes/arm_builder/class.arm_divi_builder_restriction.php:166
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:50
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:23
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:85
@@ -7424,7 +7424,7 @@ msgid "Nonce is less than 12 hours old"
 msgstr "Nonce は 12 時間未満です"
 
 #: core/classes/class.arm_member_forms.php:2772
-#: core/views/arm_global_settings.php:510
+#: core/views/arm_global_settings.php:463
 #@ armember-membership
 msgid "None"
 msgstr "なし"
@@ -7535,7 +7535,7 @@ msgstr "わかりました"
 #: core/classes/class.arm_members.php:4808
 #: core/classes/class.arm_members.php:4875
 #: core/classes/class.arm_subscription_plans.php:1963
-#: core/views/arm_global_settings.php:811
+#: core/views/arm_global_settings.php:764
 #: core/views/arm_import_export.php:349
 #: core/views/arm_member_add.php:703
 #: core/views/arm_member_add.php:800
@@ -7605,8 +7605,8 @@ msgstr "数字のみ"
 msgid "Oops, nothing found"
 msgstr "おっと、何も見つかりませんでした"
 
-#: autoload.php:1771
-#: autoload.php:3858
+#: autoload.php:1765
+#: autoload.php:3852
 #@ armember-membership
 msgid "Oops, nothing found."
 msgstr "おっと、何も見つかりませんでした。"
@@ -7621,7 +7621,7 @@ msgstr "不透明度"
 msgid "Open Settings & Styles"
 msgstr "設定とスタイルを開く"
 
-#: autoload.php:1743
+#: autoload.php:1737
 #@ armember-membership
 msgid "Opt-ins Settings Saved Successfully."
 msgstr "オプトイン設定が正常に保存されました。"
@@ -7632,7 +7632,7 @@ msgid "Options"
 msgstr "または"
 
 #: core/classes/class.arm_member_forms.php:8047
-#: core/views/arm_global_settings.php:269
+#: core/views/arm_global_settings.php:222
 #@ armember-membership
 msgid "OR"
 msgstr "または"
@@ -7796,7 +7796,7 @@ msgstr "パラグアイ"
 #: core/classes/templates.arm_member_forms_templates.php:3299
 #: core/classes/templates.arm_member_forms_templates.php:3527
 #: core/views/arm_form_editor.php:232
-#: core/views/arm_global_settings.php:494
+#: core/views/arm_global_settings.php:447
 #: core/views/arm_member_add.php:236
 #: core/views/arm_member_add.php:341
 #: core/views/upgrade_latest_data.php:187
@@ -7811,7 +7811,7 @@ msgstr "パスワード"
 msgid "Password can not be left blank"
 msgstr "パスワードを空白のままにすることはできません"
 
-#: autoload.php:1708
+#: autoload.php:1702
 #: core/classes/class.arm_member_forms.php:6536
 #: core/classes/class.arm_member_forms.php:6800
 #: core/classes/class.arm_member_forms.php:7228
@@ -7838,7 +7838,7 @@ msgstr "パスワードを空白のままにすることはできません"
 #: core/classes/templates.arm_member_forms_templates.php:3543
 #: core/classes/templates.arm_member_forms_templates.php:3735
 #: core/classes/templates.arm_member_forms_templates.php:3772
-#: core/views/arm_global_settings.php:498
+#: core/views/arm_global_settings.php:451
 #: core/views/arm_member_add.php:249
 #: core/views/arm_member_add.php:354
 #@ armember-membership
@@ -7947,7 +7947,7 @@ msgstr "支払いサイクル"
 msgid "Payment Date"
 msgstr "支払期日"
 
-#: autoload.php:1016
+#: autoload.php:1019
 #@ armember-membership
 msgid "Payment Failed"
 msgstr "支払いに失敗しました"
@@ -7995,8 +7995,8 @@ msgstr "支払いゲートウェイ。 この設定を保存すると、それ�
 msgid "Payment Gateways"
 msgstr "支払いゲートウェイ"
 
-#: autoload.php:1191
-#: autoload.php:1192
+#: autoload.php:1194
+#: autoload.php:1195
 #: core/views/arm_transactions.php:5
 #: core/views/arm_view_member.php:379
 #@ armember-membership
@@ -8110,7 +8110,7 @@ msgstr "Paypal API ユーザー名Q"
 msgid "Paypal API Username ( Sandbox)"
 msgstr "Paypal API ユーザー名 (サンドボックス)"
 
-#: autoload.php:1007
+#: autoload.php:1010
 #: core/views/arm_manage_subscription_list.php:599
 #: core/views/arm_redirection_settings.php:271
 #: core/views/arm_redirection_settings.php:392
@@ -8228,7 +8228,7 @@ msgstr "このユーザー向けのプランは?"
 msgid "Plan has been added successfully."
 msgstr "プランが正常に追加されました。"
 
-#: autoload.php:3794
+#: autoload.php:3788
 #: core/classes/class.arm_subscription_plans.php:540
 #@ armember-membership
 msgid "Plan has been deleted successfully."
@@ -8309,8 +8309,8 @@ msgstr "プランタイプ"
 msgid "Plan Type & Price"
 msgstr "プランの種類と価格q"
 
-#: autoload.php:1710
-#: autoload.php:3792
+#: autoload.php:1704
+#: autoload.php:3786
 #@ armember-membership
 msgid "Plan(s) has been deleted successfully."
 msgstr "プランは正常に削除されました。"
@@ -8730,8 +8730,8 @@ msgstr "ファイルを選択してください。"
 msgid "Please select one option."
 msgstr "オプションを 1 つ選択してください。 "
 
-#: autoload.php:1705
-#: autoload.php:3788
+#: autoload.php:1699
+#: autoload.php:3782
 #: core/classes/class.arm_manage_communication.php:53
 #: core/classes/class.arm_members.php:1460
 #: core/classes/class.arm_members.php:2349
@@ -8843,8 +8843,8 @@ msgstr "ソーシャルアカウントを選択してください。"
 msgid "Please select user."
 msgstr "ユーザーを選択してください。"
 
-#: autoload.php:1704
-#: autoload.php:3787
+#: autoload.php:1698
+#: autoload.php:3781
 #: core/classes/class.arm_manage_communication.php:70
 #: core/classes/class.arm_members.php:1463
 #: core/classes/class.arm_transaction.php:365
@@ -8877,8 +8877,8 @@ msgstr "登録してください"
 msgid "Please type your e-mail address."
 msgstr "電子メール アドレスを入力してください。"
 
-#: autoload.php:1731
-#: autoload.php:3814
+#: autoload.php:1725
+#: autoload.php:3808
 #@ armember-membership
 msgid "Please upload appropriate file to import users."
 msgstr "ユーザーをインポートするには適切なファイルをアップロードしてください。ユーザーをインポートするには適切なファイルをアップロードしてください。"
@@ -8966,8 +8966,8 @@ msgid "Posts"
 msgstr "投稿"
 
 #: core/classes/class.arm_member_forms.php:2939
+#: core/views/arm_global_settings.php:213
 #: core/views/arm_global_settings.php:260
-#: core/views/arm_global_settings.php:307
 #@ armember-membership
 msgid "Prefix"
 msgstr "プレフィックス"
@@ -9066,8 +9066,8 @@ msgstr "プロフィールテンプレート 3"
 msgid "Profile Template Name"
 msgstr "プロファイルテンプレート名"
 
-#: autoload.php:1202
-#: autoload.php:1203
+#: autoload.php:1205
+#: autoload.php:1206
 #: core/views/arm_profile_editor.php:190
 #: core/views/arm_profiles_directories.php:14
 #@ armember-membership
@@ -9459,7 +9459,7 @@ msgstr "パスワードをリセットするリンクが無効です。"
 msgid "RESTRICT CONTENT"
 msgstr "コンテンツを制限する"
 
-#: autoload.php:671
+#: autoload.php:674
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:62
 #: core/views/arm_tinymce_options_shortcodes.php:1176
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:60
@@ -9550,14 +9550,14 @@ msgstr "丸みを帯びたスタイル"
 msgid "RTL"
 msgstr "RTL"
 
-#: autoload.php:1722
-#: autoload.php:3805
+#: autoload.php:1716
+#: autoload.php:3799
 #@ armember-membership
 msgid "Rule has been deleted successfully."
 msgstr "ルールは正常に削除されました。"
 
-#: autoload.php:1724
-#: autoload.php:3807
+#: autoload.php:1718
+#: autoload.php:3801
 #@ armember-membership
 msgid "Rule(s) has been deleted successfully."
 msgstr "ルールは正常に削除されました。"
@@ -9650,7 +9650,7 @@ msgstr "サウジアラビア"
 #: core/views/arm_debug_logs.php:384
 #: core/views/arm_email_templates.php:531
 #: core/views/arm_form_editor.php:150
-#: core/views/arm_global_settings.php:707
+#: core/views/arm_global_settings.php:660
 #: core/views/arm_manage_payment_gateways.php:331
 #: core/views/arm_manage_subscription_list.php:870
 #: core/views/arm_member_add.php:1071
@@ -10015,7 +10015,7 @@ msgstr "プランの選択"
 msgid "Select Profile Template"
 msgstr "プロファイルテンプレートの選択"
 
-#: core/views/arm_global_settings.php:126
+#: core/views/arm_global_settings.php:79
 #: core/views/arm_member_add.php:579
 #@ armember-membership
 msgid "Select Role(s).."
@@ -10193,12 +10193,12 @@ msgstr "半自動購読ラベル"
 msgid "Send Signup Email Notification to User"
 msgstr "サインアップ電子メール通知をユーザーに送信する"
 
-#: core/views/arm_global_settings.php:527
+#: core/views/arm_global_settings.php:480
 #@ armember-membership
 msgid "Send Test E-mail"
 msgstr "テスト電子メールを送信する"
 
-#: core/views/arm_global_settings.php:551
+#: core/views/arm_global_settings.php:504
 #@ armember-membership
 msgid "Send test mail"
 msgstr "テストメールを送信する"
@@ -10257,8 +10257,8 @@ msgstr "リダイレクト優先度の設定"
 msgid "Setting(s) has been imported successfully"
 msgstr "設定）が正常にインポートされました"
 
-#: autoload.php:1739
-#: autoload.php:3822
+#: autoload.php:1733
+#: autoload.php:3816
 #@ armember-membership
 msgid "Settings has been saved successfully."
 msgstr "設定を保存しています。"
@@ -10270,8 +10270,8 @@ msgstr "設定を保存しています。"
 msgid "Settings Saved Successfully."
 msgstr "設定が正常に保存されました。"
 
-#: autoload.php:1716
-#: autoload.php:3799
+#: autoload.php:1710
+#: autoload.php:3793
 #: core/classes/class.arm_membership_setup.php:4911
 #@ armember-membership
 msgid "Setup has been deleted successfully."
@@ -10292,8 +10292,8 @@ msgstr "セットアップ名"
 msgid "Setup name can not be left blank."
 msgstr "設定名を空白にすることはできません。"
 
-#: autoload.php:1714
-#: autoload.php:3797
+#: autoload.php:1708
+#: autoload.php:3791
 #@ armember-membership
 msgid "Setup(s) has been deleted successfully."
 msgstr "セットアップは正常に削除されました。"
@@ -10303,7 +10303,7 @@ msgstr "セットアップは正常に削除されました。"
 msgid "Seychelles"
 msgstr "セーシェル"
 
-#: autoload.php:660
+#: autoload.php:663
 #: core/views/arm_form_editor.php:156
 #: core/views/arm_manage_forms.php:38
 #: core/views/arm_manage_forms.php:107
@@ -10355,7 +10355,7 @@ msgstr "見せる"
 msgid "Show / Hide columns"
 msgstr "列の表示/非表示"
 
-#: autoload.php:672
+#: autoload.php:675
 #: core/views/arm_tinymce_options_shortcodes.php:1184
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:65
 #@ armember-membership
@@ -10575,8 +10575,8 @@ msgstr "申し訳ありませんが、問題が発生しました。 サイト�
 msgid "Sorry, Something went wrong. Please contact to site administrator."
 msgstr "申し訳ありませんが、問題が発生しました。 サイト管理者までご連絡ください。"
 
-#: autoload.php:1703
-#: autoload.php:3786
+#: autoload.php:1697
+#: autoload.php:3780
 #: core/classes/class.arm_access_rules.php:506
 #: core/classes/class.arm_email_settings.php:143
 #: core/classes/class.arm_email_settings.php:176
@@ -10607,8 +10607,8 @@ msgstr "申し訳ありませんが、問題が発生しました。 もう一�
 msgid "Sorry, Something went wrong. please try again."
 msgstr "申し訳ありませんが、問題が発生しました。 もう一度試してください。"
 
-#: autoload.php:1691
-#: autoload.php:3771
+#: autoload.php:1685
+#: autoload.php:3765
 #@ armember-membership
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "申し訳ありませんが、このファイルの種類はセキュリティ上の理由から許可されていません。"
@@ -10626,7 +10626,7 @@ msgstr "申し訳ありませんが、このフィールドをフォームに 2 
 msgid "Sorry, You do not have permission to perform this action"
 msgstr "申し訳ありませんが、このアクションを実行する権限がありません"
 
-#: autoload.php:3937
+#: autoload.php:3931
 #: core/classes/class.arm_manage_communication.php:25
 #: core/classes/class.arm_manage_communication.php:56
 #: core/classes/class.arm_manage_subscription.php:439
@@ -10641,13 +10641,13 @@ msgstr "申し訳ありませんが、このアクションを実行する権限
 msgid "Sorry, You Don't Have Feed Access"
 msgstr "申し訳ありませんが、フィードへのアクセス権がありません"
 
-#: autoload.php:3953
+#: autoload.php:3947
 #@ armember-membership
 msgid "Sorry, Your request can not process due to nonce not found."
 msgstr "申し訳ありませんが、ノンスが見つからないため、リクエストを処理できません。"
 
-#: autoload.php:3685
-#: autoload.php:3960
+#: autoload.php:3679
+#: autoload.php:3954
 #@ armember-membership
 msgid "Sorry, Your request can not process due to security reason."
 msgstr "申し訳ありませんが、セキュリティ上の理由により、リクエストは処理できません。"
@@ -10763,8 +10763,8 @@ msgstr "スタンダードスタイル"
 msgid "Start Date"
 msgstr "開始日"
 
-#: autoload.php:1759
-#: autoload.php:3843
+#: autoload.php:1753
+#: autoload.php:3837
 #@ armember-membership
 msgid "Start date can not be earlier than current date."
 msgstr "開始日を現在の日付より前にすることはできません。"
@@ -10976,8 +10976,8 @@ msgid "Sudan"
 msgstr "スーダン"
 
 #: core/classes/class.arm_member_forms.php:2965
-#: core/views/arm_global_settings.php:263
-#: core/views/arm_global_settings.php:308
+#: core/views/arm_global_settings.php:216
+#: core/views/arm_global_settings.php:261
 #@ armember-membership
 msgid "Suffix"
 msgstr "サフィックス"
@@ -10992,7 +10992,7 @@ msgstr "概要テキスト"
 msgid "Suriname"
 msgstr "スリナム"
 
-#: autoload.php:1013
+#: autoload.php:1016
 #: core/classes/class.arm_manage_subscription.php:906
 #: core/classes/class.arm_members.php:833
 #: core/classes/class.arm_members.php:1020
@@ -11126,14 +11126,14 @@ msgstr "テンプレート 5"
 msgid "Template found."
 msgstr "テンプレートが見つかりました。"
 
-#: autoload.php:1751
-#: autoload.php:3832
+#: autoload.php:1745
+#: autoload.php:3826
 #@ armember-membership
 msgid "Template has been added successfully."
 msgstr "テンプレートが正常に追加されました。"
 
-#: autoload.php:1753
-#: autoload.php:3834
+#: autoload.php:1747
+#: autoload.php:3828
 #@ armember-membership
 msgid "Template has been deleted successfully."
 msgstr "テンプレートは正常に削除されました。"
@@ -11143,8 +11143,8 @@ msgstr "テンプレートは正常に削除されました。"
 msgid "Template Name"
 msgstr "テンプレート名"
 
-#: autoload.php:1747
-#: autoload.php:3828
+#: autoload.php:1741
+#: autoload.php:3822
 #: core/classes/class.arm_members_directory.php:1151
 #@ armember-membership
 msgid "Template not found."
@@ -11155,8 +11155,8 @@ msgstr "テンプレートが見つかりません。"
 msgid "Template Options"
 msgstr "テンプレートのオプション"
 
-#: autoload.php:1748
-#: autoload.php:3829
+#: autoload.php:1742
+#: autoload.php:3823
 #: core/classes/class.arm_members_directory.php:292
 #: core/classes/class.arm_members_directory.php:295
 #@ armember-membership
@@ -11191,7 +11191,7 @@ msgstr "終了"
 msgid "Terminate Members"
 msgstr "メンバーの終了"
 
-#: autoload.php:1008
+#: autoload.php:1011
 #@ armember-membership
 msgid "Terminated"
 msgstr "終了しました"
@@ -11201,7 +11201,7 @@ msgstr "終了しました"
 msgid "Test"
 msgstr "テスト"
 
-#: core/views/arm_global_settings.php:551
+#: core/views/arm_global_settings.php:504
 #@ armember-membership
 msgid "Test e-mail works only after configure SMTP server settings"
 msgstr "テスト電子メールは SMTP サーバー設定を構成した後にのみ機能します"
@@ -11334,34 +11334,34 @@ msgstr "それから"
 msgid "Then Redirect To"
 msgstr "次にリダイレクトします"
 
-#: autoload.php:1693
-#: autoload.php:3773
+#: autoload.php:1687
+#: autoload.php:3767
 #@ armember-membership
 msgid "There is an error in uploading file, Please try again."
 msgstr "ファイルのアップロード中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1766
-#: autoload.php:3850
+#: autoload.php:1760
+#: autoload.php:3844
 #@ armember-membership
 msgid "There is an error while activating addon, Please try agina."
 msgstr "アドオンの有効化中にエラーが発生しました。agina を試してください。"
 
-#: autoload.php:1764
-#: autoload.php:3848
+#: autoload.php:1758
+#: autoload.php:3842
 #@ armember-membership
 msgid "There is an error while installing addon, Please try again."
 msgstr "アドオンのインストール中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1685
-#: autoload.php:3765
+#: autoload.php:1679
+#: autoload.php:3759
 #@ armember-membership
 msgid "There is an error while loading activities, please try again."
 msgstr "アクティビティの読み込み中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1696
-#: autoload.php:1770
-#: autoload.php:3776
-#: autoload.php:3854
+#: autoload.php:1690
+#: autoload.php:1764
+#: autoload.php:3770
+#: autoload.php:3848
 #@ armember-membership
 msgid "There is an error while performing this action, please try again."
 msgstr "この操作の実行中にエラーが発生しました。もう一度お試しください。"
@@ -11495,8 +11495,8 @@ msgstr "ファイル制限を超えたため、このファイルは処理でき
 msgid "This first name is invalid. Please enter a valid first name."
 msgstr "この名は無効です。 有効な名を入力してください。"
 
-#: autoload.php:1763
-#: autoload.php:3847
+#: autoload.php:1757
+#: autoload.php:3841
 #@ armember-membership
 msgid "This Form Name is already exist."
 msgstr "このフォーム名はすでに存在します。"
@@ -11545,8 +11545,8 @@ msgstr "このナビゲーションメニューリンクは、ログアウトリ
 msgid "This plan has one or more subscribers. So this plan can not be deleted."
 msgstr "このプランには 1 人以上の加入者がいます。 したがって、この計画は削除できません。"
 
-#: autoload.php:1762
-#: autoload.php:3846
+#: autoload.php:1756
+#: autoload.php:3840
 #@ armember-membership
 msgid "This Set Name is already exist."
 msgstr "このセット名はすでに存在します。"
@@ -11681,7 +11681,7 @@ msgid "Title Position"
 msgstr "タイトルの位置"
 
 #: core/classes/class.arm_shortcodes.php:2221
-#: core/views/arm_global_settings.php:534
+#: core/views/arm_global_settings.php:487
 #@ armember-membership
 msgid "To"
 msgstr "に"
@@ -11706,7 +11706,7 @@ msgstr "に"
 msgid "to"
 msgstr "に"
 
-#: core/views/arm_global_settings.php:537
+#: core/views/arm_global_settings.php:490
 #@ armember-membership
 msgid "To can not be left blank."
 msgstr "To を空白にすることはできません。"
@@ -11817,8 +11817,8 @@ msgstr "取引日"
 msgid "Transaction Details"
 msgstr "取引詳細"
 
-#: autoload.php:1732
-#: autoload.php:3815
+#: autoload.php:1726
+#: autoload.php:3809
 #@ armember-membership
 msgid "Transaction has been deleted successfully."
 msgstr "トランザクションは正常に削除されました。"
@@ -11891,8 +11891,8 @@ msgstr "Transaction ID Label can not be left blank."
 msgid "Transaction Status"
 msgstr "取引ステータス"
 
-#: autoload.php:1733
-#: autoload.php:3816
+#: autoload.php:1727
+#: autoload.php:3810
 #: core/classes/class.arm_transaction.php:363
 #: core/classes/class.arm_transaction.php:370
 #@ armember-membership
@@ -12212,7 +12212,7 @@ msgstr "役立つリンク"
 msgid "User"
 msgstr "ユーザー"
 
-#: autoload.php:1015
+#: autoload.php:1018
 #@ armember-membership
 msgid "User Cancelled"
 msgstr "ユーザーがキャンセルされました"
@@ -12246,7 +12246,7 @@ msgstr "ユーザーが存在しません。"
 #: core/classes/class.arm_members.php:2092
 #: core/classes/class.arm_members.php:4364
 #: core/views/arm_email_templates.php:461
-#: core/views/arm_global_settings.php:368
+#: core/views/arm_global_settings.php:321
 #: core/views/arm_members_list_records.php:14
 #: core/views/arm_tinymce_options_shortcodes.php:900
 #: core/widgets/arm_elm_widgets/class.arm_user_info_element_add.php:64
@@ -12369,9 +12369,9 @@ msgstr "ユーザーのログイン/ログアウトの詳細"
 msgid "User's Signup Details such as Username, Password, First Name, Last Name and Custom Fields value( Address, Gender etc)"
 msgstr "ユーザー名、パスワード、名、姓、カスタムフィールド値（住所、性別など）などのユーザーのサインアップ詳細"
 
-#: autoload.php:1697
-#: autoload.php:3777
-#: autoload.php:3855
+#: autoload.php:1691
+#: autoload.php:3771
+#: autoload.php:3849
 #@ armember-membership
 msgid "User's subscription has been canceled"
 msgstr "ユーザーのサブスクリプションがキャンセルされました"
@@ -12420,7 +12420,7 @@ msgstr "ユーザーは正常にインポートされました"
 #: core/classes/templates.arm_member_forms_templates.php:3639
 #: core/vc/class_vc_extend.php:1160
 #: core/views/arm_email_templates.php:458
-#: core/views/arm_global_settings.php:367
+#: core/views/arm_global_settings.php:320
 #: core/views/arm_manage_subscription_list.php:684
 #: core/views/arm_manage_subscription_list.php:718
 #: core/views/arm_manage_subscription_list.php:752
@@ -12552,7 +12552,7 @@ msgstr "ベネズエラ"
 msgid "Very Weak Text"
 msgstr "非常に弱いテキスト"
 
-#: autoload.php:3643
+#: autoload.php:3637
 #@ armember-membership
 msgid "Video Tutorials"
 msgstr "ビデオチュートリアル"
@@ -13154,12 +13154,12 @@ msgstr "サブスクリプションはキャンセルされました。"
 msgid "Your Subscription will be canceled on"
 msgstr "あなたのサブスクリプションは次の日にキャンセルされます"
 
-#: core/views/arm_global_settings.php:530
+#: core/views/arm_global_settings.php:483
 #@ armember-membership
 msgid "Your test mail is not sent for some reason, Please check your SMTP setting."
 msgstr "何らかの理由でテストメールが送信されません。SMTP 設定を確認してください。"
 
-#: core/views/arm_global_settings.php:529
+#: core/views/arm_global_settings.php:482
 #@ armember-membership
 msgid "Your test mail is successfully sent."
 msgstr "テストメールは正常に送信されました。"
@@ -13223,187 +13223,181 @@ msgstr "ARMember Lite - Membership Plugin"
 msgid "The most powerful membership plugin to handle any complex membership WordPress sites with super ease."
 msgstr "複雑なメンバーシップ WordPress サイトを非常に簡単に処理できる、最も強力なメンバーシップ プラグイン。"
 
-#: autoload.php:615
+#: autoload.php:618
 #, php-format
 #@ armember-membership
 msgid "Hey, you've been using %1$sARMember Lite%2$s for a long time. %3$sCould you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation. %4$sYour help is much appreciated. Thank you very much - %5$sRepute InfoSystems%6$s"
 msgstr "%1$sARMember Lite%2$s を長い間使用されていますね。 %3$sこの情報を広めてモチベーションを高めるために、WordPress で 5 つ星の評価をしていただけませんか。 %4$sご協力をよろしくお願いいたします。 どうもありがとうございました - %5$sRepute InfoSystems%6$s"
 
-#: autoload.php:617
+#: autoload.php:620
 #@ armember-membership
 msgid "OK, you deserve it"
 msgstr "OK、あなたにはそれに値する"
 
-#: autoload.php:618
+#: autoload.php:621
 #@ armember-membership
 msgid "No, Maybe later"
 msgstr "いや、たぶん後で"
 
-#: autoload.php:619
+#: autoload.php:622
 #@ armember-membership
 msgid "I already did"
 msgstr "私はすでにやった"
 
-#: autoload.php:903
+#: autoload.php:906
 #@ armember-membership
 msgid "ARMember Lite recommend to use Minimum PHP version 5.6 or greater."
 msgstr "ARMember Lite では、最小 PHP バージョン 5.6 以降を使用することをお勧めします。"
 
-#: autoload.php:909
+#: autoload.php:912
 #@ armember-membership
 msgid "ARMember Lite requires PHP GD Extension module at the server. And it seems that it's not installed or activated. Please contact your hosting provider for the same."
 msgstr "ARMember Lite では、サーバーに PHP GD 拡張モジュールが必要です。 そして、インストールまたはアクティブ化されていないようです。 同様のことについては、ホスティングプロバイダーにお問い合わせください。"
 
-#: autoload.php:1124
+#: autoload.php:1127
 #@ armember-membership
 msgid "Upgrade To Pro"
 msgstr "プロ仕様にアップグレードする"
 
-#: autoload.php:1153
 #: autoload.php:1156
+#: autoload.php:1159
 #@ armember-membership
 msgid "ARMember Lite"
 msgstr "ARMember Lite"
 
-#: autoload.php:1236
-#: core/views/arm_upgrade_to_premium.php:16
+#: core/views/arm_upgrade_to_premium.php:12
 #@ armember-membership
 msgid "Black Friday Sale"
 msgstr "ブラックフライデーセール"
 
-#: autoload.php:1236
-#@ armember-membership
-msgid "Upgrade to Pro"
-msgstr "プロ仕様にアップグレードする"
-
-#: autoload.php:1686
-#: autoload.php:3766
+#: autoload.php:1680
+#: autoload.php:3760
 #@ armember-membership
 msgid "The user chose not to grant permissions or closed the pop-up"
 msgstr "ユーザーがアクセス許可を付与しないことを選択したか、ポップアップを閉じました"
 
-#: autoload.php:1687
-#: autoload.php:3767
+#: autoload.php:1681
+#: autoload.php:3761
 #@ armember-membership
 msgid "Oops, there was a problem getting your information"
 msgstr "情報の取得中に問題が発生しました"
 
-#: autoload.php:1688
-#: autoload.php:3768
+#: autoload.php:1682
+#: autoload.php:3762
 #@ armember-membership
 msgid "There is a error while copying, please try again"
 msgstr "コピー中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1689
-#: autoload.php:3769
+#: autoload.php:1683
+#: autoload.php:3763
 #@ armember-membership
 msgid "User cancelled login or did not fully authorize."
 msgstr "ユーザーがログインをキャンセルしたか、完全に認証しませんでした。"
 
-#: autoload.php:1690
-#: autoload.php:3770
+#: autoload.php:1684
+#: autoload.php:3764
 #@ armember-membership
 msgid "There is a error while closing account, please try again."
 msgstr "アカウントを閉じるときにエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1692
-#: autoload.php:3772
+#: autoload.php:1686
+#: autoload.php:3766
 #@ armember-membership
 msgid "File is not allowed bigger than {SIZE}."
 msgstr "{SIZE} を超えるファイルは許可されません。"
 
-#: autoload.php:1711
-#: autoload.php:3793
+#: autoload.php:1705
+#: autoload.php:3787
 #@ armember-membership
 msgid "There is a error while deleting Plan(s), please try again."
 msgstr "プランの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1712
-#: autoload.php:3795
+#: autoload.php:1706
+#: autoload.php:3789
 #@ armember-membership
 msgid "There is a error while deleting Plan, please try again."
 msgstr "プランの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1715
-#: autoload.php:3798
+#: autoload.php:1709
+#: autoload.php:3792
 #@ armember-membership
 msgid "There is a error while deleting Setup(s), please try again."
 msgstr "セットアップの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1717
-#: autoload.php:3800
+#: autoload.php:1711
+#: autoload.php:3794
 #@ armember-membership
 msgid "There is a error while deleting Setup, please try again."
 msgstr "セットアップの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1719
-#: autoload.php:3802
+#: autoload.php:1713
+#: autoload.php:3796
 #@ armember-membership
 msgid "There is a error while deleting form set, please try again."
 msgstr "フォーム セットの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1721
-#: autoload.php:3804
+#: autoload.php:1715
+#: autoload.php:3798
 #@ armember-membership
 msgid "There is a error while deleting form, please try again."
 msgstr "フォームの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1723
-#: autoload.php:3806
+#: autoload.php:1717
+#: autoload.php:3800
 #@ armember-membership
 msgid "There is a error while deleting Rule, please try again."
 msgstr "ルールの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1725
-#: autoload.php:3808
+#: autoload.php:1719
+#: autoload.php:3802
 #@ armember-membership
 msgid "There is a error while deleting Rule(s), please try again."
 msgstr "ルールの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1726
-#: autoload.php:3809
+#: autoload.php:1720
+#: autoload.php:3803
 #@ armember-membership
 msgid "There is a error while generating preview of transaction detail, Please try again."
 msgstr "トランザクション詳細のプレビューを生成中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1727
-#: autoload.php:3810
+#: autoload.php:1721
+#: autoload.php:3804
 #@ armember-membership
 msgid "There is a error while generating invoice of transaction detail, Please try again."
 msgstr "トランザクション詳細の請求書の生成中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1728
-#: autoload.php:3811
+#: autoload.php:1722
+#: autoload.php:3805
 #@ armember-membership
 msgid "There is a error while generating preview of members detail, Please try again."
 msgstr "メンバーの詳細のプレビューを生成中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1729
-#: autoload.php:3812
+#: autoload.php:1723
+#: autoload.php:3806
 #@ armember-membership
 msgid "There is a error while displaying members activities detail, Please try again."
 msgstr "メンバーのアクティビティの詳細を表示中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1730
-#: autoload.php:3813
+#: autoload.php:1724
+#: autoload.php:3807
 #@ armember-membership
 msgid "There is a error while displaying ARMember CSS Class Information, Please Try Again."
 msgstr "ARMember CSS クラス情報の表示中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1735
-#: autoload.php:3818
+#: autoload.php:1729
+#: autoload.php:3812
 #@ armember-membership
 msgid "There is a error while deleting Message, please try again."
 msgstr "メッセージの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1737
-#: autoload.php:3820
+#: autoload.php:1731
+#: autoload.php:3814
 #@ armember-membership
 msgid "There is a error while deleting Message(s), please try again."
 msgstr "メッセージの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1740
-#: autoload.php:3823
+#: autoload.php:1734
+#: autoload.php:3817
 #: core/classes/class.arm_global_settings.php:1595
 #: core/classes/class.arm_members_directory.php:275
 #: core/classes/class.arm_members_directory.php:278
@@ -13412,48 +13406,48 @@ msgstr "メッセージの削除中にエラーが発生しました。もう一
 msgid "There is a error while updating settings, please try again."
 msgstr "設定の更新中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1742
-#: autoload.php:3825
+#: autoload.php:1736
+#: autoload.php:3819
 #@ armember-membership
 msgid "There is a error while updating rules, please try again."
 msgstr "ルールの更新中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1744
+#: autoload.php:1738
 #@ armember-membership
 msgid "There is a error while updating opt-ins settings, please try again."
 msgstr "オプトイン設定の更新中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1746
-#: autoload.php:3827
+#: autoload.php:1740
+#: autoload.php:3821
 #@ armember-membership
 msgid "There is a error while deleting member activities, please try again."
 msgstr "メンバーアクティビティの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1749
-#: autoload.php:3830
+#: autoload.php:1743
+#: autoload.php:3824
 #@ armember-membership
 msgid "There is a error while updating template options, please try again."
 msgstr "テンプレート オプションの更新中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1750
-#: autoload.php:3831
+#: autoload.php:1744
+#: autoload.php:3825
 #@ armember-membership
 msgid "There is a error while generating preview of template, Please try again."
 msgstr "テンプレートのプレビューを生成中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1752
-#: autoload.php:3833
+#: autoload.php:1746
+#: autoload.php:3827
 #@ armember-membership
 msgid "There is a error while adding template, please try again."
 msgstr "テンプレートの追加中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:1754
-#: autoload.php:3835
+#: autoload.php:1748
+#: autoload.php:3829
 #@ armember-membership
 msgid "There is a error while deleting template, please try again."
 msgstr "テンプレートの削除中にエラーが発生しました。もう一度お試しください。"
 
-#: autoload.php:3543
+#: autoload.php:3537
 #@ armember-membership
 msgid "Available Modules"
 msgstr "利用可能なモジュール"
@@ -13922,408 +13916,408 @@ msgstr "パスワードを忘れた場合のリンクを表示します。"
 msgid "Enable Hidden Fields?"
 msgstr "隠しフィールドを有効にしますか?"
 
-#: core/views/arm_global_settings.php:106
+#: core/views/arm_global_settings.php:59
 #@ armember-membership
 msgid "Hide admin bar"
 msgstr "管理バーを非表示にする"
 
-#: core/views/arm_global_settings.php:112
+#: core/views/arm_global_settings.php:65
 #@ armember-membership
 msgid "Hide admin bar for non-admin users?"
 msgstr "管理者以外のユーザーに対して管理バーを非表示にしますか?"
 
-#: core/views/arm_global_settings.php:116
+#: core/views/arm_global_settings.php:69
 #@ armember-membership
 msgid "Exclude role for hide admin bar"
 msgstr "管理バーを非表示にするロールを除外する"
 
-#: core/views/arm_global_settings.php:140
+#: core/views/arm_global_settings.php:93
 #@ armember-membership
 msgid "Admin bar will be displayed to selected roles."
 msgstr "選択した役割に対して管理者バーが表示されます。"
 
-#: core/views/arm_global_settings.php:148
+#: core/views/arm_global_settings.php:101
 #@ armember-membership
 msgid "page"
 msgstr "ページ"
 
-#: core/views/arm_global_settings.php:154
+#: core/views/arm_global_settings.php:107
 #@ armember-membership
 msgid "page for all users?"
 msgstr "全ユーザー向けのページ?"
 
-#: core/views/arm_global_settings.php:158
+#: core/views/arm_global_settings.php:111
 #@ armember-membership
 msgid "Hide register link"
 msgstr "登録リンクを非表示にする"
 
-#: core/views/arm_global_settings.php:164
+#: core/views/arm_global_settings.php:117
 #@ armember-membership
 msgid "Hide register link on"
 msgstr "登録リンクを非表示にする"
 
-#: core/views/arm_global_settings.php:164
+#: core/views/arm_global_settings.php:117
 #@ armember-membership
 msgid "page?"
 msgstr "ページ？"
 
-#: core/views/arm_global_settings.php:172
+#: core/views/arm_global_settings.php:125
 #@ armember-membership
 msgid "Auto Lock Shared Account"
 msgstr "共有アカウントの自動ロック"
 
-#: core/views/arm_global_settings.php:179
+#: core/views/arm_global_settings.php:132
 #@ armember-membership
 msgid "By enabling this feature, you can prevent simultaneous multiple logins using same login details"
 msgstr "この機能を有効にすることで、同じログイン情報を使用した同時複数ログインを防ぐことができます。"
 
-#: core/views/arm_global_settings.php:183
+#: core/views/arm_global_settings.php:136
 #@ armember-membership
 msgid "Enable Gravatars?"
 msgstr "グラバターを有効にしますか?"
 
-#: core/views/arm_global_settings.php:193
+#: core/views/arm_global_settings.php:146
 #@ armember-membership
 msgid "Allow image cropping"
 msgstr "画像のトリミングを許可する"
 
-#: core/views/arm_global_settings.php:200
+#: core/views/arm_global_settings.php:153
 #@ armember-membership
 msgid "Allow avatar and cover photo cropping"
 msgstr "アバターとカバー写真のトリミングを許可する"
 
-#: core/views/arm_global_settings.php:215
+#: core/views/arm_global_settings.php:168
 #@ armember-membership
 msgid "New user approval"
 msgstr "新規ユーザーの承認"
 
-#: core/views/arm_global_settings.php:232
+#: core/views/arm_global_settings.php:185
 #@ armember-membership
 msgid "Default currency"
 msgstr "デフォルトの通貨"
 
-#: core/views/arm_global_settings.php:277
+#: core/views/arm_global_settings.php:230
 #@ armember-membership
 msgid "Set Custom Currency"
 msgstr "カスタム通貨の設定"
 
-#: core/views/arm_global_settings.php:284
+#: core/views/arm_global_settings.php:237
 #@ armember-membership
 msgid "Currency Symbol"
 msgstr "通貨記号"
 
-#: core/views/arm_global_settings.php:287
+#: core/views/arm_global_settings.php:240
 #@ armember-membership
 msgid "Please enter symbol."
 msgstr "記号を入力してください。"
 
-#: core/views/arm_global_settings.php:288
+#: core/views/arm_global_settings.php:241
 #@ armember-membership
 msgid "Please enter valid symbol."
 msgstr "有効な記号を入力してください。"
 
-#: core/views/arm_global_settings.php:292
+#: core/views/arm_global_settings.php:245
 #@ armember-membership
 msgid "Currency Shortname"
 msgstr "通貨のショートネーム"
 
-#: core/views/arm_global_settings.php:295
+#: core/views/arm_global_settings.php:248
 #@ armember-membership
 msgid "Please enter shortname."
 msgstr "ショートネームを入力してください。"
 
-#: core/views/arm_global_settings.php:296
+#: core/views/arm_global_settings.php:249
 #@ armember-membership
 msgid "Please enter valid shortname."
 msgstr "有効なショートネームを入力してください。"
 
-#: core/views/arm_global_settings.php:300
+#: core/views/arm_global_settings.php:253
 #@ armember-membership
 msgid "Symbol will be display as"
 msgstr "シンボルは次のように表示されます"
 
-#: core/views/arm_global_settings.php:344
+#: core/views/arm_global_settings.php:297
 #@ armember-membership
 msgid "Profile Permalink Base"
 msgstr "プロフィール パーマリンク ベース"
 
-#: core/views/arm_global_settings.php:381
+#: core/views/arm_global_settings.php:334
 #@ armember-membership
 msgid "Load JS & CSS in all pages"
 msgstr "すべてのページに JS と CSS をロードする"
 
-#: core/views/arm_global_settings.php:387
+#: core/views/arm_global_settings.php:340
 #@ armember-membership
 msgid "Not recommended"
 msgstr "推奨されません"
 
-#: core/views/arm_global_settings.php:387
+#: core/views/arm_global_settings.php:340
 #@ armember-membership
 msgid "If you have any js/css loading issue in your theme, only in that case you should enable this settings"
 msgstr "テーマに js/css の読み込みの問題がある場合は、その場合にのみこの設定を有効にしてください。"
 
-#: core/views/arm_global_settings.php:403
+#: core/views/arm_global_settings.php:356
 #@ armember-membership
 msgid "Email Settings"
 msgstr "メール設定"
 
-#: core/views/arm_global_settings.php:406
+#: core/views/arm_global_settings.php:359
 #@ armember-membership
 msgid "From/Reply to name"
 msgstr "差出人/返信先の名前"
 
-#: core/views/arm_global_settings.php:409
+#: core/views/arm_global_settings.php:362
 #@ armember-membership
 msgid "Please enter From Name."
 msgstr "差出人名を入力してください。"
 
-#: core/views/arm_global_settings.php:410
+#: core/views/arm_global_settings.php:363
 #@ armember-membership
 msgid "Please enter valid From Name."
 msgstr "有効な差出人名を入力してください。"
 
-#: core/views/arm_global_settings.php:414
+#: core/views/arm_global_settings.php:367
 #@ armember-membership
 msgid "From/Reply to email"
 msgstr "メールの送信元/返信"
 
-#: core/views/arm_global_settings.php:417
+#: core/views/arm_global_settings.php:370
 #@ armember-membership
 msgid "Please enter From Email ID."
 msgstr "送信元メールIDを入力してください。"
 
-#: core/views/arm_global_settings.php:418
+#: core/views/arm_global_settings.php:371
 #@ armember-membership
 msgid "Please enter valid From Email ID."
 msgstr "有効な送信元メール ID を入力してください。"
 
-#: core/views/arm_global_settings.php:422
+#: core/views/arm_global_settings.php:375
 #@ armember-membership
 msgid "Admin email"
 msgstr "管理者のメールアドレス"
 
-#: core/views/arm_global_settings.php:425
+#: core/views/arm_global_settings.php:378
 #@ armember-membership
 msgid "Please enter Admin Email ID."
 msgstr "管理者のメール ID を入力してください。"
 
-#: core/views/arm_global_settings.php:426
+#: core/views/arm_global_settings.php:379
 #@ armember-membership
 msgid "Please enter valid Admin Email ID."
 msgstr "有効な管理者メール ID を入力してください。"
 
-#: core/views/arm_global_settings.php:427
+#: core/views/arm_global_settings.php:380
 #@ armember-membership
 msgid "You can add multiple Admin email address separated by comma in case of you want to send email to more than one email address."
 msgstr "複数の電子メール アドレスに電子メールを送信する場合は、複数の管理者電子メール アドレスをカンマで区切って追加できます。"
 
-#: core/views/arm_global_settings.php:432
+#: core/views/arm_global_settings.php:385
 #@ armember-membership
 msgid "Email notification"
 msgstr "電子メール通知"
 
-#: core/views/arm_global_settings.php:437
+#: core/views/arm_global_settings.php:390
 #@ armember-membership
 msgid "WordPress Server"
 msgstr "ワードプレスサーバー"
 
-#: core/views/arm_global_settings.php:440
+#: core/views/arm_global_settings.php:393
 #@ armember-membership
 msgid "SMTP Server"
 msgstr "SMTPサーバー"
 
-#: core/views/arm_global_settings.php:443
+#: core/views/arm_global_settings.php:396
 #@ armember-membership
 msgid "PHP Mailer"
 msgstr "PHPメーラー"
 
-#: core/views/arm_global_settings.php:451
+#: core/views/arm_global_settings.php:404
 #@ armember-membership
 msgid "Authentication"
 msgstr "認証"
 
-#: core/views/arm_global_settings.php:456
+#: core/views/arm_global_settings.php:409
 #@ armember-membership
 msgid "Enable SMTP authentication"
 msgstr "SMTP認証を有効にする"
 
-#: core/views/arm_global_settings.php:460
+#: core/views/arm_global_settings.php:413
 #@ armember-membership
 msgid "Mail Server"
 msgstr "メールサーバー"
 
-#: core/views/arm_global_settings.php:464
+#: core/views/arm_global_settings.php:417
 #@ armember-membership
 msgid "Mail Server can not be left blank."
 msgstr "メールサーバーを空白のままにすることはできません。"
 
-#: core/views/arm_global_settings.php:468
+#: core/views/arm_global_settings.php:421
 #@ armember-membership
 msgid "Port"
 msgstr "ポート"
 
-#: core/views/arm_global_settings.php:472
+#: core/views/arm_global_settings.php:425
 #@ armember-membership
 msgid "Port can not be left blank."
 msgstr "ポートを空白のままにすることはできません。"
 
-#: core/views/arm_global_settings.php:481
+#: core/views/arm_global_settings.php:434
 #@ armember-membership
 msgid "Login Name"
 msgstr "ログイン名"
 
-#: core/views/arm_global_settings.php:485
+#: core/views/arm_global_settings.php:438
 #@ armember-membership
 msgid "Login Name can not be left blank."
 msgstr "ログイン名を空白のままにすることはできません。"
 
-#: core/views/arm_global_settings.php:502
+#: core/views/arm_global_settings.php:455
 #@ armember-membership
 msgid "Encryption"
 msgstr "暗号化"
 
-#: core/views/arm_global_settings.php:513
+#: core/views/arm_global_settings.php:466
 #@ armember-membership
 msgid "SSL"
 msgstr "SSL"
 
-#: core/views/arm_global_settings.php:516
+#: core/views/arm_global_settings.php:469
 #@ armember-membership
 msgid "TLS"
 msgstr "TLS"
 
-#: core/views/arm_global_settings.php:565
+#: core/views/arm_global_settings.php:518
 #@ armember-membership
 msgid "Manage Preset Form Fields"
 msgstr "プリセットフォームフィールドの管理"
 
-#: core/views/arm_global_settings.php:572
+#: core/views/arm_global_settings.php:525
 #@ armember-membership
 msgid "Edit Preset Form Fields"
 msgstr "プリセットフォームフィールドの編集"
 
-#: core/views/arm_global_settings.php:575
+#: core/views/arm_global_settings.php:528
 #@ armember-membership
 msgid "To edit specific form preset fields, click on this button, popup opens, edit fields which you want to update and click on update button."
 msgstr "特定のフォームプリセットフィールドを編集するには、このボタンをクリックするとポップアップが開き、更新するフィールドを編集して更新ボタンをクリックします。"
 
-#: core/views/arm_global_settings.php:580
+#: core/views/arm_global_settings.php:533
 #@ armember-membership
 msgid "Clear Preset Form Fields"
 msgstr "プリセットフォームフィールドをクリアする"
 
-#: core/views/arm_global_settings.php:583
+#: core/views/arm_global_settings.php:536
 #@ armember-membership
 msgid "To remove specific form fields with its value, click on this button, popup opens, select fields which you want to remove from everywhere."
 msgstr "特定のフォームフィールドをその値とともに削除するには、このボタンをクリックするとポップアップが開き、どこからでも削除するフィールドを選択します。"
 
-#: core/views/arm_global_settings.php:593
+#: core/views/arm_global_settings.php:546
 #@ armember-membership
 msgid "Email notification scheduler setting"
 msgstr "メール通知スケジューラーの設定"
 
-#: core/views/arm_global_settings.php:594
+#: core/views/arm_global_settings.php:547
 #@ armember-membership
 msgid "when you change value from below dropdown and save it then it will set new schedular and remove previous one."
 msgstr "以下のドロップダウンから値を変更して保存すると、新しいスケジュールが設定され、前のスケジュールが削除されます。"
 
-#: core/views/arm_global_settings.php:599
+#: core/views/arm_global_settings.php:552
 #@ armember-membership
 msgid "Schedule Every"
 msgstr "スケジュール間隔"
 
-#: core/views/arm_global_settings.php:628
+#: core/views/arm_global_settings.php:581
 #@ armember-membership
 msgid "Level 1"
 msgstr "レベル1"
 
-#: core/views/arm_global_settings.php:629
+#: core/views/arm_global_settings.php:582
 #@ armember-membership
 msgid "Level 2"
 msgstr "レベル2"
 
-#: core/views/arm_global_settings.php:630
+#: core/views/arm_global_settings.php:583
 #@ armember-membership
 msgid "Level 3"
 msgstr "レベル3"
 
-#: core/views/arm_global_settings.php:631
+#: core/views/arm_global_settings.php:584
 #@ armember-membership
 msgid "Level 4"
 msgstr "レベル4"
 
-#: core/views/arm_global_settings.php:632
+#: core/views/arm_global_settings.php:585
 #@ armember-membership
 msgid "Links"
 msgstr "リンク"
 
-#: core/views/arm_global_settings.php:633
+#: core/views/arm_global_settings.php:586
 #@ armember-membership
 msgid "Buttons"
 msgstr "ボタン"
 
-#: core/views/arm_global_settings.php:638
+#: core/views/arm_global_settings.php:591
 #@ armember-membership
 msgid "Front End Font Settings"
 msgstr "フロントエンドのフォント設定"
 
-#: core/views/arm_global_settings.php:651
+#: core/views/arm_global_settings.php:604
 #@ armember-membership
 msgid "Font settings of Level 1 will be applied to main heading of frontend shortcodes. Like Transaction listing heading and like wise."
 msgstr "レベル 1 のフォント設定は、フロントエンド ショートコードのメイン見出しに適用されます。 取引リストの見出しも同様です。"
 
-#: core/views/arm_global_settings.php:653
+#: core/views/arm_global_settings.php:606
 #@ armember-membership
 msgid "Font settings of Level 2 will be applied to sub heading ( Main Labels ) of frontend shortcodes. For example table heading of trasanction listing."
 msgstr "レベル 2 のフォント設定は、フロントエンド ショートコードの小見出し ( Main Labels ) に適用されます。 たとえば、取引リストの表の見出しなどです。"
 
-#: core/views/arm_global_settings.php:655
+#: core/views/arm_global_settings.php:608
 #@ armember-membership
 msgid "Font settings of Level 3 will be applied to sub labels of frontend shortcodes. For example table content of trasanction listing."
 msgstr "レベル 3 のフォント設定は、フロントエンド ショートコードのサブラベルに適用されます。 たとえば、取引リストのテーブルの内容です。"
 
-#: core/views/arm_global_settings.php:657
+#: core/views/arm_global_settings.php:610
 #@ armember-membership
 msgid "Font settings of Level 4 will be applied to very small labels of frontend shortcodes. For member listing etc."
 msgstr "レベル 4 のフォント設定は、フロントエンド ショートコードの非常に小さなラベルに適用されます。 会員名簿等のため"
 
-#: core/views/arm_global_settings.php:659
+#: core/views/arm_global_settings.php:612
 #@ armember-membership
 msgid "Font settings of Links will be applied to links of frontend shortcodes. For example edit profile, logout link and profile links etc."
 msgstr "リンクのフォント設定は、フロントエンド ショートコードのリンクに適用されます。 たとえば、プロファイルの編集、ログアウト リンク、プロファイル リンクなどです。"
 
-#: core/views/arm_global_settings.php:661
+#: core/views/arm_global_settings.php:614
 #@ armember-membership
 msgid "Font settings of Buttons will be applied to buttons of frontend shortcodes output. For example Renew button, Cancel Button, Make Payment Button etc."
 msgstr "ボタンのフォント設定は、フロントエンドのショートコード出力のボタンに適用されます。 たとえば、「更新」ボタン、「キャンセル」ボタン、「支払い」ボタンなどです。"
 
-#: core/views/arm_global_settings.php:722
+#: core/views/arm_global_settings.php:675
 #@ armember-membership
 msgid "Edit Preset Fields"
 msgstr "プリセットフィールドの編集"
 
-#: core/views/arm_global_settings.php:730
+#: core/views/arm_global_settings.php:683
 #@ armember-membership
 msgid "Preset Fields are updated successfully."
 msgstr "プリセットフィールドは正常に更新されました。"
 
-#: core/views/arm_global_settings.php:731
+#: core/views/arm_global_settings.php:684
 #@ armember-membership
 msgid "Sorry, something went wrong while updating prest fields."
 msgstr "申し訳ありませんが、perst フィールドの更新中に問題が発生しました。"
 
-#: core/views/arm_global_settings.php:735
-#: core/views/arm_global_settings.php:824
+#: core/views/arm_global_settings.php:688
+#: core/views/arm_global_settings.php:777
 #@ armember-membership
 msgid "Update"
 msgstr "アップデート"
 
-#: core/views/arm_global_settings.php:748
+#: core/views/arm_global_settings.php:701
 #@ armember-membership
 msgid "Clear Form Fields"
 msgstr "フォームフィールドをクリアする"
 
-#: core/views/arm_global_settings.php:796
+#: core/views/arm_global_settings.php:749
 #@ armember-membership
 msgid "(Entry Exists)"
 msgstr "(エントリが存在します)"
@@ -14640,7 +14634,7 @@ msgstr "ユーザー名のタイプを選択してください"
 msgid "Any Plans"
 msgstr "あらゆるプラン"
 
-#: core/views/arm_upgrade_to_premium.php:18
+#: core/views/arm_upgrade_to_premium.php:14
 #@ armember-membership
 msgid "Upgrade to Premium"
 msgstr "プレミアムにアップグレード"
@@ -14701,9 +14695,9 @@ msgstr "現在のパスワード"
 msgid "Current password can not be left blank."
 msgstr "現在のパスワードを空白のままにすることはできません。"
 
-#: autoload.php:660
-#: autoload.php:664
-#: autoload.php:668
+#: autoload.php:663
+#: autoload.php:667
+#: autoload.php:671
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:21
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:25
 #: core/widgets/arm_elm_widgets/class.arm_elementor_widget_element.php:29
@@ -14711,33 +14705,33 @@ msgstr "現在のパスワードを空白のままにすることはできませ
 msgid "ARMember"
 msgstr "ARMember"
 
-#: autoload.php:663
+#: autoload.php:666
 #@ armember-membership
 msgid "Restrict Content Shortcode"
 msgstr "コンテンツのショートコードを制限する"
 
-#: autoload.php:664
-#: autoload.php:668
+#: autoload.php:667
+#: autoload.php:671
 #@ armember-membership
 msgid "Restriction"
 msgstr "制限"
 
-#: autoload.php:667
+#: autoload.php:670
 #@ armember-membership
 msgid "ARMember Block Restriction"
 msgstr "ARMember ブロックの制限"
 
-#: autoload.php:668
+#: autoload.php:671
 #@ armember-membership
 msgid "Block"
 msgstr "ブロック"
 
-#: autoload.php:669
+#: autoload.php:672
 #@ armember-membership
 msgid "Nest blocks within this wrapper to control the inner block visibility by membership plans or for free membership only."
 msgstr "このラッパー内でブロックをネストして、メンバーシップ プランまたは無料メンバーシップのみで内部ブロックの可視性を制御します。"
 
-#: autoload.php:676
+#: autoload.php:679
 #@ armember-membership
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "以下の条件のいずれかに該当する場合、コンテンツに制限が適用されます"
@@ -15070,7 +15064,7 @@ msgstr "1 分"
 msgid "New Navigation Menus"
 msgstr "新しいナビゲーション メニュー"
 
-#: core/views/arm_global_settings.php:189
+#: core/views/arm_global_settings.php:142
 #@ armember-membership
 msgid "If BuddyPress plugin is active then use BuddyPress avatar"
 msgstr "BuddyPress プラグインがアクティブな場合は、BuddyPress アバターを使用します"
@@ -15700,9 +15694,9 @@ msgstr "サードパーティ統合"
 msgid "Upgrade Pro"
 msgstr "プロにアップグレード"
 
-#: autoload.php:1123
-#: autoload.php:1239
-#: autoload.php:1240
+#: autoload.php:1126
+#: autoload.php:1233
+#: autoload.php:1234
 #@ armember-membership
 msgid "Add-ons"
 msgstr "アドオン"
@@ -15727,6 +15721,6 @@ msgstr "Fusion Builder または Avada テーマをインストールして、�
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.49"
-msgstr "4.0.49"
+msgid "4.0.50"
+msgstr "4.0.50"
 

@@ -654,7 +654,13 @@ if(version_compare($arm_lite_newdbversion,'4.0.36','<'))
     }
 }
 
-$arm_lite_newdbversion = '4.0.49';
+if(version_compare($arm_lite_newdbversion,'4.0.50','<'))
+{
+	//Black friday update
+	update_option('arm_lite_display_bf_offers', 1);
+}
+
+$arm_lite_newdbversion = '4.0.50';
 update_option( 'arm_lite_new_version_installed', 1 );
 update_option( 'armlite_version', $arm_lite_newdbversion );
 

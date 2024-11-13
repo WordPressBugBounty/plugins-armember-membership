@@ -5,14 +5,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 function arm_upgrade_to_premium_menu() {
-
-	global $ARMemberLite,$arm_slugs;
+	global $ARMemberLite, $arm_slugs, $arm_lite_bf_sale_start_time, $arm_lite_bf_sale_end_time; //phpcs:ignore
 
 	$arm_current_date = current_time('timestamp', true );
-	$arm_sale_start_time = '1700483400';
-	$arm_sale_end_time = '1701541800';
-	
-	if( $arm_current_date >= $arm_sale_start_time && $arm_current_date <= $arm_sale_end_time ){
+	if( $arm_current_date >= $arm_lite_bf_sale_start_time && $arm_current_date <= $arm_lite_bf_sale_end_time ){
 		$page_hook = add_submenu_page( $arm_slugs->main, esc_html__( 'Black Friday Sale', 'armember-membership' ), esc_html__( 'Black Friday Sale', 'armember-membership' ), 'arm_manage_members', 'arm_black_friday_sale', 'arm_black_friday_deal' );
 	} else {
 		$page_hook = add_submenu_page( $arm_slugs->main, esc_html__( 'Upgrade to Premium', 'armember-membership' ), esc_html__( 'Upgrade to Premium', 'armember-membership' ), 'arm_manage_members', 'arm_upgrade_to_premium', 'arm_upgrade_to_premium_url' );

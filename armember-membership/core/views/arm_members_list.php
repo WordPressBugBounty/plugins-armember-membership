@@ -131,10 +131,11 @@ function ChangeID(id) {
 <?php 
 $arm_get_arm_lite_display_bf_offers = get_option('arm_lite_display_bf_offers');
 if((!empty($_REQUEST['arm_upgrade_action']) && 'arm_upgrade_to_premium' == $_REQUEST['arm_upgrade_action']) || !empty($arm_get_arm_lite_display_bf_offers) ){
-	$arm_current_date_for_bf_popup = current_time('timestamp',true); //GMT-0 Timezone
-	$arm_bf_start_time = "1700483400";
-	$arm_bf_end_time = "1701541800";
-	if( $arm_bf_start_time <= $arm_current_date_for_bf_popup && $arm_bf_end_time >= $arm_current_date_for_bf_popup ) {
+
+	global $arm_lite_bf_sale_start_time, $arm_lite_bf_sale_end_time;
+	$arm_current_date_for_bf_popup = current_time('timestamp',true); //GMT-0 Timezone 
+	
+	if( $arm_lite_bf_sale_start_time <= $arm_current_date_for_bf_popup && $arm_lite_bf_sale_end_time >= $arm_current_date_for_bf_popup ) {
 
 		if(!empty($arm_get_arm_lite_display_bf_offers))
 		{
@@ -147,7 +148,7 @@ if((!empty($_REQUEST['arm_upgrade_action']) && 'arm_upgrade_to_premium' == $_REQ
 				armBpopup('arm_black_friday_bpopup');
 			});
 			jQuery(document).on('click','.popup_wrapper.arm_black_friday_bpopup .popup_content_text',function(){
-				window.location.replace("https://www.armemberplugin.com/pricing/?utm_source=newsletter&utm_medium=email&utm_campaign=Armember_blackfriday_2023&utm_id=armember_1");
+				window.location.replace("https://www.armemberplugin.com/pricing/?utm_source=lite_version&utm_medium=lite_version_popup&utm_campaign=black-friday-sale-2024");
 			});
 		</script>
 	<?php

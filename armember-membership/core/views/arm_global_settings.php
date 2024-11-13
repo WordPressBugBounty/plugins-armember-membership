@@ -1,4 +1,4 @@
-<?php
+<?php 
 global $wpdb, $ARMemberLite, $arm_global_settings, $arm_email_settings, $arm_payment_gateways, $arm_access_rules, $arm_subscription_plans, $arm_member_forms, $arm_social_feature;
 $all_global_settings = $arm_global_settings->arm_get_all_global_settings();
 
@@ -12,53 +12,6 @@ $is_permalink       = $arm_global_settings->is_permalink();
 $general_settings   = $all_global_settings['general_settings'];
 
 $page_settings = !empty($all_global_settings['page_settings']) ? $all_global_settings['page_settings'] : array();
-
-/*
-if ( ! empty( $_REQUEST['arm_update_lang_data'] ) ) { //phpcs:ignore
-	$arm_language_dir_path_requested = sanitize_text_field( $_REQUEST['arm_update_lang_data'] ) ? $_REQUEST['arm_update_lang_data'] : ''; //phpcs:ignore //Example: wp-content/languages/plugins
-	$arm_language_dir_path           = WP_PLUGIN_DIR . '/../../';
-	$arm_language_dir_path           = $arm_language_dir_path . $arm_language_dir_path_requested;
-	if ( is_dir( $arm_language_dir_path ) ) {
-		$arm_file_name_arr = array();
-		if ( $arm_file_handle = opendir( $arm_language_dir_path ) ) {
-
-			$arm_membership_new_txt_domain = 'armember-membership';
-
-			if ( ! function_exists( 'WP_Filesystem' ) ) {
-				require_once ABSPATH . 'wp-admin/includes/file.php';
-			}
-
-			WP_Filesystem();
-			global $wp_filesystem;
-
-			while ( false !== ( $arm_file_name = readdir( $arm_file_handle ) ) ) {
-				$arm_file_name_contain     = strpos( $arm_file_name, 'ARMember-' );
-				$arm_file_name_not_contain = strpos( $arm_file_name, 'backup' );
-				if ( $arm_file_name != '.' && $arm_file_name != '..' && $arm_file_name != 'index.php' && $arm_file_name_contain !== false && $arm_file_name_not_contain === false && $arm_file_name != 'ARMember-en_US.mo' && $arm_file_name != 'ARMember-en_US.po' ) {
-					$arm_lan_source = $arm_language_dir_path . '/' . $arm_file_name;
-
-					$arm_file_name_arr[] = $arm_file_name;
-
-					$file_content = $wp_filesystem->get_contents( $arm_lan_source );
-
-					$file_content      = str_replace( '#@ ARMember', '#@ ' . $arm_membership_new_txt_domain, $file_content );
-					$arm_file_name_new = str_replace( 'ARMember-', $arm_membership_new_txt_domain . '-', $arm_file_name );
-
-					$arm_lan_source_new = $arm_language_dir_path . '/' . $arm_file_name_new;
-
-					$wp_filesystem->put_contents( $arm_lan_source_new, $file_content, 0777 );
-				}
-			}
-		}
-		if ( ! empty( $arm_file_name_arr ) ) {
-			echo esc_html__( 'Language File(s) Updated Successfully.', 'armember-membership' ) . ' ' . implode( ', ', $arm_file_name_arr );
-		}
-	} else {
-		echo esc_html__( 'Language File(s) Path Not Found.', 'armember-membership' ) . ' ' . $arm_language_dir_path_requested;
-	}
-	exit;
-}
-*/
 
 $all_plans_data             = $arm_subscription_plans->arm_get_all_subscription_plans( 'arm_subscription_plan_id, arm_subscription_plan_name, arm_subscription_plan_type', ARRAY_A, true );
 $defaultRulesTypes          = $arm_access_rules->arm_get_access_rule_types();

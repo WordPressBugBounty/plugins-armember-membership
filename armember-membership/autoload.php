@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.49';
+$arm_lite_version = '4.0.50';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -135,10 +135,13 @@ $armlite_default_user_details_text = esc_html__( 'Unknown', 'armember-membership
 /**
  * Plugin Main Class
  */
-global $ARMemberLite, $arm_lite_debug_payment_log_id, $arm_lite_debug_general_log_id;
+global $ARMemberLite, $arm_lite_debug_payment_log_id, $arm_lite_debug_general_log_id, $arm_lite_bf_sale_start_time, $arm_lite_bf_sale_end_time;
 $ARMemberLite = new ARMemberlite();
 $arm_lite_debug_payment_log_id =0;
 $arm_lite_debug_general_log_id = 0;
+
+$arm_lite_bf_sale_start_time = "1732064400"; //black friday sale start time
+$arm_lite_bf_sale_end_time = "1733230740"; //black friday sale end time
 
 if(!$ARMemberLite->is_arm_pro_active){
 	if ( file_exists( MEMBERSHIPLITE_CLASSES_DIR . '/class.arm_members.php' ) ) {
@@ -1223,17 +1226,8 @@ class ARMemberlite {
 		do_action( 'arm_before_last_menu' );
 	}
 
-
-
-
-
-
 	function arm_set_last_menu() {
 		global $wp, $wpdb, $ARMemberLite, $arm_slugs, $arm_membership_setup;
-		$arm_current_date_for_bf_popup = current_time('timestamp',true);
-		$arm_bf_start_time = "1700483400";
-		$arm_bf_end_time = "1701541800";
-		$arm_black_friday = ( $arm_bf_start_time <= $arm_current_date_for_bf_popup && $arm_bf_end_time >= $arm_current_date_for_bf_popup ) ? esc_html__( 'Black Friday Sale', 'armember-membership' ) : esc_html__( 'Upgrade to Pro', 'armember-membership' );
 		$admin_menu_items = array(
 			$arm_slugs->feature_settings => array(
 				'name'       => esc_html__( 'Add-ons', 'armember-membership' ),
@@ -3611,7 +3605,7 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.49 Changes',
+			'critical_title'      => 'Version 4.0.50 Changes',
 			'critical'            => array(
 				'Minor bug fixes.',
 			),
