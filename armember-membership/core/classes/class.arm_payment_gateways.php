@@ -9,7 +9,7 @@ if ( ! class_exists( 'ARM_payment_gateways_Lite' ) ) {
 		function __construct() {
 			global $wpdb, $ARMemberLite, $arm_slugs;
 			add_action( 'wp_ajax_arm_update_pay_gate_settings', array( $this, 'arm_update_pay_gate_settings' ) );
-			add_filter( 'arm_change_user_meta_before_save', array( $this, 'arm_filter_form_posted_plan_data' ), 10, 2 );
+			add_filter( 'arm_change_user_meta_before_save', array( $this, 'arm_filter_form_posted_plan_data' ), 10, 3 );
 			add_action( 'wp_ajax_arm_check_currency_status', array( $this, 'arm_check_currency_status' ) );
 			$this->currency = array(
 				'paypal'        => $this->arm_paypal_currency_symbol(),
@@ -611,7 +611,7 @@ if ( ! class_exists( 'ARM_payment_gateways_Lite' ) ) {
 			return;
 		}
 
-		function arm_filter_form_posted_plan_data( $posted_data, $user_ID ) {
+		function arm_filter_form_posted_plan_data( $posted_data, $user_ID,$admin_save_flag = 0 ) {
 			global $wpdb, $ARMemberLite, $arm_global_settings, $arm_subscription_plans, $arm_member_forms, $payment_done, $arm_transaction, $arm_members_class,$arm_membership_setup;
 
 			if ( ! empty( $posted_data ) && is_array( $posted_data ) && ( ! empty( $posted_data['subscription_plan'] ) || ! empty( $posted_data['_subscription_plan'] ) || ! empty( $posted_data['arm_user_plan'] ) ) ) {
@@ -1154,7 +1154,7 @@ if ( ! class_exists( 'ARM_payment_gateways_Lite' ) ) {
 				}
 			}
 
-			if ( ! empty( $posted_data['roles'] ) ) {
+			if ( ! empty( $posted_data['roles'] ) && ( ( !empty( $posted_data['arm_user_plan'] ) ) || (empty( $posted_data['arm_user_plan'] ) && empty($admin_save_flag))) ) {
 				$meta_key    = 'roles';
 				$arm_form_id = isset( $posted_data['arm_form_id'] ) ? $posted_data['arm_form_id'] : '';
 

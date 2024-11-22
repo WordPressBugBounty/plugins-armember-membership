@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.50';
+$arm_lite_version = '4.0.51';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -377,7 +377,7 @@ class ARMemberlite {
 		add_action( 'wp_ajax_arm_dismiss_news', array( $this, 'arm_dismiss_news_notice' ) );
 
 		/* Load Language TextDomain */
-		add_action( 'plugins_loaded', array( $this, 'arm_load_textdomain' ) );
+		add_action( 'init', array( $this, 'arm_load_textdomain' ) );
 		/* Add 'Addon' link in plugin list */
 		add_filter( 'plugin_action_links', array( $this, 'armPluginActionLinks' ), 10, 2 );
 		/* Hide Update Notification */
@@ -3605,7 +3605,7 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.50 Changes',
+			'critical_title'      => 'Version 4.0.51 Changes',
 			'critical'            => array(
 				'Minor bug fixes.',
 			),

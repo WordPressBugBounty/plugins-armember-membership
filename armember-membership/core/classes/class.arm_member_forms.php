@@ -360,6 +360,9 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 					if (!empty($meta_field_name) && isset($_SESSION['arm_file_upload_arr'][$meta_field_name])){
                         unset($_SESSION['arm_file_upload_arr'][$meta_field_name]);
                     }
+					else if (!empty($meta_field_name)){
+						$_SESSION['arm_file_upload_arr'][$meta_field_name] = "-";
+					}
 				}
 			}
 
@@ -3999,6 +4002,12 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 								if ( isset( $value_data ) && $value_data != '' ) {
 									$key = $value_data;
 								}
+
+								if( is_array( $field_val ) )
+                                {
+                                    $field_val = !empty( $field_val[0] ) ? $field_val[0] : '';
+                                }
+
 								// $output .= '<div class=" arm-align-items-center' . esc_attr($class) . '">';
 								$output .= '<input class="arm_iradio ' . esc_attr( $class ) . '" type="radio" name="' . esc_attr( $name ) . '" id="' . esc_attr( $value['id'] ) . '_' . esc_attr( $key ) . '_' . esc_attr( $form_id ) . '" value="' . esc_attr( $key ) . '" ' . checked( strtolower( $field_val ), strtolower( $key ), false ) . ' ' . $validation_data . '/>';
 								$output .= '<label class="arm_radio_label" for="' . esc_attr( $value['id'] ) . '_' . esc_attr( $key ) . '_' . esc_attr( $form_id ) . '">' . esc_html( $option ) . '</label>';
@@ -5775,7 +5784,7 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 			global $wp, $wpdb, $current_user, $arm_lite_errors, $ARMemberLite, $arm_subscription_plans, $payment_done, $arm_members_class;
 			$arm_lite_errors = new WP_Error();
 
-			$posted_data     = apply_filters( 'arm_change_user_meta_before_save', $posted_data, $user_ID );
+			$posted_data     = apply_filters( 'arm_change_user_meta_before_save', $posted_data, $user_ID,$admin_save_flag );
 			$payment_gateway = isset( $posted_data['pgateway'] ) ? sanitize_text_field( $posted_data['pgateway'] ) : '';
 			$start_time      = isset( $posted_data['start_time'] ) ? sanitize_text_field( $posted_data['start_time'] ) : '';
 			$plan_cycle      = isset( $posted_data['arm_selected_payment_cycle'] ) ? sanitize_text_field( $posted_data['arm_selected_payment_cycle'] ) : 0;

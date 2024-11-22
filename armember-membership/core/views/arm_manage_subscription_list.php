@@ -833,6 +833,7 @@ global $wpdb, $ARMember, $arm_global_settings;
                                 <input id="arm_user_auto_selection" type="text" name="arm_user_ids" value="" placeholder="<?php esc_attr_e('Search by username or email...', 'armember-membership');?>" data-msg-required="<?php esc_attr_e('Please select user.', 'armember-membership');?>" required>
                                 <input type="hidden" name="arm_display_admin_user" id="arm_display_admin_user" value="0">
                                 <div class="arm_users_items arm_required_wrapper" id="arm_users_items" style="display: none;"></div>
+                                <span class="arm_plan_users_error"></span>
                             </div>
                         </div>
                         <div class="form-field form-required arm_transaction_membership_plan_wrapper">
@@ -857,6 +858,7 @@ global $wpdb, $ARMember, $arm_global_settings;
                                         </ul>
                                     </dd>
                                 </dl>
+                                <span class="arm_plan_error"></span>
                             </div>
                         </div>
                         <div class="form-field form-required arm_selected_plan_cycle"></div>
