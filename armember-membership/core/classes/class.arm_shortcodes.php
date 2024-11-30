@@ -448,8 +448,12 @@ if ( ! class_exists( 'ARM_shortcodes_Lite' ) ) {
 					} else {
 						$shortcode_param = '';
 						foreach ( $posted_data as $k => $v ) {
-							$shortcode_param .= sanitize_text_field( $k )."='". sanitize_text_field( $v )."' ";
+							$shortcode_param .= htmlentities( sanitize_text_field( $k ) ) . '="' . htmlentities( sanitize_text_field( $v ) ) . '" ';
 						}
+
+						$shortcode_param = str_replace( '[' , '&#10635', $shortcode_param);
+						$shortcode_param = str_replace(']' , '&#10636', $shortcode_param);
+						
 						$content = do_shortcode( "[arm_template $shortcode_param]" );
 					}
 					echo do_shortcode( $content );
@@ -749,9 +753,11 @@ if ( ! class_exists( 'ARM_shortcodes_Lite' ) ) {
 				if ( ! empty( $posted_data ) ) {
 					$shortcode_param = '';
 					foreach ( $posted_data as $k => $v ) {
-						$shortcode_param .= sanitize_text_field( $k ) . '="' . sanitize_text_field( $v ) . '" ';
+						$shortcode_param .= htmlentities( sanitize_text_field( $k ) ) . '="' . htmlentities( sanitize_text_field( $v ) ) . '" ';
 					}
-
+					
+					$shortcode_param = str_replace( '[' , '&#10635', $shortcode_param);
+					$shortcode_param = str_replace(']' , '&#10636', $shortcode_param);
 					echo do_shortcode( "[arm_member_transaction $shortcode_param]" );
 					exit;
 				}

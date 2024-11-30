@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.51\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.52\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 04:58+0000\n"
-"PO-Revision-Date: 2024-11-20 12:38:58+0000\n"
+"PO-Revision-Date: 2024-11-28 11:00:24+0000\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -59,38 +59,38 @@ msgstr "Раскрыть"
 msgid "Unknown"
 msgstr "Неизвестный"
 
-#: autoload.php:618
+#: autoload.php:619
 #, php-format
 #@ armember-membership
 msgid "Hey, you've been using %1$sARMember Lite%2$s for a long time. %3$sCould you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation. %4$sYour help is much appreciated. Thank you very much - %5$sRepute InfoSystems%6$s"
 msgstr "Привет, вы уже давно используете %1$sARMember Lite%2$s. %3$sНе могли бы вы оказать нам БОЛЬШУЮ услугу и дать ему 5-звездочный рейтинг на WordPress, чтобы помочь нам распространить информацию и повысить нашу мотивацию. %4$sВаша помощь очень ценна. Большое спасибо - %5$sRepute InfoSystems%6$s"
 
-#: autoload.php:620
+#: autoload.php:621
 #@ armember-membership
 msgid "OK, you deserve it"
 msgstr "Хорошо, ты это заслужил"
 
-#: autoload.php:621
+#: autoload.php:622
 #@ armember-membership
 msgid "No, Maybe later"
 msgstr "Нет, может быть, позже"
 
-#: autoload.php:622
+#: autoload.php:623
 #@ armember-membership
 msgid "I already did"
 msgstr "Я уже это сделал"
 
-#: autoload.php:906
+#: autoload.php:907
 #@ armember-membership
 msgid "ARMember Lite recommend to use Minimum PHP version 5.6 or greater."
 msgstr "ARMember Lite рекомендует использовать минимум PHP версии 5.6 или выше."
 
-#: autoload.php:912
+#: autoload.php:913
 #@ armember-membership
 msgid "ARMember Lite requires PHP GD Extension module at the server. And it seems that it's not installed or activated. Please contact your hosting provider for the same."
 msgstr "Для ARMember Lite требуется модуль расширения PHP GD на сервере. И, похоже, он не установлен и не активирован. Пожалуйста, обратитесь за тем же к вашему хостинг-провайдеру."
 
-#: autoload.php:1010
+#: autoload.php:1009
 #: core/classes/class.arm_manage_subscription.php:923
 #: core/views/arm_email_templates.php:132
 #: core/views/arm_manage_payment_gateways.php:54
@@ -100,12 +100,12 @@ msgstr "Для ARMember Lite требуется модуль расширени�
 msgid "Active"
 msgstr "Активный"
 
-#: autoload.php:1011
+#: autoload.php:1010
 #@ armember-membership
 msgid "Inactive"
 msgstr "Неактивный"
 
-#: autoload.php:1012
+#: autoload.php:1011
 #: core/views/arm_manage_subscription_list.php:599
 #: core/views/arm_redirection_settings.php:271
 #: core/views/arm_redirection_settings.php:392
@@ -116,28 +116,28 @@ msgstr "Неактивный"
 msgid "Pending"
 msgstr "Ожидающий рассмотрения"
 
-#: autoload.php:1013
+#: autoload.php:1012
 #@ armember-membership
 msgid "Terminated"
 msgstr "Прекращено"
 
-#: autoload.php:1016
+#: autoload.php:1015
 #@ armember-membership
 msgid "by admin"
 msgstr "автор : admin"
 
-#: autoload.php:1017
+#: autoload.php:1016
 #@ armember-membership
 msgid "Account Closed"
 msgstr "Счет Закрыт"
 
-#: autoload.php:1018
+#: autoload.php:1017
 #: core/classes/class.arm_manage_subscription.php:906
 #: core/classes/class.arm_members.php:833
 #: core/classes/class.arm_members.php:1020
 #: core/classes/class.arm_members.php:1069
 #: core/classes/class.arm_members.php:4742
-#: core/classes/class.arm_shortcodes.php:2092
+#: core/classes/class.arm_shortcodes.php:2098
 #: core/classes/class.arm_subscription_plans.php:1873
 #: core/views/arm_manage_subscription_list.php:615
 #: core/views/arm_member_add.php:791
@@ -145,7 +145,7 @@ msgstr "Счет Закрыт"
 msgid "Suspended"
 msgstr "Приостановлено"
 
-#: autoload.php:1019
+#: autoload.php:1018
 #: core/classes/class.arm_manage_subscription.php:918
 #: core/views/arm_manage_subscription_list.php:614
 #: core/views/arm_transactions_add.php:76
@@ -154,43 +154,43 @@ msgstr "Приостановлено"
 msgid "Expired"
 msgstr "Истек срок действия"
 
-#: autoload.php:1020
+#: autoload.php:1019
 #@ armember-membership
 msgid "User Cancelled"
 msgstr "Пользователь Отменен"
 
-#: autoload.php:1021
+#: autoload.php:1020
 #@ armember-membership
 msgid "Payment Failed"
 msgstr "Платеж не удался"
 
-#: autoload.php:1022
-#: core/classes/class.arm_shortcodes.php:2408
+#: autoload.php:1021
+#: core/classes/class.arm_shortcodes.php:2414
 #: core/views/arm_transactions_add.php:74
 #: core/views/arm_transactions_list_records.php:344
 #@ armember-membership
 msgid "Cancelled"
 msgstr "Отмененный"
 
-#: autoload.php:1030
+#: autoload.php:1029
+#: autoload.php:1190
 #: autoload.php:1191
-#: autoload.php:1192
 #: core/views/arm_manage_subscription_list.php:556
 #@ armember-membership
 msgid "Manage Subscriptions"
 msgstr "Управление Подписками"
 
-#: autoload.php:1031
+#: autoload.php:1030
+#: autoload.php:1165
 #: autoload.php:1166
-#: autoload.php:1167
 #: core/views/arm_members_list.php:5
 #@ armember-membership
 msgid "Manage Members"
 msgstr "Управление Участниками"
 
-#: autoload.php:1032
+#: autoload.php:1031
+#: autoload.php:1170
 #: autoload.php:1171
-#: autoload.php:1172
 #: core/classes/class.arm_members.php:3884
 #: core/classes/class.arm_members.php:4882
 #: core/views/arm_members_list.php:118
@@ -198,129 +198,129 @@ msgstr "Управление Участниками"
 msgid "Manage Plans"
 msgstr "Управление Планами"
 
-#: autoload.php:1033
+#: autoload.php:1032
 #@ armember-membership
 msgid "Manage Setups"
 msgstr "Управление Настройками"
 
-#: autoload.php:1034
+#: autoload.php:1033
 #@ armember-membership
 msgid "Manage Form Settings"
 msgstr "Управление Настройками формы"
 
-#: autoload.php:1035
+#: autoload.php:1034
 #@ armember-membership
 msgid "Manage Access Rules"
 msgstr "Управление Правилами доступа"
 
-#: autoload.php:1037
+#: autoload.php:1036
 #@ armember-membership
 msgid "Manage Transactions"
 msgstr "Управление транзакциями"
 
-#: autoload.php:1038
+#: autoload.php:1037
 #@ armember-membership
 msgid "Manage Email Notifications"
 msgstr "Управление уведомлениями по электронной почте"
 
-#: autoload.php:1039
+#: autoload.php:1038
 #@ armember-membership
 msgid "Manage Communication"
 msgstr "Управление коммуникацией"
 
-#: autoload.php:1040
+#: autoload.php:1039
 #@ armember-membership
 msgid "Manage Member Templates"
 msgstr "Управление шаблонами Участников"
 
-#: autoload.php:1041
+#: autoload.php:1040
 #@ armember-membership
 msgid "Manage General Settings"
 msgstr "Управление Общими настройками"
 
-#: autoload.php:1042
+#: autoload.php:1041
 #@ armember-membership
 msgid "Manage Feature Settings"
 msgstr "Управление настройками функций"
 
-#: autoload.php:1043
+#: autoload.php:1042
 #@ armember-membership
 msgid "Manage Block Settings"
 msgstr "Управление Настройками блоков"
 
-#: autoload.php:1045
+#: autoload.php:1044
 #@ armember-membership
 msgid "Manage Payment Gateways"
 msgstr "Управление Платежными Шлюзами"
 
-#: autoload.php:1046
+#: autoload.php:1045
 #@ armember-membership
 msgid "Manage Import/Export"
 msgstr "Управление импортом / Экспортом"
 
-#: autoload.php:1047
+#: autoload.php:1046
+#: autoload.php:1244
 #: autoload.php:1245
-#: autoload.php:1246
 #@ armember-membership
 msgid "Growth Plugins"
 msgstr "Плагины для роста"
 
-#: autoload.php:1129
+#: autoload.php:1128
 #@ armember-membership
 msgid "Upgrade To Pro"
 msgstr "Обновление до Pro"
 
-#: autoload.php:1158
-#: autoload.php:1161
+#: autoload.php:1157
+#: autoload.php:1160
 #@ armember-membership
 msgid "ARMember Lite"
 msgstr "ARMember Lite"
 
+#: autoload.php:1175
 #: autoload.php:1176
-#: autoload.php:1177
 #: core/views/arm_membership_setup_list.php:28
 #@ armember-membership
 msgid "Configure Plan + Signup Page"
 msgstr "Настройка плана + Страница регистрации"
 
+#: autoload.php:1180
 #: autoload.php:1181
-#: autoload.php:1182
 #: core/views/arm_manage_forms.php:10
 #@ armember-membership
 msgid "Manage Forms"
 msgstr "Управление формами"
 
+#: autoload.php:1185
 #: autoload.php:1186
-#: autoload.php:1187
 #: core/views/arm_access_rules.php:61
 #@ armember-membership
 msgid "Content Access Rules"
 msgstr "Правила доступа к контенту"
 
+#: autoload.php:1195
 #: autoload.php:1196
-#: autoload.php:1197
 #: core/views/arm_transactions.php:5
 #: core/views/arm_view_member.php:379
 #@ armember-membership
 msgid "Payment History"
 msgstr "История платежей"
 
+#: autoload.php:1200
 #: autoload.php:1201
-#: autoload.php:1202
 #@ armember-membership
 msgid "Email Notifications"
 msgstr "Уведомления по электронной почте"
 
+#: autoload.php:1206
 #: autoload.php:1207
-#: autoload.php:1208
 #: core/views/arm_profile_editor.php:190
 #: core/views/arm_profiles_directories.php:14
 #@ armember-membership
 msgid "Profiles & Directories"
 msgstr "Профили и Каталоги"
 
+#: autoload.php:1211
 #: autoload.php:1212
-#: autoload.php:1213
 #: core/views/arm_general_settings.php:11
 #: core/views/arm_global_settings.php:53
 #@ armember-membership
@@ -332,121 +332,121 @@ msgstr "Общие настройки"
 msgid "Black Friday Sale"
 msgstr "Распродажа в Черную Пятницу"
 
+#: autoload.php:1239
 #: autoload.php:1240
-#: autoload.php:1241
-#: autoload.php:3629
+#: autoload.php:3634
 #: core/views/arm_setup_wizard.php:939
 #@ armember-membership
 msgid "Documentation"
 msgstr "Документация"
 
-#: autoload.php:1275
+#: autoload.php:1274
 #@ armember-membership
 msgid "ARMember Debug"
 msgstr "ARMember Отладка"
 
-#: autoload.php:1681
-#: autoload.php:3761
+#: autoload.php:1680
+#: autoload.php:3766
 #@ armember-membership
 msgid "There is an error while loading activities, please try again."
 msgstr "При загрузке activities произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1682
-#: autoload.php:3762
+#: autoload.php:1681
+#: autoload.php:3767
 #@ armember-membership
 msgid "The user chose not to grant permissions or closed the pop-up"
 msgstr "Пользователь решил не предоставлять разрешения или закрыл всплывающее окно"
 
-#: autoload.php:1683
-#: autoload.php:3763
+#: autoload.php:1682
+#: autoload.php:3768
 #@ armember-membership
 msgid "Oops, there was a problem getting your information"
 msgstr "Упс, возникла проблема с получением вашей информации"
 
-#: autoload.php:1684
-#: autoload.php:3764
+#: autoload.php:1683
+#: autoload.php:3769
 #@ armember-membership
 msgid "There is a error while copying, please try again"
 msgstr "При копировании произошла ошибка, пожалуйста, попробуйте еще раз"
 
-#: autoload.php:1685
-#: autoload.php:3765
+#: autoload.php:1684
+#: autoload.php:3770
 #@ armember-membership
 msgid "User cancelled login or did not fully authorize."
 msgstr "Пользователь отменил вход в систему или не прошел полную авторизацию."
 
-#: autoload.php:1686
-#: autoload.php:3766
+#: autoload.php:1685
+#: autoload.php:3771
 #@ armember-membership
 msgid "There is a error while closing account, please try again."
 msgstr "При закрытии учетной записи произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1687
-#: autoload.php:3767
+#: autoload.php:1686
+#: autoload.php:3772
 #@ armember-membership
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Извините, этот тип файла запрещен по соображениям безопасности."
 
-#: autoload.php:1688
-#: autoload.php:3768
+#: autoload.php:1687
+#: autoload.php:3773
 #@ armember-membership
 msgid "File is not allowed bigger than {SIZE}."
 msgstr "Размер файла не может превышать {SIZE}."
 
-#: autoload.php:1689
-#: autoload.php:3769
+#: autoload.php:1688
+#: autoload.php:3774
 #@ armember-membership
 msgid "There is an error in uploading file, Please try again."
 msgstr "Произошла ошибка при загрузке файла, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1690
-#: autoload.php:3770
+#: autoload.php:1689
+#: autoload.php:3775
 #: core/classes/class.arm_members_directory.php:320
 #@ armember-membership
 msgid "Are you sure you want to remove cover photo?"
 msgstr "Вы уверены, что хотите удалить фотографию с обложки?"
 
-#: autoload.php:1691
-#: autoload.php:3771
+#: autoload.php:1690
+#: autoload.php:3776
 #: core/classes/class.arm_members_directory.php:321
 #@ armember-membership
 msgid "Are you sure you want to remove profile photo?"
 msgstr "Вы уверены, что хотите удалить фотографию профиля?"
 
-#: autoload.php:1692
-#: autoload.php:1766
-#: autoload.php:3772
-#: autoload.php:3850
+#: autoload.php:1691
+#: autoload.php:1765
+#: autoload.php:3777
+#: autoload.php:3855
 #@ armember-membership
 msgid "There is an error while performing this action, please try again."
 msgstr "При выполнении этого действия возникает ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1693
-#: autoload.php:3773
-#: autoload.php:3851
+#: autoload.php:1692
+#: autoload.php:3778
+#: autoload.php:3856
 #@ armember-membership
 msgid "User's subscription has been canceled"
 msgstr "Подписка пользователя была отменена"
 
-#: autoload.php:1695
-#: autoload.php:3775
-#: autoload.php:3853
+#: autoload.php:1694
+#: autoload.php:3780
+#: autoload.php:3858
 #@ armember-membership
 msgid "Loading.."
 msgstr "Загрузка.."
 
-#: autoload.php:1696
+#: autoload.php:1695
 #@ armember-membership
 msgid "After certain time of post is published"
 msgstr "По истечении определенного времени публикация поста будет опубликована"
 
-#: autoload.php:1697
+#: autoload.php:1696
 #@ armember-membership
 msgid "After certain time of post is modified"
 msgstr "По истечении определенного времени публикация будет изменена"
 
-#: autoload.php:1699
-#: autoload.php:3782
+#: autoload.php:1698
+#: autoload.php:3787
 #: core/classes/class.arm_access_rules.php:506
 #: core/classes/class.arm_email_settings.php:143
 #: core/classes/class.arm_email_settings.php:176
@@ -472,8 +472,8 @@ msgstr "По истечении определенного времени пуб
 msgid "Sorry, Something went wrong. Please try again."
 msgstr "Извините, что-то пошло не так. Попробуйте еще раз."
 
-#: autoload.php:1700
-#: autoload.php:3783
+#: autoload.php:1699
+#: autoload.php:3788
 #: core/classes/class.arm_manage_communication.php:70
 #: core/classes/class.arm_members.php:1463
 #: core/classes/class.arm_transaction.php:365
@@ -481,8 +481,8 @@ msgstr "Извините, что-то пошло не так. Попробуйт
 msgid "Please select valid action."
 msgstr "Пожалуйста, выберите действительное действие."
 
-#: autoload.php:1701
-#: autoload.php:3784
+#: autoload.php:1700
+#: autoload.php:3789
 #: core/classes/class.arm_manage_communication.php:53
 #: core/classes/class.arm_members.php:1460
 #: core/classes/class.arm_members.php:2349
@@ -491,19 +491,19 @@ msgstr "Пожалуйста, выберите действительное де
 msgid "Please select one or more records."
 msgstr "Пожалуйста, выберите одну или несколько записей."
 
-#: autoload.php:1702
-#: autoload.php:3785
+#: autoload.php:1701
+#: autoload.php:3790
 #@ armember-membership
 msgid "Login attempts cleared successfully."
 msgstr "Попытки входа в систему завершились успешно."
 
-#: autoload.php:1703
-#: autoload.php:3786
+#: autoload.php:1702
+#: autoload.php:3791
 #@ armember-membership
 msgid "Login History cleared successfully."
 msgstr "История входа в систему успешно очищена."
 
-#: autoload.php:1704
+#: autoload.php:1703
 #: core/classes/class.arm_member_forms.php:6545
 #: core/classes/class.arm_member_forms.php:6809
 #: core/classes/class.arm_member_forms.php:7237
@@ -537,181 +537,181 @@ msgstr "История входа в систему успешно очищен�
 msgid "Password can not be left blank."
 msgstr "Пароль нельзя оставлять пустым."
 
-#: autoload.php:1706
-#: autoload.php:3788
+#: autoload.php:1705
+#: autoload.php:3793
 #@ armember-membership
 msgid "Plan(s) has been deleted successfully."
 msgstr "План (ы) был успешно удален."
 
-#: autoload.php:1707
-#: autoload.php:3789
+#: autoload.php:1706
+#: autoload.php:3794
 #@ armember-membership
 msgid "There is a error while deleting Plan(s), please try again."
 msgstr "При удалении плана (планов) произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1708
-#: autoload.php:3791
+#: autoload.php:1707
+#: autoload.php:3796
 #@ armember-membership
 msgid "There is a error while deleting Plan, please try again."
 msgstr "При удалении плана произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1710
-#: autoload.php:3793
+#: autoload.php:1709
+#: autoload.php:3798
 #@ armember-membership
 msgid "Setup(s) has been deleted successfully."
 msgstr "Настройки были успешно удалены."
 
-#: autoload.php:1711
-#: autoload.php:3794
+#: autoload.php:1710
+#: autoload.php:3799
 #@ armember-membership
 msgid "There is a error while deleting Setup(s), please try again."
 msgstr "При удалении настроек произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1712
-#: autoload.php:3795
+#: autoload.php:1711
+#: autoload.php:3800
 #: core/classes/class.arm_membership_setup.php:4911
 #@ armember-membership
 msgid "Setup has been deleted successfully."
 msgstr "Программа установки была успешно удалена."
 
-#: autoload.php:1713
-#: autoload.php:3796
+#: autoload.php:1712
+#: autoload.php:3801
 #@ armember-membership
 msgid "There is a error while deleting Setup, please try again."
 msgstr "При удалении программы установки произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1714
-#: autoload.php:3797
+#: autoload.php:1713
+#: autoload.php:3802
 #@ armember-membership
 msgid "Form Set Deleted Successfully."
 msgstr "Набор форм успешно удален."
 
-#: autoload.php:1715
-#: autoload.php:3798
+#: autoload.php:1714
+#: autoload.php:3803
 #@ armember-membership
 msgid "There is a error while deleting form set, please try again."
 msgstr "При удалении набора форм произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1716
-#: autoload.php:3799
+#: autoload.php:1715
+#: autoload.php:3804
 #@ armember-membership
 msgid "Form deleted successfully."
 msgstr "Форма успешно удалена."
 
-#: autoload.php:1717
-#: autoload.php:3800
+#: autoload.php:1716
+#: autoload.php:3805
 #@ armember-membership
 msgid "There is a error while deleting form, please try again."
 msgstr "При удалении формы произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1718
-#: autoload.php:3801
+#: autoload.php:1717
+#: autoload.php:3806
 #@ armember-membership
 msgid "Rule has been deleted successfully."
 msgstr "Правило было успешно удалено."
 
-#: autoload.php:1719
-#: autoload.php:3802
+#: autoload.php:1718
+#: autoload.php:3807
 #@ armember-membership
 msgid "There is a error while deleting Rule, please try again."
 msgstr "При удалении правила произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1720
-#: autoload.php:3803
+#: autoload.php:1719
+#: autoload.php:3808
 #@ armember-membership
 msgid "Rule(s) has been deleted successfully."
 msgstr "Правило (ы) было успешно удалено."
 
-#: autoload.php:1721
-#: autoload.php:3804
+#: autoload.php:1720
+#: autoload.php:3809
 #@ armember-membership
 msgid "There is a error while deleting Rule(s), please try again."
 msgstr "При удалении правила (правил) произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1722
-#: autoload.php:3805
+#: autoload.php:1721
+#: autoload.php:3810
 #@ armember-membership
 msgid "There is a error while generating preview of transaction detail, Please try again."
 msgstr "При создании предварительного просмотра сведений о транзакции произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1723
-#: autoload.php:3806
+#: autoload.php:1722
+#: autoload.php:3811
 #@ armember-membership
 msgid "There is a error while generating invoice of transaction detail, Please try again."
 msgstr "При создании счета-фактуры с подробной информацией о транзакции произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1724
-#: autoload.php:3807
+#: autoload.php:1723
+#: autoload.php:3812
 #@ armember-membership
 msgid "There is a error while generating preview of members detail, Please try again."
 msgstr "При создании предварительного просмотра сведений о пользователях произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1725
-#: autoload.php:3808
+#: autoload.php:1724
+#: autoload.php:3813
 #@ armember-membership
 msgid "There is a error while displaying members activities detail, Please try again."
 msgstr "Произошла ошибка при отображении сведений о действиях участников, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1726
-#: autoload.php:3809
+#: autoload.php:1725
+#: autoload.php:3814
 #@ armember-membership
 msgid "There is a error while displaying ARMember CSS Class Information, Please Try Again."
 msgstr "Произошла ошибка при отображении информации о классе ARMember CSS, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1727
-#: autoload.php:3810
+#: autoload.php:1726
+#: autoload.php:3815
 #@ armember-membership
 msgid "Please upload appropriate file to import users."
 msgstr "Пожалуйста, загрузите соответствующий файл для импорта пользователей."
 
-#: autoload.php:1728
-#: autoload.php:3811
+#: autoload.php:1727
+#: autoload.php:3816
 #@ armember-membership
 msgid "Transaction has been deleted successfully."
 msgstr "Транзакция была успешно удалена."
 
-#: autoload.php:1729
-#: autoload.php:3812
+#: autoload.php:1728
+#: autoload.php:3817
 #: core/classes/class.arm_transaction.php:363
 #: core/classes/class.arm_transaction.php:370
 #@ armember-membership
 msgid "Transaction(s) has been deleted successfully."
 msgstr "Транзакция (ы) была успешно удалена."
 
-#: autoload.php:1730
-#: autoload.php:3813
+#: autoload.php:1729
+#: autoload.php:3818
 #: core/classes/class.arm_manage_communication.php:29
 #@ armember-membership
 msgid "Message has been deleted successfully."
 msgstr "Сообщение было успешно удалено."
 
-#: autoload.php:1731
-#: autoload.php:3814
+#: autoload.php:1730
+#: autoload.php:3819
 #@ armember-membership
 msgid "There is a error while deleting Message, please try again."
 msgstr "При удалении сообщения произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1732
-#: autoload.php:3815
+#: autoload.php:1731
+#: autoload.php:3820
 #: core/classes/class.arm_manage_communication.php:67
 #@ armember-membership
 msgid "Message(s) has been deleted successfully."
 msgstr "Сообщения были успешно удалены."
 
-#: autoload.php:1733
-#: autoload.php:3816
+#: autoload.php:1732
+#: autoload.php:3821
 #@ armember-membership
 msgid "There is a error while deleting Message(s), please try again."
 msgstr "При удалении сообщения (сообщений) произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1735
-#: autoload.php:3818
+#: autoload.php:1734
+#: autoload.php:3823
 #@ armember-membership
 msgid "Settings has been saved successfully."
 msgstr "Настройки были успешно сохранены."
 
-#: autoload.php:1736
-#: autoload.php:3819
+#: autoload.php:1735
+#: autoload.php:3824
 #: core/classes/class.arm_global_settings.php:1595
 #: core/classes/class.arm_members_directory.php:275
 #: core/classes/class.arm_members_directory.php:278
@@ -720,203 +720,203 @@ msgstr "Настройки были успешно сохранены."
 msgid "There is a error while updating settings, please try again."
 msgstr "При обновлении настроек произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1737
-#: autoload.php:3820
+#: autoload.php:1736
+#: autoload.php:3825
 #: core/classes/class.arm_access_rules.php:109
 #@ armember-membership
 msgid "Default Rules Saved Successfully."
 msgstr "Правила по умолчанию успешно сохранены."
 
-#: autoload.php:1738
-#: autoload.php:3821
+#: autoload.php:1737
+#: autoload.php:3826
 #@ armember-membership
 msgid "There is a error while updating rules, please try again."
 msgstr "При обновлении правил произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1739
+#: autoload.php:1738
 #@ armember-membership
 msgid "Opt-ins Settings Saved Successfully."
 msgstr "Настройки для подписки успешно сохранены."
 
-#: autoload.php:1740
+#: autoload.php:1739
 #@ armember-membership
 msgid "There is a error while updating opt-ins settings, please try again."
 msgstr "При обновлении настроек подписки произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1741
+#: autoload.php:1740
 #@ armember-membership
 msgid "Are you sure to delete configuration?"
 msgstr "Вы уверены, что нужно удалить конфигурацию?"
 
-#: autoload.php:1742
-#: autoload.php:3823
+#: autoload.php:1741
+#: autoload.php:3828
 #@ armember-membership
 msgid "There is a error while deleting member activities, please try again."
 msgstr "При удалении действий участника произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1743
-#: autoload.php:3824
+#: autoload.php:1742
+#: autoload.php:3829
 #: core/classes/class.arm_members_directory.php:1151
 #@ armember-membership
 msgid "Template not found."
 msgstr "Шаблон не найден."
 
-#: autoload.php:1744
-#: autoload.php:3825
+#: autoload.php:1743
+#: autoload.php:3830
 #: core/classes/class.arm_members_directory.php:292
 #: core/classes/class.arm_members_directory.php:295
 #@ armember-membership
 msgid "Template options has been saved successfully."
 msgstr "Параметры шаблона успешно сохранены."
 
-#: autoload.php:1745
-#: autoload.php:3826
+#: autoload.php:1744
+#: autoload.php:3831
 #@ armember-membership
 msgid "There is a error while updating template options, please try again."
 msgstr "При обновлении параметров шаблона произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1746
-#: autoload.php:3827
+#: autoload.php:1745
+#: autoload.php:3832
 #@ armember-membership
 msgid "There is a error while generating preview of template, Please try again."
 msgstr "При создании предварительного просмотра шаблона произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1747
-#: autoload.php:3828
+#: autoload.php:1746
+#: autoload.php:3833
 #@ armember-membership
 msgid "Template has been added successfully."
 msgstr "Шаблон был успешно добавлен."
 
-#: autoload.php:1748
-#: autoload.php:3829
+#: autoload.php:1747
+#: autoload.php:3834
 #@ armember-membership
 msgid "There is a error while adding template, please try again."
 msgstr "При добавлении шаблона произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1749
-#: autoload.php:3830
+#: autoload.php:1748
+#: autoload.php:3835
 #@ armember-membership
 msgid "Template has been deleted successfully."
 msgstr "Шаблон был успешно удален."
 
-#: autoload.php:1750
-#: autoload.php:3831
+#: autoload.php:1749
+#: autoload.php:3836
 #@ armember-membership
 msgid "There is a error while deleting template, please try again."
 msgstr "При удалении шаблона произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1751
-#: autoload.php:3832
+#: autoload.php:1750
+#: autoload.php:3837
 #: core/classes/class.arm_email_settings.php:162
 #: core/classes/class.arm_email_settings.php:188
 #@ armember-membership
 msgid "Email Template Updated Successfully."
 msgstr "Шаблон электронной почты Успешно обновлен."
 
-#: autoload.php:1752
-#: autoload.php:3833
+#: autoload.php:1751
+#: autoload.php:3838
 #@ armember-membership
 msgid "Message Updated Successfully."
 msgstr "Сообщение успешно обновлено."
 
-#: autoload.php:1754
-#: autoload.php:3838
+#: autoload.php:1753
+#: autoload.php:3843
 #@ armember-membership
 msgid "Cannot Set Past Dates."
 msgstr "Не удается установить прошлые даты."
 
-#: autoload.php:1755
-#: autoload.php:3839
+#: autoload.php:1754
+#: autoload.php:3844
 #@ armember-membership
 msgid "Start date can not be earlier than current date."
 msgstr "Дата начала не может быть раньше текущей даты."
 
-#: autoload.php:1756
-#: autoload.php:3840
+#: autoload.php:1755
+#: autoload.php:3845
 #@ armember-membership
 msgid "Expire date can not be earlier than current date."
 msgstr "Дата истечения срока действия не может быть ранее текущей даты."
 
-#: autoload.php:1758
-#: autoload.php:3842
+#: autoload.php:1757
+#: autoload.php:3847
 #@ armember-membership
 msgid "This Set Name is already exist."
 msgstr "Это имя набора уже существует."
 
-#: autoload.php:1759
-#: autoload.php:3843
+#: autoload.php:1758
+#: autoload.php:3848
 #@ armember-membership
 msgid "This Form Name is already exist."
 msgstr "Это имя формы уже существует."
 
-#: autoload.php:1760
-#: autoload.php:3844
+#: autoload.php:1759
+#: autoload.php:3849
 #@ armember-membership
 msgid "There is an error while installing addon, Please try again."
 msgstr "При установке аддона произошла ошибка, пожалуйста, попробуйте еще раз."
 
-#: autoload.php:1761
-#: autoload.php:3845
+#: autoload.php:1760
+#: autoload.php:3850
 #@ armember-membership
 msgid "Addon installed successfully."
 msgstr "Аддон успешно установлен."
 
-#: autoload.php:1762
-#: autoload.php:3846
+#: autoload.php:1761
+#: autoload.php:3851
 #@ armember-membership
 msgid "There is an error while activating addon, Please try agina."
 msgstr "При активации аддона произошла ошибка, пожалуйста, попробуйте agina."
 
-#: autoload.php:1763
-#: autoload.php:3847
+#: autoload.php:1762
+#: autoload.php:3852
 #@ armember-membership
 msgid "Addon activated successfully."
 msgstr "Аддон успешно активирован."
 
-#: autoload.php:1764
-#: autoload.php:3848
+#: autoload.php:1763
+#: autoload.php:3853
 #@ armember-membership
 msgid "Addon deactivated successfully."
 msgstr "Аддон успешно деактивирован."
 
-#: autoload.php:1765
-#: autoload.php:3774
-#: autoload.php:3849
-#: autoload.php:3852
+#: autoload.php:1764
+#: autoload.php:3779
+#: autoload.php:3854
+#: autoload.php:3857
 #@ armember-membership
 msgid "Are you sure you want to cancel subscription?"
 msgstr "Вы уверены, что хотите отменить подписку?"
 
-#: autoload.php:1767
-#: autoload.php:3854
+#: autoload.php:1766
+#: autoload.php:3859
 #@ armember-membership
 msgid "Oops, nothing found."
 msgstr "Упс, ничего не найдено."
 
-#: autoload.php:1768
+#: autoload.php:1767
 #: core/views/arm_global_settings.php:280
 #@ armember-membership
 msgid "Edit"
 msgstr "Редактировать"
 
-#: autoload.php:2912
+#: autoload.php:2917
 #@ armember-membership
 msgid "Default Set"
 msgstr "Установленный по умолчанию"
 
-#: autoload.php:3383
+#: autoload.php:3388
 #@ armember-membership
 msgid "Help Tutorial"
 msgstr "Справочное руководство"
 
-#: autoload.php:3390
+#: autoload.php:3395
 #@ armember-membership
 msgid "Do not show again."
 msgstr "Больше не показывайся."
 
-#: autoload.php:3392
-#: autoload.php:3553
-#: autoload.php:3641
+#: autoload.php:3397
+#: autoload.php:3558
+#: autoload.php:3646
 #: core/classes/class.arm_members.php:776
 #: core/views/arm_form_editor.php:151
 #: core/views/arm_member_add.php:1072
@@ -929,76 +929,76 @@ msgstr "Больше не показывайся."
 msgid "Close"
 msgstr "Закрыть"
 
-#: autoload.php:3469
+#: autoload.php:3474
 #: core/classes/class.arm_social_feature.php:394
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
 msgstr "Список дополнений в настоящее время недоступен. Пожалуйста, повторите попытку позже."
 
-#: autoload.php:3539
+#: autoload.php:3544
 #@ armember-membership
 msgid "Available Modules"
 msgstr "Доступные Модули"
 
-#: autoload.php:3551
+#: autoload.php:3556
 #@ armember-membership
 msgid "I agree"
 msgstr "Я согласен"
 
-#: autoload.php:3632
+#: autoload.php:3637
 #@ armember-membership
 msgid "Feature Request"
 msgstr "Запрос функции"
 
-#: autoload.php:3637
+#: autoload.php:3642
 #@ armember-membership
 msgid "Join Community"
 msgstr "Присоединяйтесь к Сообществу"
 
-#: autoload.php:3639
+#: autoload.php:3644
 #@ armember-membership
 msgid "Video Tutorials"
 msgstr "Видеоуроки"
 
-#: autoload.php:3643
+#: autoload.php:3648
 #@ armember-membership
 msgid "Need Help?"
 msgstr "Нужна помощь?"
 
-#: autoload.php:3680
+#: autoload.php:3685
 #@ armember-membership
 msgid "Error"
 msgstr "Ошибка"
 
-#: autoload.php:3681
-#: autoload.php:3956
+#: autoload.php:3686
+#: autoload.php:3961
 #@ armember-membership
 msgid "Sorry, Your request can not process due to security reason."
 msgstr "Извините, Ваш запрос не может быть обработан по соображениям безопасности."
 
-#: autoload.php:3699
 #: autoload.php:3704
+#: autoload.php:3709
 #@ armember-membership
 msgid "No data found"
 msgstr "Данные не найдены"
 
-#: autoload.php:3790
+#: autoload.php:3795
 #: core/classes/class.arm_subscription_plans.php:540
 #@ armember-membership
 msgid "Plan has been deleted successfully."
 msgstr "План был успешно удален."
 
-#: autoload.php:3835
+#: autoload.php:3840
 #@ armember-membership
 msgid "Achievements Added Successfully."
 msgstr "Достижения успешно добавлены."
 
-#: autoload.php:3836
+#: autoload.php:3841
 #@ armember-membership
 msgid "Achievements Updated Successfully."
 msgstr "Достижения Успешно обновлены."
 
-#: autoload.php:3933
+#: autoload.php:3938
 #: core/classes/class.arm_manage_communication.php:25
 #: core/classes/class.arm_manage_communication.php:56
 #: core/classes/class.arm_manage_subscription.php:439
@@ -1008,7 +1008,7 @@ msgstr "Достижения Успешно обновлены."
 msgid "Sorry, You do not have permission to perform this action."
 msgstr "Извините, у вас нет разрешения на выполнение этого действия."
 
-#: autoload.php:3949
+#: autoload.php:3954
 #@ armember-membership
 msgid "Sorry, Your request can not process due to nonce not found."
 msgstr "Извините, Ваш запрос не может быть обработан из-за того, что одноразовый номер не найден."
@@ -1082,8 +1082,8 @@ msgstr "Я понимаю весь риск"
 #: core/classes/class.arm_members_directory.php:594
 #: core/classes/class.arm_members_directory.php:627
 #: core/classes/class.arm_members_directory.php:1132
-#: core/classes/class.arm_shortcodes.php:1359
-#: core/classes/class.arm_shortcodes.php:1793
+#: core/classes/class.arm_shortcodes.php:1365
+#: core/classes/class.arm_shortcodes.php:1799
 #: core/classes/class.armemberlite.php:34
 #: core/vc/class_vc_extend.php:1806
 #: core/views/arm_email_templates.php:532
@@ -1174,7 +1174,7 @@ msgstr "Отправить анонимно"
 #: core/classes/class.arm_members_activity.php:707
 #: core/classes/class.arm_membership_setup.php:887
 #: core/classes/class.arm_membership_setup.php:2433
-#: core/classes/class.arm_shortcodes.php:1574
+#: core/classes/class.arm_shortcodes.php:1580
 #: core/classes/class.armemberlite.php:64
 #: core/classes/templates.arm_member_forms_templates.php:262
 #: core/classes/templates.arm_member_forms_templates.php:1045
@@ -1390,7 +1390,7 @@ msgstr "Ограничение по умолчанию"
 msgid "If Default Restriction is ON then ONLY the selected plan members below can access this page."
 msgstr "Если ограничение по умолчанию включено, то доступ к этой странице могут получить ТОЛЬКО указанные ниже участники плана."
 
-#: autoload.php:678
+#: autoload.php:679
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:79
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:91
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:128
@@ -1683,8 +1683,8 @@ msgid "Reset Password Link is invalid."
 msgstr "Ссылка для сброса пароля недействительна."
 
 #: core/classes/class.arm_global_settings.php:865
-#: core/classes/class.arm_shortcodes.php:1201
-#: core/classes/class.arm_shortcodes.php:1413
+#: core/classes/class.arm_shortcodes.php:1207
+#: core/classes/class.arm_shortcodes.php:1419
 #: core/views/arm_manage_forms.php:246
 #: core/views/arm_tinymce_options_shortcodes.php:482
 #: core/views/arm_tinymce_options_shortcodes.php:483
@@ -1699,13 +1699,13 @@ msgid "Are you sure you want to delete your account? This will erase all of your
 msgstr "Вы уверены, что хотите удалить свою учетную запись? При этом все данные вашей учетной записи будут удалены с сайта. Чтобы удалить свою учетную запись, введите свой пароль ниже."
 
 #: core/classes/class.arm_global_settings.php:867
-#: core/classes/class.arm_shortcodes.php:1573
+#: core/classes/class.arm_shortcodes.php:1579
 #@ armember-membership
 msgid "Your Password"
 msgstr "Ваш Пароль"
 
 #: core/classes/class.arm_global_settings.php:869
-#: core/classes/class.arm_shortcodes.php:1575
+#: core/classes/class.arm_shortcodes.php:1581
 #@ armember-membership
 msgid "Password cannot be left Blank."
 msgstr "Пароль нельзя оставлять пустым."
@@ -1905,13 +1905,13 @@ msgid "Remove Profile Photo"
 msgstr "Удалить фотографию профиля"
 
 #: core/classes/class.arm_global_settings.php:906
-#: core/classes/class.arm_shortcodes.php:472
+#: core/classes/class.arm_shortcodes.php:476
 #@ armember-membership
 msgid "Alphabetically"
 msgstr "В алфавитном порядке"
 
 #: core/classes/class.arm_global_settings.php:907
-#: core/classes/class.arm_shortcodes.php:473
+#: core/classes/class.arm_shortcodes.php:477
 #@ armember-membership
 msgid "Recently Joined"
 msgstr "Недавно Присоединился"
@@ -2082,8 +2082,8 @@ msgstr "У некоторых пользователей есть привиле
 #: core/classes/class.arm_members.php:855
 #: core/classes/class.arm_members.php:902
 #: core/classes/class.arm_members.php:1027
-#: core/classes/class.arm_shortcodes.php:2118
-#: core/classes/class.arm_shortcodes.php:2197
+#: core/classes/class.arm_shortcodes.php:2124
+#: core/classes/class.arm_shortcodes.php:2203
 #: core/views/arm_member_add.php:751
 #: core/views/arm_member_add.php:764
 #: core/views/arm_member_add.php:945
@@ -2103,7 +2103,7 @@ msgstr "Время жизни"
 #: core/classes/class.arm_global_settings.php:2524
 #: core/classes/class.arm_members.php:4036
 #: core/classes/class.arm_members.php:4244
-#: core/classes/class.arm_shortcodes.php:977
+#: core/classes/class.arm_shortcodes.php:983
 #: core/classes/class.arm_subscription_plans.php:3209
 #: core/classes/class.arm_transaction.php:177
 #: core/classes/class.arm_transaction.php:597
@@ -2116,7 +2116,7 @@ msgstr "Подписка"
 #: core/classes/class.arm_global_settings.php:2429
 #: core/classes/class.arm_global_settings.php:2526
 #: core/classes/class.arm_members.php:4291
-#: core/classes/class.arm_shortcodes.php:977
+#: core/classes/class.arm_shortcodes.php:983
 #: core/classes/class.arm_transaction.php:177
 #: core/classes/class.arm_transaction.php:597
 #: core/classes/class.arm_transaction.php:1083
@@ -2334,8 +2334,8 @@ msgstr "Не удалось активировать план."
 
 #: core/classes/class.arm_manage_subscription.php:111
 #: core/classes/class.arm_payment_gateways.php:1507
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:880
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:886
 #: core/classes/class.arm_transaction.php:145
 #: core/classes/class.arm_transaction.php:149
 #: core/classes/class.arm_transaction.php:1133
@@ -2360,8 +2360,8 @@ msgid "Subscription ID"
 msgstr "Идентификатор подписки"
 
 #: core/classes/class.arm_manage_subscription.php:113
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:893
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:899
 #: core/classes/class.arm_subscription_plans.php:1837
 #: core/classes/class.arm_transaction.php:168
 #: core/vc/class_vc_extend.php:792
@@ -2378,8 +2378,8 @@ msgstr "Платежный шлюз"
 #: core/classes/class.arm_manage_subscription.php:114
 #: core/classes/class.arm_manage_subscription.php:494
 #: core/classes/class.arm_manage_subscription.php:524
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:912
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:918
 #: core/classes/class.arm_subscription_plans.php:1836
 #: core/classes/class.arm_transaction.php:577
 #: core/classes/class.arm_transaction.php:1133
@@ -2539,7 +2539,7 @@ msgstr "Имя"
 #: core/classes/class.arm_manage_subscription.php:492
 #: core/classes/class.arm_manage_subscription.php:752
 #: core/classes/class.arm_manage_subscription.php:1102
-#: core/classes/class.arm_shortcodes.php:1943
+#: core/classes/class.arm_shortcodes.php:1949
 #: core/classes/class.arm_subscription_plans.php:1834
 #: core/vc/class_vc_extend.php:2058
 #: core/views/arm_debug_logs.php:77
@@ -2568,8 +2568,8 @@ msgstr "Срок действия / Следующее Продление"
 #: core/classes/class.arm_manage_subscription.php:495
 #: core/classes/class.arm_manage_subscription.php:755
 #: core/classes/class.arm_manage_subscription.php:1105
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:900
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:906
 #: core/classes/class.arm_transaction.php:176
 #: core/classes/class.arm_transaction.php:574
 #: core/classes/class.arm_transaction.php:1133
@@ -2595,13 +2595,13 @@ msgstr "Тип Платежа"
 msgid "Transaction"
 msgstr "Транзакция"
 
-#: autoload.php:663
-#: autoload.php:667
-#: autoload.php:671
+#: autoload.php:664
+#: autoload.php:668
+#: autoload.php:672
 #: core/classes/class.arm_manage_subscription.php:520
 #: core/classes/class.arm_manage_subscription.php:749
 #: core/classes/class.arm_manage_subscription.php:1099
-#: core/classes/class.arm_shortcodes.php:1199
+#: core/classes/class.arm_shortcodes.php:1205
 #: core/classes/class.arm_transaction.php:573
 #: core/classes/class.arm_transaction.php:1133
 #: core/views/arm_manage_subscription_list.php:683
@@ -2615,8 +2615,8 @@ msgid "Membership"
 msgstr "Членство"
 
 #: core/classes/class.arm_manage_subscription.php:523
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:919
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:925
 #: core/classes/class.arm_transaction.php:276
 #: core/classes/class.arm_transaction.php:579
 #: core/classes/class.arm_transaction.php:1133
@@ -2653,7 +2653,7 @@ msgstr "Полуавтоматический"
 #: core/classes/class.arm_manage_subscription.php:1329
 #: core/classes/class.arm_members.php:927
 #: core/classes/class.arm_members.php:1012
-#: core/classes/class.arm_shortcodes.php:2110
+#: core/classes/class.arm_shortcodes.php:2116
 #: core/views/arm_member_add.php:756
 #: core/views/arm_member_add.php:949
 #@ armember-membership
@@ -2721,7 +2721,7 @@ msgstr "Отменено"
 #: core/classes/class.arm_manage_subscription.php:992
 #: core/classes/class.arm_manage_subscription.php:1349
 #: core/classes/class.arm_payment_gateways.php:466
-#: core/classes/class.arm_shortcodes.php:962
+#: core/classes/class.arm_shortcodes.php:968
 #: core/classes/class.arm_transaction.php:151
 #: core/classes/class.arm_transaction.php:624
 #: core/classes/class.arm_transaction.php:1029
@@ -2889,8 +2889,8 @@ msgstr "Сохранить"
 
 #: core/classes/class.arm_members.php:790
 #: core/classes/class.arm_members.php:975
-#: core/classes/class.arm_shortcodes.php:1779
-#: core/classes/class.arm_shortcodes.php:1936
+#: core/classes/class.arm_shortcodes.php:1785
+#: core/classes/class.arm_shortcodes.php:1942
 #: core/vc/class_vc_extend.php:1413
 #: core/vc/class_vc_extend.php:1479
 #: core/vc/class_vc_extend.php:2169
@@ -2913,7 +2913,7 @@ msgstr "План членства"
 
 #: core/classes/class.arm_members.php:791
 #: core/classes/class.arm_members.php:976
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1414
 #: core/vc/class_vc_extend.php:1500
 #: core/vc/class_vc_extend.php:2170
@@ -2932,7 +2932,7 @@ msgstr "Тип плана"
 
 #: core/classes/class.arm_members.php:792
 #: core/classes/class.arm_members.php:977
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1415
 #: core/vc/class_vc_extend.php:1521
 #: core/vc/class_vc_extend.php:2171
@@ -2946,7 +2946,7 @@ msgstr "Начинается С"
 #: core/classes/class.arm_members.php:979
 #: core/classes/class.arm_members.php:4279
 #: core/classes/class.arm_members.php:4293
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1416
 #: core/vc/class_vc_extend.php:1542
 #: core/vc/class_vc_extend.php:2172
@@ -2960,7 +2960,7 @@ msgstr "Истекает В"
 
 #: core/classes/class.arm_members.php:794
 #: core/classes/class.arm_members.php:980
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1417
 #: core/vc/class_vc_extend.php:1563
 #: core/vc/class_vc_extend.php:2173
@@ -2989,7 +2989,7 @@ msgstr "план для этого пользователя?"
 #: core/classes/class.arm_members.php:862
 #: core/classes/class.arm_members.php:1056
 #: core/classes/class.arm_members.php:4264
-#: core/classes/class.arm_shortcodes.php:2275
+#: core/classes/class.arm_shortcodes.php:2281
 #: core/views/arm_member_add.php:771
 #: core/views/arm_member_add.php:963
 #@ armember-membership
@@ -3027,7 +3027,7 @@ msgstr "Сохранить Срок годности"
 
 #: core/classes/class.arm_members.php:913
 #: core/classes/class.arm_members.php:1043
-#: core/classes/class.arm_shortcodes.php:1799
+#: core/classes/class.arm_shortcodes.php:1805
 #: core/vc/class_vc_extend.php:1814
 #: core/views/arm_member_add.php:814
 #: core/views/arm_tinymce_options_shortcodes.php:840
@@ -3059,7 +3059,7 @@ msgstr "Оплачено"
 
 #: core/classes/class.arm_members.php:1058
 #: core/classes/class.arm_members.php:4262
-#: core/classes/class.arm_shortcodes.php:2277
+#: core/classes/class.arm_shortcodes.php:2283
 #@ armember-membership
 msgid "cycles due"
 msgstr "циклы, обусловленные"
@@ -3562,7 +3562,7 @@ msgid "Automatic"
 msgstr "Автоматический"
 
 #: core/classes/class.arm_members.php:4275
-#: core/classes/class.arm_shortcodes.php:1971
+#: core/classes/class.arm_shortcodes.php:1977
 #@ armember-membership
 msgid "Renewal On"
 msgstr "Продление на"
@@ -3836,7 +3836,7 @@ msgid "active"
 msgstr "активный"
 
 #: core/classes/class.arm_members_directory.php:682
-#: core/classes/class.arm_shortcodes.php:1198
+#: core/classes/class.arm_shortcodes.php:1204
 #@ armember-membership
 msgid "Profile"
 msgstr "Профиль"
@@ -4301,8 +4301,8 @@ msgstr "Ваш профиль успешно обновлен."
 #: core/classes/class.arm_member_forms.php:3682
 #: core/classes/class.arm_member_forms.php:3755
 #: core/classes/class.arm_member_forms.php:3770
-#: core/classes/class.arm_shortcodes.php:630
-#: core/classes/class.arm_shortcodes.php:645
+#: core/classes/class.arm_shortcodes.php:634
+#: core/classes/class.arm_shortcodes.php:649
 #: core/views/arm_profile_editor.php:573
 #@ armember-membership
 msgid "Crop"
@@ -4317,8 +4317,8 @@ msgstr "Обрезка"
 #: core/classes/class.arm_member_forms.php:3683
 #: core/classes/class.arm_member_forms.php:3756
 #: core/classes/class.arm_member_forms.php:3771
-#: core/classes/class.arm_shortcodes.php:631
-#: core/classes/class.arm_shortcodes.php:646
+#: core/classes/class.arm_shortcodes.php:635
+#: core/classes/class.arm_shortcodes.php:650
 #: core/views/arm_profile_editor.php:574
 #@ armember-membership
 msgid "Clear"
@@ -4333,8 +4333,8 @@ msgstr "Очистить"
 #: core/classes/class.arm_member_forms.php:3684
 #: core/classes/class.arm_member_forms.php:3757
 #: core/classes/class.arm_member_forms.php:3772
-#: core/classes/class.arm_shortcodes.php:632
-#: core/classes/class.arm_shortcodes.php:647
+#: core/classes/class.arm_shortcodes.php:636
+#: core/classes/class.arm_shortcodes.php:651
 #: core/views/arm_profile_editor.php:575
 #@ armember-membership
 msgid "Zoom In"
@@ -4349,8 +4349,8 @@ msgstr "Увеличьте масштаб"
 #: core/classes/class.arm_member_forms.php:3685
 #: core/classes/class.arm_member_forms.php:3758
 #: core/classes/class.arm_member_forms.php:3773
-#: core/classes/class.arm_shortcodes.php:633
-#: core/classes/class.arm_shortcodes.php:648
+#: core/classes/class.arm_shortcodes.php:637
+#: core/classes/class.arm_shortcodes.php:652
 #: core/views/arm_profile_editor.php:576
 #@ armember-membership
 msgid "Zoom Out"
@@ -4365,8 +4365,8 @@ msgstr "Уменьшить масштаб"
 #: core/classes/class.arm_member_forms.php:3686
 #: core/classes/class.arm_member_forms.php:3759
 #: core/classes/class.arm_member_forms.php:3774
-#: core/classes/class.arm_shortcodes.php:634
-#: core/classes/class.arm_shortcodes.php:649
+#: core/classes/class.arm_shortcodes.php:638
+#: core/classes/class.arm_shortcodes.php:653
 #: core/views/arm_profile_editor.php:577
 #@ armember-membership
 msgid "Rotate"
@@ -4381,8 +4381,8 @@ msgstr "Вращать"
 #: core/classes/class.arm_member_forms.php:3687
 #: core/classes/class.arm_member_forms.php:3760
 #: core/classes/class.arm_member_forms.php:3775
-#: core/classes/class.arm_shortcodes.php:635
-#: core/classes/class.arm_shortcodes.php:650
+#: core/classes/class.arm_shortcodes.php:639
+#: core/classes/class.arm_shortcodes.php:654
 #: core/views/arm_access_rules.php:261
 #: core/views/arm_profile_editor.php:230
 #: core/views/arm_profile_editor.php:578
@@ -4399,8 +4399,8 @@ msgstr "Сброс"
 #: core/classes/class.arm_member_forms.php:3688
 #: core/classes/class.arm_member_forms.php:3761
 #: core/classes/class.arm_member_forms.php:3776
-#: core/classes/class.arm_shortcodes.php:636
-#: core/classes/class.arm_shortcodes.php:651
+#: core/classes/class.arm_shortcodes.php:640
+#: core/classes/class.arm_shortcodes.php:655
 #: core/views/arm_profile_editor.php:580
 #@ armember-membership
 msgid "Done"
@@ -4408,7 +4408,7 @@ msgstr "Выполнено"
 
 #: core/classes/class.arm_member_forms.php:889
 #: core/classes/class.arm_member_forms.php:3763
-#: core/classes/class.arm_shortcodes.php:638
+#: core/classes/class.arm_shortcodes.php:642
 #, php-format
 #@ armember-membership
 msgid "Use Cropper to set image and %1$s use mouse scroller for zoom image."
@@ -4418,7 +4418,7 @@ msgstr "Используйте Cropper, чтобы установить изоб
 #: core/classes/class.arm_member_forms.php:904
 #: core/classes/class.arm_member_forms.php:3674
 #: core/classes/class.arm_member_forms.php:3778
-#: core/classes/class.arm_shortcodes.php:653
+#: core/classes/class.arm_shortcodes.php:657
 #@ armember-membership
 msgid "(Use Cropper to set image and use mouse scroller for zoom image.)"
 msgstr "(Используйте программу обрезки для настройки изображения и скроллер мыши для масштабирования изображения.)"
@@ -5930,7 +5930,7 @@ msgid "Your password changed successfully."
 msgstr "Ваш пароль успешно изменен."
 
 #: core/classes/class.arm_member_forms.php:7483
-#: core/classes/class.arm_shortcodes.php:1373
+#: core/classes/class.arm_shortcodes.php:1379
 #: core/vc/class_vc_extend.php:363
 #: core/vc/class_vc_extend.php:414
 #: core/views/arm_manage_forms.php:186
@@ -7454,14 +7454,14 @@ msgstr "План без названия"
 msgid "Free Membership"
 msgstr "Бесплатное Членство"
 
-#: core/classes/class.arm_shortcodes.php:692
+#: core/classes/class.arm_shortcodes.php:696
 #@ armember-membership
 msgid "Sort By"
 msgstr "Сортировать по"
 
 #: core/classes/class.arm_manage_subscription.php:1260
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:887
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:893
 #: core/classes/class.arm_subscription_plans.php:1832
 #: core/classes/class.arm_transaction.php:139
 #: core/vc/class_vc_extend.php:791
@@ -7474,8 +7474,8 @@ msgstr "Сортировать по"
 msgid "Plan"
 msgstr "План"
 
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:906
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:912
 #: core/classes/class.arm_transaction.php:190
 #: core/classes/class.arm_transaction.php:575
 #: core/classes/class.arm_transaction.php:1133
@@ -7490,8 +7490,8 @@ msgstr "План"
 msgid "Transaction Status"
 msgstr "Статус транзакции"
 
-#: core/classes/class.arm_shortcodes.php:772
-#: core/classes/class.arm_shortcodes.php:1200
+#: core/classes/class.arm_shortcodes.php:778
+#: core/classes/class.arm_shortcodes.php:1206
 #: core/vc/class_vc_extend.php:1017
 #: core/vc/class_vc_extend.php:1054
 #: core/views/arm_tinymce_options_shortcodes.php:563
@@ -7499,8 +7499,8 @@ msgstr "Статус транзакции"
 msgid "Transactions"
 msgstr "Транзакции"
 
-#: core/classes/class.arm_shortcodes.php:775
-#: core/classes/class.arm_shortcodes.php:1409
+#: core/classes/class.arm_shortcodes.php:781
+#: core/classes/class.arm_shortcodes.php:1415
 #: core/vc/class_vc_extend.php:1035
 #: core/vc/class_vc_extend.php:1056
 #: core/views/arm_tinymce_options_shortcodes.php:575
@@ -7508,13 +7508,13 @@ msgstr "Транзакции"
 msgid "There is no any Transactions found"
 msgstr "Никаких транзакций не найдено"
 
-#: core/classes/class.arm_shortcodes.php:978
+#: core/classes/class.arm_shortcodes.php:984
 #@ armember-membership
 msgid "(Trial Transaction)"
 msgstr "(Пробная Транзакция)"
 
-#: core/classes/class.arm_shortcodes.php:1020
-#: core/classes/class.arm_shortcodes.php:1978
+#: core/classes/class.arm_shortcodes.php:1026
+#: core/classes/class.arm_shortcodes.php:1984
 #: core/classes/class.arm_transaction.php:217
 #: core/classes/class.arm_transaction.php:649
 #: core/views/arm_subscription_plans_add.php:523
@@ -7522,49 +7522,49 @@ msgstr "(Пробная Транзакция)"
 msgid "Trial Period"
 msgstr "Испытательный Срок"
 
-#: core/classes/class.arm_shortcodes.php:1022
+#: core/classes/class.arm_shortcodes.php:1028
 #: core/classes/class.arm_transaction.php:223
 #: core/classes/class.arm_transaction.php:651
 #@ armember-membership
 msgid "Years"
 msgstr "Годы"
 
-#: core/classes/class.arm_shortcodes.php:1022
+#: core/classes/class.arm_shortcodes.php:1028
 #: core/classes/class.arm_transaction.php:223
 #: core/classes/class.arm_transaction.php:651
 #@ armember-membership
 msgid "Year"
 msgstr "Год"
 
-#: core/classes/class.arm_shortcodes.php:1024
+#: core/classes/class.arm_shortcodes.php:1030
 #: core/classes/class.arm_transaction.php:225
 #: core/classes/class.arm_transaction.php:653
 #@ armember-membership
 msgid "Months"
 msgstr "Месяцы"
 
-#: core/classes/class.arm_shortcodes.php:1024
+#: core/classes/class.arm_shortcodes.php:1030
 #: core/classes/class.arm_transaction.php:225
 #: core/classes/class.arm_transaction.php:653
 #@ armember-membership
 msgid "Month"
 msgstr "Месяц"
 
-#: core/classes/class.arm_shortcodes.php:1026
+#: core/classes/class.arm_shortcodes.php:1032
 #: core/classes/class.arm_transaction.php:227
 #: core/classes/class.arm_transaction.php:655
 #@ armember-membership
 msgid "Weeks"
 msgstr "Недели"
 
-#: core/classes/class.arm_shortcodes.php:1026
+#: core/classes/class.arm_shortcodes.php:1032
 #: core/classes/class.arm_transaction.php:227
 #: core/classes/class.arm_transaction.php:655
 #@ armember-membership
 msgid "Week"
 msgstr "Неделя"
 
-#: core/classes/class.arm_shortcodes.php:1028
+#: core/classes/class.arm_shortcodes.php:1034
 #: core/classes/class.arm_transaction.php:229
 #: core/classes/class.arm_transaction.php:657
 #: core/views/arm_member_add.php:862
@@ -7574,33 +7574,33 @@ msgstr "Неделя"
 msgid "Days"
 msgstr "Дней"
 
-#: core/classes/class.arm_shortcodes.php:1028
+#: core/classes/class.arm_shortcodes.php:1034
 #: core/classes/class.arm_transaction.php:229
 #: core/classes/class.arm_transaction.php:657
 #@ armember-membership
 msgid "Day"
 msgstr "День"
 
-#: core/classes/class.arm_shortcodes.php:1039
+#: core/classes/class.arm_shortcodes.php:1045
 #@ armember-membership
 msgid "Payment Action"
 msgstr "Платежное действие"
 
-#: core/classes/class.arm_shortcodes.php:1351
-#: core/classes/class.arm_shortcodes.php:1788
+#: core/classes/class.arm_shortcodes.php:1357
+#: core/classes/class.arm_shortcodes.php:1794
 #: core/vc/class_vc_extend.php:1801
 #: core/views/arm_tinymce_options_shortcodes.php:740
 #@ armember-membership
 msgid "Renew"
 msgstr "Обновлять"
 
-#: core/classes/class.arm_shortcodes.php:1369
+#: core/classes/class.arm_shortcodes.php:1375
 #@ armember-membership
 msgid "Profile Detail"
 msgstr "Подробная информация о профиле"
 
-#: core/classes/class.arm_shortcodes.php:1378
-#: core/classes/class.arm_shortcodes.php:1782
+#: core/classes/class.arm_shortcodes.php:1384
+#: core/classes/class.arm_shortcodes.php:1788
 #: core/vc/class_vc_extend.php:1454
 #: core/vc/class_vc_extend.php:1475
 #: core/vc/class_vc_extend.php:1496
@@ -7618,13 +7618,13 @@ msgstr "Подробная информация о профиле"
 msgid "Current Membership"
 msgstr "Текущее Членство"
 
-#: core/classes/class.arm_shortcodes.php:1403
+#: core/classes/class.arm_shortcodes.php:1409
 #: core/classes/class.arm_subscription_plans.php:1913
 #@ armember-membership
 msgid "Change Subscription"
 msgstr "Изменить Подписку"
 
-#: core/classes/class.arm_shortcodes.php:1408
+#: core/classes/class.arm_shortcodes.php:1414
 #: core/vc/class_vc_extend.php:816
 #: core/vc/class_vc_extend.php:834
 #: core/vc/class_vc_extend.php:852
@@ -7640,18 +7640,18 @@ msgstr "Изменить Подписку"
 msgid "Transaction History"
 msgstr "История транзакций"
 
-#: core/classes/class.arm_shortcodes.php:1675
+#: core/classes/class.arm_shortcodes.php:1681
 #@ armember-membership
 msgid "Password can not be left blank"
 msgstr "Пароль нельзя оставлять пустым"
 
-#: core/classes/class.arm_shortcodes.php:1675
+#: core/classes/class.arm_shortcodes.php:1681
 #@ armember-membership
 msgid "Please enter valid data"
 msgstr "Пожалуйста, введите действительные данные"
 
-#: core/classes/class.arm_shortcodes.php:1779
-#: core/classes/class.arm_shortcodes.php:1929
+#: core/classes/class.arm_shortcodes.php:1785
+#: core/classes/class.arm_shortcodes.php:1935
 #: core/vc/class_vc_extend.php:1412
 #: core/vc/class_vc_extend.php:1458
 #: core/vc/class_vc_extend.php:2168
@@ -7661,8 +7661,8 @@ msgstr "Пожалуйста, введите действительные дан
 msgid "No."
 msgstr "Нет."
 
-#: core/classes/class.arm_shortcodes.php:1779
-#: core/classes/class.arm_shortcodes.php:1985
+#: core/classes/class.arm_shortcodes.php:1785
+#: core/classes/class.arm_shortcodes.php:1991
 #: core/vc/class_vc_extend.php:1418
 #: core/vc/class_vc_extend.php:1584
 #: core/vc/class_vc_extend.php:2174
@@ -7680,34 +7680,34 @@ msgstr "Нет."
 msgid "Action"
 msgstr "Экшен"
 
-#: core/classes/class.arm_shortcodes.php:1789
+#: core/classes/class.arm_shortcodes.php:1795
 #: core/vc/class_vc_extend.php:1802
 #: core/views/arm_tinymce_options_shortcodes.php:744
 #@ armember-membership
 msgid "Make Payment"
 msgstr "Произвести платеж"
 
-#: core/classes/class.arm_shortcodes.php:1797
+#: core/classes/class.arm_shortcodes.php:1803
 #: core/vc/class_vc_extend.php:1811
 #: core/views/arm_tinymce_options_shortcodes.php:818
 #@ armember-membership
 msgid "Update Card"
 msgstr "Карта обновления"
 
-#: core/classes/class.arm_shortcodes.php:1800
+#: core/classes/class.arm_shortcodes.php:1806
 #: core/vc/class_vc_extend.php:1809
 #@ armember-membership
 msgid "Your Subscription has been cancelled."
 msgstr "Ваша подписка была отменена."
 
-#: core/classes/class.arm_shortcodes.php:1801
+#: core/classes/class.arm_shortcodes.php:1807
 #: core/vc/class_vc_extend.php:1815
 #: core/views/arm_tinymce_options_shortcodes.php:847
 #@ armember-membership
 msgid "There is no membership found."
 msgstr "Членство не найдено."
 
-#: core/classes/class.arm_shortcodes.php:1950
+#: core/classes/class.arm_shortcodes.php:1956
 #: core/vc/class_vc_extend.php:2059
 #: core/views/arm_debug_logs.php:80
 #: core/views/arm_debug_logs.php:186
@@ -7720,56 +7720,56 @@ msgstr "Членство не найдено."
 msgid "End Date"
 msgstr "Дата Окончания"
 
-#: core/classes/class.arm_shortcodes.php:1957
+#: core/classes/class.arm_shortcodes.php:1963
 #@ armember-membership
 msgid "Recurring Profile"
 msgstr "Повторяющийся Профиль"
 
-#: core/classes/class.arm_shortcodes.php:1964
+#: core/classes/class.arm_shortcodes.php:1970
 #@ armember-membership
 msgid "Remaining Occurence"
 msgstr "Оставшееся Событие"
 
-#: core/classes/class.arm_shortcodes.php:2221
+#: core/classes/class.arm_shortcodes.php:2227
 #: core/views/arm_global_settings.php:487
 #@ armember-membership
 msgid "To"
 msgstr "Для"
 
-#: core/classes/class.arm_shortcodes.php:2283
+#: core/classes/class.arm_shortcodes.php:2289
 #: core/views/arm_member_add.php:783
 #: core/views/arm_member_add.php:974
 #@ armember-membership
 msgid "grace period expires on"
 msgstr "льготный период истекает в"
 
-#: core/classes/class.arm_shortcodes.php:2639
+#: core/classes/class.arm_shortcodes.php:2645
 #@ armember-membership
 msgid "Your account is closed successfully."
 msgstr "Ваша учетная запись успешно закрыта."
 
-#: core/classes/class.arm_shortcodes.php:2644
+#: core/classes/class.arm_shortcodes.php:2650
 #@ armember-membership
 msgid "Your current password is invalid."
 msgstr "Ваш текущий пароль недействителен."
 
-#: core/classes/class.arm_shortcodes.php:2739
+#: core/classes/class.arm_shortcodes.php:2745
 #@ armember-membership
 msgid "MEMBERSHIP SHORTCODES"
 msgstr "КОРОТКИЕ КОДЫ ЧЛЕНСТВА"
 
-#: core/classes/class.arm_shortcodes.php:2741
+#: core/classes/class.arm_shortcodes.php:2747
 #@ armember-membership
 msgid "RESTRICT CONTENT"
 msgstr "ОГРАНИЧИТЬ СОДЕРЖИМОЕ"
 
-#: core/classes/class.arm_shortcodes.php:3104
+#: core/classes/class.arm_shortcodes.php:3110
 #: core/views/arm_transactions_list_records.php:327
 #@ armember-membership
 msgid "Automatic Subscription"
 msgstr "Автоматическая Подписка"
 
-#: core/classes/class.arm_shortcodes.php:3106
+#: core/classes/class.arm_shortcodes.php:3112
 #: core/views/arm_transactions_list_records.php:328
 #@ armember-membership
 msgid "Semi Automatic Subscription"
@@ -10239,7 +10239,7 @@ msgstr "Форма успешно отправлена."
 msgid "Other Forms (Login / Forgot Password / Change Password)"
 msgstr "Другие формы (Вход в систему / Забыли пароль / Смените пароль)"
 
-#: autoload.php:663
+#: autoload.php:664
 #: core/views/arm_form_editor.php:156
 #: core/views/arm_manage_forms.php:38
 #: core/views/arm_manage_forms.php:107
@@ -13050,7 +13050,7 @@ msgstr "Если Пользователь Имеет"
 msgid "No Plan"
 msgstr "Никакого плана"
 
-#: autoload.php:648
+#: autoload.php:649
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:165
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:49
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:22
@@ -14012,7 +14012,7 @@ msgstr "Удалить план (планы)"
 msgid "Plans Cycles"
 msgstr "Циклы планирования"
 
-#: autoload.php:662
+#: autoload.php:663
 #: core/views/arm_tinymce_options_shortcodes.php:21
 #@ armember-membership
 msgid "Membership Shortcodes"
@@ -14234,7 +14234,7 @@ msgstr "Добавить Короткий код"
 msgid "Content Restriction Shortcode"
 msgstr "Шорткод для ограничения контента"
 
-#: autoload.php:674
+#: autoload.php:675
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:62
 #: core/views/arm_tinymce_options_shortcodes.php:1176
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:60
@@ -14242,14 +14242,14 @@ msgstr "Шорткод для ограничения контента"
 msgid "Restriction Type"
 msgstr "Тип ограничения"
 
-#: autoload.php:676
+#: autoload.php:677
 #: core/views/arm_tinymce_options_shortcodes.php:1183
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:64
 #@ armember-membership
 msgid "Hide content only for"
 msgstr "Скрывать содержимое только для"
 
-#: autoload.php:675
+#: autoload.php:676
 #: core/views/arm_tinymce_options_shortcodes.php:1184
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:65
 #@ armember-membership
@@ -14261,7 +14261,7 @@ msgstr "Показывать контент только для"
 msgid "Target Users"
 msgstr "Целевые Пользователи"
 
-#: autoload.php:650
+#: autoload.php:651
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:167
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:51
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:24
@@ -14272,7 +14272,7 @@ msgstr "Целевые Пользователи"
 msgid "Loggedin Users"
 msgstr "Зарегистрированные пользователи в сети"
 
-#: autoload.php:649
+#: autoload.php:650
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:166
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:50
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:23
@@ -14598,7 +14598,7 @@ msgstr "Максимальный размер загрузки PHP: МБ"
 #, php-format
 #@ armember-membership
 msgid "(Use Cropper to set image and %suse mouse scroller for zoom image.)"
-msgstr "(Используйте Cropper, чтобы установить изображение, и прокрутку мыши %suse для масштабирования изображения.)"
+msgstr "(Используйте Cropper для установки изображения и %suse mouse scroller для масштабирования изображения.)"
 
 #: core/classes/templates.arm_member_forms_templates.php:2860
 #: core/classes/templates.arm_member_forms_templates.php:3628
@@ -14610,13 +14610,13 @@ msgstr "Пожалуйста, введите свой адрес электро�
 #, php-format
 #@ armember-membership
 msgid "Those username(s) which are entered here, will be blocked on new user registration, that means those keywords will not be allowed to use as username upon signup. For example, if you will enter 'test' here, then all usernames which contain 'test' will be banned, like %s"
-msgstr "Те имена пользователей, которые вводятся здесь, будут заблокированы при регистрации нового пользователя, это означает, что эти ключевые слова не будут разрешены для использования в качестве имени пользователя при регистрации. Например, если вы введете здесь «test», то все имена пользователей, содержащие слово «test», будут забанены, например %s."
+msgstr "Эти имена пользователей, которые введены здесь, будут заблокированы при регистрации нового пользователя, это означает, что эти ключевые слова не будут разрешены для использования в качестве имени пользователя при регистрации. Например, если вы введете здесь 'test', то все имена пользователей, которые содержат 'test', будут запрещены, например %s"
 
 #: core/views/arm_block_settings.php:153
 #, php-format
 #@ armember-membership
 msgid "Those Email Address(es) which are entered here, will be blocked on new user registration, that means those keywords will not be allowed to use as Email Address upon signup. For example, if you will enter 'abc@def.ghi' here, then exact this email address will be banned, but if you will enter 'test' only, then all email addresses which contain 'test' will be banned, like %s."
-msgstr "Те адреса электронной почты, которые вводятся здесь, будут заблокированы при регистрации нового пользователя, это означает, что эти ключевые слова не будут разрешены для использования в качестве адреса электронной почты при регистрации. Например, если вы введете здесь «abc@def.ghi», то именно этот адрес электронной почты будет заблокирован, но если вы введете только «test», тогда все адреса электронной почты, содержащие «test», будут заблокированы, например %s."
+msgstr "Те адреса электронной почты, которые введены здесь, будут заблокированы при регистрации нового пользователя, то есть эти ключевые слова не будут разрешены для использования в качестве адреса электронной почты при регистрации. Например, если вы введете здесь 'abc@def.ghi', то этот адрес электронной почты будет запрещен, но если вы введете только 'test', то все адреса электронной почты, содержащие 'test', будут запрещены, например %s."
 
 #: core/views/arm_redirection_settings.php:174
 #: core/views/arm_redirection_settings.php:566
@@ -14626,7 +14626,7 @@ msgstr "Те адреса электронной почты, которые вв
 #, php-format
 #@ armember-membership
 msgid "Use %s to add current user's usrename in url."
-msgstr "Используйте %s, чтобы добавить имя пользователя текущего пользователя в URL-адрес."
+msgstr "Используйте %s, чтобы добавить имя текущего пользователя в URL."
 
 #: core/views/arm_redirection_settings.php:175
 #: core/views/arm_redirection_settings.php:567
@@ -14636,19 +14636,19 @@ msgstr "Используйте %s, чтобы добавить имя польз
 #, php-format
 #@ armember-membership
 msgid "Use %s to add current user's id in url."
-msgstr "Используйте %s, чтобы добавить идентификатор текущего пользователя в URL-адрес."
+msgstr "Используйте %s, чтобы добавить идентификатор текущего пользователя в URL."
 
 #: core/views/arm_tinymce_options_shortcodes.php:934
 #, php-format
 #@ armember-membership
 msgid "If User %sIn%s Trial Period"
-msgstr "Если пользователь %sВ пробном периоде%s"
+msgstr "Если пользователь %sIn%s Пробный период"
 
 #: core/views/arm_tinymce_options_shortcodes.php:935
 #, php-format
 #@ armember-membership
 msgid "If User %sNot In%s Trial Period"
-msgstr "Если пользователь %s не находится в пробном периоде %s"
+msgstr "Если пользователь %sNot In%s Пробный период"
 
 #: core/views/arm_email_templates.php:30
 #@ armember-membership
@@ -14695,9 +14695,9 @@ msgstr "Текущий пароль"
 msgid "Current password can not be left blank."
 msgstr "Текущий пароль нельзя оставить пустым."
 
-#: autoload.php:663
-#: autoload.php:667
-#: autoload.php:671
+#: autoload.php:664
+#: autoload.php:668
+#: autoload.php:672
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:21
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:25
 #: core/widgets/arm_elm_widgets/class.arm_elementor_widget_element.php:29
@@ -14705,33 +14705,33 @@ msgstr "Текущий пароль нельзя оставить пустым."
 msgid "ARMember"
 msgstr "ARMember"
 
-#: autoload.php:666
+#: autoload.php:667
 #@ armember-membership
 msgid "Restrict Content Shortcode"
 msgstr "Ограничить короткий код контента"
 
-#: autoload.php:667
-#: autoload.php:671
+#: autoload.php:668
+#: autoload.php:672
 #@ armember-membership
 msgid "Restriction"
 msgstr "Ограничение"
 
-#: autoload.php:670
+#: autoload.php:671
 #@ armember-membership
 msgid "ARMember Block Restriction"
 msgstr "Ограничение блокировки ARMember"
 
-#: autoload.php:671
+#: autoload.php:672
 #@ armember-membership
 msgid "Block"
 msgstr "Блокировать"
 
-#: autoload.php:672
+#: autoload.php:673
 #@ armember-membership
 msgid "Nest blocks within this wrapper to control the inner block visibility by membership plans or for free membership only."
 msgstr "Встраивайте блоки в эту оболочку, чтобы контролировать видимость внутреннего блока с помощью планов членства или только для бесплатного членства."
 
-#: autoload.php:679
+#: autoload.php:680
 #@ armember-membership
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "Если любое из следующих условий будет истинным, к контенту будут применяться ограничения."
@@ -15694,9 +15694,9 @@ msgstr "Интеграции сторонних разработчиков"
 msgid "Upgrade Pro"
 msgstr "Обновление Pro"
 
-#: autoload.php:1128
+#: autoload.php:1127
+#: autoload.php:1234
 #: autoload.php:1235
-#: autoload.php:1236
 #@ armember-membership
 msgid "Add-ons"
 msgstr "Дополнения"
@@ -15721,6 +15721,6 @@ msgstr "Пожалуйста, установите Fusion Builder или Avada T
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.51"
-msgstr "4.0.51"
+msgid "4.0.52"
+msgstr "4.0.52"
 

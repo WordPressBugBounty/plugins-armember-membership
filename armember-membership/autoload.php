@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.51';
+$arm_lite_version = '4.0.52';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -395,10 +395,10 @@ class ARMemberlite {
 			add_action( 'admin_init', array( $this, 'arm_hide_update_notice' ), 1 );
 			add_action( 'admin_enqueue_scripts', array( $this, 'set_css' ), 11 );
 			add_action( 'admin_enqueue_scripts', array( $this, 'set_js' ), 11 );
-			add_action( 'admin_enqueue_scripts', array( $this, 'set_global_javascript_variables' ), 10 );
+			// add_action( 'admin_enqueue_scripts', array( $this, 'set_global_javascript_variables' ), 10 );
 			add_action( 'wp_head', array( $this, 'set_front_css' ), 1 );
 			add_action( 'wp_head', array( $this, 'set_front_js' ), 1 );
-			add_action( 'wp_head', array( $this, 'set_global_javascript_variables' ) );
+			// add_action( 'wp_head', array( $this, 'set_global_javascript_variables' ) );
 			add_action( 'admin_footer', array( $this, 'arm_add_document_video' ), 1 );
 			add_action( 'admin_footer', array( $this, 'arm_add_new_version_release_note' ), 1 );
 			add_action( 'arm_admin_messages', array( $this, 'arm_admin_messages_init' ) );
@@ -584,6 +584,7 @@ class ARMemberlite {
 		wp_register_script( 'armlite-admin-notice-script', MEMBERSHIPLITE_URL . '/js/armlite-admin-notice.js', array(), $arm_lite_version );
 
 		wp_enqueue_script( 'armlite-admin-notice-script' );
+		$this->set_global_javascript_variables();
 	}
 
 	function armlite_reset_ratenow_notice_never() {
@@ -1446,6 +1447,7 @@ class ARMemberlite {
 	function set_css() {
 		global $arm_slugs,$arm_lite_version;
 		/* Plugin Style */
+		wp_register_style( 'arm_admin_wp_css', MEMBERSHIPLITE_URL . '/css/arm_admin_wp_css.css', array(), MEMBERSHIPLITE_VERSION );
 		wp_register_style( 'arm_admin_css', MEMBERSHIPLITE_URL . '/css/arm_admin.css', array(), MEMBERSHIPLITE_VERSION );
 		wp_register_style( 'arm_form_style_css', MEMBERSHIPLITE_URL . '/css/arm_form_style.css', array(), MEMBERSHIPLITE_VERSION );
 		wp_register_style('arm_admin_setup_css', MEMBERSHIPLITE_URL . '/css/arm_lite_admin_setup_wizard.css', array(), MEMBERSHIPLITE_VERSION);
@@ -1486,7 +1488,8 @@ class ARMemberlite {
 		}
 
 		/* Add Style for menu icon image. */
-		echo '<style type="text/css"> .toplevel_page_armember .wp-menu-image img,.toplevel_page_arm_setup_wizard .wp-menu-image img, .toplevel_page_arm_manage_members .wp-menu-image img{padding: 5px !important;} .arm_vc_icon{background-image:url(' . MEMBERSHIPLITE_IMAGES_URL . '/armember_menu_icon.png) !important;}</style>'; //phpcs:ignore
+		//echo '<style type="text/css"> .toplevel_page_armember .wp-menu-image img,.toplevel_page_arm_setup_wizard .wp-menu-image img, .toplevel_page_arm_manage_members .wp-menu-image img{padding: 5px !important;} .arm_vc_icon{background-image:url(' . MEMBERSHIPLITE_IMAGES_URL . '/armember_menu_icon.png) !important;}</style>'; //phpcs:ignore
+		wp_enqueue_style( 'arm_admin_wp_css');
 		/* Add CSS file only for plugin pages. */
 		if ( isset( $_REQUEST['page'] ) && in_array( $_REQUEST['page'], (array) $arm_slugs ) ) {
 			wp_enqueue_style( 'arm_admin_css' );
@@ -1669,103 +1672,105 @@ class ARMemberlite {
 	function set_global_javascript_variables() {
 
 		global $arm_lite_ajaxurl;
+		$arm_global_css = '__ARMAJAXURL = "' . esc_html($arm_lite_ajaxurl) . '";';
+		$arm_global_css .= '__ARMURL = "' . MEMBERSHIPLITE_URL . '";'; //phpcs:ignore
+		$arm_global_css .= '__ARMVIEWURL = "' . MEMBERSHIPLITE_VIEWS_URL . '";'; //phpcs:ignore
+		$arm_global_css .= '__ARMIMAGEURL = "' . MEMBERSHIPLITE_IMAGES_URL . '";'; //phpcs:ignore
+		$arm_global_css .= '__ARMISADMIN = [' . is_admin() . '];'; //phpcs:ignore
+		$arm_global_css .= 'loadActivityError = "' . esc_html__( 'There is an error while loading activities, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'pinterestPermissionError = "' . esc_html__( 'The user chose not to grant permissions or closed the pop-up', 'armember-membership' ) . '";';
+		$arm_global_css .= 'pinterestError = "' . esc_html__( 'Oops, there was a problem getting your information', 'armember-membership' ) . '";';
+		$arm_global_css .= 'clickToCopyError = "' . esc_html__( 'There is a error while copying, please try again', 'armember-membership' ) . '";';
+		$arm_global_css .= 'fbUserLoginError = "' . esc_html__( 'User cancelled login or did not fully authorize.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'closeAccountError = "' . esc_html__( 'There is a error while closing account, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'invalidFileTypeError = "' . esc_html__( 'Sorry, this file type is not permitted for security reasons.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'fileSizeError = "' . esc_html__( 'File is not allowed bigger than {SIZE}.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'fileUploadError = "' . esc_html__( 'There is an error in uploading file, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'coverRemoveConfirm = "' . esc_html__( 'Are you sure you want to remove cover photo?', 'armember-membership' ) . '";';
+		$arm_global_css .= 'profileRemoveConfirm = "' . esc_html__( 'Are you sure you want to remove profile photo?', 'armember-membership' ) . '";';
+		$arm_global_css .= 'errorPerformingAction = "' . esc_html__( 'There is an error while performing this action, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'userSubscriptionCancel = "' . esc_html__( "User's subscription has been canceled", 'armember-membership' ) . '";';
 
-		echo '<script type="text/javascript" data-cfasync="false">';
-			echo '__ARMAJAXURL = "' . esc_html($arm_lite_ajaxurl) . '";';
-			echo '__ARMURL = "' . MEMBERSHIPLITE_URL . '";'; //phpcs:ignore
-			echo '__ARMVIEWURL = "' . MEMBERSHIPLITE_VIEWS_URL . '";'; //phpcs:ignore
-			echo '__ARMIMAGEURL = "' . MEMBERSHIPLITE_IMAGES_URL . '";'; //phpcs:ignore
-			echo '__ARMISADMIN = [' . is_admin() . '];'; //phpcs:ignore
-			echo 'loadActivityError = "' . esc_html__( 'There is an error while loading activities, please try again.', 'armember-membership' ) . '";';
-			echo 'pinterestPermissionError = "' . esc_html__( 'The user chose not to grant permissions or closed the pop-up', 'armember-membership' ) . '";';
-			echo 'pinterestError = "' . esc_html__( 'Oops, there was a problem getting your information', 'armember-membership' ) . '";';
-			echo 'clickToCopyError = "' . esc_html__( 'There is a error while copying, please try again', 'armember-membership' ) . '";';
-			echo 'fbUserLoginError = "' . esc_html__( 'User cancelled login or did not fully authorize.', 'armember-membership' ) . '";';
-			echo 'closeAccountError = "' . esc_html__( 'There is a error while closing account, please try again.', 'armember-membership' ) . '";';
-			echo 'invalidFileTypeError = "' . esc_html__( 'Sorry, this file type is not permitted for security reasons.', 'armember-membership' ) . '";';
-			echo 'fileSizeError = "' . esc_html__( 'File is not allowed bigger than {SIZE}.', 'armember-membership' ) . '";';
-			echo 'fileUploadError = "' . esc_html__( 'There is an error in uploading file, Please try again.', 'armember-membership' ) . '";';
-			echo 'coverRemoveConfirm = "' . esc_html__( 'Are you sure you want to remove cover photo?', 'armember-membership' ) . '";';
-			echo 'profileRemoveConfirm = "' . esc_html__( 'Are you sure you want to remove profile photo?', 'armember-membership' ) . '";';
-			echo 'errorPerformingAction = "' . esc_html__( 'There is an error while performing this action, please try again.', 'armember-membership' ) . '";';
-			echo 'userSubscriptionCancel = "' . esc_html__( "User's subscription has been canceled", 'armember-membership' ) . '";';
+		$arm_global_css .= 'ARM_Loding = "' . esc_html__( 'Loading..', 'armember-membership' ) . '";';
+		$arm_global_css .= 'Post_Publish ="' . esc_html__( 'After certain time of post is published', 'armember-membership' ) . '";';
+		$arm_global_css .= 'Post_Modify ="' . esc_html__( 'After certain time of post is modified', 'armember-membership' ) . '";';
 
-			echo 'ARM_Loding = "' . esc_html__( 'Loading..', 'armember-membership' ) . '";';
-			echo 'Post_Publish ="' . esc_html__( 'After certain time of post is published', 'armember-membership' ) . '";';
-			echo 'Post_Modify ="' . esc_html__( 'After certain time of post is modified', 'armember-membership' ) . '";';
+		$arm_global_css .= 'wentwrong ="' . esc_html__( 'Sorry, Something went wrong. Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'bulkActionError = "' . esc_html__( 'Please select valid action.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'bulkRecordsError ="' . esc_html__( 'Please select one or more records.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'clearLoginAttempts ="' . esc_html__( 'Login attempts cleared successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'clearLoginHistory ="' . esc_html__( 'Login History cleared successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'nopasswordforimport ="' . esc_html__( 'Password can not be left blank.', 'armember-membership' ) . '";';
 
-			echo 'wentwrong ="' . esc_html__( 'Sorry, Something went wrong. Please try again.', 'armember-membership' ) . '";';
-			echo 'bulkActionError = "' . esc_html__( 'Please select valid action.', 'armember-membership' ) . '";';
-			echo 'bulkRecordsError ="' . esc_html__( 'Please select one or more records.', 'armember-membership' ) . '";';
-			echo 'clearLoginAttempts ="' . esc_html__( 'Login attempts cleared successfully.', 'armember-membership' ) . '";';
-			echo 'clearLoginHistory ="' . esc_html__( 'Login History cleared successfully.', 'armember-membership' ) . '";';
-			echo 'nopasswordforimport ="' . esc_html__( 'Password can not be left blank.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delPlansSuccess ="' . esc_html__( 'Plan(s) has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delPlansError ="' . esc_html__( 'There is a error while deleting Plan(s), please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delPlanError ="' . esc_html__( 'There is a error while deleting Plan, please try again.', 'armember-membership' ) . '";';
 
-			echo 'delPlansSuccess ="' . esc_html__( 'Plan(s) has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delPlansError ="' . esc_html__( 'There is a error while deleting Plan(s), please try again.', 'armember-membership' ) . '";';
-			echo 'delPlanError ="' . esc_html__( 'There is a error while deleting Plan, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delSetupsSuccess ="' . esc_html__( 'Setup(s) has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delSetupsError ="' . esc_html__( 'There is a error while deleting Setup(s), please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delSetupSuccess ="' . esc_html__( 'Setup has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delSetupError ="' . esc_html__( 'There is a error while deleting Setup, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delFormSetSuccess ="' . esc_html__( 'Form Set Deleted Successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delFormSetError ="' . esc_html__( 'There is a error while deleting form set, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delFormSuccess ="' . esc_html__( 'Form deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delFormError ="' . esc_html__( 'There is a error while deleting form, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delRuleSuccess ="' . esc_html__( 'Rule has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delRuleError ="' . esc_html__( 'There is a error while deleting Rule, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delRulesSuccess ="' . esc_html__( 'Rule(s) has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delRulesError ="' . esc_html__( 'There is a error while deleting Rule(s), please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'prevTransactionError ="' . esc_html__( 'There is a error while generating preview of transaction detail, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'invoiceTransactionError ="' . esc_html__( 'There is a error while generating invoice of transaction detail, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'prevMemberDetailError ="' . esc_html__( 'There is a error while generating preview of members detail, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'prevMemberActivityError ="' . esc_html__( 'There is a error while displaying members activities detail, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'prevCustomCssError ="' . esc_html__( 'There is a error while displaying ARMember CSS Class Information, Please Try Again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'prevImportMemberDetailError ="' . esc_html__( 'Please upload appropriate file to import users.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delTransactionSuccess ="' . esc_html__( 'Transaction has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delTransactionsSuccess ="' . esc_html__( 'Transaction(s) has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delAutoMessageSuccess ="' . esc_html__( 'Message has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delAutoMessageError ="' . esc_html__( 'There is a error while deleting Message, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delAutoMessagesSuccess ="' . esc_html__( 'Message(s) has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delAutoMessagesError ="' . esc_html__( 'There is a error while deleting Message(s), please try again.', 'armember-membership' ) . '";';
 
-			echo 'delSetupsSuccess ="' . esc_html__( 'Setup(s) has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delSetupsError ="' . esc_html__( 'There is a error while deleting Setup(s), please try again.', 'armember-membership' ) . '";';
-			echo 'delSetupSuccess ="' . esc_html__( 'Setup has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delSetupError ="' . esc_html__( 'There is a error while deleting Setup, please try again.', 'armember-membership' ) . '";';
-			echo 'delFormSetSuccess ="' . esc_html__( 'Form Set Deleted Successfully.', 'armember-membership' ) . '";';
-			echo 'delFormSetError ="' . esc_html__( 'There is a error while deleting form set, please try again.', 'armember-membership' ) . '";';
-			echo 'delFormSuccess ="' . esc_html__( 'Form deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delFormError ="' . esc_html__( 'There is a error while deleting form, please try again.', 'armember-membership' ) . '";';
-			echo 'delRuleSuccess ="' . esc_html__( 'Rule has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delRuleError ="' . esc_html__( 'There is a error while deleting Rule, please try again.', 'armember-membership' ) . '";';
-			echo 'delRulesSuccess ="' . esc_html__( 'Rule(s) has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delRulesError ="' . esc_html__( 'There is a error while deleting Rule(s), please try again.', 'armember-membership' ) . '";';
-			echo 'prevTransactionError ="' . esc_html__( 'There is a error while generating preview of transaction detail, Please try again.', 'armember-membership' ) . '";';
-			echo 'invoiceTransactionError ="' . esc_html__( 'There is a error while generating invoice of transaction detail, Please try again.', 'armember-membership' ) . '";';
-			echo 'prevMemberDetailError ="' . esc_html__( 'There is a error while generating preview of members detail, Please try again.', 'armember-membership' ) . '";';
-			echo 'prevMemberActivityError ="' . esc_html__( 'There is a error while displaying members activities detail, Please try again.', 'armember-membership' ) . '";';
-			echo 'prevCustomCssError ="' . esc_html__( 'There is a error while displaying ARMember CSS Class Information, Please Try Again.', 'armember-membership' ) . '";';
-			echo 'prevImportMemberDetailError ="' . esc_html__( 'Please upload appropriate file to import users.', 'armember-membership' ) . '";';
-			echo 'delTransactionSuccess ="' . esc_html__( 'Transaction has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delTransactionsSuccess ="' . esc_html__( 'Transaction(s) has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delAutoMessageSuccess ="' . esc_html__( 'Message has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delAutoMessageError ="' . esc_html__( 'There is a error while deleting Message, please try again.', 'armember-membership' ) . '";';
-			echo 'delAutoMessagesSuccess ="' . esc_html__( 'Message(s) has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delAutoMessagesError ="' . esc_html__( 'There is a error while deleting Message(s), please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveSettingsSuccess ="' . esc_html__( 'Settings has been saved successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveSettingsError ="' . esc_html__( 'There is a error while updating settings, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveDefaultRuleSuccess ="' . esc_html__( 'Default Rules Saved Successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveDefaultRuleError ="' . esc_html__( 'There is a error while updating rules, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveOptInsSuccess ="' . esc_html__( 'Opt-ins Settings Saved Successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveOptInsError ="' . esc_html__( 'There is a error while updating opt-ins settings, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delOptInsConfirm ="' . esc_html__( 'Are you sure to delete configuration?', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delMemberActivityError ="' . esc_html__( 'There is a error while deleting member activities, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'noTemplateError ="' . esc_html__( 'Template not found.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveTemplateSuccess ="' . esc_html__( 'Template options has been saved successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveTemplateError ="' . esc_html__( 'There is a error while updating template options, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'prevTemplateError ="' . esc_html__( 'There is a error while generating preview of template, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'addTemplateSuccess ="' . esc_html__( 'Template has been added successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'addTemplateError ="' . esc_html__( 'There is a error while adding template, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delTemplateSuccess ="' . esc_html__( 'Template has been deleted successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'delTemplateError ="' . esc_html__( 'There is a error while deleting template, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveEmailTemplateSuccess ="' . esc_html__( 'Email Template Updated Successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'saveAutoMessageSuccess ="' . esc_html__( 'Message Updated Successfully.', 'armember-membership' ) . '";';
 
-			echo 'saveSettingsSuccess ="' . esc_html__( 'Settings has been saved successfully.', 'armember-membership' ) . '";';
-			echo 'saveSettingsError ="' . esc_html__( 'There is a error while updating settings, please try again.', 'armember-membership' ) . '";';
-			echo 'saveDefaultRuleSuccess ="' . esc_html__( 'Default Rules Saved Successfully.', 'armember-membership' ) . '";';
-			echo 'saveDefaultRuleError ="' . esc_html__( 'There is a error while updating rules, please try again.', 'armember-membership' ) . '";';
-			echo 'saveOptInsSuccess ="' . esc_html__( 'Opt-ins Settings Saved Successfully.', 'armember-membership' ) . '";';
-			echo 'saveOptInsError ="' . esc_html__( 'There is a error while updating opt-ins settings, please try again.', 'armember-membership' ) . '";';
-			echo 'delOptInsConfirm ="' . esc_html__( 'Are you sure to delete configuration?', 'armember-membership' ) . '";';
-			echo 'delMemberActivityError ="' . esc_html__( 'There is a error while deleting member activities, please try again.', 'armember-membership' ) . '";';
-			echo 'noTemplateError ="' . esc_html__( 'Template not found.', 'armember-membership' ) . '";';
-			echo 'saveTemplateSuccess ="' . esc_html__( 'Template options has been saved successfully.', 'armember-membership' ) . '";';
-			echo 'saveTemplateError ="' . esc_html__( 'There is a error while updating template options, please try again.', 'armember-membership' ) . '";';
-			echo 'prevTemplateError ="' . esc_html__( 'There is a error while generating preview of template, Please try again.', 'armember-membership' ) . '";';
-			echo 'addTemplateSuccess ="' . esc_html__( 'Template has been added successfully.', 'armember-membership' ) . '";';
-			echo 'addTemplateError ="' . esc_html__( 'There is a error while adding template, please try again.', 'armember-membership' ) . '";';
-			echo 'delTemplateSuccess ="' . esc_html__( 'Template has been deleted successfully.', 'armember-membership' ) . '";';
-			echo 'delTemplateError ="' . esc_html__( 'There is a error while deleting template, please try again.', 'armember-membership' ) . '";';
-			echo 'saveEmailTemplateSuccess ="' . esc_html__( 'Email Template Updated Successfully.', 'armember-membership' ) . '";';
-			echo 'saveAutoMessageSuccess ="' . esc_html__( 'Message Updated Successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'pastDateError ="' . esc_html__( 'Cannot Set Past Dates.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'pastStartDateError ="' . esc_html__( 'Start date can not be earlier than current date.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'pastExpireDateError ="' . esc_html__( 'Expire date can not be earlier than current date.', 'armember-membership' ) . '";';
 
-			echo 'pastDateError ="' . esc_html__( 'Cannot Set Past Dates.', 'armember-membership' ) . '";';
-			echo 'pastStartDateError ="' . esc_html__( 'Start date can not be earlier than current date.', 'armember-membership' ) . '";';
-			echo 'pastExpireDateError ="' . esc_html__( 'Expire date can not be earlier than current date.', 'armember-membership' ) . '";';
-
-			echo 'uniqueformsetname ="' . esc_html__( 'This Set Name is already exist.', 'armember-membership' ) . '";';
-			echo 'uniquesignupformname ="' . esc_html__( 'This Form Name is already exist.', 'armember-membership' ) . '";';
-			echo 'installAddonError ="' . esc_html__( 'There is an error while installing addon, Please try again.', 'armember-membership' ) . '";';
-			echo 'installAddonSuccess ="' . esc_html__( 'Addon installed successfully.', 'armember-membership' ) . '";';
-			echo 'activeAddonError ="' . esc_html__( 'There is an error while activating addon, Please try agina.', 'armember-membership' ) . '";';
-			echo 'activeAddonSuccess ="' . esc_html__( 'Addon activated successfully.', 'armember-membership' ) . '";';
-			echo 'deactiveAddonSuccess ="' . esc_html__( 'Addon deactivated successfully.', 'armember-membership' ) . '";';
-			echo 'confirmCancelSubscription ="' . esc_html__( 'Are you sure you want to cancel subscription?', 'armember-membership' ) . '";';
-			echo 'errorPerformingAction ="' . esc_html__( 'There is an error while performing this action, please try again.', 'armember-membership' ) . '";';
-			echo 'arm_nothing_found ="' . esc_html__( 'Oops, nothing found.', 'armember-membership' ) . '";';
-			echo 'armEditCurrency ="' . esc_html__( 'Edit', 'armember-membership' ) . '";';
-
-		echo '</script>';
+		$arm_global_css .= 'uniqueformsetname ="' . esc_html__( 'This Set Name is already exist.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'uniquesignupformname ="' . esc_html__( 'This Form Name is already exist.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'installAddonError ="' . esc_html__( 'There is an error while installing addon, Please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'installAddonSuccess ="' . esc_html__( 'Addon installed successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'activeAddonError ="' . esc_html__( 'There is an error while activating addon, Please try agina.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'activeAddonSuccess ="' . esc_html__( 'Addon activated successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'deactiveAddonSuccess ="' . esc_html__( 'Addon deactivated successfully.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'confirmCancelSubscription ="' . esc_html__( 'Are you sure you want to cancel subscription?', 'armember-membership' ) . '";';
+		$arm_global_css .= 'errorPerformingAction ="' . esc_html__( 'There is an error while performing this action, please try again.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'arm_nothing_found ="' . esc_html__( 'Oops, nothing found.', 'armember-membership' ) . '";';
+		$arm_global_css .= 'armEditCurrency ="' . esc_html__( 'Edit', 'armember-membership' ) . '";';
+		
+		wp_add_inline_script( 'armlite-admin-notice-script', $arm_global_css);
+		if(!$this->is_arm_pro_active) {
+			wp_add_inline_script( 'arm_common_js', $arm_global_css);
+		}
+		
 	}
 
 
@@ -2030,7 +2035,9 @@ class ARMemberlite {
 				$this->enqueue_angular_script();
 			}
 		}
-
+		if(!$this->is_arm_pro_active) {
+			$this->set_global_javascript_variables();
+		}
 	}
 
 	function enqueue_angular_script( $include_card_validation = false ) {
@@ -3605,7 +3612,7 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.51 Changes',
+			'critical_title'      => 'Version 4.0.52 Changes',
 			'critical'            => array(
 				'Minor bug fixes.',
 			),

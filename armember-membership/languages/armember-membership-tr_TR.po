@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.51\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.52\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 10:31+0000\n"
-"PO-Revision-Date: 2024-11-20 12:39:19+0000\n"
+"PO-Revision-Date: 2024-11-28 11:01:31+0000\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr "(Giriş yapmadan önceki orijinal sayfa.)"
 msgid "(Original page before signup.)"
 msgstr "(Kayıttan önceki orijinal sayfa.)"
 
-#: core/classes/class.arm_shortcodes.php:978
+#: core/classes/class.arm_shortcodes.php:984
 #@ armember-membership
 msgid "(Trial Transaction)"
 msgstr "(Deneme İşlemi)"
@@ -122,7 +122,7 @@ msgstr "(Deneme İşlemi)"
 #: core/classes/class.arm_member_forms.php:904
 #: core/classes/class.arm_member_forms.php:3674
 #: core/classes/class.arm_member_forms.php:3778
-#: core/classes/class.arm_shortcodes.php:653
+#: core/classes/class.arm_shortcodes.php:657
 #@ armember-membership
 msgid "(Use Cropper to set image and use mouse scroller for zoom image.)"
 msgstr "(Görüntüyü ayarlamak için Kırpıcıyı kullanın ve görüntüyü yakınlaştırmak için fare kaydırma çubuğunu kullanın.)"
@@ -153,7 +153,7 @@ msgstr "Erişim Kuralları Başarıyla Güncellendi."
 msgid "Account Activated"
 msgstr "Hesap Etkinleştirildi"
 
-#: autoload.php:1017
+#: autoload.php:1016
 #@ armember-membership
 msgid "Account Closed"
 msgstr "Hesap kapatıldı"
@@ -204,18 +204,18 @@ msgstr "Hesap Beklemede"
 msgid "Account Setup"
 msgstr "Hesap kurulumu"
 
-#: autoload.php:3835
+#: autoload.php:3840
 #@ armember-membership
 msgid "Achievements Added Successfully."
 msgstr "Başarılar Başarıyla Eklendi."
 
-#: autoload.php:3836
+#: autoload.php:3841
 #@ armember-membership
 msgid "Achievements Updated Successfully."
 msgstr "Başarılar Başarıyla Güncellendi."
 
-#: core/classes/class.arm_shortcodes.php:1779
-#: core/classes/class.arm_shortcodes.php:1985
+#: core/classes/class.arm_shortcodes.php:1785
+#: core/classes/class.arm_shortcodes.php:1991
 #: core/vc/class_vc_extend.php:1418
 #: core/vc/class_vc_extend.php:1584
 #: core/vc/class_vc_extend.php:2174
@@ -298,7 +298,7 @@ msgstr "Planı Etkinleştir"
 msgid "Activation link is expired or invalid."
 msgstr "Etkinleştirme bağlantısının süresi dolmuş veya geçersiz."
 
-#: autoload.php:1010
+#: autoload.php:1009
 #: core/classes/class.arm_manage_subscription.php:923
 #: core/views/arm_email_templates.php:132
 #: core/views/arm_manage_payment_gateways.php:54
@@ -464,7 +464,7 @@ msgstr "Menüye Ekle"
 msgid "Add URL"
 msgstr "URL ekle"
 
-#: autoload.php:3469
+#: autoload.php:3474
 #: core/classes/class.arm_social_feature.php:394
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
@@ -503,20 +503,20 @@ msgstr "Ek not"
 msgid "Additional Shortcodes"
 msgstr "Ek Kısa Kodlar"
 
-#: autoload.php:1763
-#: autoload.php:3847
+#: autoload.php:1762
+#: autoload.php:3852
 #@ armember-membership
 msgid "Addon activated successfully."
 msgstr "Eklenti başarıyla etkinleştirildi."
 
-#: autoload.php:1764
-#: autoload.php:3848
+#: autoload.php:1763
+#: autoload.php:3853
 #@ armember-membership
 msgid "Addon deactivated successfully."
 msgstr "Eklenti başarıyla devre dışı bırakıldı."
 
-#: autoload.php:1761
-#: autoload.php:3845
+#: autoload.php:1760
+#: autoload.php:3850
 #@ armember-membership
 msgid "Addon installed successfully."
 msgstr "Eklenti başarıyla kuruldu."
@@ -581,12 +581,12 @@ msgstr "yeni menü öğeleri ekledikten sonra. Yeni menü öğelerine varsayıla
 msgid "After Basic SignUp Redirection Rules"
 msgstr "Temel Kayıt Yönlendirme Kurallarından Sonra"
 
-#: autoload.php:1697
+#: autoload.php:1696
 #@ armember-membership
 msgid "After certain time of post is modified"
 msgstr "Gönderinin belirli bir süresi değiştirildikten sonra"
 
-#: autoload.php:1696
+#: autoload.php:1695
 #@ armember-membership
 msgid "After certain time of post is published"
 msgstr "Belirli bir süre sonra yayın yayınlandıktan sonra"
@@ -725,7 +725,7 @@ msgid "Alphabatically (Directory Filter)"
 msgstr "Alfabetik olarak (Dizin Filtresi)"
 
 #: core/classes/class.arm_global_settings.php:906
-#: core/classes/class.arm_shortcodes.php:472
+#: core/classes/class.arm_shortcodes.php:476
 #@ armember-membership
 msgid "Alphabetically"
 msgstr "Alfabetik olarak"
@@ -744,8 +744,8 @@ msgstr "Amerikan Samoası"
 #: core/classes/class.arm_manage_subscription.php:114
 #: core/classes/class.arm_manage_subscription.php:494
 #: core/classes/class.arm_manage_subscription.php:524
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:912
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:918
 #: core/classes/class.arm_subscription_plans.php:1836
 #: core/classes/class.arm_transaction.php:577
 #: core/classes/class.arm_transaction.php:1133
@@ -838,7 +838,7 @@ msgstr "Herhangi Bir Koşul"
 msgid "Any Date or Time Archive"
 msgstr "Herhangi Bir Tarih veya Saat Arşivi"
 
-#: autoload.php:648
+#: autoload.php:649
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:165
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:49
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:22
@@ -939,7 +939,7 @@ msgstr "Arşiv: Zaman"
 msgid "Archive: Year"
 msgstr "Arşiv: Yıl"
 
-#: autoload.php:1741
+#: autoload.php:1740
 #@ armember-membership
 msgid "Are you sure to delete configuration?"
 msgstr "Yapılandırmayı sildiğinizden emin misiniz?"
@@ -960,10 +960,10 @@ msgstr "Etkinleştirmek istediğinizden emin misiniz?"
 msgid "Are you sure you want to active this plan?"
 msgstr "Bu planı etkinleştirmek istediğinizden emin misiniz?"
 
-#: autoload.php:1765
-#: autoload.php:3774
-#: autoload.php:3849
-#: autoload.php:3852
+#: autoload.php:1764
+#: autoload.php:3779
+#: autoload.php:3854
+#: autoload.php:3857
 #@ armember-membership
 msgid "Are you sure you want to cancel subscription?"
 msgstr "Aboneliği iptal etmek istediğinizden emin misiniz?"
@@ -1050,15 +1050,15 @@ msgstr "Bu işlemi silmek istediğinizden emin misiniz?"
 msgid "Are you sure you want to delete your account? This will erase all of your account data from the site. To delete your account enter your password below."
 msgstr "Hesabınızı silmek istediğinizden emin misiniz? Bu, sitedeki tüm hesap verilerinizi silecektir. Hesabınızı silmek için şifrenizi aşağıya girin."
 
-#: autoload.php:1690
-#: autoload.php:3770
+#: autoload.php:1689
+#: autoload.php:3775
 #: core/classes/class.arm_members_directory.php:320
 #@ armember-membership
 msgid "Are you sure you want to remove cover photo?"
 msgstr "Kapak fotoğrafını kaldırmak istediğinizden emin misiniz?"
 
-#: autoload.php:1691
-#: autoload.php:3771
+#: autoload.php:1690
+#: autoload.php:3776
 #: core/classes/class.arm_members_directory.php:321
 #@ armember-membership
 msgid "Are you sure you want to remove profile photo?"
@@ -1155,7 +1155,7 @@ msgstr "ARMember Hesabı Kapat"
 msgid "ARMember Current Membership"
 msgstr "ARMember Mevcut Üyelik"
 
-#: autoload.php:1275
+#: autoload.php:1274
 #@ armember-membership
 msgid "ARMember Debug"
 msgstr "ARMember Hata ayıklama"
@@ -1180,8 +1180,8 @@ msgstr "ARMember Formlar"
 msgid "ARMember Latest Members"
 msgstr "ARMember En Son Üyeler"
 
-#: autoload.php:1158
-#: autoload.php:1161
+#: autoload.php:1157
+#: autoload.php:1160
 #@ armember-membership
 msgid "ARMember Lite"
 msgstr "ARMember Lite"
@@ -1203,12 +1203,12 @@ msgstr "ARMember Lite - Gittiğinize üzüldüm"
 msgid "ARMember Lite plugin Deactivation"
 msgstr "ARMember Lite eklentisinin devre dışı bırakılması"
 
-#: autoload.php:906
+#: autoload.php:907
 #@ armember-membership
 msgid "ARMember Lite recommend to use Minimum PHP version 5.6 or greater."
 msgstr "ARMember Lite Minimum PHP sürüm 5.6 veya üstünü kullanmanızı öneririz."
 
-#: autoload.php:912
+#: autoload.php:913
 #@ armember-membership
 msgid "ARMember Lite requires PHP GD Extension module at the server. And it seems that it's not installed or activated. Please contact your hosting provider for the same."
 msgstr "ARMember Lite sunucuda PHP GD Extension modülünü gerektirir. Görünüşe göre yüklü değil veya etkinleştirilmemiş. Lütfen bunun için barındırma sağlayıcınızla iletişime geçin."
@@ -1463,7 +1463,7 @@ msgstr "Yazar Arşivleri"
 #: core/classes/class.arm_manage_subscription.php:1329
 #: core/classes/class.arm_members.php:927
 #: core/classes/class.arm_members.php:1012
-#: core/classes/class.arm_shortcodes.php:2110
+#: core/classes/class.arm_shortcodes.php:2116
 #: core/views/arm_member_add.php:756
 #: core/views/arm_member_add.php:949
 #@ armember-membership
@@ -1504,7 +1504,7 @@ msgstr "Otomatik onaylama"
 msgid "Automatic login on signup"
 msgstr "Kayıt sırasında otomatik giriş"
 
-#: core/classes/class.arm_shortcodes.php:3104
+#: core/classes/class.arm_shortcodes.php:3110
 #: core/views/arm_transactions_list_records.php:327
 #@ armember-membership
 msgid "Automatic Subscription"
@@ -1515,7 +1515,7 @@ msgstr "Otomatik Abonelik"
 msgid "Automatic Subscription Label"
 msgstr "Otomatik Abonelik Etiketi"
 
-#: autoload.php:3539
+#: autoload.php:3544
 #@ armember-membership
 msgid "Available Modules"
 msgstr "Mevcut Modüller"
@@ -2047,7 +2047,7 @@ msgstr "Düğme Metni"
 msgid "Buttons"
 msgstr "Düğmeler"
 
-#: autoload.php:1016
+#: autoload.php:1015
 #@ armember-membership
 msgid "by admin"
 msgstr "yönetici tarafından"
@@ -2120,8 +2120,8 @@ msgstr "Kanada"
 #: core/classes/class.arm_members_directory.php:594
 #: core/classes/class.arm_members_directory.php:627
 #: core/classes/class.arm_members_directory.php:1132
-#: core/classes/class.arm_shortcodes.php:1359
-#: core/classes/class.arm_shortcodes.php:1793
+#: core/classes/class.arm_shortcodes.php:1365
+#: core/classes/class.arm_shortcodes.php:1799
 #: core/classes/class.armemberlite.php:34
 #: core/vc/class_vc_extend.php:1806
 #: core/views/arm_email_templates.php:532
@@ -2194,8 +2194,8 @@ msgstr "Kullanıcının Aboneliğini İptal Et."
 msgid "Canceled"
 msgstr "İptal edildi"
 
-#: autoload.php:1022
-#: core/classes/class.arm_shortcodes.php:2408
+#: autoload.php:1021
+#: core/classes/class.arm_shortcodes.php:2414
 #: core/views/arm_transactions_add.php:74
 #: core/views/arm_transactions_list_records.php:344
 #@ armember-membership
@@ -2212,8 +2212,8 @@ msgstr "iptal edildi"
 msgid "Cannot extract data from uploaded file or no file was uploaded."
 msgstr "Yüklenen dosyadan veri çıkarılamıyor veya hiçbir dosya yüklenmedi."
 
-#: autoload.php:1754
-#: autoload.php:3838
+#: autoload.php:1753
+#: autoload.php:3843
 #@ armember-membership
 msgid "Cannot Set Past Dates."
 msgstr "Geçmiş Tarihler Ayarlanamıyor."
@@ -2385,7 +2385,7 @@ msgstr "Rolü Değiştir (Önerilmez)"
 msgid "Change Status"
 msgstr "Durum değiştirmek"
 
-#: core/classes/class.arm_shortcodes.php:1403
+#: core/classes/class.arm_shortcodes.php:1409
 #: core/classes/class.arm_subscription_plans.php:1913
 #@ armember-membership
 msgid "Change Subscription"
@@ -2499,8 +2499,8 @@ msgstr "Klasik"
 #: core/classes/class.arm_member_forms.php:3683
 #: core/classes/class.arm_member_forms.php:3756
 #: core/classes/class.arm_member_forms.php:3771
-#: core/classes/class.arm_shortcodes.php:631
-#: core/classes/class.arm_shortcodes.php:646
+#: core/classes/class.arm_shortcodes.php:635
+#: core/classes/class.arm_shortcodes.php:650
 #: core/views/arm_profile_editor.php:574
 #@ armember-membership
 msgid "Clear"
@@ -2600,9 +2600,9 @@ msgstr "Önizleme için tıklayın"
 msgid "Clone from existing forms"
 msgstr "Mevcut formlardan klonlama"
 
-#: autoload.php:3392
-#: autoload.php:3553
-#: autoload.php:3641
+#: autoload.php:3397
+#: autoload.php:3558
+#: autoload.php:3646
 #: core/classes/class.arm_members.php:776
 #: core/views/arm_form_editor.php:151
 #: core/views/arm_member_add.php:1072
@@ -2616,8 +2616,8 @@ msgid "Close"
 msgstr "Kapalı"
 
 #: core/classes/class.arm_global_settings.php:865
-#: core/classes/class.arm_shortcodes.php:1201
-#: core/classes/class.arm_shortcodes.php:1413
+#: core/classes/class.arm_shortcodes.php:1207
+#: core/classes/class.arm_shortcodes.php:1419
 #: core/views/arm_manage_forms.php:246
 #: core/views/arm_tinymce_options_shortcodes.php:482
 #: core/views/arm_tinymce_options_shortcodes.php:483
@@ -2723,8 +2723,8 @@ msgstr "Yapılandır"
 msgid "Configure More Gateways"
 msgstr "Daha Fazla Ağ Geçidi Yapılandırın"
 
+#: autoload.php:1175
 #: autoload.php:1176
-#: autoload.php:1177
 #: core/views/arm_membership_setup_list.php:28
 #@ armember-membership
 msgid "Configure Plan + Signup Page"
@@ -2798,8 +2798,8 @@ msgstr "Tebrikler!"
 msgid "Content Access"
 msgstr "İçerik Erişimi"
 
+#: autoload.php:1185
 #: autoload.php:1186
-#: autoload.php:1187
 #: core/views/arm_access_rules.php:61
 #@ armember-membership
 msgid "Content Access Rules"
@@ -2922,8 +2922,8 @@ msgstr "Hırvat"
 #: core/classes/class.arm_member_forms.php:3682
 #: core/classes/class.arm_member_forms.php:3755
 #: core/classes/class.arm_member_forms.php:3770
-#: core/classes/class.arm_shortcodes.php:630
-#: core/classes/class.arm_shortcodes.php:645
+#: core/classes/class.arm_shortcodes.php:634
+#: core/classes/class.arm_shortcodes.php:649
 #: core/views/arm_profile_editor.php:573
 #@ armember-membership
 msgid "Crop"
@@ -2960,8 +2960,8 @@ msgstr "Para Birimi Sembolü"
 msgid "Current"
 msgstr "Akım"
 
-#: core/classes/class.arm_shortcodes.php:1378
-#: core/classes/class.arm_shortcodes.php:1782
+#: core/classes/class.arm_shortcodes.php:1384
+#: core/classes/class.arm_shortcodes.php:1788
 #: core/vc/class_vc_extend.php:1454
 #: core/vc/class_vc_extend.php:1475
 #: core/vc/class_vc_extend.php:1496
@@ -3055,7 +3055,7 @@ msgstr "CVV Etiketi"
 
 #: core/classes/class.arm_members.php:794
 #: core/classes/class.arm_members.php:980
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1417
 #: core/vc/class_vc_extend.php:1563
 #: core/vc/class_vc_extend.php:2173
@@ -3069,7 +3069,7 @@ msgstr "Döngü Tarihi"
 
 #: core/classes/class.arm_members.php:1058
 #: core/classes/class.arm_members.php:4262
-#: core/classes/class.arm_shortcodes.php:2277
+#: core/classes/class.arm_shortcodes.php:2283
 #@ armember-membership
 msgid "cycles due"
 msgstr "vadesi gelen döngüler"
@@ -3117,7 +3117,7 @@ msgstr "Tarih"
 msgid "Date Format"
 msgstr "Tarih formatı"
 
-#: core/classes/class.arm_shortcodes.php:1028
+#: core/classes/class.arm_shortcodes.php:1034
 #: core/classes/class.arm_transaction.php:229
 #: core/classes/class.arm_transaction.php:657
 #@ armember-membership
@@ -3156,7 +3156,7 @@ msgstr "ayın günü"
 msgid "Day(s)"
 msgstr "Gün(ler)"
 
-#: core/classes/class.arm_shortcodes.php:1028
+#: core/classes/class.arm_shortcodes.php:1034
 #: core/classes/class.arm_transaction.php:229
 #: core/classes/class.arm_transaction.php:657
 #: core/views/arm_member_add.php:862
@@ -3294,8 +3294,8 @@ msgstr "Varsayılan Kısıtlama"
 msgid "Default Restriction Rules"
 msgstr "Varsayılan Kısıtlama Kuralları"
 
-#: autoload.php:1737
-#: autoload.php:3820
+#: autoload.php:1736
+#: autoload.php:3825
 #: core/classes/class.arm_access_rules.php:109
 #@ armember-membership
 msgid "Default Rules Saved Successfully."
@@ -3306,7 +3306,7 @@ msgstr "Varsayılan Kurallar Başarıyla Kaydedildi."
 msgid "Default Selected Plan"
 msgstr "Varsayılan Seçilen Plan"
 
-#: autoload.php:2912
+#: autoload.php:2917
 #@ armember-membership
 msgid "Default Set"
 msgstr "Varsayılan Ayar"
@@ -3697,14 +3697,14 @@ msgstr "Cibuti"
 msgid "Do not cancel subscription until plan expired"
 msgstr "Planın süresi dolana kadar aboneliği iptal etmeyin"
 
-#: autoload.php:3390
+#: autoload.php:3395
 #@ armember-membership
 msgid "Do not show again."
 msgstr "Tekrar gösterme."
 
+#: autoload.php:1239
 #: autoload.php:1240
-#: autoload.php:1241
-#: autoload.php:3629
+#: autoload.php:3634
 #: core/views/arm_setup_wizard.php:939
 #@ armember-membership
 msgid "Documentation"
@@ -3729,8 +3729,8 @@ msgstr "Dominik Cumhuriyeti"
 #: core/classes/class.arm_member_forms.php:3688
 #: core/classes/class.arm_member_forms.php:3761
 #: core/classes/class.arm_member_forms.php:3776
-#: core/classes/class.arm_shortcodes.php:636
-#: core/classes/class.arm_shortcodes.php:651
+#: core/classes/class.arm_shortcodes.php:640
+#: core/classes/class.arm_shortcodes.php:655
 #: core/views/arm_profile_editor.php:580
 #@ armember-membership
 msgid "Done"
@@ -3812,7 +3812,7 @@ msgstr "Doğu Timor"
 msgid "Ecuador"
 msgstr "Ekvador"
 
-#: autoload.php:1768
+#: autoload.php:1767
 #: core/views/arm_global_settings.php:280
 #@ armember-membership
 msgid "Edit"
@@ -3879,7 +3879,7 @@ msgid "Edit Preset Form Fields"
 msgstr "Önceden Ayarlanmış Form Alanlarını Düzenle"
 
 #: core/classes/class.arm_member_forms.php:7483
-#: core/classes/class.arm_shortcodes.php:1373
+#: core/classes/class.arm_shortcodes.php:1379
 #: core/vc/class_vc_extend.php:363
 #: core/vc/class_vc_extend.php:414
 #: core/views/arm_manage_forms.php:186
@@ -4019,8 +4019,8 @@ msgstr "Eposta bildirimi"
 msgid "Email notification scheduler setting"
 msgstr "E-posta bildirimi zamanlayıcı ayarı"
 
+#: autoload.php:1200
 #: autoload.php:1201
-#: autoload.php:1202
 #@ armember-membership
 msgid "Email Notifications"
 msgstr "E-posta Bildirimleri"
@@ -4041,8 +4041,8 @@ msgstr "E-posta kötü kelimeler içermemelidir."
 msgid "Email Subject Required."
 msgstr "E-posta Konusu Gerekli."
 
-#: autoload.php:1751
-#: autoload.php:3832
+#: autoload.php:1750
+#: autoload.php:3837
 #: core/classes/class.arm_email_settings.php:162
 #: core/classes/class.arm_email_settings.php:188
 #@ armember-membership
@@ -4130,7 +4130,7 @@ msgstr "Yükseltme / Düşürme İşlemini Etkinleştir"
 msgid "Encryption"
 msgstr "Şifreleme"
 
-#: core/classes/class.arm_shortcodes.php:1950
+#: core/classes/class.arm_shortcodes.php:1956
 #: core/vc/class_vc_extend.php:2059
 #: core/views/arm_debug_logs.php:80
 #: core/views/arm_debug_logs.php:186
@@ -4261,7 +4261,7 @@ msgstr "Eritre"
 msgid "ERROR"
 msgstr "HATA"
 
-#: autoload.php:3680
+#: autoload.php:3685
 #@ armember-membership
 msgid "Error"
 msgstr "Hata"
@@ -4382,8 +4382,8 @@ msgstr "Etkinleştirme Bağlantısının Sona Ermesi"
 msgid "Expire Date"
 msgstr "Son kullanma tarihi"
 
-#: autoload.php:1756
-#: autoload.php:3840
+#: autoload.php:1755
+#: autoload.php:3845
 #@ armember-membership
 msgid "Expire date can not be earlier than current date."
 msgstr "Son kullanma tarihi güncel tarihten önce olamaz."
@@ -4422,7 +4422,7 @@ msgstr "Sona Erme Yılı Etiketi"
 msgid "Expire/Next Renewal"
 msgstr "Sona Erme/Sonraki Yenileme"
 
-#: autoload.php:1019
+#: autoload.php:1018
 #: core/classes/class.arm_manage_subscription.php:918
 #: core/views/arm_manage_subscription_list.php:614
 #: core/views/arm_transactions_add.php:76
@@ -4440,7 +4440,7 @@ msgstr "günü geçmiş"
 #: core/classes/class.arm_members.php:979
 #: core/classes/class.arm_members.php:4279
 #: core/classes/class.arm_members.php:4293
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1416
 #: core/vc/class_vc_extend.php:1542
 #: core/vc/class_vc_extend.php:2172
@@ -4583,7 +4583,7 @@ msgstr "Faroe dili"
 msgid "Farsi/Persian"
 msgstr "Farsça/Farsça"
 
-#: autoload.php:3632
+#: autoload.php:3637
 #@ armember-membership
 msgid "Feature Request"
 msgstr "Özellik isteği"
@@ -4680,8 +4680,8 @@ msgstr "Ödeme formunda bulunması gereken alanlar"
 msgid "Fiji"
 msgstr "Fiji"
 
-#: autoload.php:1688
-#: autoload.php:3768
+#: autoload.php:1687
+#: autoload.php:3773
 #@ armember-membership
 msgid "File is not allowed bigger than {SIZE}."
 msgstr "{SIZE} boyutundan büyük dosyaya izin verilmiyor."
@@ -4985,8 +4985,8 @@ msgstr "Formun Arka Planı"
 msgid "Form Border"
 msgstr "Form Kenarlığı"
 
-#: autoload.php:1716
-#: autoload.php:3799
+#: autoload.php:1715
+#: autoload.php:3804
 #@ armember-membership
 msgid "Form deleted successfully."
 msgstr "Form başarıyla silindi."
@@ -5048,8 +5048,8 @@ msgstr "Form Dolgusu"
 msgid "Form Position"
 msgstr "Form Konumu"
 
-#: autoload.php:1714
-#: autoload.php:3797
+#: autoload.php:1713
+#: autoload.php:3802
 #@ armember-membership
 msgid "Form Set Deleted Successfully."
 msgstr "Form Seti Başarıyla Silindi."
@@ -5253,8 +5253,8 @@ msgstr "Genel Mesaj"
 msgid "General Options"
 msgstr "Genel seçenekler"
 
+#: autoload.php:1211
 #: autoload.php:1212
-#: autoload.php:1213
 #: core/views/arm_general_settings.php:11
 #: core/views/arm_global_settings.php:53
 #@ armember-membership
@@ -5365,7 +5365,7 @@ msgstr "Ek Sürenin Sona Ermesi"
 msgid "Grace Period End of Term"
 msgstr "Ek Süre Dönem Sonu"
 
-#: core/classes/class.arm_shortcodes.php:2283
+#: core/classes/class.arm_shortcodes.php:2289
 #: core/views/arm_member_add.php:783
 #: core/views/arm_member_add.php:974
 #@ armember-membership
@@ -5397,9 +5397,9 @@ msgstr "Grönland"
 msgid "Grenada"
 msgstr "Grenada"
 
-#: autoload.php:1047
+#: autoload.php:1046
+#: autoload.php:1244
 #: autoload.php:1245
-#: autoload.php:1246
 #@ armember-membership
 msgid "Growth Plugins"
 msgstr "Büyüme Eklentileri"
@@ -5461,7 +5461,7 @@ msgstr "İbranice/İsrail"
 msgid "Height"
 msgstr "Yükseklik"
 
-#: autoload.php:3383
+#: autoload.php:3388
 #@ armember-membership
 msgid "Help Tutorial"
 msgstr "Yardım Eğitimi"
@@ -5487,7 +5487,7 @@ msgstr "Burada, çeşitli genel seçenekler ve Abonelik Türleri ve Tutarı ile 
 msgid "Here you will get all different types of Payment gateways to purchase a membership plan."
 msgstr "Burada bir üyelik planı satın almak için tüm farklı Ödeme ağ geçitlerini bulacaksınız."
 
-#: autoload.php:618
+#: autoload.php:619
 #, php-format
 #@ armember-membership
 msgid "Hey, you've been using %1$sARMember Lite%2$s for a long time. %3$sCould you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation. %4$sYour help is much appreciated. Thank you very much - %5$sRepute InfoSystems%6$s"
@@ -5533,7 +5533,7 @@ msgstr "Yönetici çubuğunu gizle"
 msgid "Hide admin bar for non-admin users?"
 msgstr "Yönetici olmayan kullanıcılar için yönetici çubuğu gizlensin mi?"
 
-#: autoload.php:676
+#: autoload.php:677
 #: core/views/arm_tinymce_options_shortcodes.php:1183
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:64
 #@ armember-membership
@@ -5728,12 +5728,12 @@ msgstr "Macaristan"
 msgid "Hurray!! Everything is ready to create your first membership site"
 msgstr "Yaşasın!! İlk üyelik sitenizi oluşturmak için her şey hazır"
 
-#: autoload.php:3551
+#: autoload.php:3556
 #@ armember-membership
 msgid "I agree"
 msgstr "Kabul ediyorum"
 
-#: autoload.php:622
+#: autoload.php:623
 #@ armember-membership
 msgid "I already did"
 msgstr "zaten yaptım"
@@ -5961,7 +5961,7 @@ msgstr "Deneme aşamasında"
 msgid "Inactivate"
 msgstr "Devre dışı bırak"
 
-#: autoload.php:1011
+#: autoload.php:1010
 #@ armember-membership
 msgid "Inactive"
 msgstr "Etkin değil"
@@ -6246,7 +6246,7 @@ msgstr "Japonca"
 msgid "Japanese/Japan"
 msgstr "Japonca/Japonya"
 
-#: autoload.php:3637
+#: autoload.php:3642
 #@ armember-membership
 msgid "Join Community"
 msgstr "Topluluğa Katılın"
@@ -6712,9 +6712,9 @@ msgstr "Daha Fazla Bağlantı Yükle"
 msgid "Loading"
 msgstr "Yükleniyor"
 
-#: autoload.php:1695
-#: autoload.php:3775
-#: autoload.php:3853
+#: autoload.php:1694
+#: autoload.php:3780
+#: autoload.php:3858
 #@ armember-membership
 msgid "Loading.."
 msgstr "Yükleniyor.."
@@ -6761,7 +6761,7 @@ msgstr "Oturum Açıldı Mesajı"
 msgid "Logged in Message"
 msgstr "Giriş Yapıldı Mesaj"
 
-#: autoload.php:650
+#: autoload.php:651
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:167
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:51
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:24
@@ -6787,8 +6787,8 @@ msgstr "GİRİŞ YAPMAK"
 msgid "Login"
 msgstr "Giriş yapmak"
 
-#: autoload.php:1702
-#: autoload.php:3785
+#: autoload.php:1701
+#: autoload.php:3790
 #@ armember-membership
 msgid "Login attempts cleared successfully."
 msgstr "Giriş denemeleri başarıyla temizlendi."
@@ -6803,8 +6803,8 @@ msgstr "Giriş başarısız. Lütfen tekrar deneyin."
 msgid "Login Form Options"
 msgstr "Giriş Formu Seçenekleri"
 
-#: autoload.php:1703
-#: autoload.php:3786
+#: autoload.php:1702
+#: autoload.php:3791
 #@ armember-membership
 msgid "Login History cleared successfully."
 msgstr "Giriş Geçmişi başarıyla temizlendi."
@@ -6900,7 +6900,7 @@ msgstr "Posta başarıyla gönderildi"
 msgid "Main Title"
 msgstr "Ana başlık"
 
-#: core/classes/class.arm_shortcodes.php:1789
+#: core/classes/class.arm_shortcodes.php:1795
 #: core/vc/class_vc_extend.php:1802
 #: core/views/arm_tinymce_options_shortcodes.php:744
 #@ armember-membership
@@ -6939,61 +6939,61 @@ msgstr "Mali"
 msgid "Malta"
 msgstr "Malta"
 
-#: autoload.php:1035
+#: autoload.php:1034
 #@ armember-membership
 msgid "Manage Access Rules"
 msgstr "Erişim Kurallarını Yönetin"
 
-#: autoload.php:1043
+#: autoload.php:1042
 #@ armember-membership
 msgid "Manage Block Settings"
 msgstr "Blok Ayarlarını Yönet"
 
-#: autoload.php:1039
+#: autoload.php:1038
 #@ armember-membership
 msgid "Manage Communication"
 msgstr "İletişimi Yönet"
 
-#: autoload.php:1038
+#: autoload.php:1037
 #@ armember-membership
 msgid "Manage Email Notifications"
 msgstr "E-posta Bildirimlerini Yönet"
 
-#: autoload.php:1042
+#: autoload.php:1041
 #@ armember-membership
 msgid "Manage Feature Settings"
 msgstr "Özellik Ayarlarını Yönet"
 
-#: autoload.php:1034
+#: autoload.php:1033
 #@ armember-membership
 msgid "Manage Form Settings"
 msgstr "Form Ayarlarını Yönet"
 
+#: autoload.php:1180
 #: autoload.php:1181
-#: autoload.php:1182
 #: core/views/arm_manage_forms.php:10
 #@ armember-membership
 msgid "Manage Forms"
 msgstr "Formları Yönet"
 
-#: autoload.php:1041
+#: autoload.php:1040
 #@ armember-membership
 msgid "Manage General Settings"
 msgstr "Genel Ayarları Yönet"
 
-#: autoload.php:1046
+#: autoload.php:1045
 #@ armember-membership
 msgid "Manage Import/Export"
 msgstr "İçe/Dışa Aktarmayı Yönet"
 
-#: autoload.php:1040
+#: autoload.php:1039
 #@ armember-membership
 msgid "Manage Member Templates"
 msgstr "Üye Şablonlarını Yönet"
 
-#: autoload.php:1031
+#: autoload.php:1030
+#: autoload.php:1165
 #: autoload.php:1166
-#: autoload.php:1167
 #: core/views/arm_members_list.php:5
 #@ armember-membership
 msgid "Manage Members"
@@ -7004,14 +7004,14 @@ msgstr "Üyeleri Yönet"
 msgid "Manage Membership plans"
 msgstr "Üyelik planlarını yönetme"
 
-#: autoload.php:1045
+#: autoload.php:1044
 #@ armember-membership
 msgid "Manage Payment Gateways"
 msgstr "Ödeme Ağ Geçitlerini Yönetin"
 
-#: autoload.php:1032
+#: autoload.php:1031
+#: autoload.php:1170
 #: autoload.php:1171
-#: autoload.php:1172
 #: core/classes/class.arm_members.php:3884
 #: core/classes/class.arm_members.php:4882
 #: core/views/arm_members_list.php:118
@@ -7024,20 +7024,20 @@ msgstr "Planları Yönet"
 msgid "Manage Preset Form Fields"
 msgstr "Önceden Ayarlanmış Form Alanlarını Yönetme"
 
-#: autoload.php:1033
+#: autoload.php:1032
 #@ armember-membership
 msgid "Manage Setups"
 msgstr "Kurulumları Yönet"
 
-#: autoload.php:1030
+#: autoload.php:1029
+#: autoload.php:1190
 #: autoload.php:1191
-#: autoload.php:1192
 #: core/views/arm_manage_subscription_list.php:556
 #@ armember-membership
 msgid "Manage Subscriptions"
 msgstr "Abonelikleri Yönet"
 
-#: autoload.php:1037
+#: autoload.php:1036
 #@ armember-membership
 msgid "Manage Transactions"
 msgstr "İşlemleri Yönet"
@@ -7045,7 +7045,7 @@ msgstr "İşlemleri Yönet"
 #: core/classes/class.arm_manage_subscription.php:992
 #: core/classes/class.arm_manage_subscription.php:1349
 #: core/classes/class.arm_payment_gateways.php:466
-#: core/classes/class.arm_shortcodes.php:962
+#: core/classes/class.arm_shortcodes.php:968
 #: core/classes/class.arm_transaction.php:151
 #: core/classes/class.arm_transaction.php:624
 #: core/classes/class.arm_transaction.php:1029
@@ -7267,13 +7267,13 @@ msgstr "Üye Rehberi Şablonları"
 msgid "Members Profile Page"
 msgstr "Üye Profil Sayfası"
 
-#: autoload.php:663
-#: autoload.php:667
-#: autoload.php:671
+#: autoload.php:664
+#: autoload.php:668
+#: autoload.php:672
 #: core/classes/class.arm_manage_subscription.php:520
 #: core/classes/class.arm_manage_subscription.php:749
 #: core/classes/class.arm_manage_subscription.php:1099
-#: core/classes/class.arm_shortcodes.php:1199
+#: core/classes/class.arm_shortcodes.php:1205
 #: core/classes/class.arm_transaction.php:573
 #: core/classes/class.arm_transaction.php:1133
 #: core/views/arm_manage_subscription_list.php:683
@@ -7303,8 +7303,8 @@ msgstr "Üyelik Limiti"
 
 #: core/classes/class.arm_members.php:790
 #: core/classes/class.arm_members.php:975
-#: core/classes/class.arm_shortcodes.php:1779
-#: core/classes/class.arm_shortcodes.php:1936
+#: core/classes/class.arm_shortcodes.php:1785
+#: core/classes/class.arm_shortcodes.php:1942
 #: core/vc/class_vc_extend.php:1413
 #: core/vc/class_vc_extend.php:1479
 #: core/vc/class_vc_extend.php:2169
@@ -7330,7 +7330,7 @@ msgstr "Üyelik Planı"
 msgid "Membership plan is already exist for selected member."
 msgstr "Seçilen üye için üyelik planı zaten mevcut."
 
-#: autoload.php:678
+#: autoload.php:679
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:79
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:91
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:128
@@ -7366,12 +7366,12 @@ msgstr "Üyelik kurulum sihirbazı başarıyla eklendi."
 msgid "Membership setup wizard has been updated successfully."
 msgstr "Üyelik kurulum sihirbazı başarıyla güncellendi."
 
-#: core/classes/class.arm_shortcodes.php:2739
+#: core/classes/class.arm_shortcodes.php:2745
 #@ armember-membership
 msgid "MEMBERSHIP SHORTCODES"
 msgstr "ÜYELİK KISA KODLARI"
 
-#: autoload.php:662
+#: autoload.php:663
 #: core/views/arm_tinymce_options_shortcodes.php:21
 #@ armember-membership
 msgid "Membership Shortcodes"
@@ -7408,21 +7408,21 @@ msgstr "İleti"
 msgid "Message can not be left blank."
 msgstr "Mesaj boş bırakılamaz."
 
-#: autoload.php:1730
-#: autoload.php:3813
+#: autoload.php:1729
+#: autoload.php:3818
 #: core/classes/class.arm_manage_communication.php:29
 #@ armember-membership
 msgid "Message has been deleted successfully."
 msgstr "Mesaj başarıyla silindi."
 
-#: autoload.php:1752
-#: autoload.php:3833
+#: autoload.php:1751
+#: autoload.php:3838
 #@ armember-membership
 msgid "Message Updated Successfully."
 msgstr "Mesaj Başarıyla Güncellendi."
 
-#: autoload.php:1732
-#: autoload.php:3815
+#: autoload.php:1731
+#: autoload.php:3820
 #: core/classes/class.arm_manage_communication.php:67
 #@ armember-membership
 msgid "Message(s) has been deleted successfully."
@@ -7522,7 +7522,7 @@ msgstr "Moğolistan"
 msgid "Montenegro"
 msgstr "Karadağ"
 
-#: core/classes/class.arm_shortcodes.php:1024
+#: core/classes/class.arm_shortcodes.php:1030
 #: core/classes/class.arm_transaction.php:225
 #: core/classes/class.arm_transaction.php:653
 #@ armember-membership
@@ -7561,7 +7561,7 @@ msgstr "Ay(lar)"
 msgid "Monthly"
 msgstr "Aylık"
 
-#: core/classes/class.arm_shortcodes.php:1024
+#: core/classes/class.arm_shortcodes.php:1030
 #: core/classes/class.arm_transaction.php:225
 #: core/classes/class.arm_transaction.php:653
 #@ armember-membership
@@ -7677,7 +7677,7 @@ msgstr "Namibya"
 msgid "Nauru"
 msgstr "Nauru'lu"
 
-#: autoload.php:3643
+#: autoload.php:3648
 #@ armember-membership
 msgid "Need Help?"
 msgstr "Yardıma mı ihtiyacınız var?"
@@ -7697,8 +7697,8 @@ msgstr "Hollanda"
 #: core/classes/class.arm_members.php:855
 #: core/classes/class.arm_members.php:902
 #: core/classes/class.arm_members.php:1027
-#: core/classes/class.arm_shortcodes.php:2118
-#: core/classes/class.arm_shortcodes.php:2197
+#: core/classes/class.arm_shortcodes.php:2124
+#: core/classes/class.arm_shortcodes.php:2203
 #: core/views/arm_member_add.php:751
 #: core/views/arm_member_add.php:764
 #: core/views/arm_member_add.php:945
@@ -7886,15 +7886,15 @@ msgstr "Henüz herhangi bir işlem bulunamadı."
 #: core/classes/class.arm_members.php:862
 #: core/classes/class.arm_members.php:1056
 #: core/classes/class.arm_members.php:4264
-#: core/classes/class.arm_shortcodes.php:2275
+#: core/classes/class.arm_shortcodes.php:2281
 #: core/views/arm_member_add.php:771
 #: core/views/arm_member_add.php:963
 #@ armember-membership
 msgid "No cycles due"
 msgstr "Sonu gelen döngü yok"
 
-#: autoload.php:3699
 #: autoload.php:3704
+#: autoload.php:3709
 #@ armember-membership
 msgid "No data found"
 msgstr "Veri bulunamadı"
@@ -8059,13 +8059,13 @@ msgstr "Kullanıcı Yok"
 msgid "No Users Found."
 msgstr "Kullanıcı bulunamadı."
 
-#: autoload.php:621
+#: autoload.php:622
 #@ armember-membership
 msgid "No, Maybe later"
 msgstr "Hayır, belki daha sonra"
 
-#: core/classes/class.arm_shortcodes.php:1779
-#: core/classes/class.arm_shortcodes.php:1929
+#: core/classes/class.arm_shortcodes.php:1785
+#: core/classes/class.arm_shortcodes.php:1935
 #: core/vc/class_vc_extend.php:1412
 #: core/vc/class_vc_extend.php:1458
 #: core/vc/class_vc_extend.php:2168
@@ -8081,7 +8081,7 @@ msgstr "HAYIR."
 msgid "No. Of Members Per Page"
 msgstr "Sayfa Başına Üye Sayısı"
 
-#: autoload.php:649
+#: autoload.php:650
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:166
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:50
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:23
@@ -8242,7 +8242,7 @@ msgstr "TAMAM"
 msgid "Ok"
 msgstr "Tamam"
 
-#: autoload.php:620
+#: autoload.php:621
 #@ armember-membership
 msgid "OK, you deserve it"
 msgstr "Tamam, bunu hak ediyorsun"
@@ -8265,7 +8265,7 @@ msgstr "Bir veya daha fazla üye zaten bu plana abone oldu. Plan türü ve fiyat
 #: core/classes/class.arm_global_settings.php:2429
 #: core/classes/class.arm_global_settings.php:2526
 #: core/classes/class.arm_members.php:4291
-#: core/classes/class.arm_shortcodes.php:977
+#: core/classes/class.arm_shortcodes.php:983
 #: core/classes/class.arm_transaction.php:177
 #: core/classes/class.arm_transaction.php:597
 #: core/classes/class.arm_transaction.php:1083
@@ -8311,14 +8311,14 @@ msgstr "Sadece sayılar"
 msgid "Oops, nothing found"
 msgstr "Hata! Hiçbir şey bulunamadı"
 
-#: autoload.php:1767
-#: autoload.php:3854
+#: autoload.php:1766
+#: autoload.php:3859
 #@ armember-membership
 msgid "Oops, nothing found."
 msgstr "Hata! Hiçbir şey bulunamadı."
 
-#: autoload.php:1683
-#: autoload.php:3763
+#: autoload.php:1682
+#: autoload.php:3768
 #@ armember-membership
 msgid "Oops, there was a problem getting your information"
 msgstr "Hata! Bilgileriniz alınırken bir sorun oluştu"
@@ -8333,7 +8333,7 @@ msgstr "Opaklık"
 msgid "Open Settings & Styles"
 msgstr "Ayarlar ve Stiller'i açın"
 
-#: autoload.php:1739
+#: autoload.php:1738
 #@ armember-membership
 msgid "Opt-ins Settings Saved Successfully."
 msgstr "Etkinleştirme Ayarları Başarıyla Kaydedildi."
@@ -8539,12 +8539,12 @@ msgstr "Paraguay"
 msgid "Password"
 msgstr "Şifre"
 
-#: core/classes/class.arm_shortcodes.php:1675
+#: core/classes/class.arm_shortcodes.php:1681
 #@ armember-membership
 msgid "Password can not be left blank"
 msgstr "Şifre boş bırakılamaz"
 
-#: autoload.php:1704
+#: autoload.php:1703
 #: core/classes/class.arm_member_forms.php:6545
 #: core/classes/class.arm_member_forms.php:6809
 #: core/classes/class.arm_member_forms.php:7237
@@ -8579,7 +8579,7 @@ msgid "Password can not be left blank."
 msgstr "Şifre boş bırakılamaz."
 
 #: core/classes/class.arm_global_settings.php:869
-#: core/classes/class.arm_shortcodes.php:1575
+#: core/classes/class.arm_shortcodes.php:1581
 #@ armember-membership
 msgid "Password cannot be left Blank."
 msgstr "Şifre Boş bırakılamaz."
@@ -8654,7 +8654,7 @@ msgstr "Ödenebilir miktar"
 msgid "Payer Email"
 msgstr "Ödeme Yapan Kişinin E-postası"
 
-#: core/classes/class.arm_shortcodes.php:1039
+#: core/classes/class.arm_shortcodes.php:1045
 #@ armember-membership
 msgid "Payment Action"
 msgstr "Ödeme İşlemi"
@@ -8673,8 +8673,8 @@ msgid "Payment Cycle"
 msgstr "Ödeme Döngüsü"
 
 #: core/classes/class.arm_manage_subscription.php:523
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:919
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:925
 #: core/classes/class.arm_transaction.php:276
 #: core/classes/class.arm_transaction.php:579
 #: core/classes/class.arm_transaction.php:1133
@@ -8690,7 +8690,7 @@ msgstr "Ödeme Döngüsü"
 msgid "Payment Date"
 msgstr "Ödeme tarihi"
 
-#: autoload.php:1021
+#: autoload.php:1020
 #@ armember-membership
 msgid "Payment Failed"
 msgstr "Ödeme başarısız"
@@ -8701,8 +8701,8 @@ msgid "Payment Failed Action"
 msgstr "Ödeme Başarısız Eylemi"
 
 #: core/classes/class.arm_manage_subscription.php:113
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:893
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:899
 #: core/classes/class.arm_subscription_plans.php:1837
 #: core/classes/class.arm_transaction.php:168
 #: core/vc/class_vc_extend.php:792
@@ -8748,8 +8748,8 @@ msgstr "Ödeme Sağlayıcı. Bu ayarları kaydederseniz ödeme ağ geçitleri de
 msgid "Payment Gateways"
 msgstr "Ödeme Ağ Geçitleri"
 
+#: autoload.php:1195
 #: autoload.php:1196
-#: autoload.php:1197
 #: core/views/arm_transactions.php:5
 #: core/views/arm_view_member.php:379
 #@ armember-membership
@@ -8802,8 +8802,8 @@ msgstr "Ödeme İşlemleri"
 #: core/classes/class.arm_manage_subscription.php:495
 #: core/classes/class.arm_manage_subscription.php:755
 #: core/classes/class.arm_manage_subscription.php:1105
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:900
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:906
 #: core/classes/class.arm_transaction.php:176
 #: core/classes/class.arm_transaction.php:574
 #: core/classes/class.arm_transaction.php:1133
@@ -8863,7 +8863,7 @@ msgstr "Paypal API Kullanıcı Adı"
 msgid "Paypal API Username ( Sandbox)"
 msgstr "Paypal API Kullanıcı Adı ( Sandbox )"
 
-#: autoload.php:1012
+#: autoload.php:1011
 #: core/views/arm_manage_subscription_list.php:599
 #: core/views/arm_redirection_settings.php:271
 #: core/views/arm_redirection_settings.php:392
@@ -8926,8 +8926,8 @@ msgid "Placeholder"
 msgstr "Yer tutucu"
 
 #: core/classes/class.arm_manage_subscription.php:1260
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:887
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:893
 #: core/classes/class.arm_subscription_plans.php:1832
 #: core/classes/class.arm_transaction.php:139
 #: core/vc/class_vc_extend.php:791
@@ -8996,7 +8996,7 @@ msgstr "Bu kullanıcı için planınız var mı?"
 msgid "Plan has been added successfully."
 msgstr "Plan başarıyla eklendi."
 
-#: autoload.php:3790
+#: autoload.php:3795
 #: core/classes/class.arm_subscription_plans.php:540
 #@ armember-membership
 msgid "Plan has been deleted successfully."
@@ -9055,7 +9055,7 @@ msgstr "Plan durumu başarıyla değiştirildi."
 
 #: core/classes/class.arm_members.php:791
 #: core/classes/class.arm_members.php:976
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1414
 #: core/vc/class_vc_extend.php:1500
 #: core/vc/class_vc_extend.php:2170
@@ -9077,8 +9077,8 @@ msgstr "Plan Türü"
 msgid "Plan Type & Price"
 msgstr "Plan Türü ve Fiyatı"
 
-#: autoload.php:1706
-#: autoload.php:3788
+#: autoload.php:1705
+#: autoload.php:3793
 #@ armember-membership
 msgid "Plan(s) has been deleted successfully."
 msgstr "Plan(lar) başarıyla silindi."
@@ -9313,7 +9313,7 @@ msgstr "Lütfen URL'yi girin."
 msgid "Please enter valid Admin Email ID."
 msgstr "Lütfen geçerli Yönetici E-posta Kimliğini girin."
 
-#: core/classes/class.arm_shortcodes.php:1675
+#: core/classes/class.arm_shortcodes.php:1681
 #@ armember-membership
 msgid "Please enter valid data"
 msgstr "Lütfen geçerli verileri girin"
@@ -9562,8 +9562,8 @@ msgstr "Lütfen dosyayı seçin."
 msgid "Please select one option."
 msgstr "Lütfen bir seçeneği seçin."
 
-#: autoload.php:1701
-#: autoload.php:3784
+#: autoload.php:1700
+#: autoload.php:3789
 #: core/classes/class.arm_manage_communication.php:53
 #: core/classes/class.arm_members.php:1460
 #: core/classes/class.arm_members.php:2349
@@ -9675,8 +9675,8 @@ msgstr "Lütfen Sosyal Hesap Seçiniz."
 msgid "Please select user."
 msgstr "Lütfen kullanıcıyı seçin."
 
-#: autoload.php:1700
-#: autoload.php:3783
+#: autoload.php:1699
+#: autoload.php:3788
 #: core/classes/class.arm_manage_communication.php:70
 #: core/classes/class.arm_members.php:1463
 #: core/classes/class.arm_transaction.php:365
@@ -9721,8 +9721,8 @@ msgstr "Lütfen deneyiminizi belirtin"
 msgid "Please type your e-mail address."
 msgstr "Lütfen e-posta adresinizi yazın."
 
-#: autoload.php:1727
-#: autoload.php:3810
+#: autoload.php:1726
+#: autoload.php:3815
 #@ armember-membership
 msgid "Please upload appropriate file to import users."
 msgstr "Kullanıcıları içe aktarmak için lütfen uygun dosyayı yükleyin."
@@ -9874,7 +9874,7 @@ msgid "Processing"
 msgstr "İşleme"
 
 #: core/classes/class.arm_members_directory.php:682
-#: core/classes/class.arm_shortcodes.php:1198
+#: core/classes/class.arm_shortcodes.php:1204
 #@ armember-membership
 msgid "Profile"
 msgstr "Profil"
@@ -9909,7 +9909,7 @@ msgstr "Profil Kapağı Başlığı"
 msgid "Profile Cover."
 msgstr "Profil Kapağı."
 
-#: core/classes/class.arm_shortcodes.php:1369
+#: core/classes/class.arm_shortcodes.php:1375
 #@ armember-membership
 msgid "Profile Detail"
 msgstr "Profil Detayı"
@@ -9956,8 +9956,8 @@ msgstr "Profil Şablonu 3"
 msgid "Profile Template Name"
 msgstr "Profil Şablonu Adı"
 
+#: autoload.php:1206
 #: autoload.php:1207
-#: autoload.php:1208
 #: core/views/arm_profile_editor.php:190
 #: core/views/arm_profiles_directories.php:14
 #@ armember-membership
@@ -10005,7 +10005,7 @@ msgid "Recent Registerd Members"
 msgstr "Yeni Kayıt Olan Üyeler"
 
 #: core/classes/class.arm_global_settings.php:907
-#: core/classes/class.arm_shortcodes.php:473
+#: core/classes/class.arm_shortcodes.php:477
 #@ armember-membership
 msgid "Recently Joined"
 msgstr "Yeni Katılanlar"
@@ -10059,7 +10059,7 @@ msgstr "Tekrarlanan"
 msgid "Recurring Payment"
 msgstr "Yinelenen ödeme"
 
-#: core/classes/class.arm_shortcodes.php:1957
+#: core/classes/class.arm_shortcodes.php:1963
 #@ armember-membership
 msgid "Recurring Profile"
 msgstr "Tekrarlanan Profil"
@@ -10216,7 +10216,7 @@ msgstr "Kalan giriş denemesi uyarısı"
 msgid "Remaining Login Attempts :"
 msgstr "Kalan Giriş Denemeleri:"
 
-#: core/classes/class.arm_shortcodes.php:1964
+#: core/classes/class.arm_shortcodes.php:1970
 #@ armember-membership
 msgid "Remaining Occurence"
 msgstr "Kalan Oluşum"
@@ -10271,8 +10271,8 @@ msgstr "Profil Fotoğrafını Kaldır"
 msgid "Remove this plan from user"
 msgstr "Bu planı kullanıcıdan kaldır"
 
-#: core/classes/class.arm_shortcodes.php:1351
-#: core/classes/class.arm_shortcodes.php:1788
+#: core/classes/class.arm_shortcodes.php:1357
+#: core/classes/class.arm_shortcodes.php:1794
 #: core/vc/class_vc_extend.php:1801
 #: core/views/arm_tinymce_options_shortcodes.php:740
 #@ armember-membership
@@ -10296,7 +10296,7 @@ msgid "Renew Text"
 msgstr "Metni Yenile"
 
 #: core/classes/class.arm_members.php:4275
-#: core/classes/class.arm_shortcodes.php:1971
+#: core/classes/class.arm_shortcodes.php:1977
 #@ armember-membership
 msgid "Renewal On"
 msgstr "Yenileme Açık"
@@ -10346,8 +10346,8 @@ msgstr "Doğrulama e-postasını tekrar gönder"
 #: core/classes/class.arm_member_forms.php:3687
 #: core/classes/class.arm_member_forms.php:3760
 #: core/classes/class.arm_member_forms.php:3775
-#: core/classes/class.arm_shortcodes.php:635
-#: core/classes/class.arm_shortcodes.php:650
+#: core/classes/class.arm_shortcodes.php:639
+#: core/classes/class.arm_shortcodes.php:654
 #: core/views/arm_access_rules.php:261
 #: core/views/arm_profile_editor.php:230
 #: core/views/arm_profile_editor.php:578
@@ -10379,12 +10379,12 @@ msgstr "Şifreyi Sıfırla Bağlantısının süresi doldu."
 msgid "Reset Password Link is invalid."
 msgstr "Şifreyi Sıfırla Bağlantısı geçersiz."
 
-#: core/classes/class.arm_shortcodes.php:2741
+#: core/classes/class.arm_shortcodes.php:2747
 #@ armember-membership
 msgid "RESTRICT CONTENT"
 msgstr "İÇERİĞİ KISITLAYIN"
 
-#: autoload.php:674
+#: autoload.php:675
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:62
 #: core/views/arm_tinymce_options_shortcodes.php:1176
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:60
@@ -10457,8 +10457,8 @@ msgstr "Romen"
 #: core/classes/class.arm_member_forms.php:3686
 #: core/classes/class.arm_member_forms.php:3759
 #: core/classes/class.arm_member_forms.php:3774
-#: core/classes/class.arm_shortcodes.php:634
-#: core/classes/class.arm_shortcodes.php:649
+#: core/classes/class.arm_shortcodes.php:638
+#: core/classes/class.arm_shortcodes.php:653
 #: core/views/arm_profile_editor.php:577
 #@ armember-membership
 msgid "Rotate"
@@ -10475,14 +10475,14 @@ msgstr "Yuvarlak Stil"
 msgid "RTL"
 msgstr "Sağdan sola"
 
-#: autoload.php:1718
-#: autoload.php:3801
+#: autoload.php:1717
+#: autoload.php:3806
 #@ armember-membership
 msgid "Rule has been deleted successfully."
 msgstr "Kural başarıyla silindi."
 
-#: autoload.php:1720
-#: autoload.php:3803
+#: autoload.php:1719
+#: autoload.php:3808
 #@ armember-membership
 msgid "Rule(s) has been deleted successfully."
 msgstr "Kural(lar) başarıyla silindi."
@@ -11123,7 +11123,7 @@ msgstr "Yalnızca Seçilen Plan(lar)"
 msgid "Semi Automatic"
 msgstr "Yarı Otomatik"
 
-#: core/classes/class.arm_shortcodes.php:3106
+#: core/classes/class.arm_shortcodes.php:3112
 #: core/views/arm_transactions_list_records.php:328
 #@ armember-membership
 msgid "Semi Automatic Subscription"
@@ -11230,8 +11230,8 @@ msgstr "Kurulum çok zor"
 msgid "Setting(s) has been imported successfully"
 msgstr "Ayar(lar) başarıyla içe aktarıldı"
 
-#: autoload.php:1735
-#: autoload.php:3818
+#: autoload.php:1734
+#: autoload.php:3823
 #@ armember-membership
 msgid "Settings has been saved successfully."
 msgstr "Ayarlar başarıyla kaydedildi."
@@ -11243,8 +11243,8 @@ msgstr "Ayarlar başarıyla kaydedildi."
 msgid "Settings Saved Successfully."
 msgstr "Ayarlar Başarıyla Kaydedildi."
 
-#: autoload.php:1712
-#: autoload.php:3795
+#: autoload.php:1711
+#: autoload.php:3800
 #: core/classes/class.arm_membership_setup.php:4911
 #@ armember-membership
 msgid "Setup has been deleted successfully."
@@ -11265,8 +11265,8 @@ msgstr "Kurulum adı"
 msgid "Setup name can not be left blank."
 msgstr "Kurulum adı boş bırakılamaz."
 
-#: autoload.php:1710
-#: autoload.php:3793
+#: autoload.php:1709
+#: autoload.php:3798
 #@ armember-membership
 msgid "Setup(s) has been deleted successfully."
 msgstr "Kurulum(lar) başarıyla silindi."
@@ -11285,7 +11285,7 @@ msgstr "Seyşeller"
 msgid "Short Code"
 msgstr "Kısa kod"
 
-#: autoload.php:663
+#: autoload.php:664
 #: core/views/arm_form_editor.php:156
 #: core/views/arm_manage_forms.php:38
 #: core/views/arm_manage_forms.php:107
@@ -11381,7 +11381,7 @@ msgstr "Göstermek"
 msgid "Show / Hide columns"
 msgstr "Sütunları Göster / Gizle"
 
-#: autoload.php:675
+#: autoload.php:676
 #: core/views/arm_tinymce_options_shortcodes.php:1184
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:65
 #@ armember-membership
@@ -11611,8 +11611,8 @@ msgstr "Üzgünüz, bir şeyler ters gitti. Lütfen site yöneticisiyle iletişi
 msgid "Sorry, Something went wrong. Please contact to site administrator."
 msgstr "Üzgünüm, bir şeyler ters gitti. Lütfen site yöneticisi ile iletişime geçiniz."
 
-#: autoload.php:1699
-#: autoload.php:3782
+#: autoload.php:1698
+#: autoload.php:3787
 #: core/classes/class.arm_access_rules.php:506
 #: core/classes/class.arm_email_settings.php:143
 #: core/classes/class.arm_email_settings.php:176
@@ -11643,8 +11643,8 @@ msgstr "Üzgünüm, bir şeyler ters gitti. Lütfen tekrar deneyin."
 msgid "Sorry, Something went wrong. please try again."
 msgstr "Üzgünüm, bir şeyler ters gitti. lütfen tekrar deneyin."
 
-#: autoload.php:1687
-#: autoload.php:3767
+#: autoload.php:1686
+#: autoload.php:3772
 #@ armember-membership
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Üzgünüz, güvenlik nedeniyle bu dosya türüne izin verilmiyor."
@@ -11662,7 +11662,7 @@ msgstr "Üzgünüz, bu alanı forma iki kez ekleyemezsiniz"
 msgid "Sorry, You do not have permission to perform this action"
 msgstr "Üzgünüz, bu eylemi gerçekleştirme izniniz yok"
 
-#: autoload.php:3933
+#: autoload.php:3938
 #: core/classes/class.arm_manage_communication.php:25
 #: core/classes/class.arm_manage_communication.php:56
 #: core/classes/class.arm_manage_subscription.php:439
@@ -11677,18 +11677,18 @@ msgstr "Üzgünüz, bu eylemi gerçekleştirme izniniz yok."
 msgid "Sorry, You Don't Have Feed Access"
 msgstr "Üzgünüz, Yayın Erişiminiz Yok"
 
-#: autoload.php:3949
+#: autoload.php:3954
 #@ armember-membership
 msgid "Sorry, Your request can not process due to nonce not found."
 msgstr "Üzgünüz, isteğiniz bulunamadığı için işleme alınamıyor."
 
-#: autoload.php:3681
-#: autoload.php:3956
+#: autoload.php:3686
+#: autoload.php:3961
 #@ armember-membership
 msgid "Sorry, Your request can not process due to security reason."
 msgstr "Üzgünüz, güvenlik nedeniyle isteğiniz işleme alınamıyor."
 
-#: core/classes/class.arm_shortcodes.php:692
+#: core/classes/class.arm_shortcodes.php:696
 #@ armember-membership
 msgid "Sort By"
 msgstr "Göre sırala"
@@ -11787,7 +11787,7 @@ msgstr "Standart Stil"
 #: core/classes/class.arm_manage_subscription.php:492
 #: core/classes/class.arm_manage_subscription.php:752
 #: core/classes/class.arm_manage_subscription.php:1102
-#: core/classes/class.arm_shortcodes.php:1943
+#: core/classes/class.arm_shortcodes.php:1949
 #: core/classes/class.arm_subscription_plans.php:1834
 #: core/vc/class_vc_extend.php:2058
 #: core/views/arm_debug_logs.php:77
@@ -11804,15 +11804,15 @@ msgstr "Standart Stil"
 msgid "Start Date"
 msgstr "Başlangıç ​​tarihi"
 
-#: autoload.php:1755
-#: autoload.php:3839
+#: autoload.php:1754
+#: autoload.php:3844
 #@ armember-membership
 msgid "Start date can not be earlier than current date."
 msgstr "Başlangıç tarihi güncel tarihten daha erken olamaz."
 
 #: core/classes/class.arm_members.php:792
 #: core/classes/class.arm_members.php:977
-#: core/classes/class.arm_shortcodes.php:1779
+#: core/classes/class.arm_shortcodes.php:1785
 #: core/vc/class_vc_extend.php:1415
 #: core/vc/class_vc_extend.php:1521
 #: core/vc/class_vc_extend.php:2171
@@ -11915,7 +11915,7 @@ msgstr "Ders"
 #: core/classes/class.arm_members_activity.php:707
 #: core/classes/class.arm_membership_setup.php:887
 #: core/classes/class.arm_membership_setup.php:2433
-#: core/classes/class.arm_shortcodes.php:1574
+#: core/classes/class.arm_shortcodes.php:1580
 #: core/classes/class.armemberlite.php:64
 #: core/classes/templates.arm_member_forms_templates.php:262
 #: core/classes/templates.arm_member_forms_templates.php:1045
@@ -11958,7 +11958,7 @@ msgstr "Formu gönderiyorum"
 #: core/classes/class.arm_global_settings.php:2524
 #: core/classes/class.arm_members.php:4036
 #: core/classes/class.arm_members.php:4244
-#: core/classes/class.arm_shortcodes.php:977
+#: core/classes/class.arm_shortcodes.php:983
 #: core/classes/class.arm_subscription_plans.php:3209
 #: core/classes/class.arm_transaction.php:177
 #: core/classes/class.arm_transaction.php:597
@@ -12044,13 +12044,13 @@ msgstr "Özet Metni"
 msgid "Suriname"
 msgstr "Surinam"
 
-#: autoload.php:1018
+#: autoload.php:1017
 #: core/classes/class.arm_manage_subscription.php:906
 #: core/classes/class.arm_members.php:833
 #: core/classes/class.arm_members.php:1020
 #: core/classes/class.arm_members.php:1069
 #: core/classes/class.arm_members.php:4742
-#: core/classes/class.arm_shortcodes.php:2092
+#: core/classes/class.arm_shortcodes.php:2098
 #: core/classes/class.arm_subscription_plans.php:1873
 #: core/views/arm_manage_subscription_list.php:615
 #: core/views/arm_member_add.php:791
@@ -12188,14 +12188,14 @@ msgstr "Şablon 5"
 msgid "Template found."
 msgstr "Şablon bulundu."
 
-#: autoload.php:1747
-#: autoload.php:3828
+#: autoload.php:1746
+#: autoload.php:3833
 #@ armember-membership
 msgid "Template has been added successfully."
 msgstr "Şablon başarıyla eklendi."
 
-#: autoload.php:1749
-#: autoload.php:3830
+#: autoload.php:1748
+#: autoload.php:3835
 #@ armember-membership
 msgid "Template has been deleted successfully."
 msgstr "Şablon başarıyla silindi."
@@ -12205,8 +12205,8 @@ msgstr "Şablon başarıyla silindi."
 msgid "Template Name"
 msgstr "şablon adı"
 
-#: autoload.php:1743
-#: autoload.php:3824
+#: autoload.php:1742
+#: autoload.php:3829
 #: core/classes/class.arm_members_directory.php:1151
 #@ armember-membership
 msgid "Template not found."
@@ -12217,8 +12217,8 @@ msgstr "Şablon bulunamadı."
 msgid "Template Options"
 msgstr "Şablon Seçenekleri"
 
-#: autoload.php:1744
-#: autoload.php:3825
+#: autoload.php:1743
+#: autoload.php:3830
 #: core/classes/class.arm_members_directory.php:292
 #: core/classes/class.arm_members_directory.php:295
 #@ armember-membership
@@ -12253,7 +12253,7 @@ msgstr "Sonlandır"
 msgid "Terminate Members"
 msgstr "Üyeleri Sonlandır"
 
-#: autoload.php:1013
+#: autoload.php:1012
 #@ armember-membership
 msgid "Terminated"
 msgstr "Sonlandırılmış"
@@ -12384,8 +12384,8 @@ msgstr "Yüklenen dosya php.ini'deki upload_max_filesize yönergesini aşıyor."
 msgid "The uploaded file was only partially uploaded."
 msgstr "Yüklenen dosyanın yalnızca bir kısmı yüklendi."
 
-#: autoload.php:1682
-#: autoload.php:3762
+#: autoload.php:1681
+#: autoload.php:3767
 #@ armember-membership
 msgid "The user chose not to grant permissions or closed the pop-up"
 msgstr "Kullanıcı izin vermemeyi seçti veya açılır pencereyi kapattı"
@@ -12424,128 +12424,128 @@ msgstr "Daha Sonra Yönlendirin"
 msgid "There is a error while adding form, Please try again."
 msgstr "Form eklenirken hata oluştu, lütfen tekrar deneyiniz."
 
-#: autoload.php:1748
-#: autoload.php:3829
+#: autoload.php:1747
+#: autoload.php:3834
 #@ armember-membership
 msgid "There is a error while adding template, please try again."
 msgstr "Şablon eklenirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1686
-#: autoload.php:3766
+#: autoload.php:1685
+#: autoload.php:3771
 #@ armember-membership
 msgid "There is a error while closing account, please try again."
 msgstr "Hesap kapatılırken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1684
-#: autoload.php:3764
+#: autoload.php:1683
+#: autoload.php:3769
 #@ armember-membership
 msgid "There is a error while copying, please try again"
 msgstr "Kopyalama sırasında bir hata oluştu, lütfen tekrar deneyin"
 
-#: autoload.php:1715
-#: autoload.php:3798
+#: autoload.php:1714
+#: autoload.php:3803
 #@ armember-membership
 msgid "There is a error while deleting form set, please try again."
 msgstr "Form seti silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1717
-#: autoload.php:3800
+#: autoload.php:1716
+#: autoload.php:3805
 #@ armember-membership
 msgid "There is a error while deleting form, please try again."
 msgstr "Form silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1742
-#: autoload.php:3823
+#: autoload.php:1741
+#: autoload.php:3828
 #@ armember-membership
 msgid "There is a error while deleting member activities, please try again."
 msgstr "Üye etkinlikleri silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1733
-#: autoload.php:3816
+#: autoload.php:1732
+#: autoload.php:3821
 #@ armember-membership
 msgid "There is a error while deleting Message(s), please try again."
 msgstr "Mesaj(lar) silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1731
-#: autoload.php:3814
+#: autoload.php:1730
+#: autoload.php:3819
 #@ armember-membership
 msgid "There is a error while deleting Message, please try again."
 msgstr "Mesaj silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1707
-#: autoload.php:3789
+#: autoload.php:1706
+#: autoload.php:3794
 #@ armember-membership
 msgid "There is a error while deleting Plan(s), please try again."
 msgstr "Plan(lar) silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1708
-#: autoload.php:3791
+#: autoload.php:1707
+#: autoload.php:3796
 #@ armember-membership
 msgid "There is a error while deleting Plan, please try again."
 msgstr "Plan silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1721
-#: autoload.php:3804
+#: autoload.php:1720
+#: autoload.php:3809
 #@ armember-membership
 msgid "There is a error while deleting Rule(s), please try again."
 msgstr "Kural(lar) silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1719
-#: autoload.php:3802
+#: autoload.php:1718
+#: autoload.php:3807
 #@ armember-membership
 msgid "There is a error while deleting Rule, please try again."
 msgstr "Kural silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1711
-#: autoload.php:3794
+#: autoload.php:1710
+#: autoload.php:3799
 #@ armember-membership
 msgid "There is a error while deleting Setup(s), please try again."
 msgstr "Kurulum(lar) silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1713
-#: autoload.php:3796
+#: autoload.php:1712
+#: autoload.php:3801
 #@ armember-membership
 msgid "There is a error while deleting Setup, please try again."
 msgstr "Kurulum silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1750
-#: autoload.php:3831
+#: autoload.php:1749
+#: autoload.php:3836
 #@ armember-membership
 msgid "There is a error while deleting template, please try again."
 msgstr "Şablon silinirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1726
-#: autoload.php:3809
+#: autoload.php:1725
+#: autoload.php:3814
 #@ armember-membership
 msgid "There is a error while displaying ARMember CSS Class Information, Please Try Again."
 msgstr "ARMember CSS Sınıf Bilgileri görüntülenirken bir hata oluştu, Lütfen Tekrar Deneyin."
 
-#: autoload.php:1725
-#: autoload.php:3808
+#: autoload.php:1724
+#: autoload.php:3813
 #@ armember-membership
 msgid "There is a error while displaying members activities detail, Please try again."
 msgstr "Üye etkinlikleri ayrıntıları görüntülenirken bir hata oluştu. Lütfen tekrar deneyin."
 
-#: autoload.php:1723
-#: autoload.php:3806
+#: autoload.php:1722
+#: autoload.php:3811
 #@ armember-membership
 msgid "There is a error while generating invoice of transaction detail, Please try again."
 msgstr "İşlem detayına ait fatura oluşturulurken hata oluştu, lütfen tekrar deneyiniz."
 
-#: autoload.php:1724
-#: autoload.php:3807
+#: autoload.php:1723
+#: autoload.php:3812
 #@ armember-membership
 msgid "There is a error while generating preview of members detail, Please try again."
 msgstr "Üye ayrıntılarının ön izlemesi oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
 
-#: autoload.php:1746
-#: autoload.php:3827
+#: autoload.php:1745
+#: autoload.php:3832
 #@ armember-membership
 msgid "There is a error while generating preview of template, Please try again."
 msgstr "Şablonun önizlemesi oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
 
-#: autoload.php:1722
-#: autoload.php:3805
+#: autoload.php:1721
+#: autoload.php:3810
 #@ armember-membership
 msgid "There is a error while generating preview of transaction detail, Please try again."
 msgstr "İşlem detayının ön izlemesi oluşturulurken bir hata oluştu. Lütfen tekrar deneyin."
@@ -12555,19 +12555,19 @@ msgstr "İşlem detayının ön izlemesi oluşturulurken bir hata oluştu. Lütf
 msgid "There is a error while updating access rules, please try again."
 msgstr "Erişim kuralları güncellenirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1740
+#: autoload.php:1739
 #@ armember-membership
 msgid "There is a error while updating opt-ins settings, please try again."
 msgstr "Etkinleştirme ayarları güncellenirken bir hata oluştu. Lütfen tekrar deneyin."
 
-#: autoload.php:1738
-#: autoload.php:3821
+#: autoload.php:1737
+#: autoload.php:3826
 #@ armember-membership
 msgid "There is a error while updating rules, please try again."
 msgstr "Kurallar güncellenirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1736
-#: autoload.php:3819
+#: autoload.php:1735
+#: autoload.php:3824
 #: core/classes/class.arm_global_settings.php:1595
 #: core/classes/class.arm_members_directory.php:275
 #: core/classes/class.arm_members_directory.php:278
@@ -12576,8 +12576,8 @@ msgstr "Kurallar güncellenirken bir hata oluştu, lütfen tekrar deneyin."
 msgid "There is a error while updating settings, please try again."
 msgstr "Ayarlar güncellenirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1745
-#: autoload.php:3826
+#: autoload.php:1744
+#: autoload.php:3831
 #@ armember-membership
 msgid "There is a error while updating template options, please try again."
 msgstr "Şablon seçenekleri güncellenirken bir hata oluştu, lütfen tekrar deneyin."
@@ -12587,34 +12587,34 @@ msgstr "Şablon seçenekleri güncellenirken bir hata oluştu, lütfen tekrar de
 msgid "There is a error while updating template, please try again."
 msgstr "Şablon güncellenirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1689
-#: autoload.php:3769
+#: autoload.php:1688
+#: autoload.php:3774
 #@ armember-membership
 msgid "There is an error in uploading file, Please try again."
 msgstr "Dosya yüklenirken bir hata oluştu. Lütfen tekrar deneyin."
 
-#: autoload.php:1762
-#: autoload.php:3846
+#: autoload.php:1761
+#: autoload.php:3851
 #@ armember-membership
 msgid "There is an error while activating addon, Please try agina."
 msgstr "Eklenti etkinleştirilirken bir hata oluştu. Lütfen agina'yı deneyin."
 
-#: autoload.php:1760
-#: autoload.php:3844
+#: autoload.php:1759
+#: autoload.php:3849
 #@ armember-membership
 msgid "There is an error while installing addon, Please try again."
 msgstr "Eklenti yüklenirken bir hata oluştu. Lütfen tekrar deneyin."
 
-#: autoload.php:1681
-#: autoload.php:3761
+#: autoload.php:1680
+#: autoload.php:3766
 #@ armember-membership
 msgid "There is an error while loading activities, please try again."
 msgstr "Etkinlikler yüklenirken bir hata oluştu, lütfen tekrar deneyin."
 
-#: autoload.php:1692
-#: autoload.php:1766
-#: autoload.php:3772
-#: autoload.php:3850
+#: autoload.php:1691
+#: autoload.php:1765
+#: autoload.php:3777
+#: autoload.php:3855
 #@ armember-membership
 msgid "There is an error while performing this action, please try again."
 msgstr "Bu işlemi gerçekleştirirken bir hata oluştu, lütfen tekrar deneyin."
@@ -12656,8 +12656,8 @@ msgstr "Yeni üye bulunamadı."
 msgid "There is no any recent transactions found."
 msgstr "Yakın zamanda herhangi bir işlem bulunamadı."
 
-#: core/classes/class.arm_shortcodes.php:775
-#: core/classes/class.arm_shortcodes.php:1409
+#: core/classes/class.arm_shortcodes.php:781
+#: core/classes/class.arm_shortcodes.php:1415
 #: core/vc/class_vc_extend.php:1035
 #: core/vc/class_vc_extend.php:1056
 #: core/views/arm_tinymce_options_shortcodes.php:575
@@ -12670,7 +12670,7 @@ msgstr "Herhangi bir İşlem bulunamadı"
 msgid "There is no error, the file uploaded with success."
 msgstr "Herhangi bir hata yok, dosya başarıyla yüklendi."
 
-#: core/classes/class.arm_shortcodes.php:1801
+#: core/classes/class.arm_shortcodes.php:1807
 #: core/vc/class_vc_extend.php:1815
 #: core/views/arm_tinymce_options_shortcodes.php:847
 #@ armember-membership
@@ -12748,8 +12748,8 @@ msgstr "Dosya sınırı aşıldığından bu dosya işlenemedi."
 msgid "This first name is invalid. Please enter a valid first name."
 msgstr "Bu ad geçersiz. Lütfen geçerli bir isim giriniz."
 
-#: autoload.php:1759
-#: autoload.php:3843
+#: autoload.php:1758
+#: autoload.php:3848
 #@ armember-membership
 msgid "This Form Name is already exist."
 msgstr "Bu Form Adı zaten mevcut."
@@ -12806,8 +12806,8 @@ msgstr "Bu gezinme menüsü bağlantısı Oturum Kapatma Bağlantısını ayarla
 msgid "This plan has one or more subscribers. So this plan can not be deleted."
 msgstr "Bu planın bir veya daha fazla abonesi var. Dolayısıyla bu plan silinemez."
 
-#: autoload.php:1758
-#: autoload.php:3842
+#: autoload.php:1757
+#: autoload.php:3847
 #@ armember-membership
 msgid "This Set Name is already exist."
 msgstr "Bu Ayar Adı zaten mevcut."
@@ -12934,7 +12934,7 @@ msgstr "Başlık Konumu"
 msgid "TLS"
 msgstr "TLS"
 
-#: core/classes/class.arm_shortcodes.php:2221
+#: core/classes/class.arm_shortcodes.php:2227
 #: core/views/arm_global_settings.php:487
 #@ armember-membership
 msgid "To"
@@ -13081,13 +13081,13 @@ msgstr "İşlem Tarihi"
 msgid "Transaction Details"
 msgstr "ödeme detayları"
 
-#: autoload.php:1728
-#: autoload.php:3811
+#: autoload.php:1727
+#: autoload.php:3816
 #@ armember-membership
 msgid "Transaction has been deleted successfully."
 msgstr "İşlem başarıyla silindi."
 
-#: core/classes/class.arm_shortcodes.php:1408
+#: core/classes/class.arm_shortcodes.php:1414
 #: core/vc/class_vc_extend.php:816
 #: core/vc/class_vc_extend.php:834
 #: core/vc/class_vc_extend.php:852
@@ -13105,8 +13105,8 @@ msgstr "işlem geçmişi"
 
 #: core/classes/class.arm_manage_subscription.php:111
 #: core/classes/class.arm_payment_gateways.php:1507
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:880
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:886
 #: core/classes/class.arm_transaction.php:145
 #: core/classes/class.arm_transaction.php:149
 #: core/classes/class.arm_transaction.php:1133
@@ -13139,8 +13139,8 @@ msgstr "İşlem Kimliği Etiketi"
 msgid "Transaction ID Label can not be left blank."
 msgstr "İşlem Kimlik Etiketi boş bırakılamaz."
 
-#: core/classes/class.arm_shortcodes.php:769
-#: core/classes/class.arm_shortcodes.php:906
+#: core/classes/class.arm_shortcodes.php:775
+#: core/classes/class.arm_shortcodes.php:912
 #: core/classes/class.arm_transaction.php:190
 #: core/classes/class.arm_transaction.php:575
 #: core/classes/class.arm_transaction.php:1133
@@ -13155,16 +13155,16 @@ msgstr "İşlem Kimlik Etiketi boş bırakılamaz."
 msgid "Transaction Status"
 msgstr "İşlem Durumu"
 
-#: autoload.php:1729
-#: autoload.php:3812
+#: autoload.php:1728
+#: autoload.php:3817
 #: core/classes/class.arm_transaction.php:363
 #: core/classes/class.arm_transaction.php:370
 #@ armember-membership
 msgid "Transaction(s) has been deleted successfully."
 msgstr "İşlem(ler) başarıyla silindi."
 
-#: core/classes/class.arm_shortcodes.php:772
-#: core/classes/class.arm_shortcodes.php:1200
+#: core/classes/class.arm_shortcodes.php:778
+#: core/classes/class.arm_shortcodes.php:1206
 #: core/vc/class_vc_extend.php:1017
 #: core/vc/class_vc_extend.php:1054
 #: core/views/arm_tinymce_options_shortcodes.php:563
@@ -13180,7 +13180,7 @@ msgstr "işlemler"
 
 #: core/classes/class.arm_members.php:913
 #: core/classes/class.arm_members.php:1043
-#: core/classes/class.arm_shortcodes.php:1799
+#: core/classes/class.arm_shortcodes.php:1805
 #: core/vc/class_vc_extend.php:1814
 #: core/views/arm_member_add.php:814
 #: core/views/arm_tinymce_options_shortcodes.php:840
@@ -13212,8 +13212,8 @@ msgstr "Deneme tutarı"
 msgid "Trial End Date"
 msgstr "Deneme Bitiş Tarihi"
 
-#: core/classes/class.arm_shortcodes.php:1020
-#: core/classes/class.arm_shortcodes.php:1978
+#: core/classes/class.arm_shortcodes.php:1026
+#: core/classes/class.arm_shortcodes.php:1984
 #: core/classes/class.arm_transaction.php:217
 #: core/classes/class.arm_transaction.php:649
 #: core/views/arm_subscription_plans_add.php:523
@@ -13355,7 +13355,7 @@ msgstr "Başlıksız Kurulum"
 msgid "Update"
 msgstr "Güncelleme"
 
-#: core/classes/class.arm_shortcodes.php:1797
+#: core/classes/class.arm_shortcodes.php:1803
 #: core/vc/class_vc_extend.php:1811
 #: core/views/arm_tinymce_options_shortcodes.php:818
 #@ armember-membership
@@ -13408,7 +13408,7 @@ msgstr "Mevcut planın sona ermesinden sonra başka bir plana yükseltme (Dönem
 msgid "Upgrade to Premium"
 msgstr "Premiuma yükselt"
 
-#: autoload.php:1129
+#: autoload.php:1128
 #@ armember-membership
 msgid "Upgrade To Pro"
 msgstr "Pro'ya yükselt"
@@ -13453,7 +13453,7 @@ msgstr "Uruguay"
 
 #: core/classes/class.arm_member_forms.php:889
 #: core/classes/class.arm_member_forms.php:3763
-#: core/classes/class.arm_shortcodes.php:638
+#: core/classes/class.arm_shortcodes.php:642
 #, php-format
 #@ armember-membership
 msgid "Use Cropper to set image and %1$s use mouse scroller for zoom image."
@@ -13487,13 +13487,13 @@ msgstr "Kullanıcı Zaten Oturum Açmış Mesajı"
 msgid "User already loggedIn message for modal forms ( Navigation Popup )"
 msgstr "Kalıcı formlar için kullanıcı zaten oturum açmış mesajı (Gezinme Açılır Penceresi)"
 
-#: autoload.php:1020
+#: autoload.php:1019
 #@ armember-membership
 msgid "User Cancelled"
 msgstr "Kullanıcı İptal Edildi"
 
-#: autoload.php:1685
-#: autoload.php:3765
+#: autoload.php:1684
+#: autoload.php:3770
 #@ armember-membership
 msgid "User cancelled login or did not fully authorize."
 msgstr "Kullanıcı oturum açmayı iptal etti veya tam yetkilendirme yapmadı."
@@ -13670,9 +13670,9 @@ msgstr "Kullanıcının Giriş/Çıkış ayrıntıları"
 msgid "User's Signup Details such as Username, Password, First Name, Last Name and Custom Fields value( Address, Gender etc)"
 msgstr "Kullanıcının Kullanıcı Adı, Şifre, Adı, Soyadı ve Özel Alan değeri (Adres, Cinsiyet vb.) gibi Kayıt Ayrıntıları"
 
-#: autoload.php:1693
-#: autoload.php:3773
-#: autoload.php:3851
+#: autoload.php:1692
+#: autoload.php:3778
+#: autoload.php:3856
 #@ armember-membership
 msgid "User's subscription has been canceled"
 msgstr "Kullanıcının aboneliği iptal edildi"
@@ -13858,7 +13858,7 @@ msgstr "Venezuela"
 msgid "Very Weak Text"
 msgstr "Çok Zayıf Metin"
 
-#: autoload.php:3639
+#: autoload.php:3644
 #@ armember-membership
 msgid "Video Tutorials"
 msgstr "Video Eğitimleri"
@@ -14001,7 +14001,7 @@ msgstr "Web Sitesi URL'si)"
 msgid "Website (URL) can not be left blank."
 msgstr "Web sitesi (URL) boş bırakılamaz."
 
-#: core/classes/class.arm_shortcodes.php:1026
+#: core/classes/class.arm_shortcodes.php:1032
 #: core/classes/class.arm_transaction.php:227
 #: core/classes/class.arm_transaction.php:655
 #@ armember-membership
@@ -14035,7 +14035,7 @@ msgstr "Haftalar)"
 msgid "Weekly"
 msgstr "Haftalık"
 
-#: core/classes/class.arm_shortcodes.php:1026
+#: core/classes/class.arm_shortcodes.php:1032
 #: core/classes/class.arm_transaction.php:227
 #: core/classes/class.arm_transaction.php:655
 #@ armember-membership
@@ -14192,7 +14192,7 @@ msgstr "Wp Rolü"
 msgid "WPBakery Page Builder Restriction"
 msgstr "WPBakery Sayfa Oluşturucu Kısıtlaması"
 
-#: core/classes/class.arm_shortcodes.php:1022
+#: core/classes/class.arm_shortcodes.php:1028
 #: core/classes/class.arm_transaction.php:223
 #: core/classes/class.arm_transaction.php:651
 #@ armember-membership
@@ -14234,7 +14234,7 @@ msgstr "Yıllar"
 msgid "Yearly"
 msgstr "Yıllık"
 
-#: core/classes/class.arm_shortcodes.php:1022
+#: core/classes/class.arm_shortcodes.php:1028
 #: core/classes/class.arm_transaction.php:223
 #: core/classes/class.arm_transaction.php:651
 #@ armember-membership
@@ -14373,7 +14373,7 @@ msgstr "Hesabınız aktive edildi."
 msgid "Your account has expired. Please contact system administrator."
 msgstr "Hesabınızın süresi doldu. Lütfen sistem yöneticisiyle iletişime geçin."
 
-#: core/classes/class.arm_shortcodes.php:2639
+#: core/classes/class.arm_shortcodes.php:2645
 #@ armember-membership
 msgid "Your account is closed successfully."
 msgstr "Hesabınız başarıyla kapatıldı."
@@ -14426,13 +14426,13 @@ msgstr "Kartınız reddedildi."
 msgid "Your Current Membership"
 msgstr "Mevcut Üyeliğiniz"
 
-#: core/classes/class.arm_shortcodes.php:2644
+#: core/classes/class.arm_shortcodes.php:2650
 #@ armember-membership
 msgid "Your current password is invalid."
 msgstr "Mevcut şifreniz geçersiz."
 
 #: core/classes/class.arm_global_settings.php:867
-#: core/classes/class.arm_shortcodes.php:1573
+#: core/classes/class.arm_shortcodes.php:1579
 #@ armember-membership
 msgid "Your Password"
 msgstr "Şifreniz"
@@ -14513,7 +14513,7 @@ msgstr "Seçtiğiniz plan ücretlidir, lütfen ödeme yöntemini seçin."
 msgid "Your site is ready & below are the details"
 msgstr "Siteniz hazır ve aşağıda ayrıntılar var"
 
-#: core/classes/class.arm_shortcodes.php:1800
+#: core/classes/class.arm_shortcodes.php:1806
 #: core/vc/class_vc_extend.php:1809
 #@ armember-membership
 msgid "Your Subscription has been cancelled."
@@ -14564,8 +14564,8 @@ msgstr "Zimbabve"
 #: core/classes/class.arm_member_forms.php:3684
 #: core/classes/class.arm_member_forms.php:3757
 #: core/classes/class.arm_member_forms.php:3772
-#: core/classes/class.arm_shortcodes.php:632
-#: core/classes/class.arm_shortcodes.php:647
+#: core/classes/class.arm_shortcodes.php:636
+#: core/classes/class.arm_shortcodes.php:651
 #: core/views/arm_profile_editor.php:575
 #@ armember-membership
 msgid "Zoom In"
@@ -14580,8 +14580,8 @@ msgstr "Yakınlaştır"
 #: core/classes/class.arm_member_forms.php:3685
 #: core/classes/class.arm_member_forms.php:3758
 #: core/classes/class.arm_member_forms.php:3773
-#: core/classes/class.arm_shortcodes.php:633
-#: core/classes/class.arm_shortcodes.php:648
+#: core/classes/class.arm_shortcodes.php:637
+#: core/classes/class.arm_shortcodes.php:652
 #: core/views/arm_profile_editor.php:576
 #@ armember-membership
 msgid "Zoom Out"
@@ -14642,13 +14642,13 @@ msgstr "Geçerli kullanıcının kimliğini url'ye eklemek için %s kullanın."
 #, php-format
 #@ armember-membership
 msgid "If User %sIn%s Trial Period"
-msgstr "Kullanıcı %s%s Deneme Süresinde ise"
+msgstr "Kullanıcı %sIn%s Deneme Süresi"
 
 #: core/views/arm_tinymce_options_shortcodes.php:935
 #, php-format
 #@ armember-membership
 msgid "If User %sNot In%s Trial Period"
-msgstr "Kullanıcı %s%s Deneme Süresinde Değilse"
+msgstr "Kullanıcı %sNot In%s Deneme Süresi"
 
 #: core/views/arm_email_templates.php:30
 #@ armember-membership
@@ -14695,9 +14695,9 @@ msgstr "Mevcut Şifre"
 msgid "Current password can not be left blank."
 msgstr "Mevcut şifre boş bırakılamaz."
 
-#: autoload.php:663
-#: autoload.php:667
-#: autoload.php:671
+#: autoload.php:664
+#: autoload.php:668
+#: autoload.php:672
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:21
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:25
 #: core/widgets/arm_elm_widgets/class.arm_elementor_widget_element.php:29
@@ -14705,33 +14705,33 @@ msgstr "Mevcut şifre boş bırakılamaz."
 msgid "ARMember"
 msgstr "ARMember"
 
-#: autoload.php:666
+#: autoload.php:667
 #@ armember-membership
 msgid "Restrict Content Shortcode"
 msgstr "İçerik Kısa Kodunu Kısıtla"
 
-#: autoload.php:667
-#: autoload.php:671
+#: autoload.php:668
+#: autoload.php:672
 #@ armember-membership
 msgid "Restriction"
 msgstr "Kısıtlama"
 
-#: autoload.php:670
+#: autoload.php:671
 #@ armember-membership
 msgid "ARMember Block Restriction"
 msgstr "ARMember Blok Kısıtlaması"
 
-#: autoload.php:671
+#: autoload.php:672
 #@ armember-membership
 msgid "Block"
 msgstr "Engellemek"
 
-#: autoload.php:672
+#: autoload.php:673
 #@ armember-membership
 msgid "Nest blocks within this wrapper to control the inner block visibility by membership plans or for free membership only."
 msgstr "Üyelik planlarına göre veya yalnızca ücretsiz üyelik için iç bloğun görünürlüğünü kontrol etmek için blokları bu sarmalayıcının içine yerleştirin."
 
-#: autoload.php:679
+#: autoload.php:680
 #@ armember-membership
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "Aşağıdaki koşullardan herhangi biri doğruysa içeriğe kısıtlamalar uygulanacaktır"
@@ -15694,9 +15694,9 @@ msgstr "Üçüncü Taraf Entegrasyonları"
 msgid "Upgrade Pro"
 msgstr "Yükseltme Pro"
 
-#: autoload.php:1128
+#: autoload.php:1127
+#: autoload.php:1234
 #: autoload.php:1235
-#: autoload.php:1236
 #@ armember-membership
 msgid "Add-ons"
 msgstr "Eklentiler"
@@ -15721,6 +15721,6 @@ msgstr "Lütfen Fusion Builder veya Avada Theme'yi yükleyin ve bu eklentiyi etk
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.51"
-msgstr "4.0.51"
+msgid "4.0.52"
+msgstr "4.0.52"
 
