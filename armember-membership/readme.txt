@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 4.0.52
+Stable tag: 4.0.53
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,59 +15,59 @@ Membership plugin to turn your site into a membership website. Sell subscription
 
 **ARMEMBER - TOP RATED MEMBERSHIP PLUGIN FOR WORDPRESS**
 
-ARMember is the Best **Free WordPress Membership Plugin** with a wide range of features, great performance and a great modern interface. It's ridiculously easy to install and use. As compared to other widely-used membership plugins, ARMember has significant advantages. 
+ARMember is the Best Free WordPress Membership Plugin that helps set up robust membership management. It’s pretty easy to install and use. The wide range of features allows you to manage membership subscriptions with a modern interface. As compared to other widely-used membership plugins, ARMember has significant advantages.
 
-[**ARMember**](https://www.armemberplugin.com) will help you to build fully functional membership site.
+[**ARMember**](https://www.armemberplugin.com) will help you to build fully functional membership site with a smooth member registration flow..
 
-You can create different plans like free plan, finite/infinite paid plans, Subscriptions with auto recurring payment facility with ARMember.
+You can create multiple flexible membership tiers and also provide trial memberships. Provide free plans, finite/infinite paid plans, and subscriptions. Set up recurring billing with the auto-recurring facility on ARMember.
 
-ARMember also has built-in  [**Form builder**](https://www.armemberplugin.com/form-builder/ "Form builder") to create material style and spam free forms for SignUp/Registration, Login, Edit Profile, Forgot Password, Change Password etc.	
+ARMember also has built-in  [**Form builder**](https://www.armemberplugin.com/form-builder/ "Form builder") to create material style and spam free customizable forms for SignUp/Registration, Login, Edit Profile, Forgot Password, Change Password etc.	
 
-ARMember provides super easy interface that you can [**restrict any content of your site**](https://www.armemberplugin.com/content-restriction/ "Restrict any content of your site")  with just one click. And above all, you can restrict partial content of any page/post by placing just one shortcode.
+ARMember provides an easy interface to set [**content access rules**](https://www.armemberplugin.com/content-restriction/ "Restrict any content of your site"). It supports strong content locking and content protection with just one click. Create plan-wise rules for access control. You can even set partial content protection for any page/post by simply placing a shortcode.
 
 ###THE ARMEMBER IS IDEAL FOR 👇
 
 * **👉 Business Consulting Services 🧑‍💼**
-  Build a membership platform for training services, offer your hours within specific plans, or provide step-by-step sessions.
+  Build a membership subscription platform for training services, offer your hours within specific plans, or provide step-by-step sessions.
 
 * **👉 Membership Communities 👥**
-  Provide services that bring people and communities together through membership.
+  Provide services that bring people and communities together through membership with user engagement tools.
 
 * **👉 Professional Organizations 💼 and Non-profits 🤝**
-  Professional organizations and nonprofits frequently rely on membership plugins for WordPress to handle member directories, event sign-ups, exclusive content, and special perks for members.
+  Professional organizations and nonprofits frequently rely on membership plugins for WordPress to handle member/user directories, event sign-ups, exclusive content, and special perks to maintain member registration flow.
 
 * **👉 Yoga & Health Websites 🧘**
-  Fitness & Health online training, wellness website, Yoga training, Individual personal training using subscription.
+  Fitness & Health online training, wellness website, Yoga training, Individual personal training using recurring billing or subscription plan.
 
 * **👉 OTT(over-the-top) Platform websites ▶️**
-  start offering television, movie, and video content online according to the consumer's requirement and in line with their demands.
+  Start offering television, movie, and video content online according to the consumer’s requirements and in line with their demands by providing flexible membership tiers.
 
 * **👉 Coaching and Training Membership Sites 🏛️**
-  Online training, online classes, and media on subscription-based program
+  Online training, online classes, and media on subscription-based program.
 
 * **👉 Dance & Fitness website 🤸**
-  Personal dance training, Zumba dance online classes., dance personal training, And all other types of Dance classes online - salsa, Hip Hop, Contemporary, Folk dancing, etc.
+  Personal dance training, Zumba dance online classes., dance personal training, And all other types of Dance classes online - salsa, Hip Hop, Contemporary, Folk dancing, etc. using membership subscriptions.
 
 * **👉 Podcasts website 🔊**
-  You can start publishing your podcast content of various genres like - entertainment podcasts, educational podcasts, non-fiction storytelling, scripted fiction podcasts, limited-run podcast series, and interview podcasts by the subscription-based system for your membership site.
+  Start publishing your podcast content of various genres like - entertainment podcasts, educational podcasts, non-fiction storytelling, scripted fiction podcasts, limited-run podcast series, and interview podcasts by the subscription-based system for your membership site.
 
 * **👉 Marketing Tools Subscription website 🌐**
-  You can launch a marketing firm using a subscription-based business model to offer services and tools for online marketing.
+  You can launch a marketing firm using a subscription-based business model to offer services and tools for online marketing. Use email marketing integrations to boost your idea.
 
 * **👉 Cooking and Recipes Membership Sites 🍲**
-  Various types of food recipes, cooking training, healthy diet food, ingredients, step-by-step lessons for making some Recipes, etc. by using the Membership website.
+  Various types of food recipes, cooking training, healthy diet food, ingredients, step-by-step lessons for making recipes, etc. by using the Membership website.
 
 * **👉 Programming language scripts & tutorial website 🖥️**
-  Start your online membership site for coding tutorials and scripts using the subscription and membership level module.
+  Start your online membership site for coding tutorials and scripts using the flexible membership tiers module.
 
 * **👉 Content Production Service Website 📄**
   Start a business for providing writing content services on a weekly or monthly basis.
 
 * **👉 Educational & LMS Membership site ✍️**
-  To create the best learning management systems, online tutoring, coaching classes online, private tuition classes, language tutoring class, live online seminars & webinars, and school or college websites with students as a member on the site to access specific authenticated data.
+  To create the best learning management systems, online tutoring, coaching classes online, private tuition classes, language tutoring class, live online seminars & webinars, and school or college websites with students as a member on the site to access specific conditional content.
 
 *  👉 **Parenting and Counseling Websites** 👫
- If you are a certified psychologist or therapist, create a membership site to offer parenting solutions, couple counseling, coping mechanisms for depression and anxiety.
+ If you are a certified psychologist or therapist, create a membership site to offer parenting solutions, couple counseling, and coping mechanisms for depression and anxiety by setting up multiple plans.
  
 
 ###🔗 USEFUL LINKS
@@ -77,47 +77,64 @@ ARMember provides super easy interface that you can [**restrict any content of y
 [youtube https://www.youtube.com/watch?v=Yh_X00tHzMw]
 <p>&nbsp;</p>
 
-###Here are some unique features of ARMember
+###Unique features of ARMember
 
-* **Easy Member Management**
-* **Unlimited Membership Levels**
-* **Create Free and Paid Memberships**
-* **Trial Period for periodic billing**
-* **[Membership Setup Wizard](https://www.armemberplugin.com/membership-setup-wizard/ "Membership Setup Wizard")**
-* **Facility to upgrade/downgrade/renew/cancel membership**
-* **Advanced Drag and Drop Registration & Login Form builder**
-* **Captcha Free Anti-spam Facility**
-* **User friendly interface for Content Restriction**
-* **Email Notifications With Template**
-* **Front-end member registration, login, edit profile, forgot password, change password page**
-* **User Profile & Member Directory**
-* **Import/Export Users & Settings**
-* **Brute Force login protection**
-* **Subscription payment**
-* **Translation Ready**
-* **Security Features are inbuilt**
+* **Membership Setup Wizard:**
+Use the robust membership set up wizard for plan selection, user registration, payment configuration, and other customization using a single shortcode.
+* **User Friendly Interface for Content Protection Features:**
+You can set global content restrictions based on membership plans. Define content permissions for various plans or even set partial content restrictions using a shortcode.
+* **Unlimited Membership Levels / Membership Tiers:**
+Create multiple flexible membership tiers to offer free plan type, fixed period membership, subscription plans, or infinite membership.
+* **Free & Paid Trial Membership Setup / Trial Period for periodic billing:**
+Enable free or paid trials for recurring subscription plans. Set the number of trial days to attract more users to experience trials
+* **Membership Proration Features:**
+Allow upgrade/downgrade of membership plan by prorating amount based on cost or time. 
+* **Powerful Advanced Drag and Drop Form builder:**
+Use the fully customizable forms of user login, signup, user registration, password reset, and more. Add custom form fields as per requirements.
+* **Captcha Free In-built Anti-Spam:**
+The member forms are secure with in-built anti-spam to avoid any bot or spam entries. This helps keep your membership site secure. 
+* **Email Notification Setup (with Templates):**
+Fully customizable email reminders and notifications for failed payment plan, payment due, grace period, and membership expiration. These automated emails keep users in loop.
+* **User Profile Tabs and Member Directory:**
+Manage member profiles and directory to allow easy member lookup. This helps members get in touch with each other. 
+* **Import/Export Users & Settings:**
+You can easily import/export users and settings based on your requirement. Migrate your membership site easily from Paid Memberships Pro, MemberPress, Ultimate Membership Pro.
+* **Built-in Security Options:**
+With ARMember, you don’t need multiple security Plugins! It comes with security features like Brute force Login Protection, IP & URL based restriction, Auto-lock shared accounts, ban username and emails, Hide WP login page or Admin panel!
+* **Multi-language Functionality:**
+Create a global membership business with ready translations available with ARMember Plugin.
+* **Smart User Verification:**
+Enable user verification in any of the three ways. Auto verification, manual verification by admin, or verification through email.
+* **Multiple Billing Cycles:**
+Offer Multiple Billing Cycle for a single membership plan like monthly, quarterly, or yearly. Set your prices accordingly.
+* **[Gutenberg Support:](https://www.armemberplugin.com/documents/how-to-use-armember-with-gutenberg/ "support of Gutenberg")**
+You can easily enable Gutenberg block restriction page builder and customize your membership business.
+* **Custom Pricing Tables:**
+Choose from in-built six different styles of pricing tables. Customize its style, color, and overall look. Get the extended support of ARPrice Plugin to choose from multiple templates and embed your subscribe button with any of the chosen themes.
+* **Custom User Role:**
+Set up plan wise advanced user roles. Allow different access roles to members of different plans. Promote user-generated content by using third-party user role manager to provide editor permissions to members.
+* **Customizable Profiles:**
+Choose from multiple profile templates to display member information. Filter what information will be visible on member profiles. Allow members to change their Avatar and Cover Photo.
 * **One-Click Plugin Upgrade**
-* **[Support of Gutenberg](https://www.armemberplugin.com/documents/how-to-use-armember-with-gutenberg/ "support of Gutenberg")**
 
-###Other Features
+###Other Outstanding Features
 
-* Works with any WordPress theme and page builders
+* Compatible with any WordPress Theme and Page Builders
 * Advanced Drag and Drop Form Builder
 * Material style forms
-* Ability to manually approve your members
-* Best member management with various filters
-* Facility to extend next payment due date and expiry date
-* Hide the admin toolbar from the frontend of your site
+* Manual User Verification
+* Best Membership Management with Multiple Filters
+* Facility to Extend Payment Due Date and Expiry Date
+* Hide Admin Toolbar from Frontend
 * Gutenberg, Visual Composer, Cornerstone dedicated blocks
 * Elementor page builder supported
-* Allow your members to delete their accounts
-* Facility to add login widget in sidebar
+* Allow Account Deletion for Members
+* Add Login Widget in Sidebar
 * Front-end member profiles
-* Member directories
-* Inbuilt anti-spam mechanism (captcha free forms)
-* Trial and sign-up fees
+* Detailed Member Directories
+* Inbuilt Anti-spam with Captcha-free Forms
+* Offer Limited-time Paid Trials
 * Gutenberg Block Integration (Restriction Support)
-
 
 Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.com/memberpress-vs-paid-membership-pro-vs-s2-member/ "comparison guide") to know how ARMember's features stand out from other membership plugins like MemberPress, Paid Membership Pro, s2Member, and Ultimate Member.
 
@@ -137,6 +154,7 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * **Gutenberg Blocks**
 * **Elementor**
 * **WPBakery Page Builder (Visual Composer)**
+* **Beaver Builder**
 * **Divi Builder** 
 * **Oxygen Builder**
 * **Avada Builder (Fusion Builder)**
@@ -146,21 +164,21 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * [**Admin Demo**](https://armembertestdrive.com/ "Admin Demo")
 * [**Front-end Demo**](https://newdemo.armemberplugin.com/ "Frontend Demo")
 
-
 ###Upgrade to the full version now:
 [☑️ **Buy ARMember Pro Now** 👈 ](https://www.armemberplugin.com/pricing/)
 
+ARMember Pro comes with multiple user engagement tools as well. Leverage email marketing integrations, multi-payment gateways, drip content, groups and communities, and more!
 
 ###ARMEMBER PRO PLUGIN’S MOST AMAZING FEATURES:
 
 * **[Pay Per Post (Paid Post)](https://www.armemberplugin.com/pay-per-post-setup-wizard/ "Pay Per Post")**
-  With this feature, you can sell post/course separately without creating plan(s).
+  With this feature, you can sell post/course separately without creating plan(s). The feature allows individual post selling to non-members to build an additional income and attract users who don’t want to commit full time
 
-* **Multiple payment cycle per plan**
-  Offer multiple payment cycles like monthly, yearly etc for the same plan. Let user decide which cycle they want to go with.
+* **Multiple Payment Cycle per Plan**
+ Let users choose feasible payment cycles by offering them multiple options. Set monthly, quarterly, or yearly cycles to suit every user’s requirements.
 
 * **Prorating Membership Subscription (Pro Rata Feature)**
-  With this feature, you will be able to allow members to upgrade or downgrade their membership plans based on a pro-rated amount, which can be either cost-based or time-based.
+  Enable cost-based or time-based proration to allow upgrade or downgrade of membership plan midway. In the context of a membership plan, pro rata pricing adjusts the cost based on the exact duration a member uses the service, ensuring they pay only for the portion they use.
  
   In the context of a membership plan, pro rata pricing adjusts the cost based on the exact duration a member uses the service, ensuring they pay only for the portion they use.
 
@@ -171,35 +189,34 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
  It allows users who register via the ARMember Registration Form to use the site in their preferred language, enhancing multilingual functionality. This makes your website more user-friendly, improves communication, reduces reliance on translators, and builds trust and satisfaction. By breaking down language barriers, ARMember supports your global expansion.
 
 * **Membership Limit**
-  You can easily set a maximum limit for purchasing Membership Plans, Paid Posts, and Membership Gifts based on your preference or specific requirements.
+  Set a maximum limit for purchasing Membership Plans, Paid Posts, and Membership Gifts. With this, you can restrict how many times a user can make a purchase for the same product/plan.
 
-* **Multiple memberships subscription**
-  Users can hold multiple membership together.
-
+* **Multiple Memberships Subscription**
+  This allows members to hold multiple memberships simultaneously. Thus, members can have parallel memberships at once and gain maximum benefit of your platform.
 * **[Drip/Scheduled Content Facility](https://www.armemberplugin.com/drip-rules/ "Drip/Scheduled Content Facility")**
-  An inbuilt ARMember module includes full drip content/periodic content functionality which allows you to reveal your content periodically.
+  With this module, you can set up a drip content delivery and schedule your content. Custom drip content to reveal your content periodically to keep up the member’s interest and engage them.
 
 * **Social Login with Multiple Platforms**
-  ARMember allows social login through  Facebook, Twitter, LinkedIn, Google+, VK, Instagram, Tumblr and simplify login process. Thus, no need for manual account creation. 
+  Increase user interactions by allowing social login through Facebook, Twitter, LinkedIn, Google+, VK, Instagram, and Tumblr. Simplified login process supports higher interaction.
 
 * **Member Profile & Directory Templates**
-  ARMember provides wide range of beautiful templates for member profile and directory with many template customization options.
+  ARMember provides a wide range of beautiful templates for member profile and directory with many template customization options.
 
 * **Exclusive Coupon Management (Coupon codes for a discount)**
-  Configure various type of coupons including plan specific coupons.
+  Enable rewards and coupons by creating plan-wise special invitation codes, discounts, or coupon codes. This adds a user's motivation to sign up.
 
 * **Opt-ins (Email Marketing Tools)**
   ARMember offers email marketing tools like AWeber, Mailchimp, Constant Contact, Mailster, GetResponse, MailerLite, Brevo (formerly Sendinblue), ActiveCampaign, Campaign Monitor, Omnisend - [These are Free Addons] 
 MailPoet, Mautic, Keap (formley infusionsoft) - [These are Paid Addons]
 
 * **Badges & Achievements**
-  Easy to create badges and configure steps to achieve different badges upon various actions. Motivate members to earn badges and increase traffic.
+  Add gamification to your membership site using Badges & Achievements. Create new badges and achievements and configure rules to achieve them. Motivate members to earn badges and increase traffic.
 
 * **Developer API**
-  Provides 150+ action/filter hooks. So developers can customise and extended the functionality of ARMember as per your requirement.
+  ARMember Plugin is fully developer friendly with 150+ action/filter hooks. Use the API or Hooks to customize and extend the functionality of your membership website as per requirement.
 
 * **Invoice and Sales Tax**
-  ARMember provides facility to add sales tax in plan+signup page and generate Invoice of each order
+  Easily add country wise sales tax in Plan+Signup page. You can also set a specific percentage for tax and generate PDF invoices for each order.
 
 * **BuddyPress/BuddyBoss Integration**
   ARMember enables access rule setup for BuddyPress pages and maps ARMember form fields to BuddyPress Extended Profile fields, improving user management and access control within BuddyBoss communities.
@@ -211,7 +228,21 @@ MailPoet, Mautic, Keap (formley infusionsoft) - [These are Paid Addons]
   Facility to add content restriction rules for woocommerce products and product taxonomy.
 
 * **Standard Page Builders Support**
-  ARMember works smoothly with various standard WordPress page builders. With its compatibility, whether you're using Gutenberg, Elementor, Divi Builder, Oxygen Builder, WPBakery, Fusion Builder, Site Origin Builder, Beaver Builder, Bricks Builder, or Cornerstone Builder, you can easily manage and restrict content on your website. It allows you to design beautiful layouts and set up membership restrictions effortlessly, making it the perfect membership plugin for WordPress.
+  ARMember works smoothly with various standard WordPress page builders. You can use Gutenberg, Elementor, Divi Builder, Oxygen Builder, WPBakery, Fusion Builder, Site Origin Builder, Beaver Builder, Bricks Builder, or Cornerstone Builder, you can easily manage and restrict content on your website. It allows you to design beautiful layouts and set up membership restrictions effortlessly, making it the perfect membership plugin for WordPress.
+
+* **Engaging Social Community**
+Create a social media platform exclusive for your members with social community features. Allow groups & communities, profile tabs, followers system, private messages, social activity feed, user reviews, and so much more.
+
+* **Digital Downloads**
+Sell digital products using the digital downloads add-on. Manage user access for digital files easily using the premium add-on. Use shortcodes to place digital downloads on any page/post. You can also restrict file access based on membership plan or member ID.
+
+* **Affiliate Addon**
+Set up affiliate programs to promote your membership business and pay them a fixed commission on every conversion. Add and reward an unlimited number of affiliate partners without purchasing any additional third-party plugin. 
+
+* **Umbrella / Group Membership / Family Memberships**
+Allow your members to register for group membership. Like this, they can specify a number of child seats or child accounts that can be accessed simultaneously on multiple devices. 
+* **User Private Content**
+Create member-only content to provide personalized experience to your members. Provide them additional value using the private content module.
 
 And much more....
 
@@ -370,6 +401,10 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.53 =
+* Added New inbuilt addon "Beaver Builder Integration".
+* Other minor bug fixes.
+
 = 4.0.52 =
 * Minor bug fixes.
 

@@ -6,7 +6,7 @@
 	$total_addons = '46+';
 	$total_inbuilt_addon = '54+';
 	$discount = '82%';
-	$downloads = '2,75,000+';
+	$downloads = '3,00,000+';
 	$support_period = '6 Months';
 	if( !empty($growth_plugins_content) ) {
 		$growth_plugins_content_data = json_decode($growth_plugins_content, true);

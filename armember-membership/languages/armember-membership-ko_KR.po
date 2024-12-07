@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.52\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.53\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 08:55+0000\n"
-"PO-Revision-Date: 2024-11-28 10:49:37+0000\n"
+"PO-Revision-Date: 2024-12-06 11:20:36+0000\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -153,7 +153,7 @@ msgstr "액세스 규칙이 성공적으로 업데이트되었습니다."
 msgid "Account Activated"
 msgstr "계정이 활성화되었습니다"
 
-#: autoload.php:1016
+#: autoload.php:1020
 #@ armember-membership
 msgid "Account Closed"
 msgstr "계정이 폐쇄되었습니다"
@@ -204,12 +204,12 @@ msgstr "계정 보류 중"
 msgid "Account Setup"
 msgstr "계정 설정"
 
-#: autoload.php:3840
+#: autoload.php:3846
 #@ armember-membership
 msgid "Achievements Added Successfully."
 msgstr "업적이 성공적으로 추가되었습니다."
 
-#: autoload.php:3841
+#: autoload.php:3847
 #@ armember-membership
 msgid "Achievements Updated Successfully."
 msgstr "업적이 성공적으로 업데이트되었습니다."
@@ -298,7 +298,7 @@ msgstr "계획 활성화"
 msgid "Activation link is expired or invalid."
 msgstr "활성화 링크가 만료되었거나 유효하지 않습니다."
 
-#: autoload.php:1009
+#: autoload.php:1013
 #: core/classes/class.arm_manage_subscription.php:923
 #: core/views/arm_email_templates.php:132
 #: core/views/arm_manage_payment_gateways.php:54
@@ -464,7 +464,7 @@ msgstr "메뉴에 추가"
 msgid "Add URL"
 msgstr "URL 추가"
 
-#: autoload.php:3474
+#: autoload.php:3479
 #: core/classes/class.arm_social_feature.php:394
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
@@ -503,20 +503,20 @@ msgstr "추가 참고 사항"
 msgid "Additional Shortcodes"
 msgstr "추가 단축 코드"
 
-#: autoload.php:1762
-#: autoload.php:3852
+#: autoload.php:1766
+#: autoload.php:3858
 #@ armember-membership
 msgid "Addon activated successfully."
 msgstr "애드온이 성공적으로 활성화되었습니다."
 
-#: autoload.php:1763
-#: autoload.php:3853
+#: autoload.php:1767
+#: autoload.php:3859
 #@ armember-membership
 msgid "Addon deactivated successfully."
 msgstr "애드온이 성공적으로 비활성화되었습니다."
 
-#: autoload.php:1760
-#: autoload.php:3850
+#: autoload.php:1764
+#: autoload.php:3856
 #@ armember-membership
 msgid "Addon installed successfully."
 msgstr "애드온이 성공적으로 설치되었습니다."
@@ -581,12 +581,12 @@ msgstr "새로운 메뉴 항목을 추가한 후. 새 메뉴 항목에는 기본
 msgid "After Basic SignUp Redirection Rules"
 msgstr "기본 가입 리디렉션 규칙 이후"
 
-#: autoload.php:1696
+#: autoload.php:1700
 #@ armember-membership
 msgid "After certain time of post is modified"
 msgstr "특정 시간의 게시물이 수정된 후"
 
-#: autoload.php:1695
+#: autoload.php:1699
 #@ armember-membership
 msgid "After certain time of post is published"
 msgstr "특정 시간의 게시물이 게시된 후"
@@ -838,7 +838,9 @@ msgstr "모든 조건"
 msgid "Any Date or Time Archive"
 msgstr "모든 날짜 또는 시간 아카이브"
 
-#: autoload.php:649
+#: autoload.php:653
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:35
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:139
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:165
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:49
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:22
@@ -939,7 +941,7 @@ msgstr "아카이브: 시간"
 msgid "Archive: Year"
 msgstr "아카이브: 연도"
 
-#: autoload.php:1740
+#: autoload.php:1744
 #@ armember-membership
 msgid "Are you sure to delete configuration?"
 msgstr "구성을 삭제하시겠습니까?"
@@ -960,10 +962,10 @@ msgstr "활성화하시겠습니까?"
 msgid "Are you sure you want to active this plan?"
 msgstr "이 계획을 활성화하시겠습니까?"
 
-#: autoload.php:1764
-#: autoload.php:3779
-#: autoload.php:3854
-#: autoload.php:3857
+#: autoload.php:1768
+#: autoload.php:3785
+#: autoload.php:3860
+#: autoload.php:3863
 #@ armember-membership
 msgid "Are you sure you want to cancel subscription?"
 msgstr "구독을 취소하시겠습니까?"
@@ -1050,15 +1052,15 @@ msgstr "정말로 이 거래를 삭제하시겠습니까?"
 msgid "Are you sure you want to delete your account? This will erase all of your account data from the site. To delete your account enter your password below."
 msgstr "정말로 계정을 삭제하시겠습니까? 이렇게 하면 사이트에서 모든 계정 데이터가 삭제됩니다. 계정을 삭제하려면 아래에 비밀번호를 입력하세요."
 
-#: autoload.php:1689
-#: autoload.php:3775
+#: autoload.php:1693
+#: autoload.php:3781
 #: core/classes/class.arm_members_directory.php:320
 #@ armember-membership
 msgid "Are you sure you want to remove cover photo?"
 msgstr "표지 사진을 삭제하시겠습니까?"
 
-#: autoload.php:1690
-#: autoload.php:3776
+#: autoload.php:1694
+#: autoload.php:3782
 #: core/classes/class.arm_members_directory.php:321
 #@ armember-membership
 msgid "Are you sure you want to remove profile photo?"
@@ -1155,7 +1157,7 @@ msgstr "ARMember 계정 폐쇄"
 msgid "ARMember Current Membership"
 msgstr "ARMember 현재 멤버십"
 
-#: autoload.php:1274
+#: autoload.php:1278
 #@ armember-membership
 msgid "ARMember Debug"
 msgstr "ARMember 디버그"
@@ -1180,8 +1182,8 @@ msgstr "ARMember 양식"
 msgid "ARMember Latest Members"
 msgstr "ARMember 최신 회원"
 
-#: autoload.php:1157
-#: autoload.php:1160
+#: autoload.php:1161
+#: autoload.php:1164
 #@ armember-membership
 msgid "ARMember Lite"
 msgstr "ARMember Lite"
@@ -1203,12 +1205,12 @@ msgstr "ARMember Lite - 떠나게 되어 안타깝습니다."
 msgid "ARMember Lite plugin Deactivation"
 msgstr "ARMember Lite 플러그인 비활성화"
 
-#: autoload.php:907
+#: autoload.php:911
 #@ armember-membership
 msgid "ARMember Lite recommend to use Minimum PHP version 5.6 or greater."
 msgstr "ARMember Lite 최소 PHP 버전 5.6 이상을 사용하는 것이 좋습니다."
 
-#: autoload.php:913
+#: autoload.php:917
 #@ armember-membership
 msgid "ARMember Lite requires PHP GD Extension module at the server. And it seems that it's not installed or activated. Please contact your hosting provider for the same."
 msgstr "ARMember Lite 서버에 PHP GD 확장 모듈이 필요합니다. 그리고 설치 또는 활성화되지 않은 것 같습니다. 이에 대해서는 호스팅 제공업체에 문의하세요."
@@ -1515,7 +1517,7 @@ msgstr "자동 구독"
 msgid "Automatic Subscription Label"
 msgstr "자동 구독 라벨"
 
-#: autoload.php:3544
+#: autoload.php:3549
 #@ armember-membership
 msgid "Available Modules"
 msgstr "사용 가능한 모듈"
@@ -2047,7 +2049,7 @@ msgstr "버튼 텍스트"
 msgid "Buttons"
 msgstr "버튼"
 
-#: autoload.php:1015
+#: autoload.php:1019
 #@ armember-membership
 msgid "by admin"
 msgstr "관리자에 의해"
@@ -2194,7 +2196,7 @@ msgstr "사용자의 구독을 취소합니다."
 msgid "Canceled"
 msgstr "취소 된"
 
-#: autoload.php:1021
+#: autoload.php:1025
 #: core/classes/class.arm_shortcodes.php:2414
 #: core/views/arm_transactions_add.php:74
 #: core/views/arm_transactions_list_records.php:344
@@ -2212,8 +2214,8 @@ msgstr "취소 된"
 msgid "Cannot extract data from uploaded file or no file was uploaded."
 msgstr "업로드된 파일에서 데이터를 추출할 수 없거나 업로드된 파일이 없습니다."
 
-#: autoload.php:1753
-#: autoload.php:3843
+#: autoload.php:1757
+#: autoload.php:3849
 #@ armember-membership
 msgid "Cannot Set Past Dates."
 msgstr "지난 날짜를 설정할 수 없습니다."
@@ -2600,9 +2602,9 @@ msgstr "미리보려면 클릭하세요"
 msgid "Clone from existing forms"
 msgstr "기존 양식에서 복제"
 
-#: autoload.php:3397
-#: autoload.php:3558
-#: autoload.php:3646
+#: autoload.php:3402
+#: autoload.php:3563
+#: autoload.php:3652
 #: core/classes/class.arm_members.php:776
 #: core/views/arm_form_editor.php:151
 #: core/views/arm_member_add.php:1072
@@ -2723,8 +2725,8 @@ msgstr "구성"
 msgid "Configure More Gateways"
 msgstr "추가 게이트웨이 구성"
 
-#: autoload.php:1175
-#: autoload.php:1176
+#: autoload.php:1179
+#: autoload.php:1180
 #: core/views/arm_membership_setup_list.php:28
 #@ armember-membership
 msgid "Configure Plan + Signup Page"
@@ -2798,8 +2800,8 @@ msgstr "축하해요!"
 msgid "Content Access"
 msgstr "콘텐츠 액세스"
 
-#: autoload.php:1185
-#: autoload.php:1186
+#: autoload.php:1189
+#: autoload.php:1190
 #: core/views/arm_access_rules.php:61
 #@ armember-membership
 msgid "Content Access Rules"
@@ -3294,8 +3296,8 @@ msgstr "기본 제한"
 msgid "Default Restriction Rules"
 msgstr "기본 제한 규칙"
 
-#: autoload.php:1736
-#: autoload.php:3825
+#: autoload.php:1740
+#: autoload.php:3831
 #: core/classes/class.arm_access_rules.php:109
 #@ armember-membership
 msgid "Default Rules Saved Successfully."
@@ -3306,7 +3308,7 @@ msgstr "기본 규칙이 성공적으로 저장되었습니다."
 msgid "Default Selected Plan"
 msgstr "기본 선택 계획"
 
-#: autoload.php:2917
+#: autoload.php:2922
 #@ armember-membership
 msgid "Default Set"
 msgstr "기본 세트"
@@ -3697,14 +3699,14 @@ msgstr "지부티"
 msgid "Do not cancel subscription until plan expired"
 msgstr "계획이 만료될 때까지 구독을 취소하지 마십시오"
 
-#: autoload.php:3395
+#: autoload.php:3400
 #@ armember-membership
 msgid "Do not show again."
 msgstr "다시 표시하지 않습니다."
 
-#: autoload.php:1239
-#: autoload.php:1240
-#: autoload.php:3634
+#: autoload.php:1243
+#: autoload.php:1244
+#: autoload.php:3640
 #: core/views/arm_setup_wizard.php:939
 #@ armember-membership
 msgid "Documentation"
@@ -3812,7 +3814,7 @@ msgstr "동 티모르"
 msgid "Ecuador"
 msgstr "에콰도르"
 
-#: autoload.php:1767
+#: autoload.php:1771
 #: core/views/arm_global_settings.php:280
 #@ armember-membership
 msgid "Edit"
@@ -4019,8 +4021,8 @@ msgstr "이메일 알림"
 msgid "Email notification scheduler setting"
 msgstr "이메일 알림 스케줄러 설정"
 
-#: autoload.php:1200
-#: autoload.php:1201
+#: autoload.php:1204
+#: autoload.php:1205
 #@ armember-membership
 msgid "Email Notifications"
 msgstr "이메일 알림"
@@ -4041,8 +4043,8 @@ msgstr "이메일에는 나쁜 단어가 포함되어서는 안 됩니다."
 msgid "Email Subject Required."
 msgstr "이메일 제목이 필요합니다."
 
-#: autoload.php:1750
-#: autoload.php:3837
+#: autoload.php:1754
+#: autoload.php:3843
 #: core/classes/class.arm_email_settings.php:162
 #: core/classes/class.arm_email_settings.php:188
 #@ armember-membership
@@ -4261,7 +4263,7 @@ msgstr "에리트레아"
 msgid "ERROR"
 msgstr "오류"
 
-#: autoload.php:3685
+#: autoload.php:3691
 #@ armember-membership
 msgid "Error"
 msgstr "오류"
@@ -4382,8 +4384,8 @@ msgstr "활성화 링크 만료"
 msgid "Expire Date"
 msgstr "만료 날짜"
 
-#: autoload.php:1755
-#: autoload.php:3845
+#: autoload.php:1759
+#: autoload.php:3851
 #@ armember-membership
 msgid "Expire date can not be earlier than current date."
 msgstr "만료 날짜는 현재 날짜보다 이전일 수 없습니다."
@@ -4422,7 +4424,7 @@ msgstr "만료 연도 라벨"
 msgid "Expire/Next Renewal"
 msgstr "만료/다음 갱신"
 
-#: autoload.php:1018
+#: autoload.php:1022
 #: core/classes/class.arm_manage_subscription.php:918
 #: core/views/arm_manage_subscription_list.php:614
 #: core/views/arm_transactions_add.php:76
@@ -4583,18 +4585,19 @@ msgstr "페로어"
 msgid "Farsi/Persian"
 msgstr "페르시아어/페르시아어"
 
-#: autoload.php:3637
+#: autoload.php:3643
 #@ armember-membership
 msgid "Feature Request"
 msgstr "기능 요청"
 
-#: core/classes/class.arm_global_settings.php:3193
-#: core/classes/class.arm_global_settings.php:3202
-#: core/classes/class.arm_global_settings.php:3222
-#: core/classes/class.arm_global_settings.php:3242
-#: core/classes/class.arm_global_settings.php:3262
-#: core/classes/class.arm_global_settings.php:3280
-#: core/classes/class.arm_global_settings.php:3291
+#: core/classes/class.arm_global_settings.php:3194
+#: core/classes/class.arm_global_settings.php:3203
+#: core/classes/class.arm_global_settings.php:3223
+#: core/classes/class.arm_global_settings.php:3243
+#: core/classes/class.arm_global_settings.php:3263
+#: core/classes/class.arm_global_settings.php:3283
+#: core/classes/class.arm_global_settings.php:3301
+#: core/classes/class.arm_global_settings.php:3312
 #@ armember-membership
 msgid "Features Settings Updated Successfully."
 msgstr "기능 설정이 성공적으로 업데이트되었습니다."
@@ -4680,8 +4683,8 @@ msgstr "결제 양식에 포함될 필드"
 msgid "Fiji"
 msgstr "피지"
 
-#: autoload.php:1687
-#: autoload.php:3773
+#: autoload.php:1691
+#: autoload.php:3779
 #@ armember-membership
 msgid "File is not allowed bigger than {SIZE}."
 msgstr "{SIZE}보다 큰 파일은 허용되지 않습니다."
@@ -4985,8 +4988,8 @@ msgstr "양식 배경"
 msgid "Form Border"
 msgstr "양식 테두리"
 
-#: autoload.php:1715
-#: autoload.php:3804
+#: autoload.php:1719
+#: autoload.php:3810
 #@ armember-membership
 msgid "Form deleted successfully."
 msgstr "양식이 삭제되었습니다."
@@ -5048,8 +5051,8 @@ msgstr "양식 패딩"
 msgid "Form Position"
 msgstr "양식 위치"
 
-#: autoload.php:1713
-#: autoload.php:3802
+#: autoload.php:1717
+#: autoload.php:3808
 #@ armember-membership
 msgid "Form Set Deleted Successfully."
 msgstr "양식 세트가 성공적으로 삭제되었습니다."
@@ -5253,8 +5256,8 @@ msgstr "일반 메시지"
 msgid "General Options"
 msgstr "일반 옵션"
 
-#: autoload.php:1211
-#: autoload.php:1212
+#: autoload.php:1215
+#: autoload.php:1216
 #: core/views/arm_general_settings.php:11
 #: core/views/arm_global_settings.php:53
 #@ armember-membership
@@ -5397,9 +5400,9 @@ msgstr "그린란드"
 msgid "Grenada"
 msgstr "그레나다"
 
-#: autoload.php:1046
-#: autoload.php:1244
-#: autoload.php:1245
+#: autoload.php:1050
+#: autoload.php:1248
+#: autoload.php:1249
 #@ armember-membership
 msgid "Growth Plugins"
 msgstr "성장 플러그인"
@@ -5461,7 +5464,7 @@ msgstr "히브리어/이스라엘"
 msgid "Height"
 msgstr "키"
 
-#: autoload.php:3388
+#: autoload.php:3393
 #@ armember-membership
 msgid "Help Tutorial"
 msgstr "도움말 튜토리얼"
@@ -5487,7 +5490,7 @@ msgstr "여기서는 다양한 일반 옵션과 구독 유형 및 금액 관련 
 msgid "Here you will get all different types of Payment gateways to purchase a membership plan."
 msgstr "여기에서는 멤버십 플랜을 구매하기 위한 다양한 유형의 결제 게이트웨이를 얻을 수 있습니다."
 
-#: autoload.php:619
+#: autoload.php:623
 #, php-format
 #@ armember-membership
 msgid "Hey, you've been using %1$sARMember Lite%2$s for a long time. %3$sCould you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation. %4$sYour help is much appreciated. Thank you very much - %5$sRepute InfoSystems%6$s"
@@ -5513,6 +5516,8 @@ msgstr "숨겨진 필드"
 msgid "Hidden Value"
 msgstr "숨겨진 가치"
 
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:72
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:175
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:67
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:86
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:78
@@ -5533,7 +5538,7 @@ msgstr "관리 표시줄 숨기기"
 msgid "Hide admin bar for non-admin users?"
 msgstr "관리자가 아닌 사용자의 관리 표시줄을 숨기시겠습니까?"
 
-#: autoload.php:677
+#: autoload.php:681
 #: core/views/arm_tinymce_options_shortcodes.php:1183
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:64
 #@ armember-membership
@@ -5728,12 +5733,12 @@ msgstr "헝가리"
 msgid "Hurray!! Everything is ready to create your first membership site"
 msgstr "만세!! 첫 번째 멤버십 사이트를 만들기 위한 모든 준비가 완료되었습니다."
 
-#: autoload.php:3556
+#: autoload.php:3561
 #@ armember-membership
 msgid "I agree"
 msgstr "나는 동의한다"
 
-#: autoload.php:623
+#: autoload.php:627
 #@ armember-membership
 msgid "I already did"
 msgstr "난 이미 그랬어"
@@ -5961,7 +5966,7 @@ msgstr "재판 중"
 msgid "Inactivate"
 msgstr "비활성화"
 
-#: autoload.php:1010
+#: autoload.php:1014
 #@ armember-membership
 msgid "Inactive"
 msgstr "비활성"
@@ -6246,7 +6251,7 @@ msgstr "일본어"
 msgid "Japanese/Japan"
 msgstr "일본/일본"
 
-#: autoload.php:3642
+#: autoload.php:3648
 #@ armember-membership
 msgid "Join Community"
 msgstr "커뮤니티 가입"
@@ -6712,9 +6717,9 @@ msgstr "추가 링크 로드"
 msgid "Loading"
 msgstr "로드 중"
 
-#: autoload.php:1694
-#: autoload.php:3780
-#: autoload.php:3858
+#: autoload.php:1698
+#: autoload.php:3786
+#: autoload.php:3864
 #@ armember-membership
 msgid "Loading.."
 msgstr "로드 중.."
@@ -6761,7 +6766,9 @@ msgstr "로그인 메시지"
 msgid "Logged in Message"
 msgstr "로그인 메시지"
 
-#: autoload.php:651
+#: autoload.php:655
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:37
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:141
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:167
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:51
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:24
@@ -6787,8 +6794,8 @@ msgstr "로그인"
 msgid "Login"
 msgstr "로그인"
 
-#: autoload.php:1701
-#: autoload.php:3790
+#: autoload.php:1705
+#: autoload.php:3796
 #@ armember-membership
 msgid "Login attempts cleared successfully."
 msgstr "로그인 시도가 성공적으로 지워졌습니다."
@@ -6803,8 +6810,8 @@ msgstr "로그인에 실패했습니다. 다시 시도해 주세요."
 msgid "Login Form Options"
 msgstr "로그인 양식 옵션"
 
-#: autoload.php:1702
-#: autoload.php:3791
+#: autoload.php:1706
+#: autoload.php:3797
 #@ armember-membership
 msgid "Login History cleared successfully."
 msgstr "로그인 기록이 삭제되었습니다."
@@ -6939,61 +6946,61 @@ msgstr "말리"
 msgid "Malta"
 msgstr "몰타"
 
-#: autoload.php:1034
+#: autoload.php:1038
 #@ armember-membership
 msgid "Manage Access Rules"
 msgstr "액세스 규칙 관리"
 
-#: autoload.php:1042
+#: autoload.php:1046
 #@ armember-membership
 msgid "Manage Block Settings"
 msgstr "블록 설정 관리"
 
-#: autoload.php:1038
+#: autoload.php:1042
 #@ armember-membership
 msgid "Manage Communication"
 msgstr "커뮤니케이션 관리"
 
-#: autoload.php:1037
+#: autoload.php:1041
 #@ armember-membership
 msgid "Manage Email Notifications"
 msgstr "이메일 알림 관리"
 
-#: autoload.php:1041
+#: autoload.php:1045
 #@ armember-membership
 msgid "Manage Feature Settings"
 msgstr "기능 설정 관리"
 
-#: autoload.php:1033
+#: autoload.php:1037
 #@ armember-membership
 msgid "Manage Form Settings"
 msgstr "양식 설정 관리"
 
-#: autoload.php:1180
-#: autoload.php:1181
+#: autoload.php:1184
+#: autoload.php:1185
 #: core/views/arm_manage_forms.php:10
 #@ armember-membership
 msgid "Manage Forms"
 msgstr "양식 관리"
 
-#: autoload.php:1040
+#: autoload.php:1044
 #@ armember-membership
 msgid "Manage General Settings"
 msgstr "일반 설정 관리"
 
-#: autoload.php:1045
+#: autoload.php:1049
 #@ armember-membership
 msgid "Manage Import/Export"
 msgstr "가져오기/내보내기 관리"
 
-#: autoload.php:1039
+#: autoload.php:1043
 #@ armember-membership
 msgid "Manage Member Templates"
 msgstr "회원 템플릿 관리"
 
-#: autoload.php:1030
-#: autoload.php:1165
-#: autoload.php:1166
+#: autoload.php:1034
+#: autoload.php:1169
+#: autoload.php:1170
 #: core/views/arm_members_list.php:5
 #@ armember-membership
 msgid "Manage Members"
@@ -7004,14 +7011,14 @@ msgstr "회원 관리"
 msgid "Manage Membership plans"
 msgstr "멤버십 플랜 관리"
 
-#: autoload.php:1044
+#: autoload.php:1048
 #@ armember-membership
 msgid "Manage Payment Gateways"
 msgstr "결제 대행사 관리"
 
-#: autoload.php:1031
-#: autoload.php:1170
-#: autoload.php:1171
+#: autoload.php:1035
+#: autoload.php:1174
+#: autoload.php:1175
 #: core/classes/class.arm_members.php:3884
 #: core/classes/class.arm_members.php:4882
 #: core/views/arm_members_list.php:118
@@ -7024,20 +7031,20 @@ msgstr "계획 관리"
 msgid "Manage Preset Form Fields"
 msgstr "사전 설정된 양식 필드 관리"
 
-#: autoload.php:1032
+#: autoload.php:1036
 #@ armember-membership
 msgid "Manage Setups"
 msgstr "설정 관리"
 
-#: autoload.php:1029
-#: autoload.php:1190
-#: autoload.php:1191
+#: autoload.php:1033
+#: autoload.php:1194
+#: autoload.php:1195
 #: core/views/arm_manage_subscription_list.php:556
 #@ armember-membership
 msgid "Manage Subscriptions"
 msgstr "구독 관리"
 
-#: autoload.php:1036
+#: autoload.php:1040
 #@ armember-membership
 msgid "Manage Transactions"
 msgstr "거래 관리"
@@ -7267,9 +7274,9 @@ msgstr "회원 디렉토리 템플릿"
 msgid "Members Profile Page"
 msgstr "회원 프로필 페이지"
 
-#: autoload.php:664
 #: autoload.php:668
 #: autoload.php:672
+#: autoload.php:676
 #: core/classes/class.arm_manage_subscription.php:520
 #: core/classes/class.arm_manage_subscription.php:749
 #: core/classes/class.arm_manage_subscription.php:1099
@@ -7330,7 +7337,7 @@ msgstr "멤버십 플랜"
 msgid "Membership plan is already exist for selected member."
 msgstr "선택한 회원에 대한 멤버십 플랜이 이미 존재합니다."
 
-#: autoload.php:679
+#: autoload.php:683
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:79
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:91
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:128
@@ -7371,7 +7378,7 @@ msgstr "멤버십 설정 마법사가 성공적으로 업데이트되었습니�
 msgid "MEMBERSHIP SHORTCODES"
 msgstr "멤버십 단축 코드"
 
-#: autoload.php:663
+#: autoload.php:667
 #: core/views/arm_tinymce_options_shortcodes.php:21
 #@ armember-membership
 msgid "Membership Shortcodes"
@@ -7408,21 +7415,21 @@ msgstr "메시지"
 msgid "Message can not be left blank."
 msgstr "메시지를 비워둘 수 없습니다."
 
-#: autoload.php:1729
-#: autoload.php:3818
+#: autoload.php:1733
+#: autoload.php:3824
 #: core/classes/class.arm_manage_communication.php:29
 #@ armember-membership
 msgid "Message has been deleted successfully."
 msgstr "메시지가 성공적으로 삭제되었습니다."
 
-#: autoload.php:1751
-#: autoload.php:3838
+#: autoload.php:1755
+#: autoload.php:3844
 #@ armember-membership
 msgid "Message Updated Successfully."
 msgstr "메시지가 성공적으로 업데이트되었습니다."
 
-#: autoload.php:1731
-#: autoload.php:3820
+#: autoload.php:1735
+#: autoload.php:3826
 #: core/classes/class.arm_manage_communication.php:67
 #@ armember-membership
 msgid "Message(s) has been deleted successfully."
@@ -7677,7 +7684,7 @@ msgstr "나미비아"
 msgid "Nauru"
 msgstr "나우루"
 
-#: autoload.php:3648
+#: autoload.php:3654
 #@ armember-membership
 msgid "Need Help?"
 msgstr "도움이 필요하다?"
@@ -7812,6 +7819,8 @@ msgstr "니제르"
 msgid "Nigeria"
 msgstr "나이지리아"
 
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:55
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:158
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:52
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:65
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:72
@@ -7893,8 +7902,8 @@ msgstr "아직 거래가 없습니다."
 msgid "No cycles due"
 msgstr "주기가 만료되지 않음"
 
-#: autoload.php:3704
-#: autoload.php:3709
+#: autoload.php:3710
+#: autoload.php:3715
 #@ armember-membership
 msgid "No data found"
 msgstr "데이터가 없습니다"
@@ -8059,7 +8068,7 @@ msgstr "사용 가능한 사용자 없음"
 msgid "No Users Found."
 msgstr "사용자를 찾을 수 없습니다."
 
-#: autoload.php:622
+#: autoload.php:626
 #@ armember-membership
 msgid "No, Maybe later"
 msgstr "아니요, 나중에 그럴 수도 있어요"
@@ -8081,7 +8090,9 @@ msgstr "아니요"
 msgid "No. Of Members Per Page"
 msgstr "페이지당 회원 수"
 
-#: autoload.php:650
+#: autoload.php:654
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:36
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:140
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:166
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:50
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:23
@@ -8242,7 +8253,7 @@ msgstr "좋아요"
 msgid "Ok"
 msgstr "좋아요"
 
-#: autoload.php:621
+#: autoload.php:625
 #@ armember-membership
 msgid "OK, you deserve it"
 msgstr "알았어, 넌 그럴 자격이 있어"
@@ -8311,14 +8322,14 @@ msgstr "숫자만"
 msgid "Oops, nothing found"
 msgstr "죄송합니다. 아무것도 발견되지 않았습니다."
 
-#: autoload.php:1766
-#: autoload.php:3859
+#: autoload.php:1770
+#: autoload.php:3865
 #@ armember-membership
 msgid "Oops, nothing found."
 msgstr "죄송합니다. 아무것도 발견되지 않았습니다."
 
-#: autoload.php:1682
-#: autoload.php:3768
+#: autoload.php:1686
+#: autoload.php:3774
 #@ armember-membership
 msgid "Oops, there was a problem getting your information"
 msgstr "죄송합니다. 계정 정보를 가져오는 중에 문제가 발생했습니다."
@@ -8333,7 +8344,7 @@ msgstr "불투명"
 msgid "Open Settings & Styles"
 msgstr "설정 및 스타일 열기"
 
-#: autoload.php:1738
+#: autoload.php:1742
 #@ armember-membership
 msgid "Opt-ins Settings Saved Successfully."
 msgstr "옵트인 설정이 성공적으로 저장되었습니다."
@@ -8544,7 +8555,7 @@ msgstr "비밀번호"
 msgid "Password can not be left blank"
 msgstr "비밀번호는 비워둘 수 없습니다."
 
-#: autoload.php:1703
+#: autoload.php:1707
 #: core/classes/class.arm_member_forms.php:6545
 #: core/classes/class.arm_member_forms.php:6809
 #: core/classes/class.arm_member_forms.php:7237
@@ -8690,7 +8701,7 @@ msgstr "지불주기"
 msgid "Payment Date"
 msgstr "지불 날짜"
 
-#: autoload.php:1020
+#: autoload.php:1024
 #@ armember-membership
 msgid "Payment Failed"
 msgstr "결제 실패"
@@ -8748,8 +8759,8 @@ msgstr "지불 게이트웨이. 이 설정을 저장하면 해당 결제 게이�
 msgid "Payment Gateways"
 msgstr "결제 게이트웨이"
 
-#: autoload.php:1195
-#: autoload.php:1196
+#: autoload.php:1199
+#: autoload.php:1200
 #: core/views/arm_transactions.php:5
 #: core/views/arm_view_member.php:379
 #@ armember-membership
@@ -8863,7 +8874,7 @@ msgstr "페이팔 API 사용자 이름"
 msgid "Paypal API Username ( Sandbox)"
 msgstr "PayPal API 사용자 이름(샌드박스)"
 
-#: autoload.php:1011
+#: autoload.php:1015
 #: core/views/arm_manage_subscription_list.php:599
 #: core/views/arm_redirection_settings.php:271
 #: core/views/arm_redirection_settings.php:392
@@ -8996,7 +9007,7 @@ msgstr "이 사용자에 대한 계획은 무엇입니까?"
 msgid "Plan has been added successfully."
 msgstr "계획이 성공적으로 추가되었습니다."
 
-#: autoload.php:3795
+#: autoload.php:3801
 #: core/classes/class.arm_subscription_plans.php:540
 #@ armember-membership
 msgid "Plan has been deleted successfully."
@@ -9077,8 +9088,8 @@ msgstr "계획 유형"
 msgid "Plan Type & Price"
 msgstr "플랜 유형 및 가격"
 
-#: autoload.php:1705
-#: autoload.php:3793
+#: autoload.php:1709
+#: autoload.php:3799
 #@ armember-membership
 msgid "Plan(s) has been deleted successfully."
 msgstr "계획이 성공적으로 삭제되었습니다."
@@ -9562,8 +9573,8 @@ msgstr "파일을 선택해주세요."
 msgid "Please select one option."
 msgstr "옵션을 하나 선택해주세요."
 
-#: autoload.php:1700
-#: autoload.php:3789
+#: autoload.php:1704
+#: autoload.php:3795
 #: core/classes/class.arm_manage_communication.php:53
 #: core/classes/class.arm_members.php:1460
 #: core/classes/class.arm_members.php:2349
@@ -9675,8 +9686,8 @@ msgstr "소셜 계정을 선택하세요."
 msgid "Please select user."
 msgstr "사용자를 선택해 주세요."
 
-#: autoload.php:1699
-#: autoload.php:3788
+#: autoload.php:1703
+#: autoload.php:3794
 #: core/classes/class.arm_manage_communication.php:70
 #: core/classes/class.arm_members.php:1463
 #: core/classes/class.arm_transaction.php:365
@@ -9721,8 +9732,8 @@ msgstr "경험을 구체적으로 기재해주세요"
 msgid "Please type your e-mail address."
 msgstr "이메일 주소를 입력해주세요."
 
-#: autoload.php:1726
-#: autoload.php:3815
+#: autoload.php:1730
+#: autoload.php:3821
 #@ armember-membership
 msgid "Please upload appropriate file to import users."
 msgstr "사용자를 가져오려면 적절한 파일을 업로드하세요."
@@ -9956,8 +9967,8 @@ msgstr "프로필 템플릿 3"
 msgid "Profile Template Name"
 msgstr "프로필 템플릿 이름"
 
-#: autoload.php:1206
-#: autoload.php:1207
+#: autoload.php:1210
+#: autoload.php:1211
 #: core/views/arm_profile_editor.php:190
 #: core/views/arm_profiles_directories.php:14
 #@ armember-membership
@@ -10384,7 +10395,7 @@ msgstr "비밀번호 재설정 링크가 잘못되었습니다."
 msgid "RESTRICT CONTENT"
 msgstr "콘텐츠 제한"
 
-#: autoload.php:675
+#: autoload.php:679
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:62
 #: core/views/arm_tinymce_options_shortcodes.php:1176
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:60
@@ -10475,14 +10486,14 @@ msgstr "둥근 스타일"
 msgid "RTL"
 msgstr "RTL"
 
-#: autoload.php:1717
-#: autoload.php:3806
+#: autoload.php:1721
+#: autoload.php:3812
 #@ armember-membership
 msgid "Rule has been deleted successfully."
 msgstr "규칙이 삭제되었습니다."
 
-#: autoload.php:1719
-#: autoload.php:3808
+#: autoload.php:1723
+#: autoload.php:3814
 #@ armember-membership
 msgid "Rule(s) has been deleted successfully."
 msgstr "규칙이 성공적으로 삭제되었습니다."
@@ -11230,8 +11241,8 @@ msgstr "설정이 너무 어렵네요"
 msgid "Setting(s) has been imported successfully"
 msgstr "설정을 성공적으로 가져왔습니다."
 
-#: autoload.php:1734
-#: autoload.php:3823
+#: autoload.php:1738
+#: autoload.php:3829
 #@ armember-membership
 msgid "Settings has been saved successfully."
 msgstr "설정이 성공적으로 저장되었습니다."
@@ -11243,8 +11254,8 @@ msgstr "설정이 성공적으로 저장되었습니다."
 msgid "Settings Saved Successfully."
 msgstr "설정이 성공적으로 저장되었습니다."
 
-#: autoload.php:1711
-#: autoload.php:3800
+#: autoload.php:1715
+#: autoload.php:3806
 #: core/classes/class.arm_membership_setup.php:4911
 #@ armember-membership
 msgid "Setup has been deleted successfully."
@@ -11265,8 +11276,8 @@ msgstr "설정 이름"
 msgid "Setup name can not be left blank."
 msgstr "설정 이름은 비워둘 수 없습니다."
 
-#: autoload.php:1709
-#: autoload.php:3798
+#: autoload.php:1713
+#: autoload.php:3804
 #@ armember-membership
 msgid "Setup(s) has been deleted successfully."
 msgstr "설정이 성공적으로 삭제되었습니다."
@@ -11285,7 +11296,7 @@ msgstr "세이셸"
 msgid "Short Code"
 msgstr "짧은 코드"
 
-#: autoload.php:664
+#: autoload.php:668
 #: core/views/arm_form_editor.php:156
 #: core/views/arm_manage_forms.php:38
 #: core/views/arm_manage_forms.php:107
@@ -11345,6 +11356,8 @@ msgstr "선택한 페이지에서 등록 양식의 단축 코드를 찾을 수 �
 msgid "Shortcode will be display here once you save current setup."
 msgstr "현재 설정을 저장하면 여기에 단축 코드가 표시됩니다."
 
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:71
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:174
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:66
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:85
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:77
@@ -11381,7 +11394,7 @@ msgstr "보여주다"
 msgid "Show / Hide columns"
 msgstr "열 표시/숨기기"
 
-#: autoload.php:676
+#: autoload.php:680
 #: core/views/arm_tinymce_options_shortcodes.php:1184
 #: core/widgets/arm_elm_widgets/class.arm_partial_content_restriction_shortcode.php:65
 #@ armember-membership
@@ -11611,8 +11624,8 @@ msgstr "죄송합니다. 문제가 발생했습니다. 사이트 관리자에게
 msgid "Sorry, Something went wrong. Please contact to site administrator."
 msgstr "죄송합니다. 문제가 발생했습니다. 사이트 관리자에게 문의하시기 바랍니다."
 
-#: autoload.php:1698
-#: autoload.php:3787
+#: autoload.php:1702
+#: autoload.php:3793
 #: core/classes/class.arm_access_rules.php:506
 #: core/classes/class.arm_email_settings.php:143
 #: core/classes/class.arm_email_settings.php:176
@@ -11643,8 +11656,8 @@ msgstr "죄송합니다. 문제가 발생했습니다. 다시 시도해 주세�
 msgid "Sorry, Something went wrong. please try again."
 msgstr "죄송합니다. 문제가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1686
-#: autoload.php:3772
+#: autoload.php:1690
+#: autoload.php:3778
 #@ armember-membership
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "죄송합니다. 이 파일 형식은 보안상의 이유로 허용되지 않습니다."
@@ -11662,7 +11675,7 @@ msgstr "죄송합니다. 이 필드를 양식에 두 번 추가할 수 없습니
 msgid "Sorry, You do not have permission to perform this action"
 msgstr "죄송합니다. 이 작업을 수행할 권한이 없습니다."
 
-#: autoload.php:3938
+#: autoload.php:3944
 #: core/classes/class.arm_manage_communication.php:25
 #: core/classes/class.arm_manage_communication.php:56
 #: core/classes/class.arm_manage_subscription.php:439
@@ -11677,13 +11690,13 @@ msgstr "죄송합니다. 이 작업을 수행할 권한이 없습니다."
 msgid "Sorry, You Don't Have Feed Access"
 msgstr "죄송합니다. 피드에 액세스할 수 없습니다."
 
-#: autoload.php:3954
+#: autoload.php:3960
 #@ armember-membership
 msgid "Sorry, Your request can not process due to nonce not found."
 msgstr "죄송합니다. nonce를 찾을 수 없어 귀하의 요청을 처리할 수 없습니다."
 
-#: autoload.php:3686
-#: autoload.php:3961
+#: autoload.php:3692
+#: autoload.php:3967
 #@ armember-membership
 msgid "Sorry, Your request can not process due to security reason."
 msgstr "죄송합니다. 보안상의 이유로 귀하의 요청을 처리할 수 없습니다."
@@ -11804,8 +11817,8 @@ msgstr "표준 스타일"
 msgid "Start Date"
 msgstr "시작일"
 
-#: autoload.php:1754
-#: autoload.php:3844
+#: autoload.php:1758
+#: autoload.php:3850
 #@ armember-membership
 msgid "Start date can not be earlier than current date."
 msgstr "시작 날짜는 현재 날짜보다 이전일 수 없습니다."
@@ -12044,7 +12057,7 @@ msgstr "요약 텍스트"
 msgid "Suriname"
 msgstr "수리남"
 
-#: autoload.php:1017
+#: autoload.php:1021
 #: core/classes/class.arm_manage_subscription.php:906
 #: core/classes/class.arm_members.php:833
 #: core/classes/class.arm_members.php:1020
@@ -12188,14 +12201,14 @@ msgstr "템플릿 5"
 msgid "Template found."
 msgstr "템플릿을 찾았습니다."
 
-#: autoload.php:1746
-#: autoload.php:3833
+#: autoload.php:1750
+#: autoload.php:3839
 #@ armember-membership
 msgid "Template has been added successfully."
 msgstr "템플릿이 성공적으로 추가되었습니다."
 
-#: autoload.php:1748
-#: autoload.php:3835
+#: autoload.php:1752
+#: autoload.php:3841
 #@ armember-membership
 msgid "Template has been deleted successfully."
 msgstr "템플릿이 성공적으로 삭제되었습니다."
@@ -12205,8 +12218,8 @@ msgstr "템플릿이 성공적으로 삭제되었습니다."
 msgid "Template Name"
 msgstr "템플릿 이름"
 
-#: autoload.php:1742
-#: autoload.php:3829
+#: autoload.php:1746
+#: autoload.php:3835
 #: core/classes/class.arm_members_directory.php:1151
 #@ armember-membership
 msgid "Template not found."
@@ -12217,8 +12230,8 @@ msgstr "템플릿을 찾을 수 없습니다."
 msgid "Template Options"
 msgstr "템플릿 옵션"
 
-#: autoload.php:1743
-#: autoload.php:3830
+#: autoload.php:1747
+#: autoload.php:3836
 #: core/classes/class.arm_members_directory.php:292
 #: core/classes/class.arm_members_directory.php:295
 #@ armember-membership
@@ -12253,7 +12266,7 @@ msgstr "끝내다"
 msgid "Terminate Members"
 msgstr "회원 탈퇴"
 
-#: autoload.php:1012
+#: autoload.php:1016
 #@ armember-membership
 msgid "Terminated"
 msgstr "종료됨"
@@ -12384,8 +12397,8 @@ msgstr "업로드된 파일이 php.ini의 upload_max_filesize 지시문을 초�
 msgid "The uploaded file was only partially uploaded."
 msgstr "업로드된 파일이 부분적으로만 업로드되었습니다."
 
-#: autoload.php:1681
-#: autoload.php:3767
+#: autoload.php:1685
+#: autoload.php:3773
 #@ armember-membership
 msgid "The user chose not to grant permissions or closed the pop-up"
 msgstr "사용자가 권한을 부여하지 않았거나 팝업을 닫았습니다."
@@ -12424,128 +12437,128 @@ msgstr "그런 다음 다음으로 리디렉션"
 msgid "There is a error while adding form, Please try again."
 msgstr "양식을 추가하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1747
-#: autoload.php:3834
+#: autoload.php:1751
+#: autoload.php:3840
 #@ armember-membership
 msgid "There is a error while adding template, please try again."
 msgstr "템플릿을 추가하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1685
-#: autoload.php:3771
+#: autoload.php:1689
+#: autoload.php:3777
 #@ armember-membership
 msgid "There is a error while closing account, please try again."
 msgstr "계정을 폐쇄하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1683
-#: autoload.php:3769
+#: autoload.php:1687
+#: autoload.php:3775
 #@ armember-membership
 msgid "There is a error while copying, please try again"
 msgstr "복사하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1714
-#: autoload.php:3803
+#: autoload.php:1718
+#: autoload.php:3809
 #@ armember-membership
 msgid "There is a error while deleting form set, please try again."
 msgstr "양식 집합을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1716
-#: autoload.php:3805
+#: autoload.php:1720
+#: autoload.php:3811
 #@ armember-membership
 msgid "There is a error while deleting form, please try again."
 msgstr "양식을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1741
-#: autoload.php:3828
+#: autoload.php:1745
+#: autoload.php:3834
 #@ armember-membership
 msgid "There is a error while deleting member activities, please try again."
 msgstr "회원 활동을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1732
-#: autoload.php:3821
+#: autoload.php:1736
+#: autoload.php:3827
 #@ armember-membership
 msgid "There is a error while deleting Message(s), please try again."
 msgstr "메시지를 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1730
-#: autoload.php:3819
+#: autoload.php:1734
+#: autoload.php:3825
 #@ armember-membership
 msgid "There is a error while deleting Message, please try again."
 msgstr "메시지를 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1706
-#: autoload.php:3794
+#: autoload.php:1710
+#: autoload.php:3800
 #@ armember-membership
 msgid "There is a error while deleting Plan(s), please try again."
 msgstr "요금제를 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1707
-#: autoload.php:3796
+#: autoload.php:1711
+#: autoload.php:3802
 #@ armember-membership
 msgid "There is a error while deleting Plan, please try again."
 msgstr "요금제를 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1720
-#: autoload.php:3809
+#: autoload.php:1724
+#: autoload.php:3815
 #@ armember-membership
 msgid "There is a error while deleting Rule(s), please try again."
 msgstr "규칙을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1718
-#: autoload.php:3807
+#: autoload.php:1722
+#: autoload.php:3813
 #@ armember-membership
 msgid "There is a error while deleting Rule, please try again."
 msgstr "규칙을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1710
-#: autoload.php:3799
+#: autoload.php:1714
+#: autoload.php:3805
 #@ armember-membership
 msgid "There is a error while deleting Setup(s), please try again."
 msgstr "설정을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1712
-#: autoload.php:3801
+#: autoload.php:1716
+#: autoload.php:3807
 #@ armember-membership
 msgid "There is a error while deleting Setup, please try again."
 msgstr "설정을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1749
-#: autoload.php:3836
+#: autoload.php:1753
+#: autoload.php:3842
 #@ armember-membership
 msgid "There is a error while deleting template, please try again."
 msgstr "템플릿을 삭제하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1725
-#: autoload.php:3814
+#: autoload.php:1729
+#: autoload.php:3820
 #@ armember-membership
 msgid "There is a error while displaying ARMember CSS Class Information, Please Try Again."
 msgstr "ARMember CSS 클래스 정보를 표시하는 중 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1724
-#: autoload.php:3813
+#: autoload.php:1728
+#: autoload.php:3819
 #@ armember-membership
 msgid "There is a error while displaying members activities detail, Please try again."
 msgstr "회원 활동 내역을 표시하는 중 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1722
-#: autoload.php:3811
+#: autoload.php:1726
+#: autoload.php:3817
 #@ armember-membership
 msgid "There is a error while generating invoice of transaction detail, Please try again."
 msgstr "거래 세부정보 송장을 생성하는 중 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1723
-#: autoload.php:3812
+#: autoload.php:1727
+#: autoload.php:3818
 #@ armember-membership
 msgid "There is a error while generating preview of members detail, Please try again."
 msgstr "회원 세부정보 미리보기를 생성하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1745
-#: autoload.php:3832
+#: autoload.php:1749
+#: autoload.php:3838
 #@ armember-membership
 msgid "There is a error while generating preview of template, Please try again."
 msgstr "템플릿 미리보기를 생성하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1721
-#: autoload.php:3810
+#: autoload.php:1725
+#: autoload.php:3816
 #@ armember-membership
 msgid "There is a error while generating preview of transaction detail, Please try again."
 msgstr "거래 세부정보 미리보기를 생성하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
@@ -12555,19 +12568,19 @@ msgstr "거래 세부정보 미리보기를 생성하는 중에 오류가 발생
 msgid "There is a error while updating access rules, please try again."
 msgstr "액세스 규칙을 업데이트하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1739
+#: autoload.php:1743
 #@ armember-membership
 msgid "There is a error while updating opt-ins settings, please try again."
 msgstr "선택 설정을 업데이트하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1737
-#: autoload.php:3826
+#: autoload.php:1741
+#: autoload.php:3832
 #@ armember-membership
 msgid "There is a error while updating rules, please try again."
 msgstr "규칙을 업데이트하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1735
-#: autoload.php:3824
+#: autoload.php:1739
+#: autoload.php:3830
 #: core/classes/class.arm_global_settings.php:1595
 #: core/classes/class.arm_members_directory.php:275
 #: core/classes/class.arm_members_directory.php:278
@@ -12576,8 +12589,8 @@ msgstr "규칙을 업데이트하는 중에 오류가 발생했습니다. 다시
 msgid "There is a error while updating settings, please try again."
 msgstr "설정을 업데이트하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1744
-#: autoload.php:3831
+#: autoload.php:1748
+#: autoload.php:3837
 #@ armember-membership
 msgid "There is a error while updating template options, please try again."
 msgstr "템플릿 옵션을 업데이트하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
@@ -12587,34 +12600,34 @@ msgstr "템플릿 옵션을 업데이트하는 중에 오류가 발생했습니�
 msgid "There is a error while updating template, please try again."
 msgstr "템플릿을 업데이트하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1688
-#: autoload.php:3774
+#: autoload.php:1692
+#: autoload.php:3780
 #@ armember-membership
 msgid "There is an error in uploading file, Please try again."
 msgstr "파일을 업로드하는 중 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1761
-#: autoload.php:3851
+#: autoload.php:1765
+#: autoload.php:3857
 #@ armember-membership
 msgid "There is an error while activating addon, Please try agina."
 msgstr "애드온을 활성화하는 중 오류가 발생했습니다. agina를 사용해 보세요."
 
-#: autoload.php:1759
-#: autoload.php:3849
+#: autoload.php:1763
+#: autoload.php:3855
 #@ armember-membership
 msgid "There is an error while installing addon, Please try again."
 msgstr "애드온 설치 중 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1680
-#: autoload.php:3766
+#: autoload.php:1684
+#: autoload.php:3772
 #@ armember-membership
 msgid "There is an error while loading activities, please try again."
 msgstr "활동을 로드하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
 
-#: autoload.php:1691
-#: autoload.php:1765
-#: autoload.php:3777
-#: autoload.php:3855
+#: autoload.php:1695
+#: autoload.php:1769
+#: autoload.php:3783
+#: autoload.php:3861
 #@ armember-membership
 msgid "There is an error while performing this action, please try again."
 msgstr "이 작업을 수행하는 중에 오류가 발생했습니다. 다시 시도해 주세요."
@@ -12748,8 +12761,8 @@ msgstr "파일 제한을 초과하여 이 파일을 처리할 수 없습니다."
 msgid "This first name is invalid. Please enter a valid first name."
 msgstr "이 이름은 유효하지 않습니다. 유효한 이름을 입력하세요."
 
-#: autoload.php:1758
-#: autoload.php:3848
+#: autoload.php:1762
+#: autoload.php:3854
 #@ armember-membership
 msgid "This Form Name is already exist."
 msgstr "이 양식 이름은 이미 존재합니다."
@@ -12806,8 +12819,8 @@ msgstr "이 탐색 메뉴 링크는 로그아웃 링크를 설정하는 링크�
 msgid "This plan has one or more subscribers. So this plan can not be deleted."
 msgstr "이 요금제에는 한 명 이상의 가입자가 있습니다. 따라서 이 계획은 삭제할 수 없습니다."
 
-#: autoload.php:1757
-#: autoload.php:3847
+#: autoload.php:1761
+#: autoload.php:3853
 #@ armember-membership
 msgid "This Set Name is already exist."
 msgstr "이 세트 이름은 이미 존재합니다."
@@ -13081,8 +13094,8 @@ msgstr "거래 날짜"
 msgid "Transaction Details"
 msgstr "상세 거래 내역"
 
-#: autoload.php:1727
-#: autoload.php:3816
+#: autoload.php:1731
+#: autoload.php:3822
 #@ armember-membership
 msgid "Transaction has been deleted successfully."
 msgstr "거래가 성공적으로 삭제되었습니다."
@@ -13155,8 +13168,8 @@ msgstr "거래 ID 라벨은 비워둘 수 없습니다."
 msgid "Transaction Status"
 msgstr "거래현황"
 
-#: autoload.php:1728
-#: autoload.php:3817
+#: autoload.php:1732
+#: autoload.php:3823
 #: core/classes/class.arm_transaction.php:363
 #: core/classes/class.arm_transaction.php:370
 #@ armember-membership
@@ -13408,7 +13421,7 @@ msgstr "현재 요금제 만료 후 다른 요금제로 업그레이드(기간 �
 msgid "Upgrade to Premium"
 msgstr "프리미엄으로 업그레이드"
 
-#: autoload.php:1128
+#: autoload.php:1132
 #@ armember-membership
 msgid "Upgrade To Pro"
 msgstr "프로로 업그레이드"
@@ -13487,13 +13500,13 @@ msgstr "사용자가 이미 로그인되어 있다는 메시지"
 msgid "User already loggedIn message for modal forms ( Navigation Popup )"
 msgstr "사용자가 이미 모달 양식에 로그인한 메시지(탐색 팝업)"
 
-#: autoload.php:1019
+#: autoload.php:1023
 #@ armember-membership
 msgid "User Cancelled"
 msgstr "사용자가 취소되었습니다."
 
-#: autoload.php:1684
-#: autoload.php:3770
+#: autoload.php:1688
+#: autoload.php:3776
 #@ armember-membership
 msgid "User cancelled login or did not fully authorize."
 msgstr "사용자가 로그인을 취소했거나 완전히 승인하지 않았습니다."
@@ -13670,9 +13683,9 @@ msgstr "사용자의 로그인/로그아웃 세부정보"
 msgid "User's Signup Details such as Username, Password, First Name, Last Name and Custom Fields value( Address, Gender etc)"
 msgstr "사용자 이름, 비밀번호, 이름, 성 및 사용자 정의 필드 값(주소, 성별 등)과 같은 사용자 가입 세부 정보"
 
-#: autoload.php:1692
-#: autoload.php:3778
-#: autoload.php:3856
+#: autoload.php:1696
+#: autoload.php:3784
+#: autoload.php:3862
 #@ armember-membership
 msgid "User's subscription has been canceled"
 msgstr "사용자의 구독이 취소되었습니다."
@@ -13858,7 +13871,7 @@ msgstr "베네수엘라"
 msgid "Very Weak Text"
 msgstr "매우 약한 텍스트"
 
-#: autoload.php:3644
+#: autoload.php:3650
 #@ armember-membership
 msgid "Video Tutorials"
 msgstr "비디오 튜토리얼"
@@ -14260,6 +14273,8 @@ msgstr "연령"
 msgid "Yemen"
 msgstr "예멘"
 
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:54
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:157
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:53
 #: core/classes/arm_builder/class.arm_fusion_builder_restriction.php:64
 #: core/classes/arm_builder/class.arm_wpbakery_builder_restriction.php:73
@@ -14695,9 +14710,11 @@ msgstr "현재 비밀번호"
 msgid "Current password can not be left blank."
 msgstr "현재 비밀번호는 비워둘 수 없습니다."
 
-#: autoload.php:664
 #: autoload.php:668
 #: autoload.php:672
+#: autoload.php:676
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:45
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:148
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:21
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:25
 #: core/widgets/arm_elm_widgets/class.arm_elementor_widget_element.php:29
@@ -14705,33 +14722,33 @@ msgstr "현재 비밀번호는 비워둘 수 없습니다."
 msgid "ARMember"
 msgstr "ARMember"
 
-#: autoload.php:667
+#: autoload.php:671
 #@ armember-membership
 msgid "Restrict Content Shortcode"
 msgstr "콘텐츠 단축 코드 제한"
 
-#: autoload.php:668
 #: autoload.php:672
+#: autoload.php:676
 #@ armember-membership
 msgid "Restriction"
 msgstr "제한"
 
-#: autoload.php:671
+#: autoload.php:675
 #@ armember-membership
 msgid "ARMember Block Restriction"
 msgstr "ARMember 블록 제한"
 
-#: autoload.php:672
+#: autoload.php:676
 #@ armember-membership
 msgid "Block"
 msgstr "차단하다"
 
-#: autoload.php:673
+#: autoload.php:677
 #@ armember-membership
 msgid "Nest blocks within this wrapper to control the inner block visibility by membership plans or for free membership only."
 msgstr "멤버십 플랜 또는 무료 멤버십에 대해서만 내부 블록 가시성을 제어하려면 이 래퍼 내에 블록을 중첩하십시오."
 
-#: autoload.php:680
+#: autoload.php:684
 #@ armember-membership
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "다음 조건 중 하나라도 해당되면 콘텐츠에 제한이 적용됩니다."
@@ -15454,12 +15471,12 @@ msgstr "콘텐츠 제한 유형을 선택합니다."
 msgid "Select Membership Plan(s)."
 msgstr "멤버십 플랜을 선택합니다."
 
-#: core/classes/class.arm_global_settings.php:3227
+#: core/classes/class.arm_global_settings.php:3248
 #@ armember-membership
 msgid "Please activate WPBakery Page Builder and try to active this add-on."
 msgstr "WPBakery Page Builder를 활성화하고 이 애드온을 활성화해 보세요."
 
-#: core/classes/class.arm_global_settings.php:3233
+#: core/classes/class.arm_global_settings.php:3254
 #@ armember-membership
 msgid "Please install WPBakery Page Builder and try to active this add-on."
 msgstr "WPBakery Page Builder를 설치하고 이 애드온을 활성화해 보세요."
@@ -15596,6 +15613,7 @@ msgstr "비밀번호가 재설정되었습니다. 지금 로그인하여 시작�
 msgid "Enable Restriction access"
 msgstr "제한 액세스 활성화"
 
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:52
 #: core/classes/arm_builder/class.arm_divi_builder_restriction.php:49
 #@ armember-membership
 msgid "Enable this option to apply access or restriction."
@@ -15612,12 +15630,12 @@ msgstr "콘텐츠 제한 유형을 선택합니다."
 msgid "If \"Restriction Type\" set to \"Show\" then, the selected Membership Plan(s) will display the content if the condition is true, and if set \"Hide\" then content will be hidden for the selected \"Membership Plan(s)\" setting."
 msgstr "\"제한 유형\"을 \"표시\"로 설정하면 조건이 참이면 선택한 멤버십 플랜에 콘텐츠가 표시되고, \"숨기기\"로 설정하면 선택한 \"멤버십 플랜\" 설정에 대한 콘텐츠가 숨겨집니다."
 
-#: core/classes/class.arm_global_settings.php:3207
+#: core/classes/class.arm_global_settings.php:3228
 #@ armember-membership
 msgid "Please activate Divi Builder or Divi Theme and try to active this add-on."
 msgstr "Divi Builder 또는 Divi Theme을 활성화하고 이 애드온을 활성화해 보세요."
 
-#: core/classes/class.arm_global_settings.php:3213
+#: core/classes/class.arm_global_settings.php:3234
 #@ armember-membership
 msgid "Please install Divi Builder or Divi Theme and try to active this add-on."
 msgstr "Divi Builder 또는 Divi Theme을 설치하고 이 애드온을 활성화해 보세요."
@@ -15637,12 +15655,12 @@ msgstr "12,000명 이상의 만족 고객"
 msgid "ARMember Restriction"
 msgstr "ARMember 제한"
 
-#: core/classes/class.arm_global_settings.php:3247
+#: core/classes/class.arm_global_settings.php:3268
 #@ armember-membership
 msgid "Please activate Oxygen Builder and try to active this add-on."
 msgstr "Oxygen Builder를 활성화하고 이 애드온을 활성화해 보세요."
 
-#: core/classes/class.arm_global_settings.php:3253
+#: core/classes/class.arm_global_settings.php:3274
 #@ armember-membership
 msgid "Please install Oxygen Builder and try to active this add-on."
 msgstr "Oxygen Builder를 설치하고 이 애드온을 활성화해 보세요."
@@ -15694,9 +15712,9 @@ msgstr "타사 통합"
 msgid "Upgrade Pro"
 msgstr "업그레이드 프로"
 
-#: autoload.php:1127
-#: autoload.php:1234
-#: autoload.php:1235
+#: autoload.php:1131
+#: autoload.php:1238
+#: autoload.php:1239
 #@ armember-membership
 msgid "Add-ons"
 msgstr "추가 기능"
@@ -15708,12 +15726,12 @@ msgstr "추가 기능"
 msgid "ARMember-Restriction"
 msgstr "ARMember-제한"
 
-#: core/classes/class.arm_global_settings.php:3267
+#: core/classes/class.arm_global_settings.php:3288
 #@ armember-membership
 msgid "Please activate Fusion Builder or Avada Theme and try to active this add-on."
 msgstr "Fusion Builder 또는 Avada Theme을 활성화하고 이 애드온을 활성화해 보세요."
 
-#: core/classes/class.arm_global_settings.php:3273
+#: core/classes/class.arm_global_settings.php:3294
 #@ armember-membership
 msgid "Please install Fusion Builder or Avada Theme and try to active this add-on."
 msgstr "Fusion Builder 또는 Avada Theme을 설치하고 이 애드온을 활성화해 보세요."
@@ -15721,6 +15739,43 @@ msgstr "Fusion Builder 또는 Avada Theme을 설치하고 이 애드온을 활�
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.52"
-msgstr "4.0.52"
+msgid "4.0.53"
+msgstr "4.0.53"
+
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:48
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:151
+#@ armember-membership
+msgid "ARMember Restriction Settings"
+msgstr "ARMember 제한 설정"
+
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:68
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:171
+#@ armember-membership
+msgid "Select content access type"
+msgstr "콘텐츠 액세스 유형 선택"
+
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:76
+#@ armember-membership
+msgid "Select a Membership Plan for content access or restriction"
+msgstr "콘텐츠 액세스 또는 제한을 위한 멤버십 플랜 선택"
+
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:155
+#@ armember-membership
+msgid "Select ARMember access"
+msgstr " ARMember 액세스 선택"
+
+#: core/classes/arm_builder/class.arm_beaver_builder_restriction.php:179
+#@ armember-membership
+msgid "Select a Membership Plan for content access"
+msgstr "콘텐츠 액세스를 위한 멤버십 플랜 선택"
+
+#: core/classes/class.arm_global_settings.php:3208
+#@ armember-membership
+msgid "Please activate Beaver Builder and try to active this add-on."
+msgstr "Beaver Builder를 활성화하고 이 애드온을 활성화해 보세요."
+
+#: core/classes/class.arm_global_settings.php:3214
+#@ armember-membership
+msgid "Please install Beaver Builder and try to active this add-on."
+msgstr "Beaver Builder를 설치하고 이 애드온을 활성화해 보세요."
 

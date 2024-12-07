@@ -830,6 +830,7 @@ if ( ! class_exists( 'ARM_crons_Lite' ) ) {
                 $armember_module = array(
                     'arm_is_social_feature'=>'Social Feature',
                     'arm_is_gutenberg_block_restriction_feature' => 'Gutenberg Block Restriction',
+                    'arm_is_beaver_builder_restriction_feature' => 'Beaver Builder Restriction',
                     'arm_is_divi_builder_restriction_feature' => 'DIVI Builder Restriction',
                     'arm_is_wpbakery_page_builder_restriction_feature' => 'WPBakry Page Builder Restriction',
                     'arm_is_oxygen_builder_restriction_feature' => 'Oxygen Builder Restriction',
