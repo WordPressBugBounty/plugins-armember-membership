@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.53';
+$arm_lite_version = '4.0.54';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -461,8 +461,7 @@ class ARMemberlite {
 	
 			add_action('arm_general_log_entry', array( $this, 'arm_write_general_log'), 10, 4);
 		}
-
-
+		
 		add_action( 'admin_enqueue_scripts', array( $this, 'armlite_enqueue_notice_assets' ), 10 );
 		add_action( 'admin_notices', array( $this, 'armlite_display_notice_for_rating' ) );
 		add_action( 'wp_ajax_armlite_dismiss_rate_notice', array( $this, 'armlite_reset_ratenow_notice' ) );
@@ -583,12 +582,18 @@ class ARMemberlite {
 		}
 
 	function armlite_enqueue_notice_assets() {
-		global $arm_lite_version;
+		global $arm_lite_version, $ARMemberLite;
 
-		wp_register_script( 'armlite-admin-notice-script', MEMBERSHIPLITE_URL . '/js/armlite-admin-notice.js', array(), $arm_lite_version );
+		wp_register_script( 'armlite-admin-notice-script-js', MEMBERSHIPLITE_URL . '/js/armlite-admin-notice.js', array(), $arm_lite_version );
 
-		wp_enqueue_script( 'armlite-admin-notice-script' );
-		$this->set_global_javascript_variables();
+		wp_enqueue_script( 'armlite-admin-notice-script-js' );
+		if($ARMemberLite->is_arm_pro_active){
+			global $ARMember;
+			$ARMember->set_global_javascript_variables();
+		}
+		else {
+			$this->set_global_javascript_variables();
+		}
 	}
 
 	function armlite_reset_ratenow_notice_never() {
@@ -1770,7 +1775,7 @@ class ARMemberlite {
 		$arm_global_css .= 'arm_nothing_found ="' . esc_html__( 'Oops, nothing found.', 'armember-membership' ) . '";';
 		$arm_global_css .= 'armEditCurrency ="' . esc_html__( 'Edit', 'armember-membership' ) . '";';
 		
-		wp_add_inline_script( 'armlite-admin-notice-script', $arm_global_css);
+		wp_add_inline_script( 'armlite-admin-notice-script-js', $arm_global_css);
 		if(!$this->is_arm_pro_active) {
 			wp_add_inline_script( 'arm_common_js', $arm_global_css);
 		}
@@ -3105,6 +3110,9 @@ class ARMemberlite {
 			$wpdb->prefix . 'arm_drip_rules',
 			$wpdb->prefix . 'arm_badges_achievements',
 			$wpdb->prefix . 'arm_login_history',
+			$wpdb->prefix . 'arm_debug_general_log',
+			$wpdb->prefix . 'arm_debug_payment_log',
+			$wpdb->prefix . 'arm_dripped_contents'
 		);
 		foreach ( $blog_tables as $table ) {
 			$wpdb->query( "DROP TABLE IF EXISTS ".$table );//phpcs:ignore --Reason: $table is a table name. False Positive Alarm
@@ -3617,10 +3625,9 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.53 Changes',
+			'critical_title'      => 'Version 4.0.54 Changes',
 			'critical'            => array(
-				'Added New inbuilt addon "Beaver Builder Integration".',
-				'Other minor bug fixes.',
+				'Minor bug fixes.',
 			),
 			'show_major_title'    => 0,
 			'major_title'         => 'Major Changes',

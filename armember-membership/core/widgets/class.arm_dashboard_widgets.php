@@ -306,7 +306,7 @@ if ( ! class_exists( 'armAdminDashboardWidgets' ) ) {
 		function ARMemberSummary_display() {
 			?>
 			<div class="arm_plugin_logo">
-				<img alt="" src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL); //phpcs:ignore ?>/arm_logo.png"/><br/>
+			<a href="https://www.armemberplugin.com" target="_blank" style="box-shadow:none;"><img alt="" src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL); //phpcs:ignore ?>/arm_logo.png"/></a><br/>
 
 				<img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL); //phpcs:ignore ?>/arm_loader.gif" class="arm_loader_img_dashboard" width="24" height="24" />
 				<?php $wpnonce = wp_create_nonce( 'arm_wp_nonce' );?>

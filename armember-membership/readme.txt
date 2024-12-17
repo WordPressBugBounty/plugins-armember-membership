@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 4.0.53
+Stable tag: 4.0.54
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,9 +65,6 @@ ARMember provides an easy interface to set [**content access rules**](https://ww
 
 * **👉 Educational & LMS Membership site ✍️**
   To create the best learning management systems, online tutoring, coaching classes online, private tuition classes, language tutoring class, live online seminars & webinars, and school or college websites with students as a member on the site to access specific conditional content.
-
-*  👉 **Parenting and Counseling Websites** 👫
- If you are a certified psychologist or therapist, create a membership site to offer parenting solutions, couple counseling, and coping mechanisms for depression and anxiety by setting up multiple plans.
  
 
 ###🔗 USEFUL LINKS
@@ -100,11 +97,9 @@ Manage member profiles and directory to allow easy member lookup. This helps mem
 * **Import/Export Users & Settings:**
 You can easily import/export users and settings based on your requirement. Migrate your membership site easily from Paid Memberships Pro, MemberPress, Ultimate Membership Pro.
 * **Built-in Security Options:**
-With ARMember, you don’t need multiple security Plugins! It comes with security features like Brute force Login Protection, IP & URL based restriction, Auto-lock shared accounts, ban username and emails, Hide WP login page or Admin panel!
-* **Multi-language Functionality:**
-Create a global membership business with ready translations available with ARMember Plugin.
+It comes with security features like Brute force Login Protection, IP & URL based restriction, Auto-lock shared accounts, ban username and emails, Hide WP login page or Admin panel!
 * **Smart User Verification:**
-Enable user verification in any of the three ways. Auto verification, manual verification by admin, or verification through email.
+Enable user verification in three ways. Auto verification, manual verification by admin, or verification through email.
 * **Multiple Billing Cycles:**
 Offer Multiple Billing Cycle for a single membership plan like monthly, quarterly, or yearly. Set your prices accordingly.
 * **[Gutenberg Support:](https://www.armemberplugin.com/documents/how-to-use-armember-with-gutenberg/ "support of Gutenberg")**
@@ -134,7 +129,6 @@ Choose from multiple profile templates to display member information. Filter wha
 * Detailed Member Directories
 * Inbuilt Anti-spam with Captcha-free Forms
 * Offer Limited-time Paid Trials
-* Gutenberg Block Integration (Restriction Support)
 
 Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.com/memberpress-vs-paid-membership-pro-vs-s2-member/ "comparison guide") to know how ARMember's features stand out from other membership plugins like MemberPress, Paid Membership Pro, s2Member, and Ultimate Member.
 
@@ -172,29 +166,25 @@ ARMember Pro comes with multiple user engagement tools as well. Leverage email m
 ###ARMEMBER PRO PLUGIN’S MOST AMAZING FEATURES:
 
 * **[Pay Per Post (Paid Post)](https://www.armemberplugin.com/pay-per-post-setup-wizard/ "Pay Per Post")**
-  With this feature, you can sell post/course separately without creating plan(s). The feature allows individual post selling to non-members to build an additional income and attract users who don’t want to commit full time
+ Sell post/course separately without creating plan(s). The feature allows individual post selling to non-members to build an additional income and attract users.
 
 * **Multiple Payment Cycle per Plan**
- Let users choose feasible payment cycles by offering them multiple options. Set monthly, quarterly, or yearly cycles to suit every user’s requirements.
+ Let users choose feasible payment cycles by offering multiple options. Set monthly, quarterly, or yearly cycles to suit every user’s requirements.
 
 * **Prorating Membership Subscription (Pro Rata Feature)**
-  Enable cost-based or time-based proration to allow upgrade or downgrade of membership plan midway. In the context of a membership plan, pro rata pricing adjusts the cost based on the exact duration a member uses the service, ensuring they pay only for the portion they use.
- 
-  In the context of a membership plan, pro rata pricing adjusts the cost based on the exact duration a member uses the service, ensuring they pay only for the portion they use.
+  Enable cost-based or time-based proration to allow upgrade or downgrade of membership plan midway. Pro rata pricing adjusts the cost based on the exact duration a member uses the service, ensuring they pay only for the portion they use.
 
 * **ARMember Provides Multi-language Support**
 
- ARMember offers multilingual support through its [Multi-Language Addon](https://www.armemberplugin.com/downloads/armember-multi-language-addon/), connecting your site’s back-end interface with the ARMember plugin. This addon integrates smoothly with WPML, TranslatePress, Weglot, Polylang, WPGlobus, and more, allowing you to translate forms, messages, payment gateways, invoices, emails, plans, profiles, and other elements.
-
- It allows users who register via the ARMember Registration Form to use the site in their preferred language, enhancing multilingual functionality. This makes your website more user-friendly, improves communication, reduces reliance on translators, and builds trust and satisfaction. By breaking down language barriers, ARMember supports your global expansion.
+ ARMember offers multilingual support through its [Multi-Language Addon](https://www.armemberplugin.com/downloads/armember-multi-language-addon/). This addon integrates smoothly with WPML, TranslatePress, Weglot, Polylang, WPGlobus, and more to create global membership business.
 
 * **Membership Limit**
-  Set a maximum limit for purchasing Membership Plans, Paid Posts, and Membership Gifts. With this, you can restrict how many times a user can make a purchase for the same product/plan.
+  Set a maximum limit for purchasing Membership Plans, Paid Posts, and Membership Gifts. With this, Restrict how many times a user can make a purchase for the same product/plan.
 
 * **Multiple Memberships Subscription**
-  This allows members to hold multiple memberships simultaneously. Thus, members can have parallel memberships at once and gain maximum benefit of your platform.
+ Allow members to hold multiple memberships simultaneously. Thus, members can have parallel memberships at once.
 * **[Drip/Scheduled Content Facility](https://www.armemberplugin.com/drip-rules/ "Drip/Scheduled Content Facility")**
-  With this module, you can set up a drip content delivery and schedule your content. Custom drip content to reveal your content periodically to keep up the member’s interest and engage them.
+ Set up a drip content delivery and schedule your content. Custom drip content to reveal your content periodically to keep up the member’s interest.
 
 * **Social Login with Multiple Platforms**
   Increase user interactions by allowing social login through Facebook, Twitter, LinkedIn, Google+, VK, Instagram, and Tumblr. Simplified login process supports higher interaction.
@@ -228,68 +218,68 @@ MailPoet, Mautic, Keap (formley infusionsoft) - [These are Paid Addons]
   Facility to add content restriction rules for woocommerce products and product taxonomy.
 
 * **Standard Page Builders Support**
-  ARMember works smoothly with various standard WordPress page builders. You can use Gutenberg, Elementor, Divi Builder, Oxygen Builder, WPBakery, Fusion Builder, Site Origin Builder, Beaver Builder, Bricks Builder, or Cornerstone Builder, you can easily manage and restrict content on your website. It allows you to design beautiful layouts and set up membership restrictions effortlessly, making it the perfect membership plugin for WordPress.
+ARMember Supports 10 Standard WordPress page builders. You can easily manage and restrict content on your website. Design layouts and set up membership restrictions, making it the perfect membership plugin for WordPress.
 
 * **Engaging Social Community**
-Create a social media platform exclusive for your members with social community features. Allow groups & communities, profile tabs, followers system, private messages, social activity feed, user reviews, and so much more.
+Create exclusive social media platform with social community features. Allow groups & communities, profile tabs, followers system, private messages, social activity feed, user reviews, and more.
 
 * **Digital Downloads**
 Sell digital products using the digital downloads add-on. Manage user access for digital files easily using the premium add-on. Use shortcodes to place digital downloads on any page/post. You can also restrict file access based on membership plan or member ID.
 
 * **Affiliate Addon**
-Set up affiliate programs to promote your membership business and pay them a fixed commission on every conversion. Add and reward an unlimited number of affiliate partners without purchasing any additional third-party plugin. 
+Set up affiliate programs to promote your membership business and pay them a fixed commission on every conversion. Add and reward an unlimited affiliate partners without purchasing third-party plugin.
 
 * **Umbrella / Group Membership / Family Memberships**
-Allow your members to register for group membership. Like this, they can specify a number of child seats or child accounts that can be accessed simultaneously on multiple devices. 
+Allow members to register for group membership. Like this, they can specify a number of child seats or child accounts that can be accessed simultaneously on multiple devices. 
 * **User Private Content**
-Create member-only content to provide personalized experience to your members. Provide them additional value using the private content module.
+Create member-only content for personalized member experience. Provide additional value using the private content module.
 
-And much more....
+And more….
 
-[**ARMember Free vs ARMember Pro** 👈 ](https://www.armemberplugin.com/comparison-of-armember-lite-vs-armember-premium/ "ARMember Free vs ARMember Premium:") Checkout our comparison chart to get complete idea about features available in both plugins.
+[**ARMember Free vs ARMember Pro** 👈 ](https://www.armemberplugin.com/comparison-of-armember-lite-vs-armember-premium/ "ARMember Free vs ARMember Premium:") Checkout comparison to get complete idea about features.
 
-Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for full access to features and enhanced membership website management. Explore the [**ARMember Addons Bundle Pack**](https://www.armemberplugin.com/downloads/armember-add-on-bundle-pack/) for additional functionalities.
+Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for full feature access and enhanced membership website management. Explore the [**ARMember Addons Bundle Pack**](https://www.armemberplugin.com/downloads/armember-add-on-bundle-pack/) for additional functionalities.
 
-###Check out all the simple instructions for using the ARMember plugin; The [documentation](https://www.armemberplugin.com/documents/getting-started-with-armember/ "documentation") will guide you through setting up everything you need.
+###Check out simple instructions for using the ARMember plugin; The [documentation](https://www.armemberplugin.com/documents/getting-started-with-armember/ "documentation") guides to set up everything.
 
-###☑️ CHECK POWERFUL [ADDONS & INTEGRATION](https://www.armemberplugin.com/addons/ "Addons") to boost your ARMember features:
+###☑️ CHECK POWERFUL [ADDONS & INTEGRATION](https://www.armemberplugin.com/addons/ "Addons") to boost ARMember features:
 ###➕ ARMember Additional Functionality Addons:
 
-* [**ARMember Online Courses Addon**](https://www.armemberplugin.com/downloads/armember-online-courses-addon/)
+* [**ARMember Online Courses**](https://www.armemberplugin.com/downloads/armember-online-courses-addon/)
 * [**ARMember Affiliate Addon**](https://www.armemberplugin.com/downloads/armember-affiliate/)
-* [**Social Community Addon**](https://www.armemberplugin.com/downloads/armember-social-community-addon/)
-* [**Digital Download Addon**](https://www.armemberplugin.com/downloads/digital-download/)
-* [**WhatsApp Notification Addon**](https://www.armemberplugin.com/downloads/armember-whatsapp-notification-addon/)
-* [**SMS Notification Addon**](https://www.armemberplugin.com/downloads/armember-sms-notification-addon/)
-* [**Member Network Site Addon**](https://www.armemberplugin.com/downloads/armember-member-network-site-addon/)
+* [**Social Community**](https://www.armemberplugin.com/downloads/armember-social-community-addon/)
+* [**Digital Download**](https://www.armemberplugin.com/downloads/digital-download/)
+* [**WhatsApp Notification**](https://www.armemberplugin.com/downloads/armember-whatsapp-notification-addon/)
+* [**SMS Notification**](https://www.armemberplugin.com/downloads/armember-sms-notification-addon/)
+* [**Member Network Site**](https://www.armemberplugin.com/downloads/armember-member-network-site-addon/)
 * [**Group/Umbrella Membership**](https://www.armemberplugin.com/downloads/group-umbrella-membership-addon/)
-* [**PDF Creator Addon**](https://www.armemberplugin.com/downloads/armember-pdf-creator-addon/)
-* [**Direct Login Addon**](https://www.armemberplugin.com/downloads/direct-login-armember/) **(Free)**
+* [**PDF Creator**](https://www.armemberplugin.com/downloads/armember-pdf-creator-addon/)
+* [**Direct Login**](https://www.armemberplugin.com/downloads/direct-login-armember/) **(Free)**
 * [**Two Factor Authentication**](https://www.armemberplugin.com/downloads/armember-two-factor-authentication-addon/) **(Free)**
 * [**Migration & Import Tool**](https://www.armemberplugin.com/downloads/armember-migration-tool-addon/) **(Free)**
-* [**Gift Membership Addon**](https://www.armemberplugin.com/downloads/armember-gift-membership-addon/)
-* [**Conversion Tracking Addon**](https://www.armemberplugin.com/downloads/conversion-tracking-addon)
-* [**Multi-Language Addon**](https://www.armemberplugin.com/downloads/armember-multi-language-addon/)
+* [**Gift Membership**](https://www.armemberplugin.com/downloads/armember-gift-membership-addon/)
+* [**Conversion Tracking**](https://www.armemberplugin.com/downloads/conversion-tracking-addon)
+* [**Multi-Language**](https://www.armemberplugin.com/downloads/armember-multi-language-addon/)
 
 ###💰 Payment Gateways:
-* [**Mollie Payment Gateway Integration**](https://www.armemberplugin.com/downloads/mollie-payment-gateway/)
-* [**Paypal Pro Payment Gateway Integration**](https://www.armemberplugin.com/downloads/paypalpro-payment-gateway/)
-* [**Pagseguro Payment Gateway Integration**](https://www.armemberplugin.com/downloads/pagseguro-payment-gateway/)
-* [**PayUmoney Payment Gateway Integration**](https://www.armemberplugin.com/downloads/payumoney-payment-gateway/)
-* [**Online Worldpay Payment Gateway Integration**](https://www.armemberplugin.com/downloads/online-worldpay-payment-gateway/)
-* [**Razorpay Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-razorpay-payment-gateway-addon/)
-* [**PayFast Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-payfast-payment-gateway-addon/)
-* [**PayStack Payment Gateway Integration**](https://www.armemberplugin.com/downloads/paystack-payment-gateway/)
-* [**Square Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-square-payment-gateway-addon/)
-* [**Skrill Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-skrill-payment-gateway-addon/)
-* [**Braintree Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-braintree-payment-gateway-addon/)
-* [**Klarna Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-klarna-payment-gateway-addon/)
-* [**Paddle Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-paddle-payment-gateway-addon/)
-* [**Mercado Pago Payment Gateway Integration**](https://www.armemberplugin.com/downloads/armember-mercado-pago-payment-gateway-addon/)
+* [**Mollie**](https://www.armemberplugin.com/downloads/mollie-payment-gateway/)
+* [**Paypal Pro**](https://www.armemberplugin.com/downloads/paypalpro-payment-gateway/)
+* [**Pagseguro**](https://www.armemberplugin.com/downloads/pagseguro-payment-gateway/)
+* [**PayUmoney**](https://www.armemberplugin.com/downloads/payumoney-payment-gateway/)
+* [**Online Worldpay**](https://www.armemberplugin.com/downloads/online-worldpay-payment-gateway/)
+* [**Razorpay**](https://www.armemberplugin.com/downloads/armember-razorpay-payment-gateway-addon/)
+* [**PayFast**](https://www.armemberplugin.com/downloads/armember-payfast-payment-gateway-addon/)
+* [**PayStack**](https://www.armemberplugin.com/downloads/paystack-payment-gateway/)
+* [**Square**](https://www.armemberplugin.com/downloads/armember-square-payment-gateway-addon/)
+* [**Skrill**](https://www.armemberplugin.com/downloads/armember-skrill-payment-gateway-addon/)
+* [**Braintree**](https://www.armemberplugin.com/downloads/armember-braintree-payment-gateway-addon/)
+* [**Klarna**](https://www.armemberplugin.com/downloads/armember-klarna-payment-gateway-addon/)
+* [**Paddle**](https://www.armemberplugin.com/downloads/armember-paddle-payment-gateway-addon/)
+* [**Mercado Pago**](https://www.armemberplugin.com/downloads/armember-mercado-pago-payment-gateway-addon/)
 ###🔗 Third-Party Integrations:
-* [**Active Campaign Integration**](https://www.armemberplugin.com/downloads/active-campaign-integration/) **(Free)**
-* [**Campaign Monitor Integration**](https://www.armemberplugin.com/downloads/campaign-monitor-integration/) **(Free)**
-* [**Cornerstone Integration**](https://www.armemberplugin.com/downloads/cornerstone-addon/) **(Free)**
+* [**ActiveCampaign**](https://www.armemberplugin.com/downloads/active-campaign-integration/) **(Free)**
+* [**Campaign Monitor**](https://www.armemberplugin.com/downloads/campaign-monitor-integration/) **(Free)**
+* [**Cornerstone**](https://www.armemberplugin.com/downloads/cornerstone-addon/) **(Free)**
 * [**AffiliateWP**](https://www.armemberplugin.com/downloads/affiliatewp-integration/)
 * [**Zapier**](https://www.armemberplugin.com/downloads/zapier-integration/)
 * [**Keap (Infusionsoft)**](https://www.armemberplugin.com/downloads/infusionsoft-integration/)
@@ -314,12 +304,12 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**WooCommerce Integration**](https://www.armemberplugin.com/downloads/woocommerce-integration/)
 * [**Membership Cards**](https://www.armemberplugin.com/downloads/membership-card-template/)
 * [**Live Form Editor**](https://www.armemberplugin.com/downloads/live-form-editor/)
-* [**PayPal Payments**](https://www.armemberplugin.com/downloads/paypal-integration/)
-* [**Stripe Payments**](https://www.armemberplugin.com/downloads/stripe-integration/)
-* [**2Checkout Payments**](https://www.armemberplugin.com/downloads/2checkout-integration/)
-* [**Authorize.net Payments**](https://www.armemberplugin.com/downloads/autorizenet-integration/)
-* [**Bank Transfer Payments**](https://www.armemberplugin.com/downloads/bank-transfer-integration/)
-* [**WooCommerce Payments**](https://www.armemberplugin.com/downloads/woocommerce-integration/)
+* [**PayPal**](https://www.armemberplugin.com/downloads/paypal-integration/)
+* [**Stripe**](https://www.armemberplugin.com/downloads/stripe-integration/)
+* [**2Checkout**](https://www.armemberplugin.com/downloads/2checkout-integration/)
+* [**Authorize.net**](https://www.armemberplugin.com/downloads/autorizenet-integration/)
+* [**Bank Transfer**](https://www.armemberplugin.com/downloads/bank-transfer-integration/)
+* [**WooCommerce**](https://www.armemberplugin.com/downloads/woocommerce-integration/)
 * [**Multiple Membership Plans**](https://www.armemberplugin.com/downloads/multiple-membership-plans/)
 * [**Member Directories**](https://www.armemberplugin.com/downloads/membership-directory/)
 * [**User Private Content**](https://www.armemberplugin.com/downloads/user-private-content/)
@@ -340,16 +330,16 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**BuddyPress Integration**](https://www.armemberplugin.com/downloads/buddypress-integration/)
 * [**Membership Limit**](https://www.armemberplugin.com/downloads/membership-limit/)
 * [**Gutenberg Block Integration**](https://www.armemberplugin.com/downloads/gutenberg-block-restriction/)
-* [**Elementor Page Builder Integration**](https://www.armemberplugin.com/downloads/elementor-builder-restriction/)
-* [**Divi Builder Integration**](https://www.armemberplugin.com/downloads/divi-builder-restriction/)
-* [**Oxygen Builder Integration**](https://www.armemberplugin.com/downloads/oxygen-builder-restriction/)
-* [**WPBakery Page Builder Integration**](https://www.armemberplugin.com/downloads/wpbakery-page-builder-restriction/)
-* [**Beaver Builder Integration**](https://www.armemberplugin.com/downloads/beaver-builder-restriction/)
-* [**Fusion Builder Integration**](https://www.armemberplugin.com/downloads/fusion-builder-restriction/)
-* [**SiteOrigin Builder Integration**](https://www.armemberplugin.com/downloads/siteorigin-builder-restriction/)
-* [**Bricks Builder Integration**](https://www.armemberplugin.com/downloads/bricks-builder-integration/)
+* [**Elementor Page Builder**](https://www.armemberplugin.com/downloads/elementor-builder-restriction/)
+* [**Divi Builder**](https://www.armemberplugin.com/downloads/divi-builder-restriction/)
+* [**Oxygen Builder**](https://www.armemberplugin.com/downloads/oxygen-builder-restriction/)
+* [**WPBakery Page Builder**](https://www.armemberplugin.com/downloads/wpbakery-page-builder-restriction/)
+* [**Beaver Builder**](https://www.armemberplugin.com/downloads/beaver-builder-restriction/)
+* [**Fusion Builder**](https://www.armemberplugin.com/downloads/fusion-builder-restriction/)
+* [**SiteOrigin Builder**](https://www.armemberplugin.com/downloads/siteorigin-builder-restriction/)
+* [**Bricks Builder**](https://www.armemberplugin.com/downloads/bricks-builder-integration/)
 
-###Learn everything about ARMember using easy [video tutorials here 👈](https://www.youtube.com/@armember/videos?sub_confirmation=1 "video tutorials 👈here")
+###Explore ARMember using easy [video tutorials here 👈](https://www.youtube.com/@armember/videos?sub_confirmation=1 "video tutorials 👈here")
 
 **✅ Join Community for Help & Support: [AR Plugins Community](https://www.facebook.com/groups/arplugins) 👈**
 
@@ -401,17 +391,14 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.54 =
+* Minor bug fixes.
+
 = 4.0.53 =
 * Added New inbuilt addon "Beaver Builder Integration".
 * Other minor bug fixes.
 
 = 4.0.52 =
-* Minor bug fixes.
-
-= 4.0.51 =
-* Minor bug fixes.
-
-= 4.0.50 =
 * Minor bug fixes.
 
 
