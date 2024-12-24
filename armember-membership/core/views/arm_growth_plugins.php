@@ -4,7 +4,7 @@
 
 	$payment_gateways_addon = '19+';
 	$total_addons = '46+';
-	$total_inbuilt_addon = '54+';
+	$total_inbuilt_addon = '55+';
 	$discount = '82%';
 	$downloads = '3,00,000+';
 	$support_period = '6 Months';
@@ -50,15 +50,15 @@
 									<div class="arm-gt-one-time-sec-first">
 										<span class="arm-gt-one-time-sec-first-img"></span>
 										<div class="arm-gt-one-time-sec-content">
-											<h4 class="arm-gt-one-time-sec-heding">One Time Fees for</h4>
-											<p class="arm-gt-one-time-sec-disc">Lifetime Updates</p>
+											<h4 class="arm-gt-one-time-sec-heding"><?php echo sanitize_text_field( $payment_gateways_addon ); ?> Worldwide</h4>
+											<p class="arm-gt-one-time-sec-disc">Payment Gateways</p>
 										</div>
 									</div>
 									<div class="arm-gt-one-time-sec-first arm-gt-addon-bun-sec">
 										<span class="arm-gt-one-time-sec-first-img"></span>
 										<div class="arm-gt-one-time-sec-content">
-											<h4 class="arm-gt-one-time-sec-heding">Addon Bundle Pack</h4>
-											<p class="arm-gt-one-time-sec-disc">@ <?php echo sanitize_text_field( $discount ); ?> Discount</p>
+											<h4 class="arm-gt-one-time-sec-heding"> <?php echo sanitize_text_field( $total_inbuilt_addon ); ?> Inbuilt Addons</h4>
+											<p class="arm-gt-one-time-sec-disc">included with Pro</p>
 										</div>
 									</div>
 								</div>
@@ -75,13 +75,13 @@
 							</div>
 							<ul class="arm-feature-list-cls">
 								<li class="arm-feature-list-li"> Pay Per Post (Paid Post) </li>
-								<li class="arm-feature-list-li"> <?php echo sanitize_text_field( $payment_gateways_addon ); ?> Payment Gateways </li>
 								<li class="arm-feature-list-li"> Built-in Live Form Builder </li>
 								<li class="arm-feature-list-li"> Drip Content Feature Support </li>
 								<li class="arm-feature-list-li"> Unlimited Membership Plans </li>
+								<li class="arm-feature-list-li"> Membership Card Support </li>
 								<li class="arm-feature-list-li"> Powerful <?php echo sanitize_text_field( $total_addons ); ?> External Addons </li>
+								<li class="arm-feature-list-li"> Pro-rating Membership Plans </li>
 								<li class="arm-feature-list-li"> Advanced Content Restriction </li>
-								<li class="arm-feature-list-li"> <?php echo sanitize_text_field( $total_inbuilt_addon ); ?> Inbuilt Addons Supported </li>
 								<li class="arm-feature-list-li"> Sell Online Courses Like LMS </li>
 							</ul>
 							<ul>

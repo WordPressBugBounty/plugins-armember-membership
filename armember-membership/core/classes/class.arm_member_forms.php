@@ -9943,7 +9943,10 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 			// $ARMemberLite->arm_check_user_cap('',1);//phpcs:ignore --Reason:Verifying nonce
 			$form_key    = sanitize_text_field( $_POST['form_key'] ); //phpcs:ignore
 			if ( ! empty( $form_key ) ) {
-				if( !empty($_SESSION['ARM_FILTER_INPUT']) && !empty($_SESSION['ARM_FILTER_INPUT'][ $form_key ]) )
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+
+				if( ( !empty( $_SESSION['ARM_FILTER_INPUT'] ) && !empty( $_SESSION['ARM_FILTER_INPUT'][ $form_key ] ) ) || $allowed )
 				{
 					$session_var = $this->arm_reinit_session_initialization( $form_key );
 					$_SESSION['ARM_FILTER_INPUT'][ $form_key ] = $session_var;
@@ -9965,9 +9968,12 @@ if ( ! class_exists( 'ARM_member_forms_Lite' ) ) {
 			$session_arm_filter_input_form_key_flag = 0;
 			if ( ! empty( $form_key_arr ) ) {
 				$form_key_arr_exp = explode( ',', $form_key_arr );
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
 				foreach ( $form_key_arr_exp as $form_key ) {
 					$form_key                 = sanitize_text_field( $form_key );
-					if( !empty($_SESSION['ARM_FILTER_INPUT']) && !empty($_SESSION['ARM_FILTER_INPUT'][ $form_key ]) )
+					if( ( !empty( $_SESSION['ARM_FILTER_INPUT'] ) && !empty( $_SESSION['ARM_FILTER_INPUT'][ $form_key ] ) ) || $allowed )
 					{
 						$session_arr[ $form_key ] = $this->arm_reinit_session_initialization( $form_key );
 						$_SESSION['ARM_FILTER_INPUT'][ $form_key ] = $session_arr[ $form_key ];

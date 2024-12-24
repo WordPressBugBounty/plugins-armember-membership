@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.54\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.55\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 08:25+0000\n"
-"PO-Revision-Date: 2024-12-17 07:12:08+0000\n"
+"PO-Revision-Date: 2024-12-24 04:08:14+0000\n"
 "Last-Translator: \n"
 "Language-Team: Spanish (Spain)\n"
 "MIME-Version: 1.0\n"
@@ -15776,6 +15776,6 @@ msgstr "Instale Beaver Builder e intente activar este complemento."
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.54"
-msgstr "4.0.54"
+msgid "4.0.55"
+msgstr "4.0.55"
 

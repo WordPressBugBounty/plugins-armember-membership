@@ -40,7 +40,7 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$arm_lite_newdbversion = get_option( 'armlite_version' );
 			}
 
-			if ( version_compare( $arm_lite_newdbversion, '4.0.54', '<' ) ) {
+			if ( version_compare( $arm_lite_newdbversion, '4.0.55', '<' ) ) {
 				$path = MEMBERSHIPLITE_VIEWS_DIR . '/upgrade_latest_data.php';
 				include $path;
 			}
@@ -398,7 +398,11 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$file_size_new  = number_format( ( $content_length / 1048576 ), 2, '.', '' );
 
 				$arm_is_valid_file = $this->arm_check_valid_file_ext_data( $file_name, $file_size_new, $_FILES['armfileselect'] ); //phpcs:ignore
-				if($arm_is_valid_file && isset($_SESSION['arm_file_upload_arr'][$file_meta_name])){
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+				if( $arm_is_valid_file && ( isset($_SESSION['arm_file_upload_arr'][$file_meta_name]) || $allowed ) )
+				{
 					$this->session_for_file_handle($file_meta_name,$file_name);
 					$arm_upload_file_path = $arm_lite_upload_dir . $file_name;
 					$file_result          = $this->arm_upload_file_function( $_FILES['armfileselect']['tmp_name'], $arm_upload_file_path ); //phpcs:ignore
@@ -414,7 +418,11 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$file_size_new     = intval($files['size']);
 				$file_size_new     = number_format( $file_size_new / 1048576, 2, '.', '' );
 				$arm_is_valid_file = $this->arm_check_valid_file_ext_data( $file_name, $file_size_new, $files );
-				if($arm_is_valid_file && isset($_SESSION['arm_file_upload_arr'][$file_meta_name])){
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+				if( $arm_is_valid_file && ( isset($_SESSION['arm_file_upload_arr'][$file_meta_name]) || $allowed ) )
+				{
 					if ( ! empty( $file_size ) && ( $file_size_new > $file_size ) ) {
 						$response = "<p class='error_upload_size'>" . esc_html__( 'File size not allowed', 'armember-membership' ) . '</p>';
 					} else {
@@ -451,7 +459,11 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$file_size_new  = number_format( ( $content_length / 1048576 ), 2, '.', '' );
 
 				$arm_is_valid_file = $this->arm_check_valid_file_ext_data( $file_name, $file_size_new, $_FILES['armfileselect'] ); //phpcs:ignore
-				if($arm_is_valid_file && isset($_SESSION['arm_file_upload_arr'][$file_meta_name])){
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+				if( $arm_is_valid_file && ( isset($_SESSION['arm_file_upload_arr'][$file_meta_name]) || $allowed ) )
+				{
 					$this->session_for_file_handle($file_meta_name,$file_name);
 					$arm_upload_file_path = $arm_lite_upload_dir . $file_name;
 					$armfile_select_tmp_name = !empty( $_FILES['armfileselect']['tmp_name']) ? $_FILES['armfileselect']['tmp_name'] : ''; //phpcs:ignore
@@ -469,7 +481,11 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$file_size_new = number_format( $file_size_new / 1048576, 2, '.', '' );
 
 				$arm_is_valid_file = $this->arm_check_valid_file_ext_data( $file_name, $file_size_new, $files );
-				if($arm_is_valid_file && isset($_SESSION['arm_file_upload_arr'][$file_meta_name])){
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+				if( $arm_is_valid_file && ( isset($_SESSION['arm_file_upload_arr'][$file_meta_name]) || $allowed ) )
+				{
 					if ( ! empty( $file_size ) && ( $file_size_new > $file_size ) ) {
 						$response = "<p class='error_upload_size'>" . esc_html__( 'File size not allowed', 'armember-membership' ) . '</p>';
 					} else {
@@ -509,7 +525,11 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$file_size_new  = number_format( ( $content_length / 1048576 ), 2, '.', '' );
 
 				$arm_is_valid_file = $this->arm_check_valid_file_ext_data( $file_name, $file_size_new, $_FILES['armfileselect'] ); //phpcs:ignore
-				if($arm_is_valid_file && isset($_SESSION['arm_file_upload_arr'][$file_meta_name])){
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+				if( $arm_is_valid_file && ( isset($_SESSION['arm_file_upload_arr'][$file_meta_name]) || $allowed ) )
+				{
 					$this->session_for_file_handle($file_meta_name,$file_name);
 					$arm_upload_file_path = $arm_lite_upload_dir . $file_name;
 					$armfileselect_temp_nm = !empty( $_FILES['armfileselect']['tmp_name'] ) ? $_FILES['armfileselect']['tmp_name'] : ''; //phpcs:ignore
@@ -527,7 +547,11 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$file_size_new = number_format( $file_size_new / 1048576, 2, '.', '' );
 
 				$arm_is_valid_file = $this->arm_check_valid_file_ext_data( $file_name, $file_size_new, $files );
-				if($arm_is_valid_file && isset($_SESSION['arm_file_upload_arr'][$file_meta_name])){
+
+				$allowed = false;
+				$allowed = apply_filters('arm_modify_file_validation_external', $allowed);
+				if( $arm_is_valid_file && ( isset($_SESSION['arm_file_upload_arr'][$file_meta_name]) || $allowed ) )
+				{
 					if ( ! empty( $file_size ) && ( $file_size_new > $file_size ) ) {
 						$response = "<p class='error_upload_size'>" . esc_html__( 'File size not allowed', 'armember-membership' ) . '</p>';
 					} else {
