@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 4.0.55
+Stable tag: 4.0.56
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -152,6 +152,7 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * **Divi Builder** 
 * **Oxygen Builder**
 * **Avada Builder (Fusion Builder)**
+* **SiteOrigin Builder** 
 
 ###Try an online demo of the pro version:
 
@@ -238,11 +239,11 @@ And more….
 
 [**ARMember Free vs ARMember Pro** 👈 ](https://www.armemberplugin.com/comparison-of-armember-lite-vs-armember-premium/ "ARMember Free vs ARMember Premium:") Checkout comparison to get complete idea about features.
 
-Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for full feature access and enhanced membership website management. Explore the [**ARMember Addons Bundle Pack**](https://www.armemberplugin.com/downloads/armember-add-on-bundle-pack/) for additional functionalities.
+Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for full feature access and enhanced membership website management. Explore All [**ARMember Addons**](https://www.armemberplugin.com/addons/) in detail for additional functionalities.
 
 ###Check out simple instructions for using the ARMember plugin; The [documentation](https://www.armemberplugin.com/documents/getting-started-with-armember/ "documentation") guides to set up everything.
 
-###☑️ CHECK POWERFUL [ADDONS & INTEGRATION](https://www.armemberplugin.com/addons/ "Addons") to boost ARMember features:
+###☑️ CHECK POWERFUL ADDONS & INTEGRATION to boost ARMember features:
 ###➕ ARMember Additional Functionality Addons:
 
 * [**ARMember Online Courses**](https://www.armemberplugin.com/downloads/armember-online-courses-addon/)
@@ -276,6 +277,8 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**Klarna**](https://www.armemberplugin.com/downloads/armember-klarna-payment-gateway-addon/)
 * [**Paddle**](https://www.armemberplugin.com/downloads/armember-paddle-payment-gateway-addon/)
 * [**Mercado Pago**](https://www.armemberplugin.com/downloads/armember-mercado-pago-payment-gateway-addon/)
+* [**CCAvenue**](https://www.armemberplugin.com/downloads/armember-ccavenue-payment-gateway-addon/)
+* [**Airwallex**](https://www.armemberplugin.com/downloads/armember-airwallex-payment-gateway-addon/)
 ###🔗 Third-Party Integrations:
 * [**ActiveCampaign**](https://www.armemberplugin.com/downloads/active-campaign-integration/) **(Free)**
 * [**Campaign Monitor**](https://www.armemberplugin.com/downloads/campaign-monitor-integration/) **(Free)**
@@ -295,6 +298,9 @@ Upgrade to [**ARMember Pro**](https://www.armemberplugin.com/pricing/)☑️ for
 * [**Mailster**](https://www.armemberplugin.com/downloads/armember-mailster-addon/) **(Free)**
 * [**Brevo**](https://www.armemberplugin.com/downloads/armember-brevo-addon/) **(Free)**
 * [**Omnisend**](https://www.armemberplugin.com/downloads/armember-omnisend-addon/) **(Free)**
+* [**Zoho**](https://www.armemberplugin.com/downloads/armember-zoho-crm-addon/) **(Free)**
+* [**HubSpot**](https://www.armemberplugin.com/downloads/armember-hubspot-addon/) **(Free)**
+* [**Kit**](https://www.armemberplugin.com/downloads/armember-kit-addon/) **(Free)**
 
 ###🎁 In-Built Addons:
 * [**Drip Contents**](https://www.armemberplugin.com/downloads/drip-contents/)
@@ -391,6 +397,10 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.56 =
+* Added New inbuilt addon "SiteOrigin Builder Restriction".
+* Minor bug fixes.
+
 = 4.0.55 =
 * Minor bug fixes.
 
@@ -400,9 +410,6 @@ Please follow the steps for installation:
 = 4.0.53 =
 * Added New inbuilt addon "Beaver Builder Integration".
 * Other minor bug fixes.
-
-= 4.0.52 =
-* Minor bug fixes.
 
 
 For a complete list of changelog of earlier versions, please check the website [here](https://www.armemberplugin.com/documents/changelog/#lite-version)

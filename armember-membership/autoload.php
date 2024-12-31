@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.55';
+$arm_lite_version = '4.0.56';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -274,6 +274,10 @@ if(!$ARMemberLite->is_arm_pro_active){
 		require_once( MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_oxygen_builder_restriction.php");
 	}
 
+	if(file_exists(MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_siteorigin_builder_restriction.php")){
+		require_once( MEMBERSHIPLITE_CLASSES_DIR . "/arm_builder/class.arm_siteorigin_builder_restriction.php");
+	}
+	
 	if(is_plugin_active('elementor/elementor.php'))
 	{
 		require_once(MEMBERSHIPLITE_CORE_DIR . '/classes/arm_builder/class.arm_elementor_membership_shortcode.php');
@@ -2255,6 +2259,7 @@ class ARMemberlite {
 				update_option( 'arm_is_wpbakery_page_builder_restriction_feature', 0 );
 				update_option( 'arm_is_fusion_builder_restriction_feature', 0 );
 				update_option( 'arm_is_oxygen_builder_restriction_feature', 0 );
+				update_option( 'arm_is_siteorigin_builder_restriction_feature', 0 );
 
 				$arm_dbtbl_create = array();
 				/* Table structure for `Members activity` */
@@ -3625,8 +3630,9 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.55 Changes',
+			'critical_title'      => 'Version 4.0.56 Changes',
 			'critical'            => array(
+				'Added New inbuilt addon "SiteOrigin Builder Restriction".',
 				'Minor bug fixes.',
 			),
 			'show_major_title'    => 0,

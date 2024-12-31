@@ -2,9 +2,9 @@
 	global $arm_social_feature;
 	$growth_plugins_content = $arm_social_feature->growth_plugins_content();
 
-	$payment_gateways_addon = '19+';
-	$total_addons = '46+';
-	$total_inbuilt_addon = '55+';
+	$payment_gateways_addon = '21+';
+	$total_addons = '51+';
+	$total_inbuilt_addon = '56+';
 	$discount = '82%';
 	$downloads = '3,00,000+';
 	$support_period = '6 Months';

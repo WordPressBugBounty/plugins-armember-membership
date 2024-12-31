@@ -834,6 +834,7 @@ if ( ! class_exists( 'ARM_crons_Lite' ) ) {
                     'arm_is_divi_builder_restriction_feature' => 'DIVI Builder Restriction',
                     'arm_is_wpbakery_page_builder_restriction_feature' => 'WPBakry Page Builder Restriction',
                     'arm_is_oxygen_builder_restriction_feature' => 'Oxygen Builder Restriction',
+                    'arm_is_siteorigin_builder_restriction_feature' => 'SiteOrigin Builder Restriction',
                     'arm_is_fusion_builder_restriction_feature' => 'Fusion Builder Restriction',
                 );
                 foreach($armember_module as $key => $value) {                    

@@ -3151,6 +3151,7 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
                     'arm_is_wpbakery_page_builder_restriction_feature',
                     'arm_is_fusion_builder_restriction_feature',
                     'arm_is_oxygen_builder_restriction_feature',
+                    'arm_is_siteorigin_builder_restriction_feature',
                 );
                 if(in_array($features_options, $arm_default_module_array))
                 {
@@ -3292,6 +3293,26 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
                             } else {
                                 update_option($features_options, 0);
                                 $response = array('type' => 'fusion_builder_error', 'msg' => esc_html__('Please install Fusion Builder or Avada Theme and try to active this add-on.', 'armember-membership'));
+                                echo json_encode($response);
+                                die();
+                            }
+                        } else if ($features_options == 'arm_is_siteorigin_builder_restriction_feature') {
+                            if (file_exists( WP_PLUGIN_DIR . "/siteorigin-panels/siteorigin-panels.php") ) {
+                                if (is_plugin_active('siteorigin-panels/siteorigin-panels.php') ) {
+                                    update_option($features_options, $arm_features_status);
+                                    update_option('arm_is_siteorigin_builder_restriction_feature_old', $arm_features_status);
+                                    $response = array('type' => 'success', 'msg' => esc_html__('Features Settings Updated Successfully.', 'armember-membership'));
+                                    echo json_encode($response);
+                                    die();
+                                } else {
+                                    update_option($features_options, 0);
+                                    $response = array('type' => 'siteorigin_builder_error', 'msg' => esc_html__('Please activate SiteOrigin Builder and try to active this add-on.', 'armember-membership'));
+                                    echo json_encode($response);
+                                    die();
+                                }
+                            } else {
+                                update_option($features_options, 0);
+                                $response = array('type' => 'siteorigin_builder_error', 'msg' => esc_html__('Please install SiteOrigin Builder and try to active this add-on.', 'armember-membership'));
                                 echo json_encode($response);
                                 die();
                             }
