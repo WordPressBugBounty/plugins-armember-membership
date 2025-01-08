@@ -429,7 +429,6 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
 			/* Hide admin bar for non-admin users. */
 			$allow_access_admin_roles = array();
 			$hide_admin_bar           = isset( $all_settings['hide_admin_bar'] ) ? $all_settings['hide_admin_bar'] : 0;
-			remove_all_filters( 'show_admin_bar' );
 			if ( $hide_admin_bar == 1 ) {
 				if ( isset( $all_settings['arm_exclude_role_for_hide_admin'] ) && is_array( $all_settings['arm_exclude_role_for_hide_admin'] ) ) {
 					$allow_access_admin_roles = $all_settings['arm_exclude_role_for_hide_admin'];
@@ -441,6 +440,7 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
 				$user_match_role = array_intersect( $current_user->roles, $allow_access_admin_roles );
 				if ( empty( $user_match_role ) ) {
 					if ( ! is_admin() && ! current_user_can( 'administrator' ) ) {
+						remove_all_filters('show_admin_bar');
 						add_filter( 'show_admin_bar', '__return_false' );
 					}
 				}
@@ -3152,6 +3152,7 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
                     'arm_is_fusion_builder_restriction_feature',
                     'arm_is_oxygen_builder_restriction_feature',
                     'arm_is_siteorigin_builder_restriction_feature',
+                    'arm_is_bricks_builder_restriction_feature',
                 );
                 if(in_array($features_options, $arm_default_module_array))
                 {
@@ -3236,43 +3237,23 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
                                 echo json_encode($response);
                                 die();
                             }
-						} else if ($features_options == 'arm_is_wpbakery_page_builder_restriction_feature') {
-							if ( file_exists( WP_PLUGIN_DIR . "/js_composer/js_composer.php") ) {
-								if ( is_plugin_active('js_composer/js_composer.php') ) {
-									update_option($features_options, $arm_features_status);
-									update_option('arm_is_wpbakery_page_builder_restriction_feature_old', $arm_features_status);
-									$response = array('type' => 'success', 'msg' => esc_html__('Features Settings Updated Successfully.', 'armember-membership'));
-									echo json_encode($response);
-									die();
-								} else {
-									update_option($features_options, 0);
-									$response = array('type' => 'wpbakery_page_builder_error', 'msg' => esc_html__('Please activate WPBakery Page Builder and try to active this add-on.', 'armember-membership'));
-									echo json_encode($response);
-									die();
-								}
-							} else {
-								update_option($features_options, 0);
-								$response = array('type' => 'wpbakery_page_builder_error', 'msg' => esc_html__('Please install WPBakery Page Builder and try to active this add-on.', 'armember-membership'));
-								echo json_encode($response);
-								die();
-							}
-						} else if ($features_options == 'arm_is_oxygen_builder_restriction_feature') {
-                            if (file_exists( WP_PLUGIN_DIR . "/oxygen/functions.php") ) {
-                                if (is_plugin_active('oxygen/functions.php') ) {
+                        } else if ($features_options == 'arm_is_wpbakery_page_builder_restriction_feature') {
+                            if ( file_exists( WP_PLUGIN_DIR . "/js_composer/js_composer.php") ) {
+                                if ( is_plugin_active('js_composer/js_composer.php') ) {
                                     update_option($features_options, $arm_features_status);
-                                    update_option('arm_is_oxygen_builder_restriction_feature_old', $arm_features_status);
+                                    update_option('arm_is_wpbakery_page_builder_restriction_feature_old', $arm_features_status);
                                     $response = array('type' => 'success', 'msg' => esc_html__('Features Settings Updated Successfully.', 'armember-membership'));
                                     echo json_encode($response);
                                     die();
                                 } else {
                                     update_option($features_options, 0);
-                                    $response = array('type' => 'oxygen_builder_error', 'msg' => esc_html__('Please activate Oxygen Builder and try to active this add-on.', 'armember-membership'));
+                                    $response = array('type' => 'wpbakery_page_builder_error', 'msg' => esc_html__('Please activate WPBakery Page Builder and try to active this add-on.', 'armember-membership'));
                                     echo json_encode($response);
                                     die();
                                 }
                             } else {
                                 update_option($features_options, 0);
-                                $response = array('type' => 'oxygen_builder_error', 'msg' => esc_html__('Please install Oxygen Builder and try to active this add-on.', 'armember-membership'));
+                                $response = array('type' => 'wpbakery_page_builder_error', 'msg' => esc_html__('Please install WPBakery Page Builder and try to active this add-on.', 'armember-membership'));
                                 echo json_encode($response);
                                 die();
                             }
@@ -3296,6 +3277,26 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
                                 echo json_encode($response);
                                 die();
                             }
+                        } else if ($features_options == 'arm_is_oxygen_builder_restriction_feature') {
+                            if (file_exists( WP_PLUGIN_DIR . "/oxygen/functions.php") ) {
+                                if (is_plugin_active('oxygen/functions.php') ) {
+                                    update_option($features_options, $arm_features_status);
+                                    update_option('arm_is_oxygen_builder_restriction_feature_old', $arm_features_status);
+                                    $response = array('type' => 'success', 'msg' => esc_html__('Features Settings Updated Successfully.', 'armember-membership'));
+                                    echo json_encode($response);
+                                    die();
+                                } else {
+                                    update_option($features_options, 0);
+                                    $response = array('type' => 'oxygen_builder_error', 'msg' => esc_html__('Please activate Oxygen Builder and try to active this add-on.', 'armember-membership'));
+                                    echo json_encode($response);
+                                    die();
+                                }
+                            } else {
+                                update_option($features_options, 0);
+                                $response = array('type' => 'oxygen_builder_error', 'msg' => esc_html__('Please install Oxygen Builder and try to active this add-on.', 'armember-membership'));
+                                echo json_encode($response);
+                                die();
+                            }
                         } else if ($features_options == 'arm_is_siteorigin_builder_restriction_feature') {
                             if (file_exists( WP_PLUGIN_DIR . "/siteorigin-panels/siteorigin-panels.php") ) {
                                 if (is_plugin_active('siteorigin-panels/siteorigin-panels.php') ) {
@@ -3313,6 +3314,26 @@ if ( ! class_exists( 'ARM_global_settings_Lite' ) ) {
                             } else {
                                 update_option($features_options, 0);
                                 $response = array('type' => 'siteorigin_builder_error', 'msg' => esc_html__('Please install SiteOrigin Builder and try to active this add-on.', 'armember-membership'));
+                                echo json_encode($response);
+                                die();
+                            }
+                        } else if ($features_options == 'arm_is_bricks_builder_restriction_feature') {
+                            if (wp_get_theme()->get('Name') == 'Bricks' || is_child_theme('Bricks')) {
+                                if (wp_get_theme()->get('Name') == 'Bricks' || is_child_theme('Bricks')) {
+                                    update_option($features_options, $arm_features_status);
+                                    update_option('arm_is_bricks_builder_restriction_feature_old', $arm_features_status);
+                                    $response = array('type' => 'success', 'msg' => esc_html__('Features Settings Updated Successfully.', 'armember-membership'));
+                                    echo json_encode($response);
+                                    die();
+                                } else {
+                                    update_option($features_options, 0);
+                                    $response = array('type' => 'bricks_builder_error', 'msg' => esc_html__('Please activate Bricks Builder and try to active this add-on.', 'armember-membership'));
+                                    echo json_encode($response);
+                                    die();
+                                }
+                            } else {
+                                update_option($features_options, 0);
+                                $response = array('type' => 'bricks_builder_error', 'msg' => esc_html__('Please install Bricks Builder and try to active this add-on.', 'armember-membership'));
                                 echo json_encode($response);
                                 die();
                             }

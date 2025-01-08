@@ -5,7 +5,7 @@ Donate link: https://www.armemberplugin.com/product.php?rdt=t16
 Requires at least: 4.0
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 4.0.56
+Stable tag: 4.0.57
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,7 @@ Check out this comprehensive [**Comparison Guide**](https://www.armemberplugin.c
 * **Oxygen Builder**
 * **Avada Builder (Fusion Builder)**
 * **SiteOrigin Builder** 
+* **Bricks Builder** 
 
 ###Try an online demo of the pro version:
 
@@ -397,9 +398,13 @@ Please follow the steps for installation:
 11. Signup Form
 
 == Changelog ==
+= 4.0.57 =
+* Added New inbuilt addon "Bricks Builder Integration".
+* Other minor bug fixes.
+
 = 4.0.56 =
-* Added New inbuilt addon "SiteOrigin Builder Restriction".
-* Minor bug fixes.
+* Added New inbuilt addon "SiteOrigin Builder Integration".
+* Other minor bug fixes.
 
 = 4.0.55 =
 * Minor bug fixes.

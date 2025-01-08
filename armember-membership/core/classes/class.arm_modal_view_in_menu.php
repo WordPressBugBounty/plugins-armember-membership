@@ -150,64 +150,14 @@ if ( ! class_exists( 'ARM_modal_view_in_menu_Lite' ) ) {
 			add_meta_box( 'armlogout', esc_html__( 'ARMember Logout', 'armember-membership' ), array( $this, 'arm_logout_menu_metabox' ), 'nav-menus', 'side', 'default' );
 			?>
 			<style type="text/css">
-				.armformnav .accordion-section-title.hndle, .armlogout .accordion-section-title.hndle, .armsetupnav .accordion-section-title.hndle,
-				.armformnav.open .accordion-section-title.hndle, .armlogout.open .accordion-section-title.hndle, .armsetupnav.open .accordion-section-title.hndle {
-					background: #005aee !important;
-					background-color: #005aee !important;
-					border-top: 1px solid #ffffff !important;
-					color: #ffffff;
-					margin: -6px 0 0;
-					padding-left: 34px;
-					position: relative;
-				}
-				.armformnav .accordion-section-title.hndle:focus,
-				.armlogout .accordion-section-title.hndle:focus,
-				.armsetupnav .accordion-section-title.hndle:focus,
-				.armformnav .accordion-section-title.hndle:hover,
-				.armlogout .accordion-section-title.hndle:hover,
-				.armsetupnav .accordion-section-title.hndle:hover
-				{
-					background-color: #005aee;
-					color: white;
-					margin: -6px 0 0;
-					position: relative;
-				}
-				.armformnav .accordion-section-title.hndle::before{
-					background-image: url(<?php echo MEMBERSHIPLITE_IMAGES_URL . '/logo_navmenu_white.png'; //phpcs:ignore ?>);
-					height: 20px;
-					width: 20px;
-					content: " ";
-					position: absolute;
-					left: 8px;
-				}
-				.armlogout .accordion-section-title.hndle::before{
-					background-image: url(<?php echo MEMBERSHIPLITE_IMAGES_URL . '/logo_navmenu_white.png'; //phpcs:ignore ?>);
-					height: 20px;
-					width: 20px;
-					content: " ";
-					position: absolute;
-					left: 8px;
-				}
-				.armsetupnav .accordion-section-title.hndle::before{
-					background-image: url(<?php echo MEMBERSHIPLITE_IMAGES_URL . '/logo_navmenu_white.png'; //phpcs:ignore ?>);
-					height: 20px;
-					width: 20px;
-					content: " ";
-					position: absolute;
-					left: 8px;
-					top: 11px;
-				}
-				.armformnav .accordion-section-title::after, .armlogout .accordion-section-title::after, .armsetupnav .accordion-section-title::after{
-					color: #fff !important;
-				}
-				#menu-settings-column .armformnav .inside,
-				#menu-settings-column .armlogout .inside,
-				#menu-settings-column .armsetupnav .inside{
-					margin: 0;
-				}
-				.arm_color_red {
-					color: #ff0000 !important ;
-				}
+				.armlogout .accordion-section-title.hndle, .armlogout.open .accordion-section-title.hndle { background: #005aee !important; background-color: #005aee !important; border-top: 1px solid #ffffff !important; color: #ffffff; margin: -6px 0 0; position: relative; padding-left: 28px; }
+                .control-section.accordion-section.armlogout .accordion-section-title.hndle button, .control-section.accordion-section.armlogout.open .accordion-section-title.hndle button { color: #ffffff; outline: none; border: 0px; box-shadow: none; padding-left: 8px; }
+                .armlogout .accordion-section-title.hndle:focus,
+                .armlogout .accordion-section-title.hndle:hover { background-color: #005aee; color: white; margin: -6px 0 0; position: relative; }
+                .armlogout .accordion-section-title.hndle::before { background-image: url(<?php echo MEMBERSHIPLITE_IMAGES_URL.'/logo_navmenu_white.png'; //phpcs:ignore ?>); height: 20px; width: 20px; content: " "; position: absolute; left: 8px; top: 10px; }
+                .armlogout .accordion-section-title::after, .armlogout .accordion-section-title.hndle button span::before { color: #fff !important; }
+                #menu-settings-column .armlogout .inside { margin: 0; }
+                .arm_color_red { color: #ff0000 !important ; }
 			</style>
 			<?php
 		}

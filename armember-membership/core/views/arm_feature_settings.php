@@ -24,7 +24,7 @@ $wpbakery_page_builder_restriction_feature = get_option('arm_is_wpbakery_page_bu
 $fusion_builder_restriction_feature = get_option('arm_is_fusion_builder_restriction_feature');
 $oxygen_builder_restriction_feature = get_option('arm_is_oxygen_builder_restriction_feature');
 $siteorigin_builder_restriction_feature = get_option('arm_is_siteorigin_builder_restriction_feature');
-$bricks_builder_restriction_feature = 0;
+$bricks_builder_restriction_feature = get_option('arm_is_bricks_builder_restriction_feature');
 
 
 
@@ -612,7 +612,7 @@ if ( is_rtl() ) {
                         <div class="arm_feature_title"><?php esc_html_e('Bricks Builder Integration','armember-membership'); ?></div>
                         <div class="arm_feature_text"><?php esc_html_e("Allows to set restrict content on Bricks Builder Elements per Membership Plan.", 'armember-membership');?></div>
                         <div class="arm_feature_button_activate_wrapper <?php echo ($bricks_builder_restriction_feature == 1) ? 'hidden_section':'';?>">
-                            <a href="javascript:void(0)" class="arm_feature_activate_btn arm_feature_settings_switch" data-feature_val="1" data-feature="bricks_builder_restriction"><?php esc_html_e('Upgrade Pro','armember-membership'); ?></a>
+                            <a href="javascript:void(0)" class="arm_feature_activate_btn arm_feature_settings_switch" data-feature_val="1" data-feature="bricks_builder_restriction"><?php esc_html_e('Activate','armember-membership'); ?></a>
                             <span class="arm_addon_loader">
                                 <svg class="arm_circular" viewBox="0 0 60 60">
                                     <circle class="path" cx="25px" cy="23px" r="18" fill="none" stroke-width="4" stroke-miterlimit="7"></circle>
