@@ -300,7 +300,7 @@ if (!class_exists('ARM_setup_Wizard_Lite')) {
                         $manual_billing_start = (!empty($plan_options['recurring'])) ? $plan_options['recurring']['manual_billing_start'] : 'transaction_day';
                         $plan_options['payment_cycles'][0] = array(
                             'cycle_key'=>'arm0',
-                            'cycle_label' => '',
+                            'cycle_label' => $plan_name,
                             'cycle_amount'=>$plan_amount,
                             'billing_cycle'=>1,
                             'billing_type'=>'M',

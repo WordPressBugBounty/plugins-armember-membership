@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.57\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.58\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-01-07 06:43:23+0000\n"
+"PO-Revision-Date: 2025-01-18 10:35:13+0000\n"
 "Last-Translator: admin <testrepute123@gmail.com>\n"
 "Language-Team: English (United States)\n"
 "MIME-Version: 1.0\n"
@@ -282,14 +282,15 @@ msgstr "Action to be performed when user upgrade / downgrade membership from cur
 #: core/classes/class.arm_members.php:3857
 #: core/classes/class.arm_members.php:4836
 #: core/classes/class.arm_members.php:4856
-#: core/views/arm_feature_settings.php:140
-#: core/views/arm_feature_settings.php:423
-#: core/views/arm_feature_settings.php:450
-#: core/views/arm_feature_settings.php:477
-#: core/views/arm_feature_settings.php:504
-#: core/views/arm_feature_settings.php:531
-#: core/views/arm_feature_settings.php:558
-#: core/views/arm_feature_settings.php:586
+#: core/views/arm_feature_settings.php:141
+#: core/views/arm_feature_settings.php:441
+#: core/views/arm_feature_settings.php:468
+#: core/views/arm_feature_settings.php:495
+#: core/views/arm_feature_settings.php:522
+#: core/views/arm_feature_settings.php:549
+#: core/views/arm_feature_settings.php:576
+#: core/views/arm_feature_settings.php:604
+#: core/views/arm_feature_settings.php:633
 #@ armember-membership
 msgid "Activate"
 msgstr "Activate"
@@ -413,7 +414,7 @@ msgstr "Add New Response"
 msgid "Add New Setup"
 msgstr "Add New Setup"
 
-#: core/views/arm_manage_subscription_list.php:827
+#: core/views/arm_manage_subscription_list.php:832
 #@ armember-membership
 msgid "Add New Subscription"
 msgstr "Add New Subscription"
@@ -460,7 +461,7 @@ msgstr "Add Subscription"
 msgid "Add subscription_plan=\"PLAN_ID\" parameter to keep plan having PLAN_ID selected."
 msgstr "Add subscription_plan=\"PLAN_ID\" parameter to keep plan having PLAN_ID selected."
 
-#: core/classes/class.arm_modal_view_in_menu.php:268
+#: core/classes/class.arm_modal_view_in_menu.php:218
 #@ armember-membership
 msgid "Add to Menu"
 msgstr "Add to Menu"
@@ -474,7 +475,7 @@ msgstr "Add to Menu"
 msgid "Add URL"
 msgstr "Add URL"
 
-#: autoload.php:3497
+#: autoload.php:3498
 #: core/classes/class.arm_social_feature.php:394
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
@@ -641,7 +642,7 @@ msgstr "Algeria"
 msgid "Align"
 msgstr "Align"
 
-#: core/views/arm_manage_subscription_list.php:669
+#: core/views/arm_manage_subscription_list.php:674
 #@ armember-membership
 msgid "All Activities"
 msgstr "All Activities"
@@ -689,7 +690,7 @@ msgstr "Allow avatar and cover photo cropping"
 msgid "Allow image cropping"
 msgstr "Allow image cropping"
 
-#: core/views/arm_feature_settings.php:300
+#: core/views/arm_feature_settings.php:318
 #@ armember-membership
 msgid "Allow members to subscribe multiple plans simultaneously."
 msgstr "Allow members to subscribe multiple plans simultaneously."
@@ -699,7 +700,7 @@ msgstr "Allow members to subscribe multiple plans simultaneously."
 msgid "Allow Semi Automatic(manual) method only"
 msgstr "Allow Semi Automatic(manual) method only"
 
-#: core/views/arm_feature_settings.php:200
+#: core/views/arm_feature_settings.php:218
 #@ armember-membership
 msgid "Allow users to sign up / login with their social accounts by enabling this feature."
 msgstr "Allow users to sign up / login with their social accounts by enabling this feature."
@@ -709,22 +710,22 @@ msgstr "Allow users to sign up / login with their social accounts by enabling th
 msgid "Allowed File Extension"
 msgstr "Allowed File Extension"
 
-#: core/views/arm_feature_settings.php:448
+#: core/views/arm_feature_settings.php:466
 #@ armember-membership
 msgid "Allows Beaver Builder widgets to restrict based on Membership Plan."
 msgstr "Allows Beaver Builder widgets to restrict based on Membership Plan."
 
-#: core/views/arm_feature_settings.php:475
+#: core/views/arm_feature_settings.php:493
 #@ armember-membership
 msgid "Allows facility to set the access for Divi Builder content Like Section and Row per Membership Plan."
 msgstr "Allows facility to set the access for Divi Builder content Like Section and Row per Membership Plan."
 
-#: core/views/arm_feature_settings.php:421
+#: core/views/arm_feature_settings.php:439
 #@ armember-membership
 msgid "Allows facility to set the Access for Gutenberg Blocks per Membership Plan or Logged in member."
 msgstr "Allows facility to set the Access for Gutenberg Blocks per Membership Plan or Logged in member."
 
-#: core/views/arm_feature_settings.php:502
+#: core/views/arm_feature_settings.php:520
 #@ armember-membership
 msgid "Allows to set restrict content on WPBakery Elements per Membership Plan."
 msgstr "Allows to set restrict content on WPBakery Elements per Membership Plan."
@@ -762,9 +763,9 @@ msgstr "American Samoa"
 #: core/vc/class_vc_extend.php:795
 #: core/vc/class_vc_extend.php:909
 #: core/vc/class_vc_extend.php:1049
-#: core/views/arm_manage_subscription_list.php:687
-#: core/views/arm_manage_subscription_list.php:722
-#: core/views/arm_manage_subscription_list.php:756
+#: core/views/arm_manage_subscription_list.php:692
+#: core/views/arm_manage_subscription_list.php:727
+#: core/views/arm_manage_subscription_list.php:761
 #: core/views/arm_subscription_plans_add.php:374
 #: core/views/arm_subscription_plans_add.php:450
 #: core/views/arm_tinymce_options_shortcodes.php:540
@@ -889,7 +890,7 @@ msgstr "Any single page or post"
 msgid "API Password can not be left blank."
 msgstr "API Password can not be left blank."
 
-#: core/views/arm_feature_settings.php:338
+#: core/views/arm_feature_settings.php:356
 #@ armember-membership
 msgid "API Services"
 msgstr "API Services"
@@ -906,7 +907,7 @@ msgstr "API Signature can not be left blank."
 msgid "API Username can not be left blank."
 msgstr "API Username can not be left blank."
 
-#: core/views/arm_manage_subscription_list.php:658
+#: core/views/arm_manage_subscription_list.php:663
 #: core/views/arm_members_list_records.php:396
 #: core/views/arm_profile_editor.php:307
 #: core/views/arm_profile_editor.php:364
@@ -988,7 +989,7 @@ msgstr "Are you sure you want to cancel subscription?"
 msgid "Are you sure you want to cancel this subscription  ?"
 msgstr "Are you sure you want to cancel this subscription  ?"
 
-#: core/views/arm_manage_subscription_list.php:784
+#: core/views/arm_manage_subscription_list.php:789
 #: core/views/arm_transactions.php:22
 #@ armember-membership
 msgid "Are you sure you want to change transaction status?"
@@ -1048,7 +1049,7 @@ msgstr "Are you sure you want to delete this plan?"
 msgid "Are you sure you want to delete this setup?"
 msgstr "Are you sure you want to delete this setup?"
 
-#: core/views/arm_manage_subscription_list.php:800
+#: core/views/arm_manage_subscription_list.php:805
 #: core/views/arm_transactions.php:37
 #@ armember-membership
 msgid "Are you sure you want to delete this transaction(s)?"
@@ -1530,7 +1531,7 @@ msgstr "Automatic Subscription"
 msgid "Automatic Subscription Label"
 msgstr "Automatic Subscription Label"
 
-#: autoload.php:3567
+#: autoload.php:3568
 #@ armember-membership
 msgid "Available Modules"
 msgstr "Available Modules"
@@ -1704,7 +1705,7 @@ msgstr "Basic Options"
 msgid "Basque"
 msgstr "Basque"
 
-#: core/views/arm_feature_settings.php:447
+#: core/views/arm_feature_settings.php:465
 #@ armember-membership
 msgid "Beaver Builder Restriction"
 msgstr "Beaver Builder Restriction"
@@ -1924,7 +1925,7 @@ msgstr "Brazil"
 msgid "Brunei"
 msgstr "Brunei"
 
-#: core/views/arm_feature_settings.php:359
+#: core/views/arm_feature_settings.php:377
 #@ armember-membership
 msgid "Buddypress/Buddyboss Integration"
 msgstr "Buddypress/Buddyboss Integration"
@@ -2148,7 +2149,7 @@ msgstr "Canada"
 #: core/views/arm_import_export.php:350
 #: core/views/arm_import_export.php:378
 #: core/views/arm_manage_forms.php:378
-#: core/views/arm_manage_subscription_list.php:873
+#: core/views/arm_manage_subscription_list.php:878
 #: core/views/arm_member_add.php:704
 #: core/views/arm_member_add.php:751
 #: core/views/arm_member_add.php:801
@@ -2406,7 +2407,7 @@ msgstr "Change Status"
 msgid "Change Subscription"
 msgstr "Change Subscription"
 
-#: core/views/arm_manage_subscription_list.php:791
+#: core/views/arm_manage_subscription_list.php:796
 #: core/views/arm_transactions.php:28
 #@ armember-membership
 msgid "Change Transaction Status"
@@ -2615,8 +2616,8 @@ msgstr "Click to preview"
 msgid "Clone from existing forms"
 msgstr "Clone from existing forms"
 
-#: autoload.php:3420
-#: autoload.php:3581
+#: autoload.php:3421
+#: autoload.php:3582
 #: autoload.php:3670
 #: core/classes/class.arm_members.php:776
 #: core/views/arm_form_editor.php:151
@@ -2705,30 +2706,32 @@ msgstr "Complete simple steps to get started."
 msgid "Completed Recurrence"
 msgstr "Completed Recurrence"
 
-#: core/views/arm_feature_settings.php:141
-#: core/views/arm_feature_settings.php:147
-#: core/views/arm_feature_settings.php:162
-#: core/views/arm_feature_settings.php:167
-#: core/views/arm_feature_settings.php:183
-#: core/views/arm_feature_settings.php:188
-#: core/views/arm_feature_settings.php:203
-#: core/views/arm_feature_settings.php:208
-#: core/views/arm_feature_settings.php:223
-#: core/views/arm_feature_settings.php:228
-#: core/views/arm_feature_settings.php:243
-#: core/views/arm_feature_settings.php:248
-#: core/views/arm_feature_settings.php:263
-#: core/views/arm_feature_settings.php:268
-#: core/views/arm_feature_settings.php:283
-#: core/views/arm_feature_settings.php:288
-#: core/views/arm_feature_settings.php:363
-#: core/views/arm_feature_settings.php:368
-#: core/views/arm_feature_settings.php:384
-#: core/views/arm_feature_settings.php:389
-#: core/views/arm_feature_settings.php:404
-#: core/views/arm_feature_settings.php:409
-#: core/views/arm_feature_settings.php:703
-#: core/views/arm_feature_settings.php:708
+#: core/views/arm_feature_settings.php:142
+#: core/views/arm_feature_settings.php:148
+#: core/views/arm_feature_settings.php:163
+#: core/views/arm_feature_settings.php:168
+#: core/views/arm_feature_settings.php:180
+#: core/views/arm_feature_settings.php:185
+#: core/views/arm_feature_settings.php:201
+#: core/views/arm_feature_settings.php:206
+#: core/views/arm_feature_settings.php:221
+#: core/views/arm_feature_settings.php:226
+#: core/views/arm_feature_settings.php:241
+#: core/views/arm_feature_settings.php:246
+#: core/views/arm_feature_settings.php:261
+#: core/views/arm_feature_settings.php:266
+#: core/views/arm_feature_settings.php:281
+#: core/views/arm_feature_settings.php:286
+#: core/views/arm_feature_settings.php:301
+#: core/views/arm_feature_settings.php:306
+#: core/views/arm_feature_settings.php:381
+#: core/views/arm_feature_settings.php:386
+#: core/views/arm_feature_settings.php:402
+#: core/views/arm_feature_settings.php:407
+#: core/views/arm_feature_settings.php:422
+#: core/views/arm_feature_settings.php:427
+#: core/views/arm_feature_settings.php:721
+#: core/views/arm_feature_settings.php:726
 #@ armember-membership
 msgid "Configure"
 msgstr "Configure"
@@ -2788,7 +2791,7 @@ msgstr "Confirm Password"
 msgid "Confirm Password can not be left blank."
 msgstr "Confirm Password can not be left blank."
 
-#: core/views/arm_feature_settings.php:751
+#: core/views/arm_feature_settings.php:769
 #@ armember-membership
 msgid "Confirmation"
 msgstr "Confirmation"
@@ -2887,7 +2890,7 @@ msgstr "Couldn't register you... please contact the"
 msgid "Country/Region"
 msgstr "Country/Region"
 
-#: core/views/arm_feature_settings.php:239
+#: core/views/arm_feature_settings.php:257
 #@ armember-membership
 msgid "Coupon"
 msgstr "Coupon"
@@ -3197,29 +3200,30 @@ msgstr "days"
 
 #: core/classes/class.arm_members_activity.php:732
 #: core/classes/class.armemberlite.php:65
-#: core/views/arm_feature_settings.php:146
-#: core/views/arm_feature_settings.php:166
-#: core/views/arm_feature_settings.php:187
-#: core/views/arm_feature_settings.php:207
-#: core/views/arm_feature_settings.php:227
-#: core/views/arm_feature_settings.php:247
-#: core/views/arm_feature_settings.php:267
-#: core/views/arm_feature_settings.php:287
-#: core/views/arm_feature_settings.php:307
-#: core/views/arm_feature_settings.php:327
-#: core/views/arm_feature_settings.php:346
-#: core/views/arm_feature_settings.php:367
-#: core/views/arm_feature_settings.php:388
-#: core/views/arm_feature_settings.php:408
-#: core/views/arm_feature_settings.php:431
-#: core/views/arm_feature_settings.php:458
-#: core/views/arm_feature_settings.php:485
-#: core/views/arm_feature_settings.php:512
-#: core/views/arm_feature_settings.php:539
-#: core/views/arm_feature_settings.php:566
-#: core/views/arm_feature_settings.php:594
-#: core/views/arm_feature_settings.php:623
-#: core/views/arm_feature_settings.php:707
+#: core/views/arm_feature_settings.php:147
+#: core/views/arm_feature_settings.php:167
+#: core/views/arm_feature_settings.php:184
+#: core/views/arm_feature_settings.php:205
+#: core/views/arm_feature_settings.php:225
+#: core/views/arm_feature_settings.php:245
+#: core/views/arm_feature_settings.php:265
+#: core/views/arm_feature_settings.php:285
+#: core/views/arm_feature_settings.php:305
+#: core/views/arm_feature_settings.php:325
+#: core/views/arm_feature_settings.php:345
+#: core/views/arm_feature_settings.php:364
+#: core/views/arm_feature_settings.php:385
+#: core/views/arm_feature_settings.php:406
+#: core/views/arm_feature_settings.php:426
+#: core/views/arm_feature_settings.php:449
+#: core/views/arm_feature_settings.php:476
+#: core/views/arm_feature_settings.php:503
+#: core/views/arm_feature_settings.php:530
+#: core/views/arm_feature_settings.php:557
+#: core/views/arm_feature_settings.php:584
+#: core/views/arm_feature_settings.php:612
+#: core/views/arm_feature_settings.php:641
+#: core/views/arm_feature_settings.php:725
 #@ armember-membership
 msgid "Deactivate"
 msgstr "Deactivate"
@@ -3321,7 +3325,7 @@ msgstr "Default Rules Saved Successfully."
 msgid "Default Selected Plan"
 msgstr "Default Selected Plan"
 
-#: autoload.php:2937
+#: autoload.php:2938
 #@ armember-membership
 msgid "Default Set"
 msgstr "Default Set"
@@ -3390,7 +3394,7 @@ msgstr "Delete Plan(s)"
 msgid "Delete Setup"
 msgstr "Delete Setup"
 
-#: core/views/arm_manage_subscription_list.php:805
+#: core/views/arm_manage_subscription_list.php:810
 #: core/views/arm_transactions.php:42
 #@ armember-membership
 msgid "Delete Transaction(s)"
@@ -3691,7 +3695,7 @@ msgstr "Displays the User Profile address"
 msgid "Displays the Username of user"
 msgstr "Displays the Username of user"
 
-#: core/views/arm_feature_settings.php:474
+#: core/views/arm_feature_settings.php:492
 #@ armember-membership
 msgid "Divi Builder Restriction"
 msgstr "Divi Builder Restriction"
@@ -3712,7 +3716,7 @@ msgstr "Djibouti"
 msgid "Do not cancel subscription until plan expired"
 msgstr "Do not cancel subscription until plan expired"
 
-#: autoload.php:3418
+#: autoload.php:3419
 #@ armember-membership
 msgid "Do not show again."
 msgstr "Do not show again."
@@ -3766,7 +3770,7 @@ msgstr "Downgrade to other plan after current plan expiration ( After End Of Ter
 msgid "Dribbble"
 msgstr "Dribbble"
 
-#: core/views/arm_feature_settings.php:178
+#: core/views/arm_feature_settings.php:196
 #@ armember-membership
 msgid "Drip Content"
 msgstr "Drip Content"
@@ -4090,7 +4094,7 @@ msgstr "Enable Confirm Email Address?"
 msgid "Enable Confirm Password?"
 msgstr "Enable Confirm Password?"
 
-#: core/views/arm_feature_settings.php:260
+#: core/views/arm_feature_settings.php:278
 #@ armember-membership
 msgid "Enable facility to send Invoice and apply Sales Tax on membership plans."
 msgstr "Enable facility to send Invoice and apply Sales Tax on membership plans."
@@ -4431,8 +4435,8 @@ msgstr "Expire Year Label"
 #: core/classes/class.arm_manage_subscription.php:493
 #: core/classes/class.arm_manage_subscription.php:753
 #: core/classes/class.arm_manage_subscription.php:1103
-#: core/views/arm_manage_subscription_list.php:721
-#: core/views/arm_manage_subscription_list.php:755
+#: core/views/arm_manage_subscription_list.php:726
+#: core/views/arm_manage_subscription_list.php:760
 #@ armember-membership
 msgid "Expire/Next Renewal"
 msgstr "Expire/Next Renewal"
@@ -4741,9 +4745,9 @@ msgstr "Filter Options"
 
 #: core/views/arm_access_rules.php:255
 #: core/views/arm_email_templates.php:189
-#: core/views/arm_manage_subscription_list.php:706
-#: core/views/arm_manage_subscription_list.php:741
-#: core/views/arm_manage_subscription_list.php:772
+#: core/views/arm_manage_subscription_list.php:711
+#: core/views/arm_manage_subscription_list.php:746
+#: core/views/arm_manage_subscription_list.php:777
 #: core/views/arm_members_list_records.php:432
 #: core/views/arm_subscription_plans_list.php:226
 #: core/views/arm_transactions_list_records.php:403
@@ -5231,8 +5235,8 @@ msgstr "Gambia"
 
 #: core/classes/class.arm_transaction.php:576
 #: core/classes/class.arm_transaction.php:1133
-#: core/views/arm_manage_subscription_list.php:626
-#: core/views/arm_manage_subscription_list.php:629
+#: core/views/arm_manage_subscription_list.php:631
+#: core/views/arm_manage_subscription_list.php:634
 #: core/views/arm_transactions_list_records.php:292
 #: core/views/arm_transactions_list_records.php:382
 #@ armember-membership
@@ -5447,7 +5451,7 @@ msgstr "Guinea"
 msgid "Guinea-Bissau"
 msgstr "Guinea-Bissau"
 
-#: core/views/arm_feature_settings.php:420
+#: core/views/arm_feature_settings.php:438
 #@ armember-membership
 msgid "Gutenberg Block Restriction"
 msgstr "Gutenberg Block Restriction"
@@ -5479,7 +5483,7 @@ msgstr "Hebrew/Israel"
 msgid "Height"
 msgstr "Height"
 
-#: autoload.php:3411
+#: autoload.php:3412
 #@ armember-membership
 msgid "Help Tutorial"
 msgstr "Help Tutorial"
@@ -5750,7 +5754,7 @@ msgstr "Hungary"
 msgid "Hurray!! Everything is ready to create your first membership site"
 msgstr "Hurray!! Everything is ready to create your first membership site"
 
-#: autoload.php:3579
+#: autoload.php:3580
 #@ armember-membership
 msgid "I agree"
 msgstr "I agree"
@@ -5789,8 +5793,8 @@ msgstr "Icon Color"
 #: core/classes/class.arm_manage_subscription.php:748
 #: core/classes/class.arm_manage_subscription.php:1098
 #: core/views/arm_email_templates.php:130
-#: core/views/arm_manage_subscription_list.php:716
-#: core/views/arm_manage_subscription_list.php:750
+#: core/views/arm_manage_subscription_list.php:721
+#: core/views/arm_manage_subscription_list.php:755
 #@ armember-membership
 msgid "ID"
 msgstr "ID"
@@ -6084,17 +6088,17 @@ msgstr "Instagram"
 msgid "installments"
 msgstr "installments"
 
-#: core/views/arm_feature_settings.php:360
+#: core/views/arm_feature_settings.php:378
 #@ armember-membership
 msgid "Integrate BuddyPress/Buddyboss with ARMember."
 msgstr "Integrate BuddyPress/Buddyboss with ARMember."
 
-#: core/views/arm_feature_settings.php:401
+#: core/views/arm_feature_settings.php:419
 #@ armember-membership
 msgid "Integrate myCRED adaptive points management system with ARMember."
 msgstr "Integrate myCRED adaptive points management system with ARMember."
 
-#: core/views/arm_feature_settings.php:380
+#: core/views/arm_feature_settings.php:398
 #@ armember-membership
 msgid "Integrate Woocommerce with ARMember."
 msgstr "Integrate Woocommerce with ARMember."
@@ -6200,7 +6204,7 @@ msgstr "Invalid username or e-mail."
 msgid "Invalid username or incorrect password."
 msgstr "Invalid username or incorrect password."
 
-#: core/views/arm_feature_settings.php:259
+#: core/views/arm_feature_settings.php:277
 #@ armember-membership
 msgid "Invoice and Tax"
 msgstr "Invoice and Tax"
@@ -6513,7 +6517,7 @@ msgstr "Left"
 msgid "Lesotho"
 msgstr "Lesotho"
 
-#: core/views/arm_feature_settings.php:240
+#: core/views/arm_feature_settings.php:258
 #@ armember-membership
 msgid "Let users get benefit of discounts coupons while making payment with your site."
 msgstr "Let users get benefit of discounts coupons while making payment with your site."
@@ -7088,13 +7092,13 @@ msgstr "Manage Transactions"
 #: core/classes/class.arm_transaction.php:624
 #: core/classes/class.arm_transaction.php:1029
 #: core/classes/class.arm_transaction.php:1056
-#: core/views/arm_manage_subscription_list.php:630
+#: core/views/arm_manage_subscription_list.php:635
 #: core/views/arm_transactions_list_records.php:293
 #@ armember-membership
 msgid "Manual"
 msgstr "Manual"
 
-#: core/views/arm_manage_subscription_list.php:630
+#: core/views/arm_manage_subscription_list.php:635
 #: core/views/arm_transactions_list_records.php:293
 #@ armember-membership
 msgid "manual"
@@ -7188,7 +7192,7 @@ msgstr "Maximum Number of login attempts"
 msgid "Maxlength"
 msgstr "Maxlength"
 
-#: core/views/arm_manage_subscription_list.php:831
+#: core/views/arm_manage_subscription_list.php:836
 #: core/views/arm_transactions_add.php:26
 #@ armember-membership
 msgid "Member"
@@ -7314,9 +7318,9 @@ msgstr "Members Profile Page"
 #: core/classes/class.arm_shortcodes.php:1205
 #: core/classes/class.arm_transaction.php:573
 #: core/classes/class.arm_transaction.php:1133
-#: core/views/arm_manage_subscription_list.php:683
-#: core/views/arm_manage_subscription_list.php:717
-#: core/views/arm_manage_subscription_list.php:751
+#: core/views/arm_manage_subscription_list.php:688
+#: core/views/arm_manage_subscription_list.php:722
+#: core/views/arm_manage_subscription_list.php:756
 #: core/views/arm_transactions_list_records.php:381
 #: core/widgets/class.arm_dashboard_widgets.php:180
 #: core/widgets/class.arm_dashboard_widgets.php:243
@@ -7334,7 +7338,7 @@ msgstr "membership has been changed to"
 msgid "Membership History"
 msgstr "Membership History"
 
-#: core/views/arm_feature_settings.php:319
+#: core/views/arm_feature_settings.php:337
 #@ armember-membership
 msgid "Membership Limit"
 msgstr "Membership Limit"
@@ -7504,7 +7508,7 @@ msgstr "Micronesia"
 msgid "Min Length"
 msgstr "Min Length"
 
-#: core/views/arm_feature_settings.php:381
+#: core/views/arm_feature_settings.php:399
 #@ armember-membership
 msgid "Minimum Required Woocommerce Version: 3.0.2"
 msgstr "Minimum Required Woocommerce Version: 3.0.2"
@@ -7632,29 +7636,30 @@ msgstr "Months(s)"
 msgid "Montserrat"
 msgstr "Montserrat"
 
-#: core/views/arm_feature_settings.php:151
-#: core/views/arm_feature_settings.php:171
-#: core/views/arm_feature_settings.php:192
-#: core/views/arm_feature_settings.php:212
-#: core/views/arm_feature_settings.php:232
-#: core/views/arm_feature_settings.php:252
-#: core/views/arm_feature_settings.php:272
-#: core/views/arm_feature_settings.php:292
-#: core/views/arm_feature_settings.php:312
-#: core/views/arm_feature_settings.php:332
-#: core/views/arm_feature_settings.php:351
-#: core/views/arm_feature_settings.php:372
-#: core/views/arm_feature_settings.php:393
-#: core/views/arm_feature_settings.php:413
-#: core/views/arm_feature_settings.php:440
-#: core/views/arm_feature_settings.php:467
-#: core/views/arm_feature_settings.php:494
-#: core/views/arm_feature_settings.php:521
-#: core/views/arm_feature_settings.php:548
-#: core/views/arm_feature_settings.php:575
-#: core/views/arm_feature_settings.php:603
-#: core/views/arm_feature_settings.php:632
-#: core/views/arm_feature_settings.php:712
+#: core/views/arm_feature_settings.php:152
+#: core/views/arm_feature_settings.php:172
+#: core/views/arm_feature_settings.php:189
+#: core/views/arm_feature_settings.php:210
+#: core/views/arm_feature_settings.php:230
+#: core/views/arm_feature_settings.php:250
+#: core/views/arm_feature_settings.php:270
+#: core/views/arm_feature_settings.php:290
+#: core/views/arm_feature_settings.php:310
+#: core/views/arm_feature_settings.php:330
+#: core/views/arm_feature_settings.php:350
+#: core/views/arm_feature_settings.php:369
+#: core/views/arm_feature_settings.php:390
+#: core/views/arm_feature_settings.php:411
+#: core/views/arm_feature_settings.php:431
+#: core/views/arm_feature_settings.php:458
+#: core/views/arm_feature_settings.php:485
+#: core/views/arm_feature_settings.php:512
+#: core/views/arm_feature_settings.php:539
+#: core/views/arm_feature_settings.php:566
+#: core/views/arm_feature_settings.php:593
+#: core/views/arm_feature_settings.php:621
+#: core/views/arm_feature_settings.php:650
+#: core/views/arm_feature_settings.php:730
 #@ armember-membership
 msgid "More Info"
 msgstr "More Info"
@@ -7675,7 +7680,7 @@ msgstr "Move"
 msgid "Mozambique"
 msgstr "Mozambique"
 
-#: core/views/arm_feature_settings.php:299
+#: core/views/arm_feature_settings.php:317
 #@ armember-membership
 msgid "Multiple Membership/Plans"
 msgstr "Multiple Membership/Plans"
@@ -7690,7 +7695,7 @@ msgstr "My Profile"
 msgid "Myanmar"
 msgstr "Myanmar"
 
-#: core/views/arm_feature_settings.php:400
+#: core/views/arm_feature_settings.php:418
 #@ armember-membership
 msgid "myCRED Integration"
 msgstr "myCRED Integration"
@@ -7699,9 +7704,9 @@ msgstr "myCRED Integration"
 #: core/classes/class.arm_manage_subscription.php:522
 #: core/classes/class.arm_manage_subscription.php:751
 #: core/classes/class.arm_manage_subscription.php:1101
-#: core/views/arm_manage_subscription_list.php:685
-#: core/views/arm_manage_subscription_list.php:719
-#: core/views/arm_manage_subscription_list.php:753
+#: core/views/arm_manage_subscription_list.php:690
+#: core/views/arm_manage_subscription_list.php:724
+#: core/views/arm_manage_subscription_list.php:758
 #@ armember-membership
 msgid "Name"
 msgstr "Name"
@@ -7911,9 +7916,9 @@ msgstr "No any record found."
 msgid "No any subscription plan found."
 msgstr "No any subscription plan found."
 
-#: core/views/arm_manage_subscription_list.php:705
-#: core/views/arm_manage_subscription_list.php:740
-#: core/views/arm_manage_subscription_list.php:771
+#: core/views/arm_manage_subscription_list.php:710
+#: core/views/arm_manage_subscription_list.php:745
+#: core/views/arm_manage_subscription_list.php:776
 #@ armember-membership
 msgid "No any subscriptions found."
 msgstr "No any subscriptions found."
@@ -7973,9 +7978,9 @@ msgstr "No Icon"
 msgid "No matching members found."
 msgstr "No matching members found."
 
-#: core/views/arm_manage_subscription_list.php:704
-#: core/views/arm_manage_subscription_list.php:739
-#: core/views/arm_manage_subscription_list.php:770
+#: core/views/arm_manage_subscription_list.php:709
+#: core/views/arm_manage_subscription_list.php:744
+#: core/views/arm_manage_subscription_list.php:775
 #: core/views/arm_subscription_plans_list.php:224
 #@ armember-membership
 msgid "No matching plans found"
@@ -8247,9 +8252,9 @@ msgstr "numeric"
 #: core/views/arm_email_templates.php:27
 #: core/views/arm_email_templates.php:186
 #: core/views/arm_manage_subscription_list.php:124
-#: core/views/arm_manage_subscription_list.php:703
-#: core/views/arm_manage_subscription_list.php:738
-#: core/views/arm_manage_subscription_list.php:769
+#: core/views/arm_manage_subscription_list.php:708
+#: core/views/arm_manage_subscription_list.php:743
+#: core/views/arm_manage_subscription_list.php:774
 #: core/views/arm_members_list_records.php:158
 #: core/views/arm_members_list_records.php:429
 #: core/views/arm_subscription_plans_list.php:30
@@ -8316,7 +8321,7 @@ msgstr "One or more members has already subscribed to this plan. Any changes mad
 #: core/classes/class.arm_transaction.php:177
 #: core/classes/class.arm_transaction.php:597
 #: core/classes/class.arm_transaction.php:1083
-#: core/views/arm_manage_subscription_list.php:648
+#: core/views/arm_manage_subscription_list.php:653
 #: core/views/arm_transactions_list_records.php:311
 #@ armember-membership
 msgid "One Time"
@@ -8684,7 +8689,7 @@ msgstr "Passwords don't match."
 msgid "Pay Once, No Monthly Fees"
 msgstr "Pay Once, No Monthly Fees"
 
-#: core/views/arm_feature_settings.php:219
+#: core/views/arm_feature_settings.php:237
 #@ armember-membership
 msgid "Pay Per Post"
 msgstr "Pay Per Post"
@@ -8728,7 +8733,7 @@ msgstr "Payment Cycle"
 #: core/vc/class_vc_extend.php:798
 #: core/vc/class_vc_extend.php:963
 #: core/vc/class_vc_extend.php:1049
-#: core/views/arm_manage_subscription_list.php:686
+#: core/views/arm_manage_subscription_list.php:691
 #: core/views/arm_tinymce_options_shortcodes.php:548
 #: core/views/arm_transactions_list_records.php:386
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:86
@@ -8857,9 +8862,9 @@ msgstr "Payment Transactions"
 #: core/vc/class_vc_extend.php:793
 #: core/vc/class_vc_extend.php:1049
 #: core/views/arm_email_templates.php:505
-#: core/views/arm_manage_subscription_list.php:688
-#: core/views/arm_manage_subscription_list.php:723
-#: core/views/arm_manage_subscription_list.php:757
+#: core/views/arm_manage_subscription_list.php:693
+#: core/views/arm_manage_subscription_list.php:728
+#: core/views/arm_manage_subscription_list.php:762
 #: core/views/arm_tinymce_options_shortcodes.php:528
 #: core/views/arm_transactions_list_records.php:310
 #: core/views/arm_transactions_list_records.php:383
@@ -9106,8 +9111,8 @@ msgstr "Plan status changed successfully."
 #: core/vc/class_vc_extend.php:1414
 #: core/vc/class_vc_extend.php:1500
 #: core/vc/class_vc_extend.php:2170
-#: core/views/arm_manage_subscription_list.php:644
-#: core/views/arm_manage_subscription_list.php:647
+#: core/views/arm_manage_subscription_list.php:649
+#: core/views/arm_manage_subscription_list.php:652
 #: core/views/arm_member_add.php:721
 #: core/views/arm_setup_wizard.php:311
 #: core/views/arm_subscription_plans_add.php:178
@@ -9145,7 +9150,7 @@ msgstr "plans"
 msgid "Plans Cycles"
 msgstr "Plans Cycles"
 
-#: core/views/arm_feature_settings.php:857
+#: core/views/arm_feature_settings.php:875
 #@ armember-membership
 msgid "Please activate the \\\"Social Feature\\\" module to make this feature work."
 msgstr "Please activate the \\\"Social Feature\\\" module to make this feature work."
@@ -9547,7 +9552,7 @@ msgstr "Please select a page."
 msgid "Please Select account"
 msgstr "Please Select account"
 
-#: core/views/arm_manage_subscription_list.php:842
+#: core/views/arm_manage_subscription_list.php:847
 #: core/views/arm_transactions_add.php:39
 #@ armember-membership
 msgid "Please select atleast one membership"
@@ -9722,7 +9727,7 @@ msgid "Please Select Social Account."
 msgstr "Please Select Social Account."
 
 #: core/views/arm_block_settings.php:98
-#: core/views/arm_manage_subscription_list.php:833
+#: core/views/arm_manage_subscription_list.php:838
 #: core/views/arm_transactions_add.php:29
 #@ armember-membership
 msgid "Please select user."
@@ -10017,7 +10022,7 @@ msgstr "Profile Template Name"
 msgid "Profiles & Directories"
 msgstr "Profiles & Directories"
 
-#: core/views/arm_feature_settings.php:179
+#: core/views/arm_feature_settings.php:197
 #@ armember-membership
 msgid "Publish your site content based on different time intervals by enabling this feature."
 msgstr "Publish your site content based on different time intervals by enabling this feature."
@@ -10101,7 +10106,7 @@ msgstr "Records Per Page"
 msgid "Records per Page"
 msgstr "Records per Page"
 
-#: core/views/arm_manage_subscription_list.php:649
+#: core/views/arm_manage_subscription_list.php:654
 #: core/views/arm_transactions_list_records.php:312
 #@ armember-membership
 msgid "Recurring"
@@ -10631,7 +10636,7 @@ msgstr "Saudi Arabia"
 #: core/views/arm_form_editor.php:150
 #: core/views/arm_global_settings.php:660
 #: core/views/arm_manage_payment_gateways.php:331
-#: core/views/arm_manage_subscription_list.php:872
+#: core/views/arm_manage_subscription_list.php:877
 #: core/views/arm_member_add.php:1071
 #: core/views/arm_membership_setup_add.php:501
 #: core/views/arm_page_setup.php:160
@@ -10663,9 +10668,9 @@ msgstr "Schedule Every"
 #: core/views/arm_email_templates.php:181
 #: core/views/arm_manage_subscription_list.php:168
 #: core/views/arm_manage_subscription_list.php:274
-#: core/views/arm_manage_subscription_list.php:698
-#: core/views/arm_manage_subscription_list.php:733
-#: core/views/arm_manage_subscription_list.php:764
+#: core/views/arm_manage_subscription_list.php:703
+#: core/views/arm_manage_subscription_list.php:738
+#: core/views/arm_manage_subscription_list.php:769
 #: core/views/arm_members_list_records.php:191
 #: core/views/arm_members_list_records.php:424
 #: core/views/arm_subscription_plans_list.php:56
@@ -10682,7 +10687,7 @@ msgstr "Search"
 msgid "Search by Username"
 msgstr "Search by Username"
 
-#: core/views/arm_manage_subscription_list.php:833
+#: core/views/arm_manage_subscription_list.php:838
 #: core/views/arm_transactions_add.php:29
 #@ armember-membership
 msgid "Search by username or email..."
@@ -10814,7 +10819,7 @@ msgid "Select Member Form"
 msgstr "Select Member Form"
 
 #: core/classes/class.arm_membership_setup.php:2693
-#: core/views/arm_manage_subscription_list.php:840
+#: core/views/arm_manage_subscription_list.php:845
 #: core/views/arm_tinymce_options_shortcodes.php:963
 #: core/views/arm_transactions_add.php:36
 #@ armember-membership
@@ -10940,7 +10945,7 @@ msgstr "Select Payment Mode"
 #: core/vc/class_vc_extend.php:2087
 #: core/views/arm_access_restriction_settings.php:107
 #: core/views/arm_import_export.php:120
-#: core/views/arm_manage_subscription_list.php:847
+#: core/views/arm_manage_subscription_list.php:852
 #: core/views/arm_member_add.php:165
 #: core/views/arm_member_add.php:1106
 #: core/views/arm_members_list_records.php:66
@@ -11411,9 +11416,9 @@ msgstr "Shortcode will be display here once you save current setup."
 #: core/views/arm_email_templates.php:29
 #: core/views/arm_email_templates.php:183
 #: core/views/arm_manage_subscription_list.php:126
-#: core/views/arm_manage_subscription_list.php:700
-#: core/views/arm_manage_subscription_list.php:735
-#: core/views/arm_manage_subscription_list.php:766
+#: core/views/arm_manage_subscription_list.php:705
+#: core/views/arm_manage_subscription_list.php:740
+#: core/views/arm_manage_subscription_list.php:771
 #: core/views/arm_members_list_records.php:160
 #: core/views/arm_members_list_records.php:426
 #: core/views/arm_subscription_plans_list.php:32
@@ -11427,9 +11432,9 @@ msgstr "Show"
 
 #: core/views/arm_access_rules.php:246
 #: core/views/arm_email_templates.php:180
-#: core/views/arm_manage_subscription_list.php:697
-#: core/views/arm_manage_subscription_list.php:732
-#: core/views/arm_manage_subscription_list.php:763
+#: core/views/arm_manage_subscription_list.php:702
+#: core/views/arm_manage_subscription_list.php:737
+#: core/views/arm_manage_subscription_list.php:768
 #: core/views/arm_members_list_records.php:198
 #: core/views/arm_members_list_records.php:423
 #: core/views/arm_subscription_plans_list.php:217
@@ -11461,9 +11466,9 @@ msgstr "Show Time"
 #: core/views/arm_email_templates.php:24
 #: core/views/arm_email_templates.php:184
 #: core/views/arm_manage_subscription_list.php:121
-#: core/views/arm_manage_subscription_list.php:701
-#: core/views/arm_manage_subscription_list.php:736
-#: core/views/arm_manage_subscription_list.php:767
+#: core/views/arm_manage_subscription_list.php:706
+#: core/views/arm_manage_subscription_list.php:741
+#: core/views/arm_manage_subscription_list.php:772
 #: core/views/arm_members_list_records.php:155
 #: core/views/arm_members_list_records.php:427
 #: core/views/arm_subscription_plans_list.php:27
@@ -11574,12 +11579,12 @@ msgstr "SMTP Server"
 msgid "SMTP Test E-Mail"
 msgstr "SMTP Test E-Mail"
 
-#: core/views/arm_feature_settings.php:199
+#: core/views/arm_feature_settings.php:217
 #@ armember-membership
 msgid "Social Connect"
 msgstr "Social Connect"
 
-#: core/views/arm_feature_settings.php:136
+#: core/views/arm_feature_settings.php:137
 #@ armember-membership
 msgid "Social Feature"
 msgstr "Social Feature"
@@ -11853,8 +11858,8 @@ msgstr "Standard Style"
 #: core/views/arm_debug_logs.php:275
 #: core/views/arm_debug_logs.php:357
 #: core/views/arm_import_export.php:58
-#: core/views/arm_manage_subscription_list.php:720
-#: core/views/arm_manage_subscription_list.php:754
+#: core/views/arm_manage_subscription_list.php:725
+#: core/views/arm_manage_subscription_list.php:759
 #: core/views/arm_tinymce_options_shortcodes.php:995
 #: core/views/arm_transactions_list_records.php:356
 #: core/widgets/arm_elm_widgets/class.arm_user_plan_element_add.php:99
@@ -11885,8 +11890,8 @@ msgstr "Starts On"
 #: core/classes/class.arm_manage_subscription.php:757
 #: core/classes/class.arm_manage_subscription.php:1106
 #: core/classes/class.arm_members.php:4369
-#: core/views/arm_manage_subscription_list.php:689
-#: core/views/arm_manage_subscription_list.php:725
+#: core/views/arm_manage_subscription_list.php:694
+#: core/views/arm_manage_subscription_list.php:730
 #: core/views/arm_members_list_records.php:19
 #: core/views/arm_transactions_add.php:64
 #: core/views/arm_transactions_list_records.php:341
@@ -12057,14 +12062,14 @@ msgid "Subscription Start Date"
 msgstr "Subscription Start Date"
 
 #: core/views/arm_manage_subscription_list.php:125
-#: core/views/arm_manage_subscription_list.php:666
+#: core/views/arm_manage_subscription_list.php:671
 #@ armember-membership
 msgid "Subscriptions"
 msgstr "Subscriptions"
 
-#: core/views/arm_manage_subscription_list.php:699
-#: core/views/arm_manage_subscription_list.php:734
-#: core/views/arm_manage_subscription_list.php:765
+#: core/views/arm_manage_subscription_list.php:704
+#: core/views/arm_manage_subscription_list.php:739
+#: core/views/arm_manage_subscription_list.php:770
 #@ armember-membership
 msgid "subscriptions"
 msgstr "subscriptions"
@@ -12755,7 +12760,7 @@ msgstr "There is no user registered with that username."
 msgid "This action cannot be reverted, Are you sure you want to change membership plan of selected member(s)?"
 msgstr "This action cannot be reverted, Are you sure you want to change membership plan of selected member(s)?"
 
-#: core/views/arm_feature_settings.php:855
+#: core/views/arm_feature_settings.php:873
 #@ armember-membership
 msgid "This Addon is not compatible with current ARMember version. Please update ARMember to latest version."
 msgstr "This Addon is not compatible with current ARMember version. Please update ARMember to latest version."
@@ -12854,7 +12859,7 @@ msgstr "This message will be display when member tries to register with blocked 
 msgid "This message will be display when member tries to register with blocked username."
 msgstr "This message will be display when member tries to register with blocked username."
 
-#: core/classes/class.arm_modal_view_in_menu.php:260
+#: core/classes/class.arm_modal_view_in_menu.php:210
 #@ armember-membership
 msgid "This navigation menu link is to set Logout Link."
 msgstr "This navigation menu link is to set Logout Link."
@@ -13017,9 +13022,9 @@ msgstr "To"
 #: core/views/arm_email_templates.php:26
 #: core/views/arm_email_templates.php:185
 #: core/views/arm_manage_subscription_list.php:123
-#: core/views/arm_manage_subscription_list.php:702
-#: core/views/arm_manage_subscription_list.php:737
-#: core/views/arm_manage_subscription_list.php:768
+#: core/views/arm_manage_subscription_list.php:707
+#: core/views/arm_manage_subscription_list.php:742
+#: core/views/arm_manage_subscription_list.php:773
 #: core/views/arm_members_list_records.php:157
 #: core/views/arm_members_list_records.php:428
 #: core/views/arm_subscription_plans_list.php:29
@@ -13097,9 +13102,9 @@ msgstr "Top Belt"
 
 #: core/views/arm_access_rules.php:256
 #: core/views/arm_email_templates.php:190
-#: core/views/arm_manage_subscription_list.php:707
-#: core/views/arm_manage_subscription_list.php:742
-#: core/views/arm_manage_subscription_list.php:773
+#: core/views/arm_manage_subscription_list.php:712
+#: core/views/arm_manage_subscription_list.php:747
+#: core/views/arm_manage_subscription_list.php:778
 #: core/views/arm_members_list_records.php:433
 #: core/views/arm_subscription_plans_list.php:227
 #: core/views/arm_transactions_list_records.php:404
@@ -13136,7 +13141,7 @@ msgstr "Total Skipped Cycles Of"
 
 #: core/classes/class.arm_manage_subscription.php:496
 #: core/classes/class.arm_manage_subscription.php:756
-#: core/views/arm_manage_subscription_list.php:724
+#: core/views/arm_manage_subscription_list.php:729
 #@ armember-membership
 msgid "Transaction"
 msgstr "Transaction"
@@ -13699,7 +13704,7 @@ msgstr "User Plan"
 msgid "User Plan Information"
 msgstr "User Plan Information"
 
-#: core/views/arm_feature_settings.php:279
+#: core/views/arm_feature_settings.php:297
 #@ armember-membership
 msgid "User Private Content"
 msgstr "User Private Content"
@@ -13812,9 +13817,9 @@ msgstr "User(s) has been imported successfully"
 #: core/vc/class_vc_extend.php:1160
 #: core/views/arm_email_templates.php:458
 #: core/views/arm_global_settings.php:320
-#: core/views/arm_manage_subscription_list.php:684
-#: core/views/arm_manage_subscription_list.php:718
-#: core/views/arm_manage_subscription_list.php:752
+#: core/views/arm_manage_subscription_list.php:689
+#: core/views/arm_manage_subscription_list.php:723
+#: core/views/arm_manage_subscription_list.php:757
 #: core/views/arm_member_add.php:303
 #: core/views/arm_members_list_records.php:15
 #: core/views/arm_tinymce_options_shortcodes.php:901
@@ -14221,27 +14226,27 @@ msgstr "will be effective from"
 msgid "With Respect to its container"
 msgstr "With Respect to its container"
 
-#: core/views/arm_feature_settings.php:137
+#: core/views/arm_feature_settings.php:138
 #@ armember-membership
 msgid "With this feature, enable social activities like Member Directory/Public Profile, Social Profile Fields etc."
 msgstr "With this feature, enable social activities like Member Directory/Public Profile, Social Profile Fields etc."
 
-#: core/views/arm_feature_settings.php:320
+#: core/views/arm_feature_settings.php:338
 #@ armember-membership
 msgid "With this feature, you can limit plan, Pay Per Post purchases for members."
 msgstr "With this feature, you can limit plan, Pay Per Post purchases for members."
 
-#: core/views/arm_feature_settings.php:220
+#: core/views/arm_feature_settings.php:238
 #@ armember-membership
 msgid "With this feature, you can sell post separately without creating plan(s)."
 msgstr "With this feature, you can sell post separately without creating plan(s)."
 
-#: core/views/arm_feature_settings.php:280
+#: core/views/arm_feature_settings.php:298
 #@ armember-membership
 msgid "With this feature, you can set different content for different user."
 msgstr "With this feature, you can set different content for different user."
 
-#: core/views/arm_feature_settings.php:339
+#: core/views/arm_feature_settings.php:357
 #@ armember-membership
 msgid "With this feature, you will able to use Membership API Services for your Application."
 msgstr "With this feature, you will able to use Membership API Services for your Application."
@@ -14252,7 +14257,7 @@ msgstr "With this feature, you will able to use Membership API Services for your
 msgid "With what plugin or theme is incompatible?"
 msgstr "With what plugin or theme is incompatible?"
 
-#: core/views/arm_feature_settings.php:379
+#: core/views/arm_feature_settings.php:397
 #@ armember-membership
 msgid "Woocommerce Integration"
 msgstr "Woocommerce Integration"
@@ -14277,7 +14282,7 @@ msgstr "WordPress Server"
 msgid "Wp Role"
 msgstr "Wp Role"
 
-#: core/views/arm_feature_settings.php:501
+#: core/views/arm_feature_settings.php:519
 #@ armember-membership
 msgid "WPBakery Page Builder Restriction"
 msgstr "WPBakery Page Builder Restriction"
@@ -14420,7 +14425,7 @@ msgstr "You cannot remove all plans."
 msgid "You have already added password field in you form."
 msgstr "You have already added password field in you form."
 
-#: core/views/arm_feature_settings.php:746
+#: core/views/arm_feature_settings.php:764
 #@ armember-membership
 msgid "You need to have ARMember version 1.6 OR higher to install this addon."
 msgstr "You need to have ARMember version 1.6 OR higher to install this addon."
@@ -14772,42 +14777,42 @@ msgstr "Nest blocks within this wrapper to control the inner block visibility by
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "If any of the following conditions will true then restrictions will apply on content"
 
-#: core/views/arm_feature_settings.php:528
+#: core/views/arm_feature_settings.php:546
 #@ armember-membership
 msgid "Fusion Builder Integration"
 msgstr "Fusion Builder Integration"
 
-#: core/views/arm_feature_settings.php:529
+#: core/views/arm_feature_settings.php:547
 #@ armember-membership
 msgid "Allows to set restrict content on Fusion Builder Containers & Columns per Membership Plan."
 msgstr "Allows to set restrict content on Fusion Builder Containers & Columns per Membership Plan."
 
-#: core/views/arm_feature_settings.php:555
+#: core/views/arm_feature_settings.php:573
 #@ armember-membership
 msgid "Oxygen Builder Integration"
 msgstr "Oxygen Builder Integration"
 
-#: core/views/arm_feature_settings.php:556
+#: core/views/arm_feature_settings.php:574
 #@ armember-membership
 msgid "Allows to set restrict content on Oxygen Builder Container, Section, Column and Components per Membership Plan."
 msgstr "Allows to set restrict content on Oxygen Builder Container, Section, Column and Components per Membership Plan."
 
-#: core/views/arm_feature_settings.php:583
+#: core/views/arm_feature_settings.php:601
 #@ armember-membership
 msgid "SiteOrigin Builder Integration"
 msgstr "SiteOrigin Builder Integration"
 
-#: core/views/arm_feature_settings.php:584
+#: core/views/arm_feature_settings.php:602
 #@ armember-membership
 msgid "Allows to set restrict content on SiteOrigin Builder Row and Column per Membership Plan."
 msgstr "Allows to set restrict content on SiteOrigin Builder Row and Column per Membership Plan."
 
-#: core/views/arm_feature_settings.php:612
+#: core/views/arm_feature_settings.php:630
 #@ armember-membership
 msgid "Bricks Builder Integration"
 msgstr "Bricks Builder Integration"
 
-#: core/views/arm_feature_settings.php:613
+#: core/views/arm_feature_settings.php:631
 #@ armember-membership
 msgid "Allows to set restrict content on Bricks Builder Elements per Membership Plan."
 msgstr "Allows to set restrict content on Bricks Builder Elements per Membership Plan."
@@ -15105,7 +15110,7 @@ msgstr "New Navigation Menus"
 msgid "If BuddyPress plugin is active then use BuddyPress avatar"
 msgstr "If BuddyPress plugin is active then use BuddyPress avatar"
 
-#: core/views/arm_manage_subscription_list.php:672
+#: core/views/arm_manage_subscription_list.php:677
 #@ armember-membership
 msgid "Upcoming Subscriptions"
 msgstr "Upcoming Subscriptions"
@@ -15113,7 +15118,7 @@ msgstr "Upcoming Subscriptions"
 #: core/vc/class_vc_extend.php:790
 #: core/vc/class_vc_extend.php:837
 #: core/vc/class_vc_extend.php:1049
-#: core/views/arm_manage_subscription_list.php:681
+#: core/views/arm_manage_subscription_list.php:686
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:78
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:110
 #@ armember-membership
@@ -15430,12 +15435,12 @@ msgstr "Profile/Directory Related Messages"
 msgid "Miscellaneous Messages"
 msgstr "Miscellaneous Messages"
 
-#: core/views/arm_feature_settings.php:158
+#: core/views/arm_feature_settings.php:159
 #@ armember-membership
 msgid "Pro-Rata"
 msgstr "Pro-Rata"
 
-#: core/views/arm_feature_settings.php:159
+#: core/views/arm_feature_settings.php:160
 #@ armember-membership
 msgid "Allows member to purchase membership plan through Pro-Rata.."
 msgstr "Allows member to purchase membership plan through Pro-Rata.."
@@ -15699,41 +15704,41 @@ msgstr "Please install Oxygen Builder and try to active this add-on."
 msgid "Membership & User Profile - Repute Infosystems"
 msgstr "Membership & User Profile - Repute Infosystems"
 
-#: core/views/arm_feature_settings.php:128
+#: core/views/arm_feature_settings.php:129
 #@ armember-membership
 msgid "In-built Modules"
 msgstr "In-built Modules"
 
-#: core/views/arm_feature_settings.php:675
+#: core/views/arm_feature_settings.php:693
 #@ armember-membership
 msgid "Additional Functionality Addon"
 msgstr "Additional Functionality Addon"
 
-#: core/views/arm_feature_settings.php:678
+#: core/views/arm_feature_settings.php:696
 #@ armember-membership
 msgid "Payment Gateways Addons"
 msgstr "Payment Gateways Addons"
 
-#: core/views/arm_feature_settings.php:681
+#: core/views/arm_feature_settings.php:699
 #@ armember-membership
 msgid "Third-Party Integrations"
 msgstr "Third-Party Integrations"
 
-#: core/views/arm_feature_settings.php:161
-#: core/views/arm_feature_settings.php:182
-#: core/views/arm_feature_settings.php:202
-#: core/views/arm_feature_settings.php:222
-#: core/views/arm_feature_settings.php:242
-#: core/views/arm_feature_settings.php:262
-#: core/views/arm_feature_settings.php:282
-#: core/views/arm_feature_settings.php:302
-#: core/views/arm_feature_settings.php:322
-#: core/views/arm_feature_settings.php:341
-#: core/views/arm_feature_settings.php:362
-#: core/views/arm_feature_settings.php:383
-#: core/views/arm_feature_settings.php:403
-#: core/views/arm_feature_settings.php:615
-#: core/views/arm_feature_settings.php:702
+#: core/views/arm_feature_settings.php:162
+#: core/views/arm_feature_settings.php:179
+#: core/views/arm_feature_settings.php:200
+#: core/views/arm_feature_settings.php:220
+#: core/views/arm_feature_settings.php:240
+#: core/views/arm_feature_settings.php:260
+#: core/views/arm_feature_settings.php:280
+#: core/views/arm_feature_settings.php:300
+#: core/views/arm_feature_settings.php:320
+#: core/views/arm_feature_settings.php:340
+#: core/views/arm_feature_settings.php:359
+#: core/views/arm_feature_settings.php:380
+#: core/views/arm_feature_settings.php:401
+#: core/views/arm_feature_settings.php:421
+#: core/views/arm_feature_settings.php:720
 #@ armember-membership
 msgid "Upgrade Pro"
 msgstr "Upgrade Pro"
@@ -15819,12 +15824,6 @@ msgstr "Please activate SiteOrigin Builder and try to active this add-on."
 msgid "Please install SiteOrigin Builder and try to active this add-on."
 msgstr "Please install SiteOrigin Builder and try to active this add-on."
 
-#. translators: plugin header field 'Version'
-#: armember-membership.php:0
-#@ armember-membership
-msgid "4.0.57"
-msgstr "4.0.57"
-
 #: core/classes/class.arm_global_settings.php:3330
 #@ armember-membership
 msgid "Please activate Bricks Builder and try to active this add-on."
@@ -15834,4 +15833,10 @@ msgstr "Please activate Bricks Builder and try to active this add-on."
 #@ armember-membership
 msgid "Please install Bricks Builder and try to active this add-on."
 msgstr "Please install Bricks Builder and try to active this add-on."
+
+#. translators: plugin header field 'Version'
+#: armember-membership.php:0
+#@ armember-membership
+msgid "4.0.58"
+msgstr "4.0.58"
 

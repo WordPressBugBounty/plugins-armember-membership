@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.57\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.58\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 08:55+0000\n"
-"PO-Revision-Date: 2025-01-07 06:46:37+0000\n"
+"PO-Revision-Date: 2025-01-18 10:36:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: Korean\n"
 "MIME-Version: 1.0\n"
@@ -274,14 +274,15 @@ msgstr "사용자가 현재 요금제에서 멤버십을 업그레이드/다운�
 #: core/classes/class.arm_members.php:3857
 #: core/classes/class.arm_members.php:4836
 #: core/classes/class.arm_members.php:4856
-#: core/views/arm_feature_settings.php:140
-#: core/views/arm_feature_settings.php:423
-#: core/views/arm_feature_settings.php:450
-#: core/views/arm_feature_settings.php:477
-#: core/views/arm_feature_settings.php:504
-#: core/views/arm_feature_settings.php:531
-#: core/views/arm_feature_settings.php:558
-#: core/views/arm_feature_settings.php:586
+#: core/views/arm_feature_settings.php:141
+#: core/views/arm_feature_settings.php:441
+#: core/views/arm_feature_settings.php:468
+#: core/views/arm_feature_settings.php:495
+#: core/views/arm_feature_settings.php:522
+#: core/views/arm_feature_settings.php:549
+#: core/views/arm_feature_settings.php:576
+#: core/views/arm_feature_settings.php:604
+#: core/views/arm_feature_settings.php:633
 #@ armember-membership
 msgid "Activate"
 msgstr "활성화"
@@ -405,7 +406,7 @@ msgstr "새 응답 추가"
 msgid "Add New Setup"
 msgstr "새 설정 추가"
 
-#: core/views/arm_manage_subscription_list.php:827
+#: core/views/arm_manage_subscription_list.php:832
 #@ armember-membership
 msgid "Add New Subscription"
 msgstr "새 구독 추가"
@@ -452,7 +453,7 @@ msgstr "구독 추가"
 msgid "Add subscription_plan=\"PLAN_ID\" parameter to keep plan having PLAN_ID selected."
 msgstr "PLAN_ID가 선택된 계획을 유지하려면 subscribe_plan=\"PLAN_ID\" 매개변수를 추가하세요."
 
-#: core/classes/class.arm_modal_view_in_menu.php:268
+#: core/classes/class.arm_modal_view_in_menu.php:218
 #@ armember-membership
 msgid "Add to Menu"
 msgstr "메뉴에 추가"
@@ -466,7 +467,7 @@ msgstr "메뉴에 추가"
 msgid "Add URL"
 msgstr "URL 추가"
 
-#: autoload.php:3497
+#: autoload.php:3498
 #: core/classes/class.arm_social_feature.php:394
 #@ armember-membership
 msgid "Add-On listing is currently unavailable. Please try again later."
@@ -633,7 +634,7 @@ msgstr "알제리"
 msgid "Align"
 msgstr "맞추다"
 
-#: core/views/arm_manage_subscription_list.php:669
+#: core/views/arm_manage_subscription_list.php:674
 #@ armember-membership
 msgid "All Activities"
 msgstr "모든 활동"
@@ -681,7 +682,7 @@ msgstr "아바타 및 표지 사진 자르기 허용"
 msgid "Allow image cropping"
 msgstr "이미지 자르기 허용"
 
-#: core/views/arm_feature_settings.php:300
+#: core/views/arm_feature_settings.php:318
 #@ armember-membership
 msgid "Allow members to subscribe multiple plans simultaneously."
 msgstr "회원이 여러 요금제를 동시에 구독할 수 있도록 허용합니다."
@@ -691,7 +692,7 @@ msgstr "회원이 여러 요금제를 동시에 구독할 수 있도록 허용�
 msgid "Allow Semi Automatic(manual) method only"
 msgstr "반자동(수동) 방식만 허용"
 
-#: core/views/arm_feature_settings.php:200
+#: core/views/arm_feature_settings.php:218
 #@ armember-membership
 msgid "Allow users to sign up / login with their social accounts by enabling this feature."
 msgstr "이 기능을 활성화하면 사용자가 자신의 소셜 계정으로 가입/로그인할 수 있습니다."
@@ -701,22 +702,22 @@ msgstr "이 기능을 활성화하면 사용자가 자신의 소셜 계정으로
 msgid "Allowed File Extension"
 msgstr "허용된 파일 확장자"
 
-#: core/views/arm_feature_settings.php:448
+#: core/views/arm_feature_settings.php:466
 #@ armember-membership
 msgid "Allows Beaver Builder widgets to restrict based on Membership Plan."
 msgstr "Beaver Builder 위젯이 멤버십 플랜에 따라 제한할 수 있도록 허용합니다."
 
-#: core/views/arm_feature_settings.php:475
+#: core/views/arm_feature_settings.php:493
 #@ armember-membership
 msgid "Allows facility to set the access for Divi Builder content Like Section and Row per Membership Plan."
 msgstr "멤버십 플랜별로 섹션 및 행과 같은 Divi Builder 콘텐츠에 대한 액세스를 설정할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:421
+#: core/views/arm_feature_settings.php:439
 #@ armember-membership
 msgid "Allows facility to set the Access for Gutenberg Blocks per Membership Plan or Logged in member."
 msgstr "멤버십 플랜 또는 로그인한 회원별로 구텐베르그 블록에 대한 액세스를 설정할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:502
+#: core/views/arm_feature_settings.php:520
 #@ armember-membership
 msgid "Allows to set restrict content on WPBakery Elements per Membership Plan."
 msgstr "멤버십 플랜별로 WPBakery Elements에 대한 제한 콘텐츠를 설정할 수 있습니다."
@@ -754,9 +755,9 @@ msgstr "아메리칸사모아"
 #: core/vc/class_vc_extend.php:795
 #: core/vc/class_vc_extend.php:909
 #: core/vc/class_vc_extend.php:1049
-#: core/views/arm_manage_subscription_list.php:687
-#: core/views/arm_manage_subscription_list.php:722
-#: core/views/arm_manage_subscription_list.php:756
+#: core/views/arm_manage_subscription_list.php:692
+#: core/views/arm_manage_subscription_list.php:727
+#: core/views/arm_manage_subscription_list.php:761
 #: core/views/arm_subscription_plans_add.php:374
 #: core/views/arm_subscription_plans_add.php:450
 #: core/views/arm_tinymce_options_shortcodes.php:540
@@ -881,7 +882,7 @@ msgstr "단일 페이지 또는 게시물"
 msgid "API Password can not be left blank."
 msgstr "API 비밀번호는 비워둘 수 없습니다."
 
-#: core/views/arm_feature_settings.php:338
+#: core/views/arm_feature_settings.php:356
 #@ armember-membership
 msgid "API Services"
 msgstr "API 서비스"
@@ -898,7 +899,7 @@ msgstr "API 서명은 비워둘 수 없습니다."
 msgid "API Username can not be left blank."
 msgstr "API 사용자 이름은 비워둘 수 없습니다."
 
-#: core/views/arm_manage_subscription_list.php:658
+#: core/views/arm_manage_subscription_list.php:663
 #: core/views/arm_members_list_records.php:396
 #: core/views/arm_profile_editor.php:307
 #: core/views/arm_profile_editor.php:364
@@ -980,7 +981,7 @@ msgstr "구독을 취소하시겠습니까?"
 msgid "Are you sure you want to cancel this subscription  ?"
 msgstr "정말로 이 구독을 취소하시겠습니까?"
 
-#: core/views/arm_manage_subscription_list.php:784
+#: core/views/arm_manage_subscription_list.php:789
 #: core/views/arm_transactions.php:22
 #@ armember-membership
 msgid "Are you sure you want to change transaction status?"
@@ -1040,7 +1041,7 @@ msgstr "이 계획을 삭제하시겠습니까?"
 msgid "Are you sure you want to delete this setup?"
 msgstr "이 설정을 삭제하시겠습니까?"
 
-#: core/views/arm_manage_subscription_list.php:800
+#: core/views/arm_manage_subscription_list.php:805
 #: core/views/arm_transactions.php:37
 #@ armember-membership
 msgid "Are you sure you want to delete this transaction(s)?"
@@ -1522,7 +1523,7 @@ msgstr "자동 구독"
 msgid "Automatic Subscription Label"
 msgstr "자동 구독 라벨"
 
-#: autoload.php:3567
+#: autoload.php:3568
 #@ armember-membership
 msgid "Available Modules"
 msgstr "사용 가능한 모듈"
@@ -1696,7 +1697,7 @@ msgstr "기본 옵션"
 msgid "Basque"
 msgstr "바스크 사람"
 
-#: core/views/arm_feature_settings.php:447
+#: core/views/arm_feature_settings.php:465
 #@ armember-membership
 msgid "Beaver Builder Restriction"
 msgstr "비버 빌더 제한 사항"
@@ -1916,7 +1917,7 @@ msgstr "브라질"
 msgid "Brunei"
 msgstr "브루나이"
 
-#: core/views/arm_feature_settings.php:359
+#: core/views/arm_feature_settings.php:377
 #@ armember-membership
 msgid "Buddypress/Buddyboss Integration"
 msgstr "Buddypress/Buddyboss 통합"
@@ -2140,7 +2141,7 @@ msgstr "캐나다"
 #: core/views/arm_import_export.php:350
 #: core/views/arm_import_export.php:378
 #: core/views/arm_manage_forms.php:378
-#: core/views/arm_manage_subscription_list.php:873
+#: core/views/arm_manage_subscription_list.php:878
 #: core/views/arm_member_add.php:704
 #: core/views/arm_member_add.php:751
 #: core/views/arm_member_add.php:801
@@ -2398,7 +2399,7 @@ msgstr "상태 변경"
 msgid "Change Subscription"
 msgstr "구독 변경"
 
-#: core/views/arm_manage_subscription_list.php:791
+#: core/views/arm_manage_subscription_list.php:796
 #: core/views/arm_transactions.php:28
 #@ armember-membership
 msgid "Change Transaction Status"
@@ -2607,8 +2608,8 @@ msgstr "미리보려면 클릭하세요"
 msgid "Clone from existing forms"
 msgstr "기존 양식에서 복제"
 
-#: autoload.php:3420
-#: autoload.php:3581
+#: autoload.php:3421
+#: autoload.php:3582
 #: autoload.php:3670
 #: core/classes/class.arm_members.php:776
 #: core/views/arm_form_editor.php:151
@@ -2697,30 +2698,32 @@ msgstr "시작하려면 간단한 단계를 완료하세요."
 msgid "Completed Recurrence"
 msgstr "완료된 반복"
 
-#: core/views/arm_feature_settings.php:141
-#: core/views/arm_feature_settings.php:147
-#: core/views/arm_feature_settings.php:162
-#: core/views/arm_feature_settings.php:167
-#: core/views/arm_feature_settings.php:183
-#: core/views/arm_feature_settings.php:188
-#: core/views/arm_feature_settings.php:203
-#: core/views/arm_feature_settings.php:208
-#: core/views/arm_feature_settings.php:223
-#: core/views/arm_feature_settings.php:228
-#: core/views/arm_feature_settings.php:243
-#: core/views/arm_feature_settings.php:248
-#: core/views/arm_feature_settings.php:263
-#: core/views/arm_feature_settings.php:268
-#: core/views/arm_feature_settings.php:283
-#: core/views/arm_feature_settings.php:288
-#: core/views/arm_feature_settings.php:363
-#: core/views/arm_feature_settings.php:368
-#: core/views/arm_feature_settings.php:384
-#: core/views/arm_feature_settings.php:389
-#: core/views/arm_feature_settings.php:404
-#: core/views/arm_feature_settings.php:409
-#: core/views/arm_feature_settings.php:703
-#: core/views/arm_feature_settings.php:708
+#: core/views/arm_feature_settings.php:142
+#: core/views/arm_feature_settings.php:148
+#: core/views/arm_feature_settings.php:163
+#: core/views/arm_feature_settings.php:168
+#: core/views/arm_feature_settings.php:180
+#: core/views/arm_feature_settings.php:185
+#: core/views/arm_feature_settings.php:201
+#: core/views/arm_feature_settings.php:206
+#: core/views/arm_feature_settings.php:221
+#: core/views/arm_feature_settings.php:226
+#: core/views/arm_feature_settings.php:241
+#: core/views/arm_feature_settings.php:246
+#: core/views/arm_feature_settings.php:261
+#: core/views/arm_feature_settings.php:266
+#: core/views/arm_feature_settings.php:281
+#: core/views/arm_feature_settings.php:286
+#: core/views/arm_feature_settings.php:301
+#: core/views/arm_feature_settings.php:306
+#: core/views/arm_feature_settings.php:381
+#: core/views/arm_feature_settings.php:386
+#: core/views/arm_feature_settings.php:402
+#: core/views/arm_feature_settings.php:407
+#: core/views/arm_feature_settings.php:422
+#: core/views/arm_feature_settings.php:427
+#: core/views/arm_feature_settings.php:721
+#: core/views/arm_feature_settings.php:726
 #@ armember-membership
 msgid "Configure"
 msgstr "구성"
@@ -2780,7 +2783,7 @@ msgstr "비밀번호 확인"
 msgid "Confirm Password can not be left blank."
 msgstr "비밀번호 확인은 비워둘 수 없습니다."
 
-#: core/views/arm_feature_settings.php:751
+#: core/views/arm_feature_settings.php:769
 #@ armember-membership
 msgid "Confirmation"
 msgstr "확인"
@@ -2879,7 +2882,7 @@ msgstr "등록할 수 없습니다. 다음 연락처로 문의하세요."
 msgid "Country/Region"
 msgstr "국가/지역"
 
-#: core/views/arm_feature_settings.php:239
+#: core/views/arm_feature_settings.php:257
 #@ armember-membership
 msgid "Coupon"
 msgstr "쿠폰"
@@ -3189,29 +3192,30 @@ msgstr "날"
 
 #: core/classes/class.arm_members_activity.php:732
 #: core/classes/class.armemberlite.php:65
-#: core/views/arm_feature_settings.php:146
-#: core/views/arm_feature_settings.php:166
-#: core/views/arm_feature_settings.php:187
-#: core/views/arm_feature_settings.php:207
-#: core/views/arm_feature_settings.php:227
-#: core/views/arm_feature_settings.php:247
-#: core/views/arm_feature_settings.php:267
-#: core/views/arm_feature_settings.php:287
-#: core/views/arm_feature_settings.php:307
-#: core/views/arm_feature_settings.php:327
-#: core/views/arm_feature_settings.php:346
-#: core/views/arm_feature_settings.php:367
-#: core/views/arm_feature_settings.php:388
-#: core/views/arm_feature_settings.php:408
-#: core/views/arm_feature_settings.php:431
-#: core/views/arm_feature_settings.php:458
-#: core/views/arm_feature_settings.php:485
-#: core/views/arm_feature_settings.php:512
-#: core/views/arm_feature_settings.php:539
-#: core/views/arm_feature_settings.php:566
-#: core/views/arm_feature_settings.php:594
-#: core/views/arm_feature_settings.php:623
-#: core/views/arm_feature_settings.php:707
+#: core/views/arm_feature_settings.php:147
+#: core/views/arm_feature_settings.php:167
+#: core/views/arm_feature_settings.php:184
+#: core/views/arm_feature_settings.php:205
+#: core/views/arm_feature_settings.php:225
+#: core/views/arm_feature_settings.php:245
+#: core/views/arm_feature_settings.php:265
+#: core/views/arm_feature_settings.php:285
+#: core/views/arm_feature_settings.php:305
+#: core/views/arm_feature_settings.php:325
+#: core/views/arm_feature_settings.php:345
+#: core/views/arm_feature_settings.php:364
+#: core/views/arm_feature_settings.php:385
+#: core/views/arm_feature_settings.php:406
+#: core/views/arm_feature_settings.php:426
+#: core/views/arm_feature_settings.php:449
+#: core/views/arm_feature_settings.php:476
+#: core/views/arm_feature_settings.php:503
+#: core/views/arm_feature_settings.php:530
+#: core/views/arm_feature_settings.php:557
+#: core/views/arm_feature_settings.php:584
+#: core/views/arm_feature_settings.php:612
+#: core/views/arm_feature_settings.php:641
+#: core/views/arm_feature_settings.php:725
 #@ armember-membership
 msgid "Deactivate"
 msgstr "비활성화"
@@ -3313,7 +3317,7 @@ msgstr "기본 규칙이 성공적으로 저장되었습니다."
 msgid "Default Selected Plan"
 msgstr "기본 선택 계획"
 
-#: autoload.php:2937
+#: autoload.php:2938
 #@ armember-membership
 msgid "Default Set"
 msgstr "기본 세트"
@@ -3382,7 +3386,7 @@ msgstr "계획 삭제"
 msgid "Delete Setup"
 msgstr "설정 삭제"
 
-#: core/views/arm_manage_subscription_list.php:805
+#: core/views/arm_manage_subscription_list.php:810
 #: core/views/arm_transactions.php:42
 #@ armember-membership
 msgid "Delete Transaction(s)"
@@ -3683,7 +3687,7 @@ msgstr "사용자 프로필 주소를 표시합니다."
 msgid "Displays the Username of user"
 msgstr "사용자의 사용자 이름을 표시합니다."
 
-#: core/views/arm_feature_settings.php:474
+#: core/views/arm_feature_settings.php:492
 #@ armember-membership
 msgid "Divi Builder Restriction"
 msgstr "Divi Builder 제한 사항"
@@ -3704,7 +3708,7 @@ msgstr "지부티"
 msgid "Do not cancel subscription until plan expired"
 msgstr "계획이 만료될 때까지 구독을 취소하지 마십시오"
 
-#: autoload.php:3418
+#: autoload.php:3419
 #@ armember-membership
 msgid "Do not show again."
 msgstr "다시 표시하지 않습니다."
@@ -3758,7 +3762,7 @@ msgstr "현재 요금제 만료 후 다른 요금제로 다운그레이드(기�
 msgid "Dribbble"
 msgstr "드리블"
 
-#: core/views/arm_feature_settings.php:178
+#: core/views/arm_feature_settings.php:196
 #@ armember-membership
 msgid "Drip Content"
 msgstr "드립 내용"
@@ -4082,7 +4086,7 @@ msgstr "이메일 주소 확인 활성화"
 msgid "Enable Confirm Password?"
 msgstr "비밀번호 확인 활성화"
 
-#: core/views/arm_feature_settings.php:260
+#: core/views/arm_feature_settings.php:278
 #@ armember-membership
 msgid "Enable facility to send Invoice and apply Sales Tax on membership plans."
 msgstr "송장을 보내고 멤버십 플랜에 판매세를 적용할 수 있는 기능을 활성화합니다."
@@ -4423,8 +4427,8 @@ msgstr "만료 연도 라벨"
 #: core/classes/class.arm_manage_subscription.php:493
 #: core/classes/class.arm_manage_subscription.php:753
 #: core/classes/class.arm_manage_subscription.php:1103
-#: core/views/arm_manage_subscription_list.php:721
-#: core/views/arm_manage_subscription_list.php:755
+#: core/views/arm_manage_subscription_list.php:726
+#: core/views/arm_manage_subscription_list.php:760
 #@ armember-membership
 msgid "Expire/Next Renewal"
 msgstr "만료/다음 갱신"
@@ -4733,9 +4737,9 @@ msgstr "필터 옵션"
 
 #: core/views/arm_access_rules.php:255
 #: core/views/arm_email_templates.php:189
-#: core/views/arm_manage_subscription_list.php:706
-#: core/views/arm_manage_subscription_list.php:741
-#: core/views/arm_manage_subscription_list.php:772
+#: core/views/arm_manage_subscription_list.php:711
+#: core/views/arm_manage_subscription_list.php:746
+#: core/views/arm_manage_subscription_list.php:777
 #: core/views/arm_members_list_records.php:432
 #: core/views/arm_subscription_plans_list.php:226
 #: core/views/arm_transactions_list_records.php:403
@@ -5223,8 +5227,8 @@ msgstr "감비아"
 
 #: core/classes/class.arm_transaction.php:576
 #: core/classes/class.arm_transaction.php:1133
-#: core/views/arm_manage_subscription_list.php:626
-#: core/views/arm_manage_subscription_list.php:629
+#: core/views/arm_manage_subscription_list.php:631
+#: core/views/arm_manage_subscription_list.php:634
 #: core/views/arm_transactions_list_records.php:292
 #: core/views/arm_transactions_list_records.php:382
 #@ armember-membership
@@ -5439,7 +5443,7 @@ msgstr "기니"
 msgid "Guinea-Bissau"
 msgstr "기니비사우"
 
-#: core/views/arm_feature_settings.php:420
+#: core/views/arm_feature_settings.php:438
 #@ armember-membership
 msgid "Gutenberg Block Restriction"
 msgstr "구텐베르크 블록 제한"
@@ -5471,7 +5475,7 @@ msgstr "히브리어/이스라엘"
 msgid "Height"
 msgstr "키"
 
-#: autoload.php:3411
+#: autoload.php:3412
 #@ armember-membership
 msgid "Help Tutorial"
 msgstr "도움말 튜토리얼"
@@ -5742,7 +5746,7 @@ msgstr "헝가리"
 msgid "Hurray!! Everything is ready to create your first membership site"
 msgstr "만세!! 첫 번째 멤버십 사이트를 만들기 위한 모든 준비가 완료되었습니다."
 
-#: autoload.php:3579
+#: autoload.php:3580
 #@ armember-membership
 msgid "I agree"
 msgstr "나는 동의한다"
@@ -5781,8 +5785,8 @@ msgstr "아이콘 색상"
 #: core/classes/class.arm_manage_subscription.php:748
 #: core/classes/class.arm_manage_subscription.php:1098
 #: core/views/arm_email_templates.php:130
-#: core/views/arm_manage_subscription_list.php:716
-#: core/views/arm_manage_subscription_list.php:750
+#: core/views/arm_manage_subscription_list.php:721
+#: core/views/arm_manage_subscription_list.php:755
 #@ armember-membership
 msgid "ID"
 msgstr "ID"
@@ -6064,17 +6068,17 @@ msgstr "인스 타 그램"
 msgid "installments"
 msgstr "할부"
 
-#: core/views/arm_feature_settings.php:360
+#: core/views/arm_feature_settings.php:378
 #@ armember-membership
 msgid "Integrate BuddyPress/Buddyboss with ARMember."
 msgstr "BuddyPress 또는 BuddyBoss를 ARMember와 통합하세요."
 
-#: core/views/arm_feature_settings.php:401
+#: core/views/arm_feature_settings.php:419
 #@ armember-membership
 msgid "Integrate myCRED adaptive points management system with ARMember."
 msgstr "myCRED 적응형 포인트 관리 시스템을 ARMember와 통합합니다."
 
-#: core/views/arm_feature_settings.php:380
+#: core/views/arm_feature_settings.php:398
 #@ armember-membership
 msgid "Integrate Woocommerce with ARMember."
 msgstr "WooCommerce를 ARMember와 통합하세요."
@@ -6180,7 +6184,7 @@ msgstr "사용자 이름이나 이메일이 잘못되었습니다."
 msgid "Invalid username or incorrect password."
 msgstr "잘못된 사용자 이름 또는 잘못된 비밀번호입니다."
 
-#: core/views/arm_feature_settings.php:259
+#: core/views/arm_feature_settings.php:277
 #@ armember-membership
 msgid "Invoice and Tax"
 msgstr "송장 및 세금"
@@ -6493,7 +6497,7 @@ msgstr "왼쪽"
 msgid "Lesotho"
 msgstr "레소토"
 
-#: core/views/arm_feature_settings.php:240
+#: core/views/arm_feature_settings.php:258
 #@ armember-membership
 msgid "Let users get benefit of discounts coupons while making payment with your site."
 msgstr "사용자가 사이트에서 결제하는 동안 할인 쿠폰 혜택을 받을 수 있도록 하세요."
@@ -7068,13 +7072,13 @@ msgstr "거래 관리"
 #: core/classes/class.arm_transaction.php:624
 #: core/classes/class.arm_transaction.php:1029
 #: core/classes/class.arm_transaction.php:1056
-#: core/views/arm_manage_subscription_list.php:630
+#: core/views/arm_manage_subscription_list.php:635
 #: core/views/arm_transactions_list_records.php:293
 #@ armember-membership
 msgid "Manual"
 msgstr "수동"
 
-#: core/views/arm_manage_subscription_list.php:630
+#: core/views/arm_manage_subscription_list.php:635
 #: core/views/arm_transactions_list_records.php:293
 #@ armember-membership
 msgid "manual"
@@ -7168,7 +7172,7 @@ msgstr "최대 로그인 시도 횟수"
 msgid "Maxlength"
 msgstr "최대 길이"
 
-#: core/views/arm_manage_subscription_list.php:831
+#: core/views/arm_manage_subscription_list.php:836
 #: core/views/arm_transactions_add.php:26
 #@ armember-membership
 msgid "Member"
@@ -7294,9 +7298,9 @@ msgstr "회원 프로필 페이지"
 #: core/classes/class.arm_shortcodes.php:1205
 #: core/classes/class.arm_transaction.php:573
 #: core/classes/class.arm_transaction.php:1133
-#: core/views/arm_manage_subscription_list.php:683
-#: core/views/arm_manage_subscription_list.php:717
-#: core/views/arm_manage_subscription_list.php:751
+#: core/views/arm_manage_subscription_list.php:688
+#: core/views/arm_manage_subscription_list.php:722
+#: core/views/arm_manage_subscription_list.php:756
 #: core/views/arm_transactions_list_records.php:381
 #: core/widgets/class.arm_dashboard_widgets.php:180
 #: core/widgets/class.arm_dashboard_widgets.php:243
@@ -7314,7 +7318,7 @@ msgstr "회원가입이 변경되었습니다"
 msgid "Membership History"
 msgstr "회원이력"
 
-#: core/views/arm_feature_settings.php:319
+#: core/views/arm_feature_settings.php:337
 #@ armember-membership
 msgid "Membership Limit"
 msgstr "회원 한도"
@@ -7484,7 +7488,7 @@ msgstr "미크로네시아"
 msgid "Min Length"
 msgstr "최소 길이"
 
-#: core/views/arm_feature_settings.php:381
+#: core/views/arm_feature_settings.php:399
 #@ armember-membership
 msgid "Minimum Required Woocommerce Version: 3.0.2"
 msgstr "최소 필수 WooCommerce 버전: 3.0.2"
@@ -7612,29 +7616,30 @@ msgstr "개월"
 msgid "Montserrat"
 msgstr "몬세라트"
 
-#: core/views/arm_feature_settings.php:151
-#: core/views/arm_feature_settings.php:171
-#: core/views/arm_feature_settings.php:192
-#: core/views/arm_feature_settings.php:212
-#: core/views/arm_feature_settings.php:232
-#: core/views/arm_feature_settings.php:252
-#: core/views/arm_feature_settings.php:272
-#: core/views/arm_feature_settings.php:292
-#: core/views/arm_feature_settings.php:312
-#: core/views/arm_feature_settings.php:332
-#: core/views/arm_feature_settings.php:351
-#: core/views/arm_feature_settings.php:372
-#: core/views/arm_feature_settings.php:393
-#: core/views/arm_feature_settings.php:413
-#: core/views/arm_feature_settings.php:440
-#: core/views/arm_feature_settings.php:467
-#: core/views/arm_feature_settings.php:494
-#: core/views/arm_feature_settings.php:521
-#: core/views/arm_feature_settings.php:548
-#: core/views/arm_feature_settings.php:575
-#: core/views/arm_feature_settings.php:603
-#: core/views/arm_feature_settings.php:632
-#: core/views/arm_feature_settings.php:712
+#: core/views/arm_feature_settings.php:152
+#: core/views/arm_feature_settings.php:172
+#: core/views/arm_feature_settings.php:189
+#: core/views/arm_feature_settings.php:210
+#: core/views/arm_feature_settings.php:230
+#: core/views/arm_feature_settings.php:250
+#: core/views/arm_feature_settings.php:270
+#: core/views/arm_feature_settings.php:290
+#: core/views/arm_feature_settings.php:310
+#: core/views/arm_feature_settings.php:330
+#: core/views/arm_feature_settings.php:350
+#: core/views/arm_feature_settings.php:369
+#: core/views/arm_feature_settings.php:390
+#: core/views/arm_feature_settings.php:411
+#: core/views/arm_feature_settings.php:431
+#: core/views/arm_feature_settings.php:458
+#: core/views/arm_feature_settings.php:485
+#: core/views/arm_feature_settings.php:512
+#: core/views/arm_feature_settings.php:539
+#: core/views/arm_feature_settings.php:566
+#: core/views/arm_feature_settings.php:593
+#: core/views/arm_feature_settings.php:621
+#: core/views/arm_feature_settings.php:650
+#: core/views/arm_feature_settings.php:730
 #@ armember-membership
 msgid "More Info"
 msgstr "더 많은 정보"
@@ -7655,7 +7660,7 @@ msgstr "이동하다"
 msgid "Mozambique"
 msgstr "모잠비크"
 
-#: core/views/arm_feature_settings.php:299
+#: core/views/arm_feature_settings.php:317
 #@ armember-membership
 msgid "Multiple Membership/Plans"
 msgstr "다중 멤버십/플랜"
@@ -7670,7 +7675,7 @@ msgstr "내 프로필"
 msgid "Myanmar"
 msgstr "미얀마"
 
-#: core/views/arm_feature_settings.php:400
+#: core/views/arm_feature_settings.php:418
 #@ armember-membership
 msgid "myCRED Integration"
 msgstr "myCRED 통합"
@@ -7679,9 +7684,9 @@ msgstr "myCRED 통합"
 #: core/classes/class.arm_manage_subscription.php:522
 #: core/classes/class.arm_manage_subscription.php:751
 #: core/classes/class.arm_manage_subscription.php:1101
-#: core/views/arm_manage_subscription_list.php:685
-#: core/views/arm_manage_subscription_list.php:719
-#: core/views/arm_manage_subscription_list.php:753
+#: core/views/arm_manage_subscription_list.php:690
+#: core/views/arm_manage_subscription_list.php:724
+#: core/views/arm_manage_subscription_list.php:758
 #@ armember-membership
 msgid "Name"
 msgstr "이름"
@@ -7891,9 +7896,9 @@ msgstr "검색된 기록이 없습니다."
 msgid "No any subscription plan found."
 msgstr "구독 요금제를 찾을 수 없습니다."
 
-#: core/views/arm_manage_subscription_list.php:705
-#: core/views/arm_manage_subscription_list.php:740
-#: core/views/arm_manage_subscription_list.php:771
+#: core/views/arm_manage_subscription_list.php:710
+#: core/views/arm_manage_subscription_list.php:745
+#: core/views/arm_manage_subscription_list.php:776
 #@ armember-membership
 msgid "No any subscriptions found."
 msgstr "구독정보가 없습니다."
@@ -7953,9 +7958,9 @@ msgstr "아이콘 없음"
 msgid "No matching members found."
 msgstr "일치하는 회원이 없습니다."
 
-#: core/views/arm_manage_subscription_list.php:704
-#: core/views/arm_manage_subscription_list.php:739
-#: core/views/arm_manage_subscription_list.php:770
+#: core/views/arm_manage_subscription_list.php:709
+#: core/views/arm_manage_subscription_list.php:744
+#: core/views/arm_manage_subscription_list.php:775
 #: core/views/arm_subscription_plans_list.php:224
 #@ armember-membership
 msgid "No matching plans found"
@@ -8227,9 +8232,9 @@ msgstr "숫자"
 #: core/views/arm_email_templates.php:27
 #: core/views/arm_email_templates.php:186
 #: core/views/arm_manage_subscription_list.php:124
-#: core/views/arm_manage_subscription_list.php:703
-#: core/views/arm_manage_subscription_list.php:738
-#: core/views/arm_manage_subscription_list.php:769
+#: core/views/arm_manage_subscription_list.php:708
+#: core/views/arm_manage_subscription_list.php:743
+#: core/views/arm_manage_subscription_list.php:774
 #: core/views/arm_members_list_records.php:158
 #: core/views/arm_members_list_records.php:429
 #: core/views/arm_subscription_plans_list.php:30
@@ -8296,7 +8301,7 @@ msgstr "한 명 이상의 회원이 이미 이 요금제에 가입했습니다. 
 #: core/classes/class.arm_transaction.php:177
 #: core/classes/class.arm_transaction.php:597
 #: core/classes/class.arm_transaction.php:1083
-#: core/views/arm_manage_subscription_list.php:648
+#: core/views/arm_manage_subscription_list.php:653
 #: core/views/arm_transactions_list_records.php:311
 #@ armember-membership
 msgid "One Time"
@@ -8664,7 +8669,7 @@ msgstr "비밀번호가 일치하지 않습니다."
 msgid "Pay Once, No Monthly Fees"
 msgstr "한 번만 지불하면 월 수수료가 없습니다"
 
-#: core/views/arm_feature_settings.php:219
+#: core/views/arm_feature_settings.php:237
 #@ armember-membership
 msgid "Pay Per Post"
 msgstr "게시물당 지불"
@@ -8708,7 +8713,7 @@ msgstr "지불주기"
 #: core/vc/class_vc_extend.php:798
 #: core/vc/class_vc_extend.php:963
 #: core/vc/class_vc_extend.php:1049
-#: core/views/arm_manage_subscription_list.php:686
+#: core/views/arm_manage_subscription_list.php:691
 #: core/views/arm_tinymce_options_shortcodes.php:548
 #: core/views/arm_transactions_list_records.php:386
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:86
@@ -8837,9 +8842,9 @@ msgstr "결제 거래"
 #: core/vc/class_vc_extend.php:793
 #: core/vc/class_vc_extend.php:1049
 #: core/views/arm_email_templates.php:505
-#: core/views/arm_manage_subscription_list.php:688
-#: core/views/arm_manage_subscription_list.php:723
-#: core/views/arm_manage_subscription_list.php:757
+#: core/views/arm_manage_subscription_list.php:693
+#: core/views/arm_manage_subscription_list.php:728
+#: core/views/arm_manage_subscription_list.php:762
 #: core/views/arm_tinymce_options_shortcodes.php:528
 #: core/views/arm_transactions_list_records.php:310
 #: core/views/arm_transactions_list_records.php:383
@@ -9086,8 +9091,8 @@ msgstr "계획 상태가 성공적으로 변경되었습니다."
 #: core/vc/class_vc_extend.php:1414
 #: core/vc/class_vc_extend.php:1500
 #: core/vc/class_vc_extend.php:2170
-#: core/views/arm_manage_subscription_list.php:644
-#: core/views/arm_manage_subscription_list.php:647
+#: core/views/arm_manage_subscription_list.php:649
+#: core/views/arm_manage_subscription_list.php:652
 #: core/views/arm_member_add.php:721
 #: core/views/arm_setup_wizard.php:311
 #: core/views/arm_subscription_plans_add.php:178
@@ -9125,7 +9130,7 @@ msgstr "계획"
 msgid "Plans Cycles"
 msgstr "계획주기"
 
-#: core/views/arm_feature_settings.php:857
+#: core/views/arm_feature_settings.php:875
 #@ armember-membership
 msgid "Please activate the \\\"Social Feature\\\" module to make this feature work."
 msgstr "이 기능을 작동하려면 \\\"소셜 기능\\\" 모듈을 활성화하십시오."
@@ -9521,7 +9526,7 @@ msgstr "페이지를 선택하세요."
 msgid "Please Select account"
 msgstr "계정을 선택하세요"
 
-#: core/views/arm_manage_subscription_list.php:842
+#: core/views/arm_manage_subscription_list.php:847
 #: core/views/arm_transactions_add.php:39
 #@ armember-membership
 msgid "Please select atleast one membership"
@@ -9696,7 +9701,7 @@ msgid "Please Select Social Account."
 msgstr "소셜 계정을 선택하세요."
 
 #: core/views/arm_block_settings.php:98
-#: core/views/arm_manage_subscription_list.php:833
+#: core/views/arm_manage_subscription_list.php:838
 #: core/views/arm_transactions_add.php:29
 #@ armember-membership
 msgid "Please select user."
@@ -9991,7 +9996,7 @@ msgstr "프로필 템플릿 이름"
 msgid "Profiles & Directories"
 msgstr "프로필 및 디렉토리"
 
-#: core/views/arm_feature_settings.php:179
+#: core/views/arm_feature_settings.php:197
 #@ armember-membership
 msgid "Publish your site content based on different time intervals by enabling this feature."
 msgstr "이 기능을 활성화하면 다양한 시간 간격에 따라 사이트 콘텐츠를 게시할 수 있습니다."
@@ -10075,7 +10080,7 @@ msgstr "페이지당 기록"
 msgid "Records per Page"
 msgstr "페이지당 기록"
 
-#: core/views/arm_manage_subscription_list.php:649
+#: core/views/arm_manage_subscription_list.php:654
 #: core/views/arm_transactions_list_records.php:312
 #@ armember-membership
 msgid "Recurring"
@@ -10605,7 +10610,7 @@ msgstr "사우디 아라비아"
 #: core/views/arm_form_editor.php:150
 #: core/views/arm_global_settings.php:660
 #: core/views/arm_manage_payment_gateways.php:331
-#: core/views/arm_manage_subscription_list.php:872
+#: core/views/arm_manage_subscription_list.php:877
 #: core/views/arm_member_add.php:1071
 #: core/views/arm_membership_setup_add.php:501
 #: core/views/arm_page_setup.php:160
@@ -10637,9 +10642,9 @@ msgstr "일정 간격"
 #: core/views/arm_email_templates.php:181
 #: core/views/arm_manage_subscription_list.php:168
 #: core/views/arm_manage_subscription_list.php:274
-#: core/views/arm_manage_subscription_list.php:698
-#: core/views/arm_manage_subscription_list.php:733
-#: core/views/arm_manage_subscription_list.php:764
+#: core/views/arm_manage_subscription_list.php:703
+#: core/views/arm_manage_subscription_list.php:738
+#: core/views/arm_manage_subscription_list.php:769
 #: core/views/arm_members_list_records.php:191
 #: core/views/arm_members_list_records.php:424
 #: core/views/arm_subscription_plans_list.php:56
@@ -10656,7 +10661,7 @@ msgstr "찾다"
 msgid "Search by Username"
 msgstr "사용자 이름으로 검색"
 
-#: core/views/arm_manage_subscription_list.php:833
+#: core/views/arm_manage_subscription_list.php:838
 #: core/views/arm_transactions_add.php:29
 #@ armember-membership
 msgid "Search by username or email..."
@@ -10788,7 +10793,7 @@ msgid "Select Member Form"
 msgstr "회원 양식 선택"
 
 #: core/classes/class.arm_membership_setup.php:2693
-#: core/views/arm_manage_subscription_list.php:840
+#: core/views/arm_manage_subscription_list.php:845
 #: core/views/arm_tinymce_options_shortcodes.php:963
 #: core/views/arm_transactions_add.php:36
 #@ armember-membership
@@ -10914,7 +10919,7 @@ msgstr "결제 모드 선택"
 #: core/vc/class_vc_extend.php:2087
 #: core/views/arm_access_restriction_settings.php:107
 #: core/views/arm_import_export.php:120
-#: core/views/arm_manage_subscription_list.php:847
+#: core/views/arm_manage_subscription_list.php:852
 #: core/views/arm_member_add.php:165
 #: core/views/arm_member_add.php:1106
 #: core/views/arm_members_list_records.php:66
@@ -11385,9 +11390,9 @@ msgstr "현재 설정을 저장하면 여기에 단축 코드가 표시됩니다
 #: core/views/arm_email_templates.php:29
 #: core/views/arm_email_templates.php:183
 #: core/views/arm_manage_subscription_list.php:126
-#: core/views/arm_manage_subscription_list.php:700
-#: core/views/arm_manage_subscription_list.php:735
-#: core/views/arm_manage_subscription_list.php:766
+#: core/views/arm_manage_subscription_list.php:705
+#: core/views/arm_manage_subscription_list.php:740
+#: core/views/arm_manage_subscription_list.php:771
 #: core/views/arm_members_list_records.php:160
 #: core/views/arm_members_list_records.php:426
 #: core/views/arm_subscription_plans_list.php:32
@@ -11401,9 +11406,9 @@ msgstr "보여주다"
 
 #: core/views/arm_access_rules.php:246
 #: core/views/arm_email_templates.php:180
-#: core/views/arm_manage_subscription_list.php:697
-#: core/views/arm_manage_subscription_list.php:732
-#: core/views/arm_manage_subscription_list.php:763
+#: core/views/arm_manage_subscription_list.php:702
+#: core/views/arm_manage_subscription_list.php:737
+#: core/views/arm_manage_subscription_list.php:768
 #: core/views/arm_members_list_records.php:198
 #: core/views/arm_members_list_records.php:423
 #: core/views/arm_subscription_plans_list.php:217
@@ -11435,9 +11440,9 @@ msgstr "쇼 시간"
 #: core/views/arm_email_templates.php:24
 #: core/views/arm_email_templates.php:184
 #: core/views/arm_manage_subscription_list.php:121
-#: core/views/arm_manage_subscription_list.php:701
-#: core/views/arm_manage_subscription_list.php:736
-#: core/views/arm_manage_subscription_list.php:767
+#: core/views/arm_manage_subscription_list.php:706
+#: core/views/arm_manage_subscription_list.php:741
+#: core/views/arm_manage_subscription_list.php:772
 #: core/views/arm_members_list_records.php:155
 #: core/views/arm_members_list_records.php:427
 #: core/views/arm_subscription_plans_list.php:27
@@ -11548,12 +11553,12 @@ msgstr "SMTP 서버"
 msgid "SMTP Test E-Mail"
 msgstr "SMTP 테스트 이메일"
 
-#: core/views/arm_feature_settings.php:199
+#: core/views/arm_feature_settings.php:217
 #@ armember-membership
 msgid "Social Connect"
 msgstr "소셜 연결"
 
-#: core/views/arm_feature_settings.php:136
+#: core/views/arm_feature_settings.php:137
 #@ armember-membership
 msgid "Social Feature"
 msgstr "소셜 기능"
@@ -11827,8 +11832,8 @@ msgstr "표준 스타일"
 #: core/views/arm_debug_logs.php:275
 #: core/views/arm_debug_logs.php:357
 #: core/views/arm_import_export.php:58
-#: core/views/arm_manage_subscription_list.php:720
-#: core/views/arm_manage_subscription_list.php:754
+#: core/views/arm_manage_subscription_list.php:725
+#: core/views/arm_manage_subscription_list.php:759
 #: core/views/arm_tinymce_options_shortcodes.php:995
 #: core/views/arm_transactions_list_records.php:356
 #: core/widgets/arm_elm_widgets/class.arm_user_plan_element_add.php:99
@@ -11859,8 +11864,8 @@ msgstr "시작 날짜"
 #: core/classes/class.arm_manage_subscription.php:757
 #: core/classes/class.arm_manage_subscription.php:1106
 #: core/classes/class.arm_members.php:4369
-#: core/views/arm_manage_subscription_list.php:689
-#: core/views/arm_manage_subscription_list.php:725
+#: core/views/arm_manage_subscription_list.php:694
+#: core/views/arm_manage_subscription_list.php:730
 #: core/views/arm_members_list_records.php:19
 #: core/views/arm_transactions_add.php:64
 #: core/views/arm_transactions_list_records.php:341
@@ -12031,14 +12036,14 @@ msgid "Subscription Start Date"
 msgstr "구독 시작일"
 
 #: core/views/arm_manage_subscription_list.php:125
-#: core/views/arm_manage_subscription_list.php:666
+#: core/views/arm_manage_subscription_list.php:671
 #@ armember-membership
 msgid "Subscriptions"
 msgstr "구독"
 
-#: core/views/arm_manage_subscription_list.php:699
-#: core/views/arm_manage_subscription_list.php:734
-#: core/views/arm_manage_subscription_list.php:765
+#: core/views/arm_manage_subscription_list.php:704
+#: core/views/arm_manage_subscription_list.php:739
+#: core/views/arm_manage_subscription_list.php:770
 #@ armember-membership
 msgid "subscriptions"
 msgstr "구독"
@@ -12729,7 +12734,7 @@ msgstr "해당 사용자 이름으로 등록된 사용자가 없습니다."
 msgid "This action cannot be reverted, Are you sure you want to change membership plan of selected member(s)?"
 msgstr "이 작업은 되돌릴 수 없습니다. 선택한 회원의 멤버십 플랜을 변경하시겠습니까?"
 
-#: core/views/arm_feature_settings.php:855
+#: core/views/arm_feature_settings.php:873
 #@ armember-membership
 msgid "This Addon is not compatible with current ARMember version. Please update ARMember to latest version."
 msgstr "이 애드온은 현재 ARMember 버전과 호환되지 않습니다. ARMember를 최신 버전으로 업데이트해주세요."
@@ -12828,7 +12833,7 @@ msgstr "회원이 차단된 이메일 주소로 등록을 시도할 경우 이 �
 msgid "This message will be display when member tries to register with blocked username."
 msgstr "회원이 차단된 사용자 이름으로 등록을 시도할 때 이 메시지가 표시됩니다."
 
-#: core/classes/class.arm_modal_view_in_menu.php:260
+#: core/classes/class.arm_modal_view_in_menu.php:210
 #@ armember-membership
 msgid "This navigation menu link is to set Logout Link."
 msgstr "이 탐색 메뉴 링크는 로그아웃 링크를 설정하는 링크입니다."
@@ -12979,9 +12984,9 @@ msgstr "에게"
 #: core/views/arm_email_templates.php:26
 #: core/views/arm_email_templates.php:185
 #: core/views/arm_manage_subscription_list.php:123
-#: core/views/arm_manage_subscription_list.php:702
-#: core/views/arm_manage_subscription_list.php:737
-#: core/views/arm_manage_subscription_list.php:768
+#: core/views/arm_manage_subscription_list.php:707
+#: core/views/arm_manage_subscription_list.php:742
+#: core/views/arm_manage_subscription_list.php:773
 #: core/views/arm_members_list_records.php:157
 #: core/views/arm_members_list_records.php:428
 #: core/views/arm_subscription_plans_list.php:29
@@ -13059,9 +13064,9 @@ msgstr "탑 벨트"
 
 #: core/views/arm_access_rules.php:256
 #: core/views/arm_email_templates.php:190
-#: core/views/arm_manage_subscription_list.php:707
-#: core/views/arm_manage_subscription_list.php:742
-#: core/views/arm_manage_subscription_list.php:773
+#: core/views/arm_manage_subscription_list.php:712
+#: core/views/arm_manage_subscription_list.php:747
+#: core/views/arm_manage_subscription_list.php:778
 #: core/views/arm_members_list_records.php:433
 #: core/views/arm_subscription_plans_list.php:227
 #: core/views/arm_transactions_list_records.php:404
@@ -13098,7 +13103,7 @@ msgstr "총 건너뛴 주기"
 
 #: core/classes/class.arm_manage_subscription.php:496
 #: core/classes/class.arm_manage_subscription.php:756
-#: core/views/arm_manage_subscription_list.php:724
+#: core/views/arm_manage_subscription_list.php:729
 #@ armember-membership
 msgid "Transaction"
 msgstr "거래"
@@ -13641,7 +13646,7 @@ msgstr "사용자 계획"
 msgid "User Plan Information"
 msgstr "사용자 계획 정보"
 
-#: core/views/arm_feature_settings.php:279
+#: core/views/arm_feature_settings.php:297
 #@ armember-membership
 msgid "User Private Content"
 msgstr "사용자 비공개 콘텐츠"
@@ -13754,9 +13759,9 @@ msgstr "사용자를 성공적으로 가져왔습니다."
 #: core/vc/class_vc_extend.php:1160
 #: core/views/arm_email_templates.php:458
 #: core/views/arm_global_settings.php:320
-#: core/views/arm_manage_subscription_list.php:684
-#: core/views/arm_manage_subscription_list.php:718
-#: core/views/arm_manage_subscription_list.php:752
+#: core/views/arm_manage_subscription_list.php:689
+#: core/views/arm_manage_subscription_list.php:723
+#: core/views/arm_manage_subscription_list.php:757
 #: core/views/arm_member_add.php:303
 #: core/views/arm_members_list_records.php:15
 #: core/views/arm_tinymce_options_shortcodes.php:901
@@ -14163,27 +14168,27 @@ msgstr "부터 시행됩니다"
 msgid "With Respect to its container"
 msgstr "용기와 관련하여"
 
-#: core/views/arm_feature_settings.php:137
+#: core/views/arm_feature_settings.php:138
 #@ armember-membership
 msgid "With this feature, enable social activities like Member Directory/Public Profile, Social Profile Fields etc."
 msgstr "이 기능을 사용하면 회원 디렉터리/공개 프로필, 소셜 프로필 필드 등과 같은 소셜 활동을 활성화할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:320
+#: core/views/arm_feature_settings.php:338
 #@ armember-membership
 msgid "With this feature, you can limit plan, Pay Per Post purchases for members."
 msgstr "이 기능을 사용하면 회원에 대한 요금제, Pay Per Post 구매를 제한할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:220
+#: core/views/arm_feature_settings.php:238
 #@ armember-membership
 msgid "With this feature, you can sell post separately without creating plan(s)."
 msgstr "이 기능을 사용하면 계획을 세우지 않고도 게시물을 별도로 판매할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:280
+#: core/views/arm_feature_settings.php:298
 #@ armember-membership
 msgid "With this feature, you can set different content for different user."
 msgstr "이 기능을 사용하면 사용자마다 다른 콘텐츠를 설정할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:339
+#: core/views/arm_feature_settings.php:357
 #@ armember-membership
 msgid "With this feature, you will able to use Membership API Services for your Application."
 msgstr "이 기능을 사용하면 애플리케이션에 멤버십 API 서비스를 사용할 수 있습니다."
@@ -14194,7 +14199,7 @@ msgstr "이 기능을 사용하면 애플리케이션에 멤버십 API 서비스
 msgid "With what plugin or theme is incompatible?"
 msgstr "어떤 플러그인이나 테마가 호환되지 않나요?"
 
-#: core/views/arm_feature_settings.php:379
+#: core/views/arm_feature_settings.php:397
 #@ armember-membership
 msgid "Woocommerce Integration"
 msgstr "우커머스 통합"
@@ -14219,7 +14224,7 @@ msgstr "워드프레스 서버"
 msgid "Wp Role"
 msgstr "Wp 역할"
 
-#: core/views/arm_feature_settings.php:501
+#: core/views/arm_feature_settings.php:519
 #@ armember-membership
 msgid "WPBakery Page Builder Restriction"
 msgstr "WPBakery 페이지 빌더 제한 사항"
@@ -14362,7 +14367,7 @@ msgstr "모든 계획을 제거할 수는 없습니다."
 msgid "You have already added password field in you form."
 msgstr "양식에 비밀번호 필드를 이미 추가했습니다."
 
-#: core/views/arm_feature_settings.php:746
+#: core/views/arm_feature_settings.php:764
 #@ armember-membership
 msgid "You need to have ARMember version 1.6 OR higher to install this addon."
 msgstr "이 애드온을 설치하려면 ARMember 버전 1.6 이상이 필요합니다."
@@ -14772,42 +14777,42 @@ msgstr "멤버십 플랜 또는 무료 멤버십에 대해서만 내부 블록 �
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "다음 조건 중 하나라도 해당되면 콘텐츠에 제한이 적용됩니다."
 
-#: core/views/arm_feature_settings.php:528
+#: core/views/arm_feature_settings.php:546
 #@ armember-membership
 msgid "Fusion Builder Integration"
 msgstr "퓨전 빌더 통합"
 
-#: core/views/arm_feature_settings.php:529
+#: core/views/arm_feature_settings.php:547
 #@ armember-membership
 msgid "Allows to set restrict content on Fusion Builder Containers & Columns per Membership Plan."
 msgstr "멤버십 플랜별로 Fusion Builder 컨테이너 및 열에 대한 제한 콘텐츠를 설정할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:555
+#: core/views/arm_feature_settings.php:573
 #@ armember-membership
 msgid "Oxygen Builder Integration"
 msgstr "산소 빌더 통합"
 
-#: core/views/arm_feature_settings.php:556
+#: core/views/arm_feature_settings.php:574
 #@ armember-membership
 msgid "Allows to set restrict content on Oxygen Builder Container, Section, Column and Components per Membership Plan."
 msgstr "멤버십 플랜에 따라 Oxygen Builder 컨테이너, 섹션, 컬럼 및 구성 요소에 대한 제한 내용을 설정할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:583
+#: core/views/arm_feature_settings.php:601
 #@ armember-membership
 msgid "SiteOrigin Builder Integration"
 msgstr "SiteOrigin 빌더 통합"
 
-#: core/views/arm_feature_settings.php:584
+#: core/views/arm_feature_settings.php:602
 #@ armember-membership
 msgid "Allows to set restrict content on SiteOrigin Builder Row and Column per Membership Plan."
 msgstr "회원 플랜별로 SiteOrigin Builder 행 및 열에 제한 콘텐츠를 설정할 수 있습니다."
 
-#: core/views/arm_feature_settings.php:612
+#: core/views/arm_feature_settings.php:630
 #@ armember-membership
 msgid "Bricks Builder Integration"
 msgstr "벽돌 빌더 통합"
 
-#: core/views/arm_feature_settings.php:613
+#: core/views/arm_feature_settings.php:631
 #@ armember-membership
 msgid "Allows to set restrict content on Bricks Builder Elements per Membership Plan."
 msgstr "멤버십 플랜별로 Bricks Builder 요소에 대한 제한 콘텐츠를 설정할 수 있습니다."
@@ -15105,7 +15110,7 @@ msgstr "새로운 탐색 메뉴"
 msgid "If BuddyPress plugin is active then use BuddyPress avatar"
 msgstr "BuddyPress 플러그인이 활성화된 경우 BuddyPress 아바타를 사용하세요."
 
-#: core/views/arm_manage_subscription_list.php:672
+#: core/views/arm_manage_subscription_list.php:677
 #@ armember-membership
 msgid "Upcoming Subscriptions"
 msgstr "다가오는 구독"
@@ -15113,7 +15118,7 @@ msgstr "다가오는 구독"
 #: core/vc/class_vc_extend.php:790
 #: core/vc/class_vc_extend.php:837
 #: core/vc/class_vc_extend.php:1049
-#: core/views/arm_manage_subscription_list.php:681
+#: core/views/arm_manage_subscription_list.php:686
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:78
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:110
 #@ armember-membership
@@ -15451,12 +15456,12 @@ msgstr "프로필/디렉터리 관련 메시지"
 msgid "Miscellaneous Messages"
 msgstr "기타 메시지"
 
-#: core/views/arm_feature_settings.php:158
+#: core/views/arm_feature_settings.php:159
 #@ armember-membership
 msgid "Pro-Rata"
 msgstr "Pro-Rata"
 
-#: core/views/arm_feature_settings.php:159
+#: core/views/arm_feature_settings.php:160
 #@ armember-membership
 msgid "Allows member to purchase membership plan through Pro-Rata.."
 msgstr "회원은 비례배분을 통해 멤버십 플랜을 구매할 수 있습니다."
@@ -15699,41 +15704,41 @@ msgstr "Oxygen Builder를 설치하고 이 애드온을 활성화해 보세요."
 msgid "Membership & User Profile - Repute Infosystems"
 msgstr "회원 및 사용자 프로필 - Repute Infosystems"
 
-#: core/views/arm_feature_settings.php:128
+#: core/views/arm_feature_settings.php:129
 #@ armember-membership
 msgid "In-built Modules"
 msgstr "내장 모듈"
 
-#: core/views/arm_feature_settings.php:675
+#: core/views/arm_feature_settings.php:693
 #@ armember-membership
 msgid "Additional Functionality Addon"
 msgstr "추가 기능 애드온"
 
-#: core/views/arm_feature_settings.php:678
+#: core/views/arm_feature_settings.php:696
 #@ armember-membership
 msgid "Payment Gateways Addons"
 msgstr "결제 게이트웨이 애드온"
 
-#: core/views/arm_feature_settings.php:681
+#: core/views/arm_feature_settings.php:699
 #@ armember-membership
 msgid "Third-Party Integrations"
 msgstr "타사 통합"
 
-#: core/views/arm_feature_settings.php:161
-#: core/views/arm_feature_settings.php:182
-#: core/views/arm_feature_settings.php:202
-#: core/views/arm_feature_settings.php:222
-#: core/views/arm_feature_settings.php:242
-#: core/views/arm_feature_settings.php:262
-#: core/views/arm_feature_settings.php:282
-#: core/views/arm_feature_settings.php:302
-#: core/views/arm_feature_settings.php:322
-#: core/views/arm_feature_settings.php:341
-#: core/views/arm_feature_settings.php:362
-#: core/views/arm_feature_settings.php:383
-#: core/views/arm_feature_settings.php:403
-#: core/views/arm_feature_settings.php:615
-#: core/views/arm_feature_settings.php:702
+#: core/views/arm_feature_settings.php:162
+#: core/views/arm_feature_settings.php:179
+#: core/views/arm_feature_settings.php:200
+#: core/views/arm_feature_settings.php:220
+#: core/views/arm_feature_settings.php:240
+#: core/views/arm_feature_settings.php:260
+#: core/views/arm_feature_settings.php:280
+#: core/views/arm_feature_settings.php:300
+#: core/views/arm_feature_settings.php:320
+#: core/views/arm_feature_settings.php:340
+#: core/views/arm_feature_settings.php:359
+#: core/views/arm_feature_settings.php:380
+#: core/views/arm_feature_settings.php:401
+#: core/views/arm_feature_settings.php:421
+#: core/views/arm_feature_settings.php:720
 #@ armember-membership
 msgid "Upgrade Pro"
 msgstr "업그레이드 프로"
@@ -15819,12 +15824,6 @@ msgstr "SiteOrigin Builder를 활성화하고 이 추가 기능을 활성화해 
 msgid "Please install SiteOrigin Builder and try to active this add-on."
 msgstr "SiteOrigin Builder를 설치하고 이 추가 기능을 활성화해 보세요."
 
-#. translators: plugin header field 'Version'
-#: armember-membership.php:0
-#@ armember-membership
-msgid "4.0.57"
-msgstr "4.0.57"
-
 #: core/classes/class.arm_global_settings.php:3330
 #@ armember-membership
 msgid "Please activate Bricks Builder and try to active this add-on."
@@ -15834,4 +15833,10 @@ msgstr "Bricks Builder를 활성화하고 이 추가 기능을 활성화해 보�
 #@ armember-membership
 msgid "Please install Bricks Builder and try to active this add-on."
 msgstr "Bricks Builder를 설치하고 이 추가 기능을 활성화해 보세요."
+
+#. translators: plugin header field 'Version'
+#: armember-membership.php:0
+#@ armember-membership
+msgid "4.0.58"
+msgstr "4.0.58"
 

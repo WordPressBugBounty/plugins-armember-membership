@@ -30,6 +30,7 @@ if(!empty($arm_show_default_content))
 				</button>
 			</div>
 		</div>
+		<?php /*
 		<div class="arm-hs-cta-options-sec">
 			<div class="arm-cos__row">
 				<div class="arm-cos__col">
@@ -46,6 +47,7 @@ if(!empty($arm_show_default_content))
 				</div>
 			</div>
 		</div>
+		*/ ?>
 		<div class="arm-hs-cta-options-sec arm-ws-get-start-but-sec">
 			<button class="arm-wsc-btn arm-wsc-btn--primary arm_next_wizard_step">
 			<?php esc_html_e('Getting Started With Setup','armember-membership'); ?>
