@@ -2957,7 +2957,7 @@ if ( ! class_exists( 'ARM_shortcodes_Lite' ) ) {
 			$return_content = '';
 
 			if ( isset( $atts['id'] ) && $atts['id'] != '' && $atts['id'] > 0 ) {
-				$user_id = $atts['id'];
+				$user_id = intval( $atts['id'] );
 			} elseif ( is_user_logged_in() ) {
 				$user_id = get_current_user_id();
 			}

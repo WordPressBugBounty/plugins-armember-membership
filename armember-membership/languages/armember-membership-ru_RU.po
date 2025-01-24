@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.58\n"
+"Project-Id-Version: ARMember Lite - Membership Plugin v4.0.59\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-21 04:58+0000\n"
-"PO-Revision-Date: 2025-01-18 10:36:51+0000\n"
+"PO-Revision-Date: 2025-01-24 07:51:15+0000\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "MIME-Version: 1.0\n"
@@ -335,7 +335,7 @@ msgstr "Распродажа в Черную Пятницу"
 #: autoload.php:1256
 #: autoload.php:1257
 #: autoload.php:3658
-#: core/views/arm_setup_wizard.php:939
+#: core/views/arm_setup_wizard.php:941
 #@ armember-membership
 msgid "Documentation"
 msgstr "Документация"
@@ -921,7 +921,7 @@ msgstr "Больше не показывайся."
 #: core/views/arm_form_editor.php:151
 #: core/views/arm_member_add.php:1072
 #: core/views/arm_membership_setup_add.php:503
-#: core/views/arm_setup_wizard.php:966
+#: core/views/arm_setup_wizard.php:968
 #: core/views/arm_subscription_plans_add.php:928
 #: core/views/arm_subscription_plans_list.php:202
 #: core/views/arm_transactions_add.php:121
@@ -1190,28 +1190,27 @@ msgstr "Отправить"
 #: core/classes/class.armemberlite.php:65
 #: core/views/arm_feature_settings.php:147
 #: core/views/arm_feature_settings.php:167
-#: core/views/arm_feature_settings.php:184
-#: core/views/arm_feature_settings.php:205
-#: core/views/arm_feature_settings.php:225
-#: core/views/arm_feature_settings.php:245
-#: core/views/arm_feature_settings.php:265
-#: core/views/arm_feature_settings.php:285
-#: core/views/arm_feature_settings.php:305
-#: core/views/arm_feature_settings.php:325
-#: core/views/arm_feature_settings.php:345
-#: core/views/arm_feature_settings.php:364
-#: core/views/arm_feature_settings.php:385
-#: core/views/arm_feature_settings.php:406
-#: core/views/arm_feature_settings.php:426
-#: core/views/arm_feature_settings.php:449
-#: core/views/arm_feature_settings.php:476
-#: core/views/arm_feature_settings.php:503
-#: core/views/arm_feature_settings.php:530
-#: core/views/arm_feature_settings.php:557
-#: core/views/arm_feature_settings.php:584
-#: core/views/arm_feature_settings.php:612
-#: core/views/arm_feature_settings.php:641
-#: core/views/arm_feature_settings.php:725
+#: core/views/arm_feature_settings.php:189
+#: core/views/arm_feature_settings.php:209
+#: core/views/arm_feature_settings.php:229
+#: core/views/arm_feature_settings.php:249
+#: core/views/arm_feature_settings.php:269
+#: core/views/arm_feature_settings.php:289
+#: core/views/arm_feature_settings.php:309
+#: core/views/arm_feature_settings.php:329
+#: core/views/arm_feature_settings.php:348
+#: core/views/arm_feature_settings.php:369
+#: core/views/arm_feature_settings.php:390
+#: core/views/arm_feature_settings.php:410
+#: core/views/arm_feature_settings.php:433
+#: core/views/arm_feature_settings.php:460
+#: core/views/arm_feature_settings.php:487
+#: core/views/arm_feature_settings.php:514
+#: core/views/arm_feature_settings.php:541
+#: core/views/arm_feature_settings.php:568
+#: core/views/arm_feature_settings.php:596
+#: core/views/arm_feature_settings.php:625
+#: core/views/arm_feature_settings.php:709
 #@ armember-membership
 msgid "Deactivate"
 msgstr "Деактивировать"
@@ -2139,7 +2138,7 @@ msgstr "Один Раз"
 #: core/classes/class.arm_subscription_plans.php:3260
 #: core/classes/class.arm_subscription_plans.php:3377
 #: core/classes/class.arm_subscription_plans.php:3420
-#: core/views/arm_setup_wizard.php:314
+#: core/views/arm_setup_wizard.php:316
 #@ armember-membership
 msgid "Free"
 msgstr "Бесплатно"
@@ -2349,7 +2348,7 @@ msgstr "Не удалось активировать план."
 #: core/vc/class_vc_extend.php:1049
 #: core/views/arm_manage_payment_gateways.php:182
 #: core/views/arm_manage_payment_gateways.php:235
-#: core/views/arm_setup_wizard.php:511
+#: core/views/arm_setup_wizard.php:513
 #: core/views/arm_tinymce_options_shortcodes.php:510
 #: core/views/arm_transactions_list_records.php:376
 #: core/widgets/arm_elm_widgets/class.arm_payment_transaction_element_add.php:77
@@ -2767,14 +2766,14 @@ msgstr "план для этого пользователя?"
 #: core/classes/class.arm_members.php:4836
 #: core/classes/class.arm_members.php:4856
 #: core/views/arm_feature_settings.php:141
-#: core/views/arm_feature_settings.php:441
-#: core/views/arm_feature_settings.php:468
-#: core/views/arm_feature_settings.php:495
-#: core/views/arm_feature_settings.php:522
-#: core/views/arm_feature_settings.php:549
-#: core/views/arm_feature_settings.php:576
-#: core/views/arm_feature_settings.php:604
-#: core/views/arm_feature_settings.php:633
+#: core/views/arm_feature_settings.php:425
+#: core/views/arm_feature_settings.php:452
+#: core/views/arm_feature_settings.php:479
+#: core/views/arm_feature_settings.php:506
+#: core/views/arm_feature_settings.php:533
+#: core/views/arm_feature_settings.php:560
+#: core/views/arm_feature_settings.php:588
+#: core/views/arm_feature_settings.php:617
 #@ armember-membership
 msgid "Activate"
 msgstr "Активировать"
@@ -2908,12 +2907,12 @@ msgstr "Сохранить"
 #: core/views/arm_redirection_settings.php:230
 #: core/views/arm_redirection_settings.php:352
 #: core/views/arm_redirection_settings.php:1697
-#: core/views/arm_setup_wizard.php:96
-#: core/views/arm_setup_wizard.php:257
-#: core/views/arm_setup_wizard.php:304
-#: core/views/arm_setup_wizard.php:401
-#: core/views/arm_setup_wizard.php:612
-#: core/views/arm_setup_wizard.php:839
+#: core/views/arm_setup_wizard.php:98
+#: core/views/arm_setup_wizard.php:259
+#: core/views/arm_setup_wizard.php:306
+#: core/views/arm_setup_wizard.php:403
+#: core/views/arm_setup_wizard.php:614
+#: core/views/arm_setup_wizard.php:841
 #: core/views/arm_tinymce_options_shortcodes.php:685
 #@ armember-membership
 msgid "Membership Plan"
@@ -2928,7 +2927,7 @@ msgstr "План членства"
 #: core/views/arm_manage_subscription_list.php:649
 #: core/views/arm_manage_subscription_list.php:652
 #: core/views/arm_member_add.php:721
-#: core/views/arm_setup_wizard.php:311
+#: core/views/arm_setup_wizard.php:313
 #: core/views/arm_subscription_plans_add.php:178
 #: core/views/arm_subscription_plans_list.php:112
 #: core/views/arm_tinymce_options_shortcodes.php:691
@@ -5945,7 +5944,7 @@ msgstr "Ваш пароль успешно изменен."
 #: core/views/arm_manage_forms.php:186
 #: core/views/arm_manage_forms.php:193
 #: core/views/arm_manage_forms.php:204
-#: core/views/arm_setup_wizard.php:922
+#: core/views/arm_setup_wizard.php:924
 #: core/views/arm_tinymce_options_shortcodes.php:64
 #: core/views/arm_tinymce_options_shortcodes.php:199
 #: core/views/arm_view_member.php:335
@@ -7134,7 +7133,7 @@ msgstr "Пожалуйста, войдите"
 #: core/classes/class.arm_transaction.php:239
 #: core/views/arm_manage_payment_gateways.php:187
 #: core/views/arm_manage_payment_gateways.php:239
-#: core/views/arm_setup_wizard.php:515
+#: core/views/arm_setup_wizard.php:517
 #@ armember-membership
 msgid "Bank Name"
 msgstr "Наименование банка"
@@ -7143,7 +7142,7 @@ msgstr "Наименование банка"
 #: core/classes/class.arm_transaction.php:240
 #: core/views/arm_manage_payment_gateways.php:192
 #: core/views/arm_manage_payment_gateways.php:243
-#: core/views/arm_setup_wizard.php:519
+#: core/views/arm_setup_wizard.php:521
 #@ armember-membership
 msgid "Account Holder Name"
 msgstr "Имя Владельца учетной записи"
@@ -7164,8 +7163,8 @@ msgstr "Выберите Способ оплаты"
 #: core/vc/class_vc_extend.php:2067
 #: core/views/arm_manage_payment_gateways.php:81
 #: core/views/arm_manage_payment_gateways.php:202
-#: core/views/arm_setup_wizard.php:461
-#: core/views/arm_setup_wizard.php:527
+#: core/views/arm_setup_wizard.php:463
+#: core/views/arm_setup_wizard.php:529
 #: core/views/arm_tinymce_options_shortcodes.php:1003
 #: core/widgets/arm_elm_widgets/class.arm_user_plan_element_add.php:108
 #@ armember-membership
@@ -9906,8 +9905,8 @@ msgid "is meta field name."
 msgstr "это имя мета-поля."
 
 #: core/views/arm_email_templates.php:489
-#: core/views/arm_setup_wizard.php:332
-#: core/views/arm_setup_wizard.php:666
+#: core/views/arm_setup_wizard.php:334
+#: core/views/arm_setup_wizard.php:668
 #: core/views/arm_subscription_plans_list.php:111
 #@ armember-membership
 msgid "Plan Name"
@@ -9931,7 +9930,7 @@ msgstr "Отображает описание плана пользовател�
 
 #: core/vc/class_vc_extend.php:2060
 #: core/views/arm_email_templates.php:495
-#: core/views/arm_setup_wizard.php:339
+#: core/views/arm_setup_wizard.php:341
 #: core/views/arm_subscription_plans_add.php:198
 #: core/widgets/arm_elm_widgets/class.arm_user_plan_element_add.php:101
 #@ armember-membership
@@ -10004,241 +10003,238 @@ msgstr "С помощью этой функции включите социал�
 #: core/views/arm_feature_settings.php:148
 #: core/views/arm_feature_settings.php:163
 #: core/views/arm_feature_settings.php:168
-#: core/views/arm_feature_settings.php:180
 #: core/views/arm_feature_settings.php:185
-#: core/views/arm_feature_settings.php:201
-#: core/views/arm_feature_settings.php:206
-#: core/views/arm_feature_settings.php:221
-#: core/views/arm_feature_settings.php:226
-#: core/views/arm_feature_settings.php:241
-#: core/views/arm_feature_settings.php:246
-#: core/views/arm_feature_settings.php:261
-#: core/views/arm_feature_settings.php:266
-#: core/views/arm_feature_settings.php:281
-#: core/views/arm_feature_settings.php:286
-#: core/views/arm_feature_settings.php:301
-#: core/views/arm_feature_settings.php:306
-#: core/views/arm_feature_settings.php:381
+#: core/views/arm_feature_settings.php:190
+#: core/views/arm_feature_settings.php:205
+#: core/views/arm_feature_settings.php:210
+#: core/views/arm_feature_settings.php:225
+#: core/views/arm_feature_settings.php:230
+#: core/views/arm_feature_settings.php:245
+#: core/views/arm_feature_settings.php:250
+#: core/views/arm_feature_settings.php:265
+#: core/views/arm_feature_settings.php:270
+#: core/views/arm_feature_settings.php:285
+#: core/views/arm_feature_settings.php:290
+#: core/views/arm_feature_settings.php:365
+#: core/views/arm_feature_settings.php:370
 #: core/views/arm_feature_settings.php:386
-#: core/views/arm_feature_settings.php:402
-#: core/views/arm_feature_settings.php:407
-#: core/views/arm_feature_settings.php:422
-#: core/views/arm_feature_settings.php:427
-#: core/views/arm_feature_settings.php:721
-#: core/views/arm_feature_settings.php:726
+#: core/views/arm_feature_settings.php:391
+#: core/views/arm_feature_settings.php:406
+#: core/views/arm_feature_settings.php:411
+#: core/views/arm_feature_settings.php:705
+#: core/views/arm_feature_settings.php:710
 #@ armember-membership
 msgid "Configure"
 msgstr "Настроить"
 
 #: core/views/arm_feature_settings.php:152
 #: core/views/arm_feature_settings.php:172
-#: core/views/arm_feature_settings.php:189
-#: core/views/arm_feature_settings.php:210
-#: core/views/arm_feature_settings.php:230
-#: core/views/arm_feature_settings.php:250
-#: core/views/arm_feature_settings.php:270
-#: core/views/arm_feature_settings.php:290
-#: core/views/arm_feature_settings.php:310
-#: core/views/arm_feature_settings.php:330
-#: core/views/arm_feature_settings.php:350
-#: core/views/arm_feature_settings.php:369
-#: core/views/arm_feature_settings.php:390
-#: core/views/arm_feature_settings.php:411
-#: core/views/arm_feature_settings.php:431
-#: core/views/arm_feature_settings.php:458
-#: core/views/arm_feature_settings.php:485
-#: core/views/arm_feature_settings.php:512
-#: core/views/arm_feature_settings.php:539
-#: core/views/arm_feature_settings.php:566
-#: core/views/arm_feature_settings.php:593
-#: core/views/arm_feature_settings.php:621
-#: core/views/arm_feature_settings.php:650
-#: core/views/arm_feature_settings.php:730
+#: core/views/arm_feature_settings.php:194
+#: core/views/arm_feature_settings.php:214
+#: core/views/arm_feature_settings.php:234
+#: core/views/arm_feature_settings.php:254
+#: core/views/arm_feature_settings.php:274
+#: core/views/arm_feature_settings.php:294
+#: core/views/arm_feature_settings.php:314
+#: core/views/arm_feature_settings.php:334
+#: core/views/arm_feature_settings.php:353
+#: core/views/arm_feature_settings.php:374
+#: core/views/arm_feature_settings.php:395
+#: core/views/arm_feature_settings.php:415
+#: core/views/arm_feature_settings.php:442
+#: core/views/arm_feature_settings.php:469
+#: core/views/arm_feature_settings.php:496
+#: core/views/arm_feature_settings.php:523
+#: core/views/arm_feature_settings.php:550
+#: core/views/arm_feature_settings.php:577
+#: core/views/arm_feature_settings.php:605
+#: core/views/arm_feature_settings.php:634
+#: core/views/arm_feature_settings.php:714
 #@ armember-membership
 msgid "More Info"
 msgstr "Подробная информация"
 
-#: core/views/arm_feature_settings.php:196
+#: core/views/arm_feature_settings.php:180
 #@ armember-membership
 msgid "Drip Content"
 msgstr "Содержание капель"
 
-#: core/views/arm_feature_settings.php:197
+#: core/views/arm_feature_settings.php:181
 #@ armember-membership
 msgid "Publish your site content based on different time intervals by enabling this feature."
 msgstr "Включив эту функцию, публикуйте содержимое вашего сайта с разными временными интервалами."
 
-#: core/views/arm_feature_settings.php:217
+#: core/views/arm_feature_settings.php:201
 #@ armember-membership
 msgid "Social Connect"
 msgstr "Социальная связь"
 
-#: core/views/arm_feature_settings.php:218
+#: core/views/arm_feature_settings.php:202
 #@ armember-membership
 msgid "Allow users to sign up / login with their social accounts by enabling this feature."
 msgstr "Разрешите пользователям регистрироваться / входить в систему с помощью своих учетных записей в социальных сетях, включив эту функцию."
 
-#: core/views/arm_feature_settings.php:237
+#: core/views/arm_feature_settings.php:221
 #@ armember-membership
 msgid "Pay Per Post"
 msgstr "Оплата за публикацию"
 
-#: core/views/arm_feature_settings.php:238
+#: core/views/arm_feature_settings.php:222
 #@ armember-membership
 msgid "With this feature, you can sell post separately without creating plan(s)."
 msgstr "С помощью этой функции вы можете продавать публикацию отдельно, не создавая план (ы)."
 
-#: core/views/arm_feature_settings.php:257
+#: core/views/arm_feature_settings.php:241
 #@ armember-membership
 msgid "Coupon"
 msgstr "Купон"
 
-#: core/views/arm_feature_settings.php:258
+#: core/views/arm_feature_settings.php:242
 #@ armember-membership
 msgid "Let users get benefit of discounts coupons while making payment with your site."
 msgstr "Позвольте пользователям пользоваться скидочными купонами при совершении платежей с помощью вашего сайта."
 
-#: core/views/arm_feature_settings.php:277
+#: core/views/arm_feature_settings.php:261
 #@ armember-membership
 msgid "Invoice and Tax"
 msgstr "Счет-фактура и Налог"
 
-#: core/views/arm_feature_settings.php:278
+#: core/views/arm_feature_settings.php:262
 #@ armember-membership
 msgid "Enable facility to send Invoice and apply Sales Tax on membership plans."
 msgstr "Включите возможность отправлять счета-фактуры и применять налог с продаж к планам членства."
 
-#: core/views/arm_feature_settings.php:297
+#: core/views/arm_feature_settings.php:281
 #@ armember-membership
 msgid "User Private Content"
 msgstr "Личный Контент пользователя"
 
-#: core/views/arm_feature_settings.php:298
+#: core/views/arm_feature_settings.php:282
 #@ armember-membership
 msgid "With this feature, you can set different content for different user."
 msgstr "С помощью этой функции вы можете настроить разный контент для разных пользователей."
 
-#: core/views/arm_feature_settings.php:317
+#: core/views/arm_feature_settings.php:301
 #@ armember-membership
 msgid "Multiple Membership/Plans"
 msgstr "Множественное Членство / Планы"
 
-#: core/views/arm_feature_settings.php:318
+#: core/views/arm_feature_settings.php:302
 #@ armember-membership
 msgid "Allow members to subscribe multiple plans simultaneously."
 msgstr "Разрешите участникам подписываться на несколько тарифных планов одновременно."
 
-#: core/views/arm_feature_settings.php:337
+#: core/views/arm_feature_settings.php:321
 #@ armember-membership
 msgid "Membership Limit"
 msgstr "Лимит Членства"
 
-#: core/views/arm_feature_settings.php:338
+#: core/views/arm_feature_settings.php:322
 #@ armember-membership
 msgid "With this feature, you can limit plan, Pay Per Post purchases for members."
 msgstr "С помощью этой функции вы можете ограничить покупки по тарифу с оплатой за публикацию для участников."
 
-#: core/views/arm_feature_settings.php:356
+#: core/views/arm_feature_settings.php:340
 #@ armember-membership
 msgid "API Services"
 msgstr "API- сервисы"
 
-#: core/views/arm_feature_settings.php:357
+#: core/views/arm_feature_settings.php:341
 #@ armember-membership
 msgid "With this feature, you will able to use Membership API Services for your Application."
 msgstr "С помощью этой функции вы сможете использовать сервисы API членства для вашего приложения."
 
-#: core/views/arm_feature_settings.php:377
+#: core/views/arm_feature_settings.php:361
 #@ armember-membership
 msgid "Buddypress/Buddyboss Integration"
 msgstr "Интеграция Buddypress/Buddyboss"
 
-#: core/views/arm_feature_settings.php:378
+#: core/views/arm_feature_settings.php:362
 #@ armember-membership
 msgid "Integrate BuddyPress/Buddyboss with ARMember."
 msgstr "Интегрируйте BuddyPress / Buddyboss с ARMember."
 
-#: core/views/arm_feature_settings.php:397
+#: core/views/arm_feature_settings.php:381
 #@ armember-membership
 msgid "Woocommerce Integration"
 msgstr "Интеграция с Woocommerce"
 
-#: core/views/arm_feature_settings.php:398
+#: core/views/arm_feature_settings.php:382
 #@ armember-membership
 msgid "Integrate Woocommerce with ARMember."
 msgstr "Интегрируйте Woocommerce с ARMember."
 
-#: core/views/arm_feature_settings.php:399
+#: core/views/arm_feature_settings.php:383
 #@ armember-membership
 msgid "Minimum Required Woocommerce Version: 3.0.2"
 msgstr "Минимальная Необходимая версия Woocommerce: 3.0.2"
 
-#: core/views/arm_feature_settings.php:418
+#: core/views/arm_feature_settings.php:402
 #@ armember-membership
 msgid "myCRED Integration"
 msgstr "Интеграция с MyCred"
 
-#: core/views/arm_feature_settings.php:419
+#: core/views/arm_feature_settings.php:403
 #@ armember-membership
 msgid "Integrate myCRED adaptive points management system with ARMember."
 msgstr "Интегрируйте адаптивную систему управления точками MyCred с ARMember."
 
-#: core/views/arm_feature_settings.php:438
+#: core/views/arm_feature_settings.php:422
 #@ armember-membership
 msgid "Gutenberg Block Restriction"
 msgstr "Ограничение блока Гутенберга"
 
-#: core/views/arm_feature_settings.php:439
+#: core/views/arm_feature_settings.php:423
 #@ armember-membership
 msgid "Allows facility to set the Access for Gutenberg Blocks per Membership Plan or Logged in member."
 msgstr "Позволяет объекту устанавливать доступ к блокам Gutenberg для каждого плана членства или зарегистрированного участника."
 
-#: core/views/arm_feature_settings.php:465
+#: core/views/arm_feature_settings.php:449
 #@ armember-membership
 msgid "Beaver Builder Restriction"
 msgstr "Ограничение для Строителей Бобров"
 
-#: core/views/arm_feature_settings.php:466
+#: core/views/arm_feature_settings.php:450
 #@ armember-membership
 msgid "Allows Beaver Builder widgets to restrict based on Membership Plan."
 msgstr "Позволяет ограничивать виджеты Beaver Builder в зависимости от Плана членства."
 
-#: core/views/arm_feature_settings.php:492
+#: core/views/arm_feature_settings.php:476
 #@ armember-membership
 msgid "Divi Builder Restriction"
 msgstr "Ограничение Divi Builder"
 
-#: core/views/arm_feature_settings.php:493
+#: core/views/arm_feature_settings.php:477
 #@ armember-membership
 msgid "Allows facility to set the access for Divi Builder content Like Section and Row per Membership Plan."
 msgstr "Позволяет объекту устанавливать доступ к контенту Divi Builder, например к разделу и строке, для каждого плана членства."
 
-#: core/views/arm_feature_settings.php:519
+#: core/views/arm_feature_settings.php:503
 #@ armember-membership
 msgid "WPBakery Page Builder Restriction"
 msgstr "Ограничение для конструктора страниц WPBakery"
 
-#: core/views/arm_feature_settings.php:520
+#: core/views/arm_feature_settings.php:504
 #@ armember-membership
 msgid "Allows to set restrict content on WPBakery Elements per Membership Plan."
 msgstr "Позволяет установить ограничение на содержимое элементов WPBakery в соответствии с Планом членства."
 
-#: core/views/arm_feature_settings.php:764
+#: core/views/arm_feature_settings.php:748
 #@ armember-membership
 msgid "You need to have ARMember version 1.6 OR higher to install this addon."
 msgstr "Для установки этого дополнения у вас должен быть ARMember версии 1.6 ИЛИ выше."
 
-#: core/views/arm_feature_settings.php:769
+#: core/views/arm_feature_settings.php:753
 #@ armember-membership
 msgid "Confirmation"
 msgstr "Подтверждение"
 
-#: core/views/arm_feature_settings.php:873
+#: core/views/arm_feature_settings.php:857
 #@ armember-membership
 msgid "This Addon is not compatible with current ARMember version. Please update ARMember to latest version."
 msgstr "Это дополнение несовместимо с текущей версией ARMember. Пожалуйста, обновите ARMember до последней версии."
 
-#: core/views/arm_feature_settings.php:875
+#: core/views/arm_feature_settings.php:859
 #@ armember-membership
 msgid "Please activate the \\\"Social Feature\\\" module to make this feature work."
 msgstr "Пожалуйста, активируйте модуль \"Социальная функция\", чтобы эта функция заработала."
@@ -10890,11 +10886,11 @@ msgstr "К сожалению, Вы не можете добавить это п
 #: core/views/arm_general_settings.php:33
 #: core/views/arm_general_settings.php:74
 #: core/views/arm_import_export.php:174
-#: core/views/arm_setup_wizard.php:85
-#: core/views/arm_setup_wizard.php:246
-#: core/views/arm_setup_wizard.php:390
-#: core/views/arm_setup_wizard.php:601
-#: core/views/arm_setup_wizard.php:828
+#: core/views/arm_setup_wizard.php:87
+#: core/views/arm_setup_wizard.php:248
+#: core/views/arm_setup_wizard.php:392
+#: core/views/arm_setup_wizard.php:603
+#: core/views/arm_setup_wizard.php:830
 #@ armember-membership
 msgid "General Options"
 msgstr "Общие параметры"
@@ -11049,19 +11045,19 @@ msgid "New user approval"
 msgstr "Утверждение нового пользователя"
 
 #: core/views/arm_global_settings.php:176
-#: core/views/arm_setup_wizard.php:157
+#: core/views/arm_setup_wizard.php:159
 #@ armember-membership
 msgid "Automatic approve"
 msgstr "Автоматическое утверждение"
 
 #: core/views/arm_global_settings.php:177
-#: core/views/arm_setup_wizard.php:158
+#: core/views/arm_setup_wizard.php:160
 #@ armember-membership
 msgid "Email verified approve"
 msgstr "Подтвержденный адрес электронной почты одобрен"
 
 #: core/views/arm_global_settings.php:178
-#: core/views/arm_setup_wizard.php:159
+#: core/views/arm_setup_wizard.php:161
 #@ armember-membership
 msgid "Manual approve by admin"
 msgstr "Ручное утверждение администратором"
@@ -11137,7 +11133,7 @@ msgid "If you have any js/css loading issue in your theme, only in that case you
 msgstr "Если у вас есть какие-либо проблемы с загрузкой js / css в вашей теме, только в этом случае вы должны включить эти настройки"
 
 #: core/views/arm_global_settings.php:344
-#: core/views/arm_setup_wizard.php:196
+#: core/views/arm_setup_wizard.php:198
 #@ armember-membership
 msgid "Help us improve ARMember by sending anonymous usage stats"
 msgstr "Помогите нам улучшить ARMember, отправляя анонимную статистику использования"
@@ -11787,7 +11783,7 @@ msgid "Live API Detail"
 msgstr "Подробная информация о реальном API"
 
 #: core/views/arm_manage_payment_gateways.php:75
-#: core/views/arm_setup_wizard.php:468
+#: core/views/arm_setup_wizard.php:470
 #@ armember-membership
 msgid "Merchant Email"
 msgstr "Электронная почта продавца"
@@ -11803,7 +11799,7 @@ msgid "Sandbox"
 msgstr "Песочница"
 
 #: core/views/arm_manage_payment_gateways.php:85
-#: core/views/arm_setup_wizard.php:464
+#: core/views/arm_setup_wizard.php:466
 #@ armember-membership
 msgid "Live"
 msgstr "ЖИВЫЕ КОНЦЕРТЫ"
@@ -11883,7 +11879,7 @@ msgstr "Поля, которые необходимо включить в пла
 
 #: core/views/arm_manage_payment_gateways.php:197
 #: core/views/arm_manage_payment_gateways.php:247
-#: core/views/arm_setup_wizard.php:523
+#: core/views/arm_setup_wizard.php:525
 #@ armember-membership
 msgid "Additional Info/Note"
 msgstr "Дополнительная информация / Примечание"
@@ -13336,342 +13332,332 @@ msgstr "Настройка ARMember выполняется быстро и пр�
 msgid "Getting Started"
 msgstr "Приступая к работе"
 
-#: core/views/arm_setup_wizard.php:37
-#@ armember-membership
-msgid "Lifetime Free Update"
-msgstr "Пожизненное Бесплатное Обновление"
-
-#: core/views/arm_setup_wizard.php:45
-#@ armember-membership
-msgid "Pay Once, No Monthly Fees"
-msgstr "Платите Один раз, Никаких ежемесячных платежей"
-
-#: core/views/arm_setup_wizard.php:51
+#: core/views/arm_setup_wizard.php:53
 #@ armember-membership
 msgid "Getting Started With Setup"
 msgstr "Начало работы с Настройкой"
 
-#: core/views/arm_setup_wizard.php:69
-#: core/views/arm_setup_wizard.php:230
-#: core/views/arm_setup_wizard.php:374
-#: core/views/arm_setup_wizard.php:585
-#: core/views/arm_setup_wizard.php:813
+#: core/views/arm_setup_wizard.php:71
+#: core/views/arm_setup_wizard.php:232
+#: core/views/arm_setup_wizard.php:376
+#: core/views/arm_setup_wizard.php:587
+#: core/views/arm_setup_wizard.php:815
 #@ armember-membership
 msgid "Account Setup"
 msgstr "Настройка учетной записи"
 
-#: core/views/arm_setup_wizard.php:70
-#: core/views/arm_setup_wizard.php:231
-#: core/views/arm_setup_wizard.php:375
-#: core/views/arm_setup_wizard.php:586
-#: core/views/arm_setup_wizard.php:814
+#: core/views/arm_setup_wizard.php:72
+#: core/views/arm_setup_wizard.php:233
+#: core/views/arm_setup_wizard.php:377
+#: core/views/arm_setup_wizard.php:588
+#: core/views/arm_setup_wizard.php:816
 #@ armember-membership
 msgid "Complete simple steps to get started."
 msgstr "Выполните простые шаги, чтобы начать работу."
 
-#: core/views/arm_setup_wizard.php:107
-#: core/views/arm_setup_wizard.php:268
-#: core/views/arm_setup_wizard.php:412
-#: core/views/arm_setup_wizard.php:448
-#: core/views/arm_setup_wizard.php:623
-#: core/views/arm_setup_wizard.php:850
+#: core/views/arm_setup_wizard.php:109
+#: core/views/arm_setup_wizard.php:270
+#: core/views/arm_setup_wizard.php:414
+#: core/views/arm_setup_wizard.php:450
+#: core/views/arm_setup_wizard.php:625
+#: core/views/arm_setup_wizard.php:852
 #@ armember-membership
 msgid "Payment Options"
 msgstr "Способы оплаты"
 
-#: core/views/arm_setup_wizard.php:125
-#: core/views/arm_setup_wizard.php:286
-#: core/views/arm_setup_wizard.php:430
-#: core/views/arm_setup_wizard.php:641
-#: core/views/arm_setup_wizard.php:659
-#: core/views/arm_setup_wizard.php:868
+#: core/views/arm_setup_wizard.php:127
+#: core/views/arm_setup_wizard.php:288
+#: core/views/arm_setup_wizard.php:432
+#: core/views/arm_setup_wizard.php:643
+#: core/views/arm_setup_wizard.php:661
+#: core/views/arm_setup_wizard.php:870
 #@ armember-membership
 msgid "Content Access"
 msgstr "Доступ к контенту"
 
-#: core/views/arm_setup_wizard.php:136
-#: core/views/arm_setup_wizard.php:297
-#: core/views/arm_setup_wizard.php:441
-#: core/views/arm_setup_wizard.php:652
-#: core/views/arm_setup_wizard.php:883
+#: core/views/arm_setup_wizard.php:138
+#: core/views/arm_setup_wizard.php:299
+#: core/views/arm_setup_wizard.php:443
+#: core/views/arm_setup_wizard.php:654
+#: core/views/arm_setup_wizard.php:885
 #@ armember-membership
 msgid "Complete"
 msgstr "Полный"
 
-#: core/views/arm_setup_wizard.php:143
+#: core/views/arm_setup_wizard.php:145
 #@ armember-membership
 msgid "Enable General Options"
 msgstr "Включить Общие параметры"
 
-#: core/views/arm_setup_wizard.php:144
+#: core/views/arm_setup_wizard.php:146
 #@ armember-membership
 msgid "Go to the General Settings menu from the admin interface. Here you will get number of tabs such as General, Payment Gateways, Page Setup etc.."
 msgstr "Перейдите в меню общих настроек из интерфейса администратора. Здесь вы увидите ряд вкладок, таких как \"Общие\", \"Платежные шлюзы\", \"Настройка страницы\" и т.д.."
 
-#: core/views/arm_setup_wizard.php:150
+#: core/views/arm_setup_wizard.php:152
 #@ armember-membership
 msgid "New User Approval"
 msgstr "Утверждение нового Пользователя"
 
-#: core/views/arm_setup_wizard.php:167
+#: core/views/arm_setup_wizard.php:169
 #@ armember-membership
 msgid "Default Currency"
 msgstr "Валюта по умолчанию"
 
-#: core/views/arm_setup_wizard.php:210
-#: core/views/arm_setup_wizard.php:352
-#: core/views/arm_setup_wizard.php:560
-#: core/views/arm_setup_wizard.php:787
+#: core/views/arm_setup_wizard.php:212
+#: core/views/arm_setup_wizard.php:354
+#: core/views/arm_setup_wizard.php:562
+#: core/views/arm_setup_wizard.php:789
 #@ armember-membership
 msgid "Watch Tutorial"
 msgstr "Смотрите Учебное Пособие"
 
-#: core/views/arm_setup_wizard.php:215
-#: core/views/arm_setup_wizard.php:360
-#: core/views/arm_setup_wizard.php:568
-#: core/views/arm_setup_wizard.php:796
+#: core/views/arm_setup_wizard.php:217
+#: core/views/arm_setup_wizard.php:362
+#: core/views/arm_setup_wizard.php:570
+#: core/views/arm_setup_wizard.php:798
 #@ armember-membership
 msgid "Continue"
 msgstr "Продолжать"
 
-#: core/views/arm_setup_wizard.php:305
+#: core/views/arm_setup_wizard.php:307
 #@ armember-membership
 msgid "Here you will get all different types of Free/Paid membership plans with various general options and Subscription Types & Amount related options."
 msgstr "Здесь вы получите все различные типы бесплатных / платных тарифных планов с различными общими опциями, а также типами подписки и опциями, связанными с суммой."
 
-#: core/views/arm_setup_wizard.php:318
+#: core/views/arm_setup_wizard.php:320
 #: core/views/arm_subscription_plans_add.php:185
 #@ armember-membership
 msgid "Paid Plan (infinite)"
 msgstr "Платный план (бесконечный)"
 
-#: core/views/arm_setup_wizard.php:322
+#: core/views/arm_setup_wizard.php:324
 #: core/views/arm_subscription_plans_add.php:187
 #@ armember-membership
 msgid "Paid Plan (finite)"
 msgstr "Платный план (конечный)"
 
-#: core/views/arm_setup_wizard.php:326
+#: core/views/arm_setup_wizard.php:328
 #: core/views/arm_subscription_plans_add.php:189
 #@ armember-membership
 msgid "Subscription / Recurring Payment"
 msgstr "Подписка / Периодический Платеж"
 
-#: core/views/arm_setup_wizard.php:334
+#: core/views/arm_setup_wizard.php:336
 #@ armember-membership
 msgid "Enter plan name"
 msgstr "Введите название плана"
 
-#: core/views/arm_setup_wizard.php:334
+#: core/views/arm_setup_wizard.php:336
 #@ armember-membership
 msgid "Please Enter Plan name"
 msgstr "Пожалуйста, введите название плана"
 
-#: core/views/arm_setup_wizard.php:341
+#: core/views/arm_setup_wizard.php:343
 #@ armember-membership
 msgid "Invalid Plan amount"
 msgstr "Неверная сумма плана"
 
-#: core/views/arm_setup_wizard.php:341
+#: core/views/arm_setup_wizard.php:343
 #@ armember-membership
 msgid "Enter plan amount"
 msgstr "Введите сумму плана"
 
-#: core/views/arm_setup_wizard.php:341
+#: core/views/arm_setup_wizard.php:343
 #@ armember-membership
 msgid "Please Enter Plan Amount"
 msgstr "Пожалуйста, Введите Сумму Плана"
 
-#: core/views/arm_setup_wizard.php:357
-#: core/views/arm_setup_wizard.php:565
-#: core/views/arm_setup_wizard.php:792
+#: core/views/arm_setup_wizard.php:359
+#: core/views/arm_setup_wizard.php:567
+#: core/views/arm_setup_wizard.php:794
 #@ armember-membership
 msgid "Back"
 msgstr "Назад"
 
-#: core/views/arm_setup_wizard.php:449
+#: core/views/arm_setup_wizard.php:451
 #@ armember-membership
 msgid "Here you will get all different types of Payment gateways to purchase a membership plan."
 msgstr "Здесь вы получите доступ ко всем различным типам платежных шлюзов для приобретения членского плана."
 
-#: core/views/arm_setup_wizard.php:458
+#: core/views/arm_setup_wizard.php:460
 #@ armember-membership
 msgid "Enable PayPal Payment"
 msgstr "Включить платеж PayPal"
 
-#: core/views/arm_setup_wizard.php:462
+#: core/views/arm_setup_wizard.php:464
 #@ armember-membership
 msgid "Test"
 msgstr "Тест"
 
-#: core/views/arm_setup_wizard.php:470
+#: core/views/arm_setup_wizard.php:472
 #@ armember-membership
 msgid "Enter Merchant Email Address"
 msgstr "Введите Адрес электронной почты Продавца"
 
-#: core/views/arm_setup_wizard.php:470
+#: core/views/arm_setup_wizard.php:472
 #@ armember-membership
 msgid "Please Enter Merchant API Email"
 msgstr "Пожалуйста, Введите адрес электронной почты Merchant API"
 
-#: core/views/arm_setup_wizard.php:475
+#: core/views/arm_setup_wizard.php:477
 #@ armember-membership
 msgid "Paypal API Username ( Sandbox)"
 msgstr "Имя пользователя API Paypal (Изолированная среда)"
 
-#: core/views/arm_setup_wizard.php:476
+#: core/views/arm_setup_wizard.php:478
 #@ armember-membership
 msgid "Paypal API Username"
 msgstr "Имя пользователя в API Paypal"
 
-#: core/views/arm_setup_wizard.php:478
+#: core/views/arm_setup_wizard.php:480
 #@ armember-membership
 msgid "Enter API Username"
 msgstr "Введите Имя пользователя API"
 
-#: core/views/arm_setup_wizard.php:478
+#: core/views/arm_setup_wizard.php:480
 #@ armember-membership
 msgid "Please Enter Merchant API Username"
 msgstr "Пожалуйста, Введите имя пользователя Merchant API"
 
-#: core/views/arm_setup_wizard.php:483
+#: core/views/arm_setup_wizard.php:485
 #@ armember-membership
 msgid "Paypal API Password (Sandbox)"
 msgstr "Пароль API Paypal (изолированная среда)"
 
-#: core/views/arm_setup_wizard.php:484
+#: core/views/arm_setup_wizard.php:486
 #@ armember-membership
 msgid "Paypal API Password"
 msgstr "Пароль API Paypal"
 
-#: core/views/arm_setup_wizard.php:486
+#: core/views/arm_setup_wizard.php:488
 #@ armember-membership
 msgid "Enter API Password"
 msgstr "Введите Пароль API"
 
-#: core/views/arm_setup_wizard.php:486
+#: core/views/arm_setup_wizard.php:488
 #@ armember-membership
 msgid "Please Enter Merchant API Password"
 msgstr "Пожалуйста, Введите Пароль Merchant API"
 
-#: core/views/arm_setup_wizard.php:491
+#: core/views/arm_setup_wizard.php:493
 #@ armember-membership
 msgid "Paypal API Signature (Sandbox)"
 msgstr "Подпись API Paypal (изолированная среда)"
 
-#: core/views/arm_setup_wizard.php:492
+#: core/views/arm_setup_wizard.php:494
 #@ armember-membership
 msgid "Paypal API Signature"
 msgstr "Подпись API Paypal"
 
-#: core/views/arm_setup_wizard.php:494
+#: core/views/arm_setup_wizard.php:496
 #@ armember-membership
 msgid "Enter API Signature"
 msgstr "Введите подпись API"
 
-#: core/views/arm_setup_wizard.php:494
+#: core/views/arm_setup_wizard.php:496
 #@ armember-membership
 msgid "Please Enter Merchant API Signature"
 msgstr "Пожалуйста, Введите Подпись Merchant API"
 
-#: core/views/arm_setup_wizard.php:505
+#: core/views/arm_setup_wizard.php:507
 #@ armember-membership
 msgid "Enable Bank Transfer Payment"
 msgstr "Включить Оплату Банковским переводом"
 
-#: core/views/arm_setup_wizard.php:507
+#: core/views/arm_setup_wizard.php:509
 #@ armember-membership
 msgid "Bank Transfer Fields"
 msgstr "Поля для банковского перевода"
 
-#: core/views/arm_setup_wizard.php:553
+#: core/views/arm_setup_wizard.php:555
 #@ armember-membership
 msgid "Please enable atleast one payment."
 msgstr "Пожалуйста, включите хотя бы один платеж."
 
-#: core/views/arm_setup_wizard.php:660
+#: core/views/arm_setup_wizard.php:662
 #@ armember-membership
 msgid "\"Access Rule\" is the main core feature of ARMember plugin. Very easy interface to manage content protection on site in accordance with the related plans. Content Protection Access Rule"
 msgstr "\"Правило доступа\" - основная функция плагина ARMember. Очень простой интерфейс для управления защитой контента на сайте в соответствии с соответствующими планами. Правило доступа к защите контента."
 
-#: core/views/arm_setup_wizard.php:672
+#: core/views/arm_setup_wizard.php:674
 #@ armember-membership
 msgid "Select pages to set access/restriction for created membership plan"
 msgstr "Выберите страницы, чтобы установить доступ / ограничение для созданного плана членства"
 
-#: core/views/arm_setup_wizard.php:745
+#: core/views/arm_setup_wizard.php:747
 #@ armember-membership
 msgid "Reply To:"
 msgstr "Ответить На:"
 
-#: core/views/arm_setup_wizard.php:766
+#: core/views/arm_setup_wizard.php:768
 #@ armember-membership
 msgid "Select Pages(s).."
 msgstr "Выберите Страницы.."
 
-#: core/views/arm_setup_wizard.php:775
+#: core/views/arm_setup_wizard.php:777
 #@ armember-membership
 msgid "No Pages Available"
 msgstr "Нет Доступных страниц"
 
-#: core/views/arm_setup_wizard.php:898
+#: core/views/arm_setup_wizard.php:900
 #@ armember-membership
 msgid "Congratulations!"
 msgstr "Поздравляю!"
 
-#: core/views/arm_setup_wizard.php:899
+#: core/views/arm_setup_wizard.php:901
 #@ armember-membership
 msgid "Hurray!! Everything is ready to create your first membership site"
 msgstr "Ура!! Все готово для создания вашего первого сайта для подписчиков"
 
-#: core/views/arm_setup_wizard.php:900
+#: core/views/arm_setup_wizard.php:902
 #@ armember-membership
 msgid "Your site is ready & below are the details"
 msgstr "Ваш сайт готов, и ниже приведены подробности"
 
-#: core/views/arm_setup_wizard.php:904
+#: core/views/arm_setup_wizard.php:906
 #@ armember-membership
 msgid "Membership registration"
 msgstr "Регистрация на членство"
 
-#: core/views/arm_setup_wizard.php:910
-#: core/views/arm_setup_wizard.php:918
-#: core/views/arm_setup_wizard.php:926
+#: core/views/arm_setup_wizard.php:912
+#: core/views/arm_setup_wizard.php:920
+#: core/views/arm_setup_wizard.php:928
 #@ armember-membership
 msgid "Link Copied!"
 msgstr "Ссылка скопирована!"
 
-#: core/views/arm_setup_wizard.php:914
+#: core/views/arm_setup_wizard.php:916
 #@ armember-membership
 msgid "Member Login"
 msgstr "Вход в Систему Участника"
 
-#: core/views/arm_setup_wizard.php:935
+#: core/views/arm_setup_wizard.php:937
 #@ armember-membership
 msgid "Explore ARMember"
 msgstr "Исследовать ARMember"
 
-#: core/views/arm_setup_wizard.php:937
+#: core/views/arm_setup_wizard.php:939
 #@ armember-membership
 msgid "Useful Links"
 msgstr "Полезные ссылки"
 
-#: core/views/arm_setup_wizard.php:942
+#: core/views/arm_setup_wizard.php:944
 #@ armember-membership
 msgid "Get Forum Support"
 msgstr "Получить Поддержку На Форуме"
 
-#: core/views/arm_setup_wizard.php:945
+#: core/views/arm_setup_wizard.php:947
 #@ armember-membership
 msgid "Explore Features"
 msgstr "Исследуйте Особенности"
 
-#: core/views/arm_setup_wizard.php:950
+#: core/views/arm_setup_wizard.php:952
 #@ armember-membership
 msgid "Skip The Wizard and Setup Manually"
 msgstr "Пропустите работу мастера и выполните настройку вручную"
 
-#: core/views/arm_setup_wizard.php:958
+#: core/views/arm_setup_wizard.php:960
 #@ armember-membership
 msgid "ARMember Basic Tutorial"
 msgstr "ARMember Базовое руководство"
@@ -14777,42 +14763,42 @@ msgstr "Встраивайте блоки в эту оболочку, чтобы
 msgid "If any of the following conditions will true then restrictions will apply on content"
 msgstr "Если любое из следующих условий будет истинным, к контенту будут применяться ограничения."
 
-#: core/views/arm_feature_settings.php:546
+#: core/views/arm_feature_settings.php:530
 #@ armember-membership
 msgid "Fusion Builder Integration"
 msgstr "Интеграция Fusion Builder"
 
-#: core/views/arm_feature_settings.php:547
+#: core/views/arm_feature_settings.php:531
 #@ armember-membership
 msgid "Allows to set restrict content on Fusion Builder Containers & Columns per Membership Plan."
 msgstr "Позволяет установить ограничение содержимого в контейнерах и столбцах Fusion Builder для каждого плана членства."
 
-#: core/views/arm_feature_settings.php:573
+#: core/views/arm_feature_settings.php:557
 #@ armember-membership
 msgid "Oxygen Builder Integration"
 msgstr "Интеграция Oxygen Builder"
 
-#: core/views/arm_feature_settings.php:574
+#: core/views/arm_feature_settings.php:558
 #@ armember-membership
 msgid "Allows to set restrict content on Oxygen Builder Container, Section, Column and Components per Membership Plan."
 msgstr "Позволяет установить ограничение содержимого для контейнера, секции, колонны и компонентов Oxygen Builder для каждого плана членства."
 
-#: core/views/arm_feature_settings.php:601
+#: core/views/arm_feature_settings.php:585
 #@ armember-membership
 msgid "SiteOrigin Builder Integration"
 msgstr "Интеграция SiteOrigin Builder"
 
-#: core/views/arm_feature_settings.php:602
+#: core/views/arm_feature_settings.php:586
 #@ armember-membership
 msgid "Allows to set restrict content on SiteOrigin Builder Row and Column per Membership Plan."
 msgstr "Позволяет установить ограничение содержимого в строке и столбце SiteOrigin Builder для каждого плана членства."
 
-#: core/views/arm_feature_settings.php:630
+#: core/views/arm_feature_settings.php:614
 #@ armember-membership
 msgid "Bricks Builder Integration"
 msgstr "Интеграция Bricks Builder"
 
-#: core/views/arm_feature_settings.php:631
+#: core/views/arm_feature_settings.php:615
 #@ armember-membership
 msgid "Allows to set restrict content on Bricks Builder Elements per Membership Plan."
 msgstr "Позволяет установить ограничение содержимого элементов Bricks Builder для каждого плана членства."
@@ -15676,11 +15662,6 @@ msgstr "Установите Divi Builder или Divi Theme и попробуй�
 msgid "Integration Debug Log Settings"
 msgstr "Настройки журнала отладки интеграции"
 
-#: core/views/arm_setup_wizard.php:41
-#@ armember-membership
-msgid "12K+ Happy Customers"
-msgstr "12 тыс.+ счастливых клиентов"
-
 #: core/classes/arm_builder/class.arm_bricks_builder_restriction.php:31
 #: core/classes/arm_builder/class.arm_oxygen_builder_restriction.php:30
 #: core/classes/arm_builder/class.arm_siteorigin_builder_restriction.php:24
@@ -15709,36 +15690,35 @@ msgstr "Членство и профиль пользователя - Repute Inf
 msgid "In-built Modules"
 msgstr "Встроенные модули"
 
-#: core/views/arm_feature_settings.php:693
+#: core/views/arm_feature_settings.php:677
 #@ armember-membership
 msgid "Additional Functionality Addon"
 msgstr "Дополнительный функционал Addon"
 
-#: core/views/arm_feature_settings.php:696
+#: core/views/arm_feature_settings.php:680
 #@ armember-membership
 msgid "Payment Gateways Addons"
 msgstr "Платежные шлюзы Дополнения"
 
-#: core/views/arm_feature_settings.php:699
+#: core/views/arm_feature_settings.php:683
 #@ armember-membership
 msgid "Third-Party Integrations"
 msgstr "Интеграции сторонних разработчиков"
 
 #: core/views/arm_feature_settings.php:162
-#: core/views/arm_feature_settings.php:179
-#: core/views/arm_feature_settings.php:200
-#: core/views/arm_feature_settings.php:220
-#: core/views/arm_feature_settings.php:240
-#: core/views/arm_feature_settings.php:260
-#: core/views/arm_feature_settings.php:280
-#: core/views/arm_feature_settings.php:300
-#: core/views/arm_feature_settings.php:320
-#: core/views/arm_feature_settings.php:340
-#: core/views/arm_feature_settings.php:359
-#: core/views/arm_feature_settings.php:380
-#: core/views/arm_feature_settings.php:401
-#: core/views/arm_feature_settings.php:421
-#: core/views/arm_feature_settings.php:720
+#: core/views/arm_feature_settings.php:184
+#: core/views/arm_feature_settings.php:204
+#: core/views/arm_feature_settings.php:224
+#: core/views/arm_feature_settings.php:244
+#: core/views/arm_feature_settings.php:264
+#: core/views/arm_feature_settings.php:284
+#: core/views/arm_feature_settings.php:304
+#: core/views/arm_feature_settings.php:324
+#: core/views/arm_feature_settings.php:343
+#: core/views/arm_feature_settings.php:364
+#: core/views/arm_feature_settings.php:385
+#: core/views/arm_feature_settings.php:405
+#: core/views/arm_feature_settings.php:704
 #@ armember-membership
 msgid "Upgrade Pro"
 msgstr "Обновление Pro"
@@ -15837,6 +15817,6 @@ msgstr "Пожалуйста, установите Bricks Builder и попро�
 #. translators: plugin header field 'Version'
 #: armember-membership.php:0
 #@ armember-membership
-msgid "4.0.58"
-msgstr "4.0.58"
+msgid "4.0.59"
+msgstr "4.0.59"
 

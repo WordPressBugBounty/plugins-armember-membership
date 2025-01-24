@@ -207,7 +207,7 @@ if(!empty($arm_show_default_content))
 	</div>
 	<div class="arm-ws-footer-wrapper">
 	    <div class="arm-ws-footer-left">
-		<a href="https://www.youtube.com/watch?v=8COXGo-NetQ" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
+		<a href="https://youtu.be/Yh_X00tHzMw" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
 		        <img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL).'/arm-youtube-icon.webp' ?>" alt="ARMember">
 				<?php esc_html_e('Watch Tutorial','armember-membership'); ?>
 		</a>
@@ -349,7 +349,7 @@ if(!empty($arm_show_default_content))
 
 	<div class="arm-ws-footer-wrapper">
 	    <div class="arm-ws-footer-left">
-		<a href="https://www.youtube.com/watch?v=8COXGo-NetQ" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
+		<a href="https://youtu.be/Yh_X00tHzMw" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
 		        <img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL).'/arm-youtube-icon.webp' ?>" alt="ARMember">
 				<?php esc_html_e('Watch Tutorial','armember-membership'); ?>
 		</a>
@@ -557,7 +557,7 @@ if(!empty($arm_show_default_content))
 	</div>
 	<div class="arm-ws-footer-wrapper">
 	    <div class="arm-ws-footer-left">
-		<a href="https://www.youtube.com/watch?v=8COXGo-NetQ" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
+		<a href="https://youtu.be/Yh_X00tHzMw" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
 		        <img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL).'/arm-youtube-icon.webp' ?>" alt="ARMember">
 				<?php esc_html_e('Watch Tutorial','armember-membership'); ?>
 		</a>
@@ -784,7 +784,7 @@ if(!empty($arm_show_default_content))
 
 	<div class="arm-ws-footer-wrapper">
 	    <div class="arm-ws-footer-left">
-		<a href="https://www.youtube.com/watch?v=8COXGo-NetQ" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
+		<a href="https://youtu.be/Yh_X00tHzMw" target="_blank" class="arm-wsc-btn arm-wsc-btn--primary arm-youtube-btn">
 		        <img src="<?php echo esc_attr(MEMBERSHIPLITE_IMAGES_URL).'/arm-youtube-icon.webp' ?>" alt="ARMember">
 				<?php esc_html_e('Watch Tutorial','armember-membership'); ?>
 		</a>
