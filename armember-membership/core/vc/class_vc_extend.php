@@ -61,7 +61,7 @@ class ARMLITE_VCExtend {
         $armFormList = array();
         $armFormId = array();
         $armFormList = array(
-            __('Select Form', 'armember-membership') => '',
+            esc_html__('Select Form', 'armember-membership') => '',
         );
 
         if (!empty($arm_forms)) {
@@ -76,7 +76,7 @@ class ARMLITE_VCExtend {
         $all_plans = $arm_subscription_plans->arm_get_all_subscription_plans('arm_subscription_plan_id, arm_subscription_plan_name');
         $arm_planlist = array();
         $arm_planlist = array(
-            __('Select Plan', 'armember-membership') => '',
+            esc_html__('Select Plan', 'armember-membership') => '',
         );
         if(!empty($all_plans)){
             foreach($all_plans as $plan){
@@ -86,28 +86,16 @@ class ARMLITE_VCExtend {
         }
 
         $arm_form_position = array(
-            __('Center','armember-membership') => 'center',
-            __('Left','armember-membership') => 'left',
-            __('Right','armember-membership') => 'right',
-        );
-
-        $arm_form_popup = array(
-            __('Internal', 'armember-membership') => 'false',
-            __('External popup window', 'armember-membership') => 'true',
+            esc_html__('Center','armember-membership') => 'center',
+            esc_html__('Left','armember-membership') => 'left',
+            esc_html__('Right','armember-membership') => 'right',
         );
         
-        $arm_form_link_type = array(
-            __('Link', 'armember-membership') => 'link',
-            __('Button', 'armember-membership') => 'button',
-            __('On Load', 'armember-membership') => 'onload',
-        );
-
         $arm_form_overlay = array( '10' => '0.1',  '20' => '0.2',  '30' => '0.3',  '40' => '0.4',  '50' => '0.5',  '60' => '0.6',  '70' => '0.7',  '80' => '0.8',  '90' => '0.9', '100' => '1' );
 
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Form', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_form_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => 'armember-form',
@@ -119,20 +107,18 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select a form to insert into page', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select a form to insert into page', 'armember-membership'),
                         'param_name' => 'id',
                         'value' => $armFormList,
-                        'group' => __( 'ARMember From', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember From', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Logged in Message','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Logged in Message','armember-membership'),
                         'param_name' => 'logged_in_message',
                         'value' => esc_html__('You are already loggedin!', 'armember-membership'),
-                        'group' => __( 'ARMember From', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember From', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'id',
                             'not_empty' => true,
@@ -141,11 +127,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Assign Default Plan','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Assign Default Plan','armember-membership'),
                         'param_name' => 'assign_default_plan',
                         'value' => $arm_planlist,
-                        'group' => __( 'ARMember From', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember From', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'id',
                             'value' => $armFormId,
@@ -154,127 +139,13 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('How you want to include this form into page?', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'popup',
-                        'value' => $arm_form_popup,
-                        'group' => __( 'ARMember From', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'dropdown',
-                        'class' => 'arm_element_dropdown',
-                        'heading' => __('Form Position','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Form Position','armember-membership'),
                         'param_name' => 'form_position',
                         'value' => $arm_form_position,
-                        'group' => __( 'ARMember From', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember From', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'popup',
                             'value' => 'false',
-                        ),
-                    ),
-                    array(
-                        'type' => 'dropdown',
-                        'class' => 'arm_element_dropdown',
-                        'heading' => __('Link Type', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_type',
-                        'value' => $arm_form_link_type,
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => '',
-                        'heading' => __('Link Text', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_title',
-                        'value' => 'Click here to open Form',
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'dropdown',
-                        'class' => 'arm_element_dropdown',
-                        'heading' => __('Background Overlay', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'overlay',
-                        'value' => $arm_form_overlay,
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'colorpicker',
-                        'class' => '',
-                        'heading' => __('Background Color', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'modal_bgcolor',
-                        'value' => '#000000',
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => '',
-                        'heading' => __('Height', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'popup_height',
-                        'value' => 'auto',
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => '',
-                        'heading' => __('Width', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'popup_width',
-                        'value' => '700',
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textarea',
-                        'class' => '',
-                        'heading' => __('Link CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_css',
-                        'value' => 'color: #000000;',
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textarea',
-                        'class' => '',
-                        'heading' => __('Link Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_hover_css',
-                        'value' => 'color: #000000;',
-                        'group' => __( 'ARMember From', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
                         ),
                     ),
                 )
@@ -316,7 +187,7 @@ class ARMLITE_VCExtend {
         $arm_forms = $arm_member_forms->arm_get_all_member_forms('arm_form_id, arm_form_label, arm_form_type');
         $armFormList = array();
         $armFormList = array(
-            __('Select Form', 'armember-membership') => '',
+            esc_html__('Select Form', 'armember-membership') => '',
         );
 
         if (!empty($arm_forms)) {
@@ -328,15 +199,14 @@ class ARMLITE_VCExtend {
         }
 
         $arm_form_position = array(
-            __('Center','armember-membership') => 'center',
-            __('Left','armember-membership') => 'left',
-            __('Right','armember-membership') => 'right',
+            esc_html__('Center','armember-membership') => 'center',
+            esc_html__('Left','armember-membership') => 'left',
+            esc_html__('Right','armember-membership') => 'right',
         );
 
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Edit Profile', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_profile_detail_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -348,59 +218,53 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select Form', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select Form', 'armember-membership'),
                         'param_name' => 'form_id',
                         'value' => $armFormList, 
-                        'group' => __( 'ARMember Edit profile', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Edit profile', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Title', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Title', 'armember-membership'),
                         'param_name' => 'title',
                         'value' => esc_html__( 'Edit Profile', 'armember-membership' ), 
-                        'group' => __( 'ARMember Edit profile', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Edit profile', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Message', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Message', 'armember-membership'),
                         'param_name' => 'message',
                         'value' => esc_html__( 'Your profile has been updated successfully.', 'armember-membership' ),
-                        'group' => __( 'ARMember Edit profile', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Edit profile', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Form Position', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Form Position', 'armember-membership'),
                         'param_name' => 'form_position',
                         'value' => $arm_form_position,
-                        'group' => __( 'ARMember Edit profile', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Edit profile', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('View Profile', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('View Profile', 'armember-membership'),
                         'param_name' => 'view_profile',
                         'value' => array(
-                            __( 'View Profile', 'armember-membership') => 'view_profile',
+                            esc_html__( 'View Profile', 'armember-membership') => 'view_profile',
                         ),
                         "std" => "view_profile",
-                        'group' => __( 'ARMember Edit profile', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Edit profile', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('View Profile Link Label', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('View Profile Link Label', 'armember-membership'),
                         'param_name' => 'view_profile_link',
                         'value' => esc_html__( 'View Profile', 'armember-membership' ),
-                        'group' => __( 'ARMember Edit profile', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Edit profile', 'armember-membership' ),
                     )
                 )
             ));
@@ -431,19 +295,18 @@ class ARMLITE_VCExtend {
         }
 
         $arm_form_link_type = array(
-            __('Link', 'armember-membership') => 'link',
-            __('Button', 'armember-membership') => 'button',
+            esc_html__('Link', 'armember-membership') => 'link',
+            esc_html__('Button', 'armember-membership') => 'button',
         );
 
         $arm_form_user_info = array(
-            __('Yes', 'armember-membership') => 'true',
-            __('No', 'armember-membership') => 'false',
+            esc_html__('Yes', 'armember-membership') => 'true',
+            esc_html__('No', 'armember-membership') => 'false',
         );
 
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Logout', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_logout_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -455,56 +318,50 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Link Type', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Link Type', 'armember-membership'),
                         'param_name' => 'type',
                         'value' => $arm_form_link_type,
-                        'group' => __( 'ARMember Logout', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Logout', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Link Text', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Link Text', 'armember-membership'),
                         'param_name' => 'label',
                         'value' => 'Logout',
-                        'group' => __( 'ARMember Logout', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Logout', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Display User Info', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Display User Info', 'armember-membership'),
                         'param_name' => 'user_info',
                         'value' => $arm_form_user_info,
-                        'group' => __( 'ARMember Logout', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Logout', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Redirect After Logout', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Redirect After Logout', 'armember-membership'),
                         'param_name' => 'redirect_to',
                         'value' => ARMLITE_HOME_URL,
-                        'group' => __( 'ARMember Logout', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Logout', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Link CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Link CSS', 'armember-membership'),
                         'param_name' => 'link_css',
                         'value' => 'color: #000000;',
-                        'group' => __( 'ARMember Logout', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Logout', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Link Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Link Hover CSS', 'armember-membership'),
                         'param_name' => 'link_hover_css',
                         'value' => 'color: #000000;',
-                        'group' => __( 'ARMember Logout', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Logout', 'armember-membership' ),
                     ),
                 )
             ));
@@ -537,7 +394,7 @@ class ARMLITE_VCExtend {
 
         $armFormList = array();
         $armFormList = array(
-            __('Select Form', 'armember-membership') => '',
+            esc_html__('Select Form', 'armember-membership') => '',
         );
 
         if (!empty($arm_forms)) {
@@ -547,32 +404,21 @@ class ARMLITE_VCExtend {
         }
 
         $arm_hide_title = array(
-            __('No', 'armember-membership') => 'false',
-            __('Yes', 'armember-membership') => 'true',
+            esc_html__('No', 'armember-membership') => 'false',
+            esc_html__('Yes', 'armember-membership') => 'true',
         );
         
         $arm_hide_plans = array(
-            __('No', 'armember-membership') => 0,
-            __('Yes', 'armember-membership') => 1,
+            esc_html__('No', 'armember-membership') => 0,
+            esc_html__('Yes', 'armember-membership') => 1,
         );
 
-        $arm_form_popup = array(
-            __('Internal', 'armember-membership') => 'false',
-            __('External', 'armember-membership') => 'true',
-        );
-
-        $arm_form_link_type = array(
-            __('Link', 'armember-membership') => 'link',
-            __('Button', 'armember-membership') => 'button',
-        );
-        
-        $arm_form_overlay = array( '10' => '0.1',  '20' => '0.2',  '30' => '0.3',  '40' => '0.4',  '50' => '0.5',  '60' => '0.6',  '70' => '0.7',  '80' => '0.8',  '90' => '0.9', '100' => '1' );
-
+   
         $setups = $wpdb->get_results("SELECT `arm_setup_id`, `arm_setup_name` FROM `" . $ARMemberLite->tbl_arm_membership_setup . "` "); //phpcs:ignore
 
         $arm_setuplist = array();
         $arm_setuplist = array(
-                __('Select Setup', 'armember-membership') => '',
+            esc_html__('Select Setup', 'armember-membership') => '',
             );
 
         if (!empty($setups)){
@@ -584,7 +430,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Membership Setup Wizard', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_setup_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -592,156 +437,40 @@ class ARMLITE_VCExtend {
                 'icon' => 'arm_vc_icon',
                 'admin_enqueue_css' => array(MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css'),
                 'front_enqueue_css' => MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css',
-                'group' => __( 'Membership Setup Wizard', 'armember-membership' ),
+                'group' => esc_html__( 'Membership Setup Wizard', 'armember-membership' ),
                 'params' => array(
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select Setup', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select Setup', 'armember-membership'),
                         'param_name' => 'id',
                         'value' => $arm_setuplist,
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Membership Setup Wizard', 'armember-membership' )
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Hide Setup Title', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Hide Setup Title', 'armember-membership'),
                         'param_name' => 'hide_title',
                         'value' => $arm_hide_title,
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Membership Setup Wizard', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Default Selected Plan', 'armember-membership'),
-                        'description' => __('Please enter plan id', 'armember-membership'),
+                        'heading' => esc_html__('Default Selected Plan', 'armember-membership'),
+                        'description' => esc_html__('Please enter plan id', 'armember-membership'),
                         'param_name' => 'subscription_plan',
                         'value' => '',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Membership Setup Wizard', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Hide Plan Selection Area', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Hide Plan Selection Area', 'armember-membership'),
                         'param_name' => 'hide_plans',
                         'value' => $arm_hide_plans,
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'dropdown',
-                        'class' => 'arm_element_dropdown',
-                        'heading' => __('How you want to include this form into page?', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'popup',
-                        'value' => $arm_form_popup,
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'dropdown',
-                        'class' => 'arm_element_dropdown',
-                        'heading' => __('Link Type', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_type',
-                        'value' => $arm_form_link_type,
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => '',
-                        'heading' => __('Link Text', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_title',
-                        'value' => 'Click here to open Form',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'dropdown',
-                        'class' => 'arm_element_dropdown',
-                        'heading' => __('Background Overlay', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'overlay',
-                        'value' => $arm_form_overlay,
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'colorpicker',
-                        'class' => '',
-                        'heading' => __('Background Color', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'modal_bgcolor',
-                        'value' => '#000000',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => '',
-                        'heading' => __('Height', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'popup_height',
-                        'value' => 'auto',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => '',
-                        'heading' => __('Width', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'popup_width',
-                        'value' => '800',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textarea',
-                        'class' => '',
-                        'heading' => __('Link CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_css',
-                        'value' => 'color: #000000;',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
-                    ),
-                    array(
-                        'type' => 'textarea',
-                        'class' => '',
-                        'heading' => __('Link Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
-                        'param_name' => 'link_hover_css',
-                        'value' => 'color: #000000;',
-                        'group' => __( 'ARMember Membership Setup Wizard', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'popup',
-                            'value' => 'true',
-                        ),
+                        'group' => esc_html__( 'ARMember Membership Setup Wizard', 'armember-membership' ),
                     ),
                 )
             ));
@@ -781,27 +510,26 @@ class ARMLITE_VCExtend {
         }
 
         $arm_form_display_invoice_button = array(
-            __('Yes', 'armember-membership') => 'true',
-            __('No', 'armember-membership') => 'false',
+            esc_html__('Yes', 'armember-membership') => 'true',
+            esc_html__('No', 'armember-membership') => 'false',
         );
 
         $armFormLabel = array(
-            '&nbsp;'.__( 'Transaction ID', 'armember-membership') => 'transaction_id',
-            '&nbsp;'.__( 'Invoice ID', 'armember-membership') => 'invoice_id',
-            '&nbsp;'.__( 'Plan', 'armember-membership') => 'plan',
-            '&nbsp;'.__( 'Payment Gateway', 'armember-membership') => 'payment_gateway',
-            '&nbsp;'.__( 'Payment Type', 'armember-membership') => 'payment_type',
-            '&nbsp;'.__( 'Transaction Status', 'armember-membership') => 'transaction_status',
-            '&nbsp;'.__( 'Amount', 'armember-membership') => 'amount',
-            '&nbsp;'.__( 'Used coupon Code', 'armember-membership') => 'used_coupon_code',
-            '&nbsp;'.__( 'Used coupon Discount', 'armember-membership') => 'used_coupon_discount',
-            '&nbsp;'.__( 'Payment Date', 'armember-membership') => 'payment_date',
+            '&nbsp;'.esc_html__( 'Transaction ID', 'armember-membership') => 'transaction_id',
+            '&nbsp;'.esc_html__( 'Invoice ID', 'armember-membership') => 'invoice_id',
+            '&nbsp;'.esc_html__( 'Plan', 'armember-membership') => 'plan',
+            '&nbsp;'.esc_html__( 'Payment Gateway', 'armember-membership') => 'payment_gateway',
+            '&nbsp;'.esc_html__( 'Payment Type', 'armember-membership') => 'payment_type',
+            '&nbsp;'.esc_html__( 'Transaction Status', 'armember-membership') => 'transaction_status',
+            '&nbsp;'.esc_html__( 'Amount', 'armember-membership') => 'amount',
+            '&nbsp;'.esc_html__( 'Used coupon Code', 'armember-membership') => 'used_coupon_code',
+            '&nbsp;'.esc_html__( 'Used coupon Discount', 'armember-membership') => 'used_coupon_discount',
+            '&nbsp;'.esc_html__( 'Payment Date', 'armember-membership') => 'payment_date',
         );
 
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Payment Transaction', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_member_transaction_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -813,12 +541,12 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'transaction_id_label',
                         'value' => array(
-                            __( 'Transaction ID', 'armember-membership') => 'transaction_id',
+                            esc_html__( 'Transaction ID', 'armember-membership') => 'transaction_id',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -826,17 +554,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'transaction_id_value',
                         'value' => 'Transaction ID',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'invoice_id_label',
                         'value' => array(
-                            __( 'Invoice ID', 'armember-membership') => 'invoice_id',
+                            esc_html__( 'Invoice ID', 'armember-membership') => 'invoice_id',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -844,17 +572,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'invoice_id_value',
                         'value' => 'Invoice ID',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'plan_label',
                         'value' => array(
-                            __( 'Plan', 'armember-membership') => 'plan',
+                            esc_html__( 'Plan', 'armember-membership') => 'plan',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -862,17 +590,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'plan_value',
                         'value' => 'Plan',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'payment_gateway_label',
                         'value' => array(
-                            __( 'Payment Gateway', 'armember-membership') => 'payment_gateway',
+                            esc_html__( 'Payment Gateway', 'armember-membership') => 'payment_gateway',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -880,17 +608,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'payment_gateway_value',
                         'value' => 'Payment Gateway',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'transaction_status_label',
                         'value' => array(
-                            __( 'Transaction Status', 'armember-membership') => 'transaction_status',
+                            esc_html__( 'Transaction Status', 'armember-membership') => 'transaction_status',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -898,17 +626,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'transaction_status_value',
                         'value' => 'Transaction Status',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'amount_label',
                         'value' => array(
-                            __( 'Amount', 'armember-membership') => 'amount',
+                            esc_html__( 'Amount', 'armember-membership') => 'amount',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -916,17 +644,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'amount_value',
                         'value' => 'Amount',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'used_coupon_code_label',
                         'value' => array(
-                            __( 'Used coupon Code', 'armember-membership') => 'used_coupon_code',
+                            esc_html__( 'Used coupon Code', 'armember-membership') => 'used_coupon_code',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -934,17 +662,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'used_coupon_code_value',
                         'value' => 'Used coupon Code',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'used_coupon_discount_label',
                         'value' => array(
-                            __( 'Used coupon Discount', 'armember-membership') => 'used_coupon_discount',
+                            esc_html__( 'Used coupon Discount', 'armember-membership') => 'used_coupon_discount',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -952,17 +680,17 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'used_coupon_discount_value',
                         'value' => 'Used coupon Discount',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Transaction History', 'armember-membership'),
+                        'heading' => esc_html__('Transaction History', 'armember-membership'),
                         'param_name' => 'payment_date_label',
                         'value' => array(
-                            __( 'Payment Date', 'armember-membership') => 'payment_date',
+                            esc_html__( 'Payment Date', 'armember-membership') => 'payment_date',
                         ),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
@@ -970,70 +698,65 @@ class ARMLITE_VCExtend {
                         'heading' => false,
                         'param_name' => 'payment_date_value',
                         'value' => 'Payment Date',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Display View Invoice Button', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Display View Invoice Button', 'armember-membership'),
                         'param_name' => 'display_invoice_button',
                         'value' => $arm_form_display_invoice_button,
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('View Invoice Text', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('View Invoice Text', 'armember-membership'),
                         'param_name' => 'view_invoice_text',
-                        'value' => __('View Invoice','armember-membership'),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'value' => esc_html__('View Invoice','armember-membership'),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button CSS', 'armember-membership'),
+                        'heading' => esc_html__('Button CSS', 'armember-membership'),
                         'description' => '&nbsp;e.g. color: #ffffff;',
                         'param_name' => 'view_invoice_css',
                         'value' => '',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button Hover CSS', 'armember-membership'),
+                        'heading' => esc_html__('Button Hover CSS', 'armember-membership'),
                         'description' => '&nbsp;e.g. color: #ffffff;',
                         'param_name' => 'view_invoice_hover_css',
                         'value' => '',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Title', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Title', 'armember-membership'),
                         'param_name' => 'title',
-                        'value' => __('Transactions','armember-membership'),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'value' => esc_html__('Transactions','armember-membership'),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),                   
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Records per Page', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Records per Page', 'armember-membership'),
                         'param_name' => 'per_page',
                         'value' => '5',
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('No Records Message', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('No Records Message', 'armember-membership'),
                         'param_name' => 'message_no_record',
-                        'value' => __('There is no any Transactions found', 'armember-membership'),
-                        'group' => __( 'ARMember Payment Transaction', 'armember-membership' ),
+                        'value' => esc_html__('There is no any Transactions found', 'armember-membership'),
+                        'group' => esc_html__( 'ARMember Payment Transaction', 'armember-membership' ),
                     ),
                 )
             ));
@@ -1062,7 +785,7 @@ class ARMLITE_VCExtend {
     }
 
     public function ARM_arm_account_detail() {
-        global $arm_lite_version,$ARMemberLite, $arm_member_forms, $arm_social_feature;
+        global $arm_lite_version,$ARMemberLite, $arm_member_forms, $arm_social_feature,$arm_members_directory;
 
         if (!$this->isWPBakryBuilderRestrictionFeature) {
             return;
@@ -1077,11 +800,65 @@ class ARMLITE_VCExtend {
                 }
             }
         }
-
+        $allDefaultLabelArray = array();
+        $dbProfileFields = $arm_members_directory->arm_template_profile_fields();
+        if (!empty($dbProfileFields)) {
+            foreach ($dbProfileFields as $db_form) {
+                $arm_meta_key = (!empty($db_form['meta_key']) ? $db_form['meta_key'] : '');
+                if (empty($arm_meta_key) || $arm_meta_key == 'user_pass' || in_array($db_form['type'], array('hidden', 'html', 'section', 'rememberme','arm_captcha'))) {
+                    continue;
+                }
+                if(isset($arm_meta_key) && $arm_meta_key != ''){
+                    $DefaultFieldsLabelArray = array(
+                        'type' => 'checkbox',
+                        'class' => 'arm_element_checkbox',
+                        'heading' => esc_html__('Profile Fields', 'armember-membership'),
+                        'param_name' => $arm_meta_key.'_label',
+                        'value' => array(
+                            $db_form['label'] => $arm_meta_key,
+                        ),
+                        'group' => esc_html__( 'ARMember My Profile', 'armember-membership' )
+                    );
+                    array_push($allDefaultLabelArray,$DefaultFieldsLabelArray);
+                    $DefaultFieldsValueArray = array(
+                        'type' => 'textfield',
+                        'class' => 'arm_element_textfield',
+                        'heading' => false,
+                        'param_name' => $arm_meta_key.'_value',
+                        'value' => array(
+                           $db_form['label'] => $arm_meta_key,
+                        ),
+                        'group' => esc_html__( 'ARMember My Profile', 'armember-membership' )
+                    );
+                    array_push($allDefaultLabelArray,$DefaultFieldsValueArray);
+                }
+            }
+        }
+        $isSocialFeatureArray = array(
+            'type' => 'hidden',
+            'class' => '',
+            'heading' => false,
+            'param_name' => 'is_social_fields',
+            'value' => $arm_social_feature->isSocialFeature,
+            'group' => esc_html__( 'ARMember My Profile', 'armember-membership' )
+        );
+        array_push($allDefaultLabelArray,$isSocialFeatureArray);
+        $armSocialFieldArray = array(
+            'type' => 'checkbox',
+            'class' => '',
+            'heading' => false,
+            'param_name' => 'social_fields',
+            'value' => $armSocialField,
+            'group' => esc_html__( 'ARMember My Profile', 'armember-membership' ),
+            'dependency' => array(
+                'element' => 'is_social_fields',
+                'value' => 'true',
+            ),                        
+        );
+        array_push($allDefaultLabelArray,$armSocialFieldArray);
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember My Profile', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_account_detail_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1089,210 +866,7 @@ class ARMLITE_VCExtend {
                 'icon' => 'arm_vc_icon',
                 'admin_enqueue_css' => array(MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css'),
                 'front_enqueue_css' => MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css',
-                'params' => array(
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'first_name_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'First Name', 'armember-membership') => 'first_name',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'first_name_value',
-                        'value' => 'First Name',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'last_name_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Last Name', 'armember-membership') => 'last_name',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'last_name_value',
-                        'value' => 'Last Name',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'display_name_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Display Name', 'armember-membership') => 'display_name',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'display_name_value',
-                        'value' => 'Display Name',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'user_login_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Username', 'armember-membership') => 'user_login',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'user_login_value',
-                        'value' => 'Username',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'user_email_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Email Address', 'armember-membership') => 'user_email',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'user_email_value',
-                        'value' => 'Email Address',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'gender_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Gender', 'armember-membership') => 'gender',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'gender_value',
-                        'value' => 'Gender',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'user_url_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Website (URL)', 'armember-membership') => 'user_url',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'user_url_value',
-                        'value' => 'Website (URL)',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'country_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Country/Region', 'armember-membership') => 'country',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'country_value',
-                        'value' => 'Country/Region',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => 'arm_element_checkbox',
-                        'heading' => __('Profile Fields', 'armember-membership'),
-                        'description' => false,
-                        'param_name' => 'description_label',
-                        'value' => array(
-                            '&nbsp;'.__( 'Biography', 'armember-membership') => 'description',
-                        ),
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'textfield',
-                        'class' => 'arm_element_textfield',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'description_value',
-                        'value' => 'Biography',
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                    ),
-                    array(
-                        'type' => 'hidden',
-                        'class' => '',
-                        'heading' => false,
-                        'description' => false,
-                        'param_name' => 'is_social_fields',
-                        'value' => $arm_social_feature->isSocialFeature,
-                        'group' => __( 'ARMember My Profile', 'armember-membership' )
-                    ),
-                    array(
-                        'type' => 'checkbox',
-                        'class' => '',
-                        'heading' => false,
-                        'description' => '&nbsp;',
-                        'param_name' => 'social_fields',
-                        'value' => $armSocialField,
-                        'group' => __( 'ARMember My Profile', 'armember-membership' ),
-                        'dependency' => array(
-                            'element' => 'is_social_fields',
-                            'value' => 'true',
-                        ),                        
-                    ),
-                )
+                'params' => $allDefaultLabelArray,
             ));
         }
     }
@@ -1323,7 +897,7 @@ class ARMLITE_VCExtend {
 
         $arm_setuplist = array();
         $arm_setuplist = array(
-                __('Select Setup', 'armember-membership') => '',
+            esc_html__('Select Setup', 'armember-membership') => '',
             );
 
         if (!empty($setups)){
@@ -1335,7 +909,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Close Account', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_close_account_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1347,20 +920,18 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select set of login form','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select set of login form','armember-membership'),
                         'param_name' => 'set_id',
                         'value' => $arm_setuplist,
-                        'group' => __( 'ARMember Close Account', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Close Account', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Link Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Link Hover CSS', 'armember-membership'),
                         'param_name' => 'css',
                         'value' => '',
-                        'group' => __( 'ARMember Close Account', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Close Account', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'set_id',
                             'not_empty' => true,
@@ -1394,7 +965,7 @@ class ARMLITE_VCExtend {
 
         $arm_setuplist = array();
         $arm_setuplist = array(
-                __('Select Setup', 'armember-membership') => '',
+                esc_html__('Select Setup', 'armember-membership') => '',
             );
 
         if (!empty($setups)){
@@ -1404,24 +975,23 @@ class ARMLITE_VCExtend {
         }
 
         $arm_display_yes_no_option = array(
-            __('No', 'armember-membership') => 'false',
-            __('Yes', 'armember-membership') => 'true',
+            esc_html__('No', 'armember-membership') => 'false',
+            esc_html__('Yes', 'armember-membership') => 'true',
         );
 
         $armFormMembershipLabel = array(
-            '&nbsp;'.__( 'No.', 'armember-membership') => 'current_membership_no',
-            '&nbsp;'.__( 'Membership Plan', 'armember-membership') => 'current_membership_is',
-            '&nbsp;'.__( 'Plan Type', 'armember-membership') => 'current_membership_recurring_profile',
-            '&nbsp;'.__( 'Starts On', 'armember-membership') => 'current_membership_started_on',
-            '&nbsp;'.__( 'Expires On', 'armember-membership') => 'current_membership_expired_on',
-            '&nbsp;'.__( 'Cycle Date', 'armember-membership') => 'current_membership_next_billing_date',
-            '&nbsp;'.__( 'Action', 'armember-membership') => 'action_button',
+            '&nbsp;'.esc_html__( 'No.', 'armember-membership') => 'current_membership_no',
+            '&nbsp;'.esc_html__( 'Membership Plan', 'armember-membership') => 'current_membership_is',
+            '&nbsp;'.esc_html__( 'Plan Type', 'armember-membership') => 'current_membership_recurring_profile',
+            '&nbsp;'.esc_html__( 'Starts On', 'armember-membership') => 'current_membership_started_on',
+            '&nbsp;'.esc_html__( 'Expires On', 'armember-membership') => 'current_membership_expired_on',
+            '&nbsp;'.esc_html__( 'Cycle Date', 'armember-membership') => 'current_membership_next_billing_date',
+            '&nbsp;'.esc_html__( 'Action', 'armember-membership') => 'action_button',
         );
 
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Current Membership', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_membership_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1433,185 +1003,167 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Title','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Title','armember-membership'),
                         'param_name' => 'title',
                         'value' => 'Current Membership',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select Setup', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select Setup', 'armember-membership'),
                         'param_name' => 'setup_id',
                         'value' => $arm_setuplist,
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'current_membership_no_label',
                         'value' => array(
-                            __( 'No.', 'armember-membership') => 'current_membership_no',
+                            esc_html__( 'No.', 'armember-membership') => 'current_membership_no',
                         ),
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => false,
                         'param_name' => 'current_membership_no_value',
                         'value' => 'No.',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'current_membership_is_label',
                         'value' => array(
-                            __( 'Membership Plan', 'armember-membership') => 'current_membership_is',
+                            esc_html__( 'Membership Plan', 'armember-membership') => 'current_membership_is',
                         ),
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => '&nbsp;',
                         'param_name' => 'current_membership_is_value',
                         'value' => 'Membership Plan',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'current_membership_recurring_profile_label',
                         'value' => array(
-                            __( 'Plan Type', 'armember-membership') => 'current_membership_recurring_profile',
+                            esc_html__( 'Plan Type', 'armember-membership') => 'current_membership_recurring_profile',
                         ),
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => '&nbsp;',
                         'param_name' => 'current_membership_recurring_profile_value',
                         'value' => 'Plan Type',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'current_membership_started_on_label',
                         'value' => array(
-                            __( 'Starts On', 'armember-membership') => 'current_membership_started_on',
+                            esc_html__( 'Starts On', 'armember-membership') => 'current_membership_started_on',
                         ),
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => '&nbsp;',
                         'param_name' => 'current_membership_started_on_value',
                         'value' => 'Starts On',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'current_membership_expired_on_label',
                         'value' => array(
-                            __( 'Expires On', 'armember-membership') => 'current_membership_expired_on',
+                            esc_html__( 'Expires On', 'armember-membership') => 'current_membership_expired_on',
                         ),
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => '&nbsp;',
                         'param_name' => 'current_membership_expired_on_value',
                         'value' => 'Expires On',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'current_membership_next_billing_date_label',
                         'value' => array(
-                            __( 'Cycle Date', 'armember-membership') => 'current_membership_next_billing_date',
+                            esc_html__( 'Cycle Date', 'armember-membership') => 'current_membership_next_billing_date',
                         ),
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => '&nbsp;',
                         'param_name' => 'current_membership_next_billing_date_value',
                         'value' => 'Cycle Date',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'checkbox',
                         'class' => 'arm_element_checkbox',
-                        'heading' => __('Current Membership', 'armember-membership'),
-                        'description' => false,
+                        'heading' => esc_html__('Current Membership', 'armember-membership'),
                         'param_name' => 'action_button_label',
                         'value' => array(
-                            __( 'Action', 'armember-membership') => 'action_button',
+                            esc_html__( 'Action', 'armember-membership') => 'action_button',
                         ),
-                        'group' =>__( 'ARMember Current Membership', 'armember-membership' )
+                        'group' =>esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => 'arm_element_textfield',
                         'holder' => 'div',
                         'heading' => false,
-                        'description' => '&nbsp;',
                         'param_name' => 'action_button_value',
                         'value' => 'Action',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' )
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Display Renew Subscription Button', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Display Renew Subscription Button', 'armember-membership'),
                         'param_name' => 'display_renew_button',
                         'value' => $arm_display_yes_no_option,
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Button Text','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button Text','armember-membership'),
                         'param_name' => 'renew_text',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_renew_button',
                             'value' => 'true',
@@ -1620,11 +1172,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Make Payment Text','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Make Payment Text','armember-membership'),
                         'param_name' => 'make_payment_text',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_renew_button',
                             'value' => 'true',
@@ -1633,11 +1184,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button CSS', 'armember-membership'),
                         'param_name' => 'renew_css',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_renew_button',
                             'value' => 'true',
@@ -1646,11 +1196,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button Hover CSS', 'armember-membership'),
                         'param_name' => 'renew_hover_css',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_renew_button',
                             'value' => 'true',
@@ -1659,20 +1208,18 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Display Cancel Subscription Button', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Display Cancel Subscription Button', 'armember-membership'),
                         'param_name' => 'display_cancel_button',
                         'value' => $arm_display_yes_no_option,
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Button Text','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button Text','armember-membership'),
                         'param_name' => 'cancel_text',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_cancel_button',
                             'value' => 'true',
@@ -1681,11 +1228,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button CSS', 'armember-membership'),
                         'param_name' => 'cancel_css',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_cancel_button',
                             'value' => 'true',
@@ -1694,11 +1240,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button Hover CSS', 'armember-membership'),
                         'param_name' => 'cancel_hover_css',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_cancel_button',
                             'value' => 'true',
@@ -1707,11 +1252,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Subscription Cancelled Message','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Subscription Cancelled Message','armember-membership'),
                         'param_name' => 'cancel_message',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_cancel_button',
                             'value' => 'true',
@@ -1720,20 +1264,18 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Display Update Card Subscription Button?', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Display Update Card Subscription Button?', 'armember-membership'),
                         'param_name' => 'display_update_card_button',
                         'value' => $arm_display_yes_no_option,
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Button Text','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button Text','armember-membership'),
                         'param_name' => 'update_card_text',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_update_card_button',
                             'value' => 'true',
@@ -1742,11 +1284,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button CSS', 'armember-membership'),
                         'param_name' => 'update_card_css',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_update_card_button',
                             'value' => 'true',
@@ -1755,11 +1296,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textarea',
                         'class' => '',
-                        'heading' => __('Button Hover CSS', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Button Hover CSS', 'armember-membership'),
                         'param_name' => 'update_card_hover_css',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                         'dependency' => array(
                             'element' => 'display_update_card_button',
                             'value' => 'true',
@@ -1768,20 +1308,18 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Trial Active Label','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Trial Active Label','armember-membership'),
                         'param_name' => 'trial_active',
                         'value' => '',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('No Records Message','armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('No Records Message','armember-membership'),
                         'param_name' => 'message_no_record',
                         'value' => 'There is no membership found.',
-                        'group' => __( 'ARMember Current Membership', 'armember-membership' ),
+                        'group' => esc_html__( 'ARMember Current Membership', 'armember-membership' ),
                     ),
                 )
             ));
@@ -1795,7 +1333,7 @@ class ARMLITE_VCExtend {
     
             $default_field_labels = !empty(implode(",",$default_fields['default_label_field'])) ? implode(",",$default_fields['default_label_field']) : 'current_membership_no,current_membership_is,current_membership_recurring_profile,current_membership_started_on,current_membership_expired_on,current_membership_next_billing_date,action_button' ;
             $default_field_values = !empty(implode(",",$default_fields['default_value_field'])) ? implode(",",$default_fields['default_value_field']) : 'No.,Membership Plan,Plan Type,Starts On,Expires On,Cycle Date,Action' ;
-            $title = isset($atts['title']) && !empty($atts['title'])? esc_attr( $atts['title']) : esc_attr__('Current Membership', 'armember-membership') ;
+            $title = isset($atts['title']) && !empty($atts['title'])? esc_attr( $atts['title']) : esc_html__('Current Membership', 'armember-membership') ;
             $setup_id =  isset($atts['setup_id']) && !empty($atts['setup_id']) ? esc_attr( $atts['setup_id'] ) : '' ;
             $display_renew_button = isset($atts['display_renew_button']) && !empty($atts['display_renwe_button']) ? esc_attr( $atts['display_renew_button'] ) : 'true' ;
             $renew_text = isset($atts['renew_text']) && !empty($atts['renew_text']) ? esc_attr( $atts['renew_text']) : esc_attr__('Renew', 'armember-membership') ; 
@@ -1837,7 +1375,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember Username', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_username_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1845,7 +1382,7 @@ class ARMLITE_VCExtend {
                 'icon' => 'arm_vc_icon',
                 'admin_enqueue_css' => array(MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css'),
                 'front_enqueue_css' => MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css',
-                'group' => __( 'ARMember Username', 'armember-membership' ),
+                'group' => esc_html__( 'ARMember Username', 'armember-membership' ),
                 'params' => array()
             ));
         }
@@ -1870,7 +1407,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember User Plan', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_user_plan_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1878,7 +1414,7 @@ class ARMLITE_VCExtend {
                 'icon' => 'arm_vc_icon',
                 'admin_enqueue_css' => array(MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css'),
                 'front_enqueue_css' => MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css',
-                'group' => __( 'ARMember User Plan', 'armember-membership' ),
+                'group' => esc_html__( 'ARMember User Plan', 'armember-membership' ),
                 'params' => array()
             ));
         }
@@ -1903,7 +1439,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember User Displayname', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_displayname_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1911,7 +1446,7 @@ class ARMLITE_VCExtend {
                 'icon' => 'arm_vc_icon',
                 'admin_enqueue_css' => array(MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css'),
                 'front_enqueue_css' => MEMBERSHIPLITE_URL . '/core/vc/arm_vc.css',
-                'group' => __( 'ARMember User Displayname', 'armember-membership' ),
+                'group' => esc_html__( 'ARMember User Displayname', 'armember-membership' ),
                 'params' => array()
             ));
         }
@@ -1936,7 +1471,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember User Firstname Lastname', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_firstname_lastname_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -1968,7 +1502,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember User Avatar', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_avatar_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -2001,7 +1534,6 @@ class ARMLITE_VCExtend {
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember User Custom Meta', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_usermeta_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -2013,11 +1545,10 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'textfield',
                         'class' => '',
-                        'heading' => __('Enter Usermeta Name', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Enter Usermeta Name', 'armember-membership'),
                         'param_name' => 'meta',
                         'value' => '',
-                        'group' => __( 'ARMember User Custom Meta', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember User Custom Meta', 'armember-membership' )
                     ),
                 )
             ));
@@ -2044,7 +1575,7 @@ class ARMLITE_VCExtend {
 
         $arm_planlist = array();
         $arm_planlist = array(
-            __('Select Plan', 'armember-membership') => '',
+            esc_html__('Select Plan', 'armember-membership') => '',
         );
         $all_plans = $arm_subscription_plans->arm_get_all_subscription_plans('arm_subscription_plan_id, arm_subscription_plan_name');
         if(!empty($all_plans)){
@@ -2055,24 +1586,22 @@ class ARMLITE_VCExtend {
 
         $armPlanInfo = array();
         $armPlanInfo = array(
-            __('Start Date', 'armember-membership') => 'arm_start_plan',
-            __('End Date', 'armember-membership') => 'arm_expire_plan',
-            __('Plan Amount', 'armember-membership') => 'arm_amount_plan',
-            __('Trial Start Date', 'armember-membership') => 'arm_trial_start',
-            __('Trial End Date', 'armember-membership') => 'arm_trial_end',
-            __('Grace End Date', 'armember-membership') => 'arm_grace_period_end',
-            __('Paid By', 'armember-membership') => 'arm_user_gateway',
-            __('Completed Recurrence', 'armember-membership') => 'arm_completed_recurring',
-            __('Next Due Date', 'armember-membership') => 'arm_next_due_payment',
-            __('Payment Mode', 'armember-membership') => 'arm_payment_mode',
-            __('Payment Cycle', 'armember-membership') => 'arm_payment_cycle',
+            esc_html__('Select Plan Information', 'armember-membership') => '',
+            esc_html__('Start Date', 'armember-membership') => 'arm_start_plan',
+            esc_html__('End Date', 'armember-membership') => 'arm_expire_plan',
+            esc_html__('Plan Amount', 'armember-membership') => 'arm_amount_plan',
+            esc_html__('Trial Start Date', 'armember-membership') => 'arm_trial_start',
+            esc_html__('Trial End Date', 'armember-membership') => 'arm_trial_end',
+            esc_html__('Grace End Date', 'armember-membership') => 'arm_grace_period_end',
+            esc_html__('Paid By', 'armember-membership') => 'arm_user_gateway',
+            esc_html__('Completed Recurrence', 'armember-membership') => 'arm_completed_recurring',
+            esc_html__('Next Due Date', 'armember-membership') => 'arm_next_due_payment',
+            esc_html__('Payment Mode', 'armember-membership') => 'arm_payment_mode',
+            esc_html__('Payment Cycle', 'armember-membership') => 'arm_payment_cycle',
         );
-
-
         if (function_exists('vc_map')) {
             vc_map(array(
                 'name' => esc_html__('ARMember User Plan Information', 'armember-membership'),
-                'description' => '',
                 'base' => 'arm_user_planinfo_vc',
                 'category' => esc_html__('armember-membership', 'armember-membership'),
                 'class' => '',
@@ -2084,20 +1613,18 @@ class ARMLITE_VCExtend {
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select Plan', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select Plan', 'armember-membership'),
                         'param_name' => 'plan_id',
                         'value' => $arm_planlist,
-                        'group' => __( 'ARMember User Plan Information', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember User Plan Information', 'armember-membership' )
                     ),
                     array(
                         'type' => 'dropdown',
                         'class' => 'arm_element_dropdown',
-                        'heading' => __('Select Plan Information', 'armember-membership'),
-                        'description' => '&nbsp;',
+                        'heading' => esc_html__('Select Plan Information', 'armember-membership'),
                         'param_name' => 'plan_info',
                         'value' => $armPlanInfo,
-                        'group' => __( 'ARMember User Plan Information', 'armember-membership' )
+                        'group' => esc_html__( 'ARMember User Plan Information', 'armember-membership' )
                     ),
                 )
             ));
@@ -2152,26 +1679,26 @@ class ARMLITE_VCExtend {
             'payment_date' => 'Payment Date', 
         );
 
-        $default_arm_account_detail_vc_fields = array(
-            'first_name' => 'First Name', 
-            'last_name' => 'Last Name', 
-            'display_name' => 'Display Name', 
-            'user_login' => 'Username', 
-            'user_email' => 'Email Address', 
-            'gender' => 'Gender', 
-            'user_url' => 'Website (URL)', 
-            'country' => 'Country/Region', 
-            'description' => 'Biography', 
-        );
+        global $arm_members_directory;
+        $allDefaultLabelArray = array();
+        $dbProfileFields = $arm_members_directory->arm_template_profile_fields();
+        if (!empty($dbProfileFields)) {
+            foreach ($dbProfileFields as $db_form) {
+                $arm_meta_key = (!empty($db_form['meta_key']) ? $db_form['meta_key'] : '');
+                if($arm_meta_key != '' ){
+                    $default_arm_account_detail_vc_fields[$arm_meta_key] = $db_form['label'];
+                }
+            }            
+        }
 
         $default_arm_membership_vc_fields = array(
-            'current_membership_no' => __('No.', 'armember-membership'),
-            'current_membership_is' => __('Membership Plan', 'armember-membership'),
-            'current_membership_recurring_profile' => __('Plan Type', 'armember-membership'),
-            'current_membership_started_on' => __( 'Starts On', 'armember-membership'),
-            'current_membership_expired_on' => __( 'Expires On', 'armember-membership'),
-            'current_membership_next_billing_date' => __( 'Cycle Date', 'armember-membership'),
-            'action_button' => __( 'Action', 'armember-membership'),
+            'current_membership_no' => esc_html__('No.', 'armember-membership'),
+            'current_membership_is' => esc_html__('Membership Plan', 'armember-membership'),
+            'current_membership_recurring_profile' => esc_html__('Plan Type', 'armember-membership'),
+            'current_membership_started_on' => esc_html__( 'Starts On', 'armember-membership'),
+            'current_membership_expired_on' => esc_html__( 'Expires On', 'armember-membership'),
+            'current_membership_next_billing_date' => esc_html__( 'Cycle Date', 'armember-membership'),
+            'action_button' => esc_html__( 'Action', 'armember-membership'),
         );
 
         $return_shortcode_fields = array();

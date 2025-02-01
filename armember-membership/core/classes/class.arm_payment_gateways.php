@@ -1696,7 +1696,7 @@ if ( ! class_exists( 'ARM_payment_gateways_Lite' ) ) {
 				$transfer_mode = $this->arm_get_bank_transfer_mode_options();
 				// $transfer_mode_li = '<option class="armMDOption armSelectOption arm_payment_transfer_mode_option_'.$form_id.'" role="option" aria-selected="false" value="">' . esc_html__('Select Payment Mode', 'armember-membership') . '</option>';
 
-				$transfer_mode_option_val_label = $transfer_mode_option_val_selected = esc_html__( 'Select Payment Mode', 'armember-membership' );
+				$transfer_mode_option_val_label = $transfer_mode_option_val_selected = !empty($gateways_opts['transfer_mode_label']) ? stripslashes($gateways_opts['transfer_mode_label']) : esc_html__( 'Select Payment Mode', 'armember-membership' );
 
 				$transfer_mode_li = '<li class="arm__dc--item arm_payment_transfer_mode_option_' . esc_attr($form_id) . '" data-label="' . esc_attr($transfer_mode_option_val_label) . '" data-value="">' . esc_html($transfer_mode_option_val_label) . '</li>';
 

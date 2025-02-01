@@ -1,5 +1,12 @@
 <?php global $wpdb, $ARMemberLite, $arm_slugs, $arm_members_class, $arm_global_settings, $arm_email_settings, $arm_payment_gateways,$arm_subscription_plans; ?>
 <div class="wrap arm_page arm_transactions_main_wrapper">
+	<?php
+	if($ARMemberLite->is_arm_pro_active)
+	{
+		$arm_license_notice = '';
+		echo apply_filters('arm_admin_license_notice_html',$arm_license_notice);
+	}
+	?>
 	<div class="content_wrapper arm_transactions_container" id="content_wrapper">
 		<div class="page_title">
 			<?php esc_html_e( 'Payment History', 'armember-membership' ); ?>
@@ -11,9 +18,9 @@
 		<div class="armclear"></div>
 		<div class="arm_transactions_grid_container" id="arm_transactions_grid_container">
 			<?php
-			if ( file_exists( MEMBERSHIPLITE_VIEWS_DIR . '/arm_transactions_list_records.php' ) ) {
-				include MEMBERSHIPLITE_VIEWS_DIR . '/arm_transactions_list_records.php';
-			}
+			
+			include MEMBERSHIPLITE_VIEWS_DIR . '/arm_transactions_list_records.php';
+						
 			?>
 		</div>
 		<?php
@@ -48,9 +55,16 @@
 		/* **********./End Bulk Delete Transaction Popup/.********** */
 
 		?>
-
+		<div class="arm_invoice_detail_container"></div>
 		<div class="arm_preview_log_detail_container"></div>
+		<div class="arm_preview_failed_log_detail_container"></div>
 	</div>
+	<?php
+	if($ARMemberLite->is_arm_pro_active)
+	{
+		echo apply_filters('arm_admin_paid_post_transaction_html',$arm_license_notice);
+	}
+	?>
 </div>
 <style type="text/css" title="currentStyle">
 	.paginate_page a{display:none;}

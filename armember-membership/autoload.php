@@ -110,7 +110,7 @@ define( 'MEMBERSHIPLITE_UPLOAD_URL', $arm_lite_upload_url );
 
 /* Defining Membership Plugin Version */
 global $arm_lite_version;
-$arm_lite_version = '4.0.59';
+$arm_lite_version = '4.0.60';
 define( 'MEMBERSHIPLITE_VERSION', $arm_lite_version );
 
 global $arm_lite_ajaxurl;
@@ -693,7 +693,7 @@ class ARMemberlite {
 					'show' => esc_html__("Show content only for", 'armember-membership' ),
 					'hide' => esc_html__("Hide content only for", 'armember-membership' ),
 				),
-				'membership_plan' => __( "Membership Plans", 'armember-membership' ),
+				'membership_plan' => esc_html__( "Membership Plans", 'armember-membership' ),
 				'membership_plan_help' => esc_html__("If any of the following conditions will true then restrictions will apply on content", 'armember-membership' ),
 			);
 
@@ -3635,7 +3635,7 @@ escClose : false
 
 		$arm_change_log = array(
 			'show_critical_title' => 1,
-			'critical_title'      => 'Version 4.0.59 Changes',
+			'critical_title'      => 'Version 4.0.60 Changes',
 			'critical'            => array(
 				'Minor bug fixes.',
 			),

@@ -69,21 +69,21 @@ if (!class_exists('ARM_lite_wpbakery_builder_restriction')) {
             $shortcodes_to_add_options = apply_filters('armember_shortcodes_to_add_options', $shortcodes_to_add_options);
 
             $restriction_content_access = array(
-                __( 'No', 'armember-membership' ) => 'no',
-                __( 'Yes', 'armember-membership' ) => 'yes'
+                esc_html__( 'No', 'armember-membership' ) => 'no',
+                esc_html__( 'Yes', 'armember-membership' ) => 'yes'
             );
 
             $content_access_type = array(
-                __( 'Show', 'armember-membership' ) => 'show',
-                __( 'Hide', 'armember-membership' ) => 'hide'
+                esc_html__( 'Show', 'armember-membership' ) => 'show',
+                esc_html__( 'Hide', 'armember-membership' ) => 'hide'
             );
             
             $arm_membership_plan = $arm_subscription_plans->arm_get_all_subscription_plans('arm_subscription_plan_id, arm_subscription_plan_name');
             $plan_options = array();
             $plan_options = array(
-                '&nbsp;'.__( 'Any Plan', 'armember-membership' ) => 'any_plan',
-                '&nbsp;'.__( 'Non Loggedin Users', 'armember-membership' ) => 'unregistered',
-                '&nbsp;'.__( 'Loggedin Users', 'armember-membership' ) => 'registered'
+                '&nbsp;'.esc_html__( 'Any Plan', 'armember-membership' ) => 'any_plan',
+                '&nbsp;'.esc_html__( 'Non Loggedin Users', 'armember-membership' ) => 'unregistered',
+                '&nbsp;'.esc_html__( 'Loggedin Users', 'armember-membership' ) => 'registered'
             );
             foreach ( $arm_membership_plan as $plan ) {
                 $plan_options[ '&nbsp;'.$plan['arm_subscription_plan_name'] ] = $plan['arm_subscription_plan_id'];

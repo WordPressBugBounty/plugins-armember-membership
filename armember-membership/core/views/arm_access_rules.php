@@ -1,5 +1,5 @@
 <?php
-global $wpdb, $ARMemberLite, $arm_slugs, $arm_global_settings, $arm_access_rules, $arm_subscription_plans;
+global $wpdb, $ARMemberLite, $arm_slugs, $arm_global_settings, $arm_access_rules, $arm_subscription_plans, $arm_buddypress_feature;
 $arm_global_settings->arm_set_ini_for_access_rules();
 $data_cols      = array();
 $rule_types     = $arm_access_rules->arm_get_access_rule_types();
@@ -15,9 +15,15 @@ if ( isset( $_REQUEST['type'] ) && ! empty( $_REQUEST['type'] ) ) {
 if ( isset( $_REQUEST['slug'] ) && ! empty( $_REQUEST['slug'] ) ) {
 	$cur_slug = sanitize_text_field($_REQUEST['slug']);
 }
+if ( ($cur_slug == 'buddypress' || $cur_slug == 'buddyboss') && (!$arm_buddypress_feature->isBuddypressFeature || !is_plugin_active('buddypress/bp-loader.php')) && $ARMemberLite->is_arm_pro_active) {
+	wp_redirect('admin.php?page=arm_access_rules'); 
+}
 
-if ( isset( $_REQUEST['plan'] ) && ! empty( $_REQUEST['plan'] ) ) {
-	$cur_plan = intval($_REQUEST['plan']);
+if (!in_array($cur_slug,array('post','page','category')) && !$ARMemberLite->is_arm_pro_active) {
+	wp_redirect('admin.php?page=arm_access_rules'); 
+}
+if (isset($_REQUEST['plan']) && !empty($_REQUEST['plan'])) {
+	$cur_plan = intval( $_REQUEST['plan'] );
 }
 if ( isset( $_REQUEST['protection'] ) ) {
 	if ( $_REQUEST['protection'] == '0' ) {
@@ -179,7 +185,7 @@ wp_enqueue_script( 'jquery-ui-tooltip' );
 							</div>';
 							$pdata_cols[]    = $protection_html;
 							// For Plan Data
-						if ( $all_plans ) {
+							if (!empty($all_plans)){
 														$plan_id       = '-2';
 														$item_checked  = ( in_array( $plan_id, $item_plans ) ) ? 'checked="checked"' : '';
 														$pdata_cols[] .= '<input type="checkbox" name="arm_rules[' . esc_attr($item_id) . '][plans][]" value="' . esc_attr($plan_id) . '" class="arm_rule_item_checkbox_' . esc_attr($item_id) . '_' . esc_attr($plan_id) . ' arm_no_plan_rule arm_rule_plan_chks" data-item_id="' . esc_attr($item_id) . '" data-plan_id="' . esc_attr($plan_id) . '" ' . $item_checked . '/>';
@@ -205,7 +211,7 @@ wp_enqueue_script( 'jquery-ui-tooltip' );
 				<thead>
 				<?php
 				$title_cols = $filter_cols = '';
-				if ( $all_plans ) {
+				if (!empty($all_plans)) {
 									$title_cols  .= '<th class="arm-no-sort center arm_text_align_center">' . esc_html__( 'Users Having No Plan', 'armember-membership' ) . '</th>';
 									$filter_cols .= '<th class="arm-no-sort center arm_text_align_center"><input type="checkbox" class="arm_all_rules_checkbox_-2 arm_all_rule_plan_chks" data-plan_id="-2" /><br/><label>' . esc_html__( 'Allow Access', 'armember-membership' ) . '</label></th>';
 					$i                            = 3;
@@ -304,7 +310,6 @@ jQuery(document).ready(function ($){
     var __ARM_Show = '<?php echo addslashes(esc_html__('Show','armember-membership')); //phpcs:ignore?>';
     var __ARM_NO_FOUND = '<?php echo addslashes(esc_html__('No any record found.','armember-membership')); //phpcs:ignore?>';
     var __ARM_NO_MATCHING = '<?php echo addslashes(esc_html__('No matching records found.','armember-membership')); //phpcs:ignore?>';
-	var __ARM_NO_MATCHING = '<?php echo addslashes(esc_html__('No matching records found.','armember-membership')); //phpcs:ignore?>';
 	var DTable = jQuery('#armember_datatable').dataTable({
 		"sDom": 't<"footer"ipl>',
 		"sPaginationType": "four_button",

@@ -69,7 +69,6 @@ $all_roles         = $arm_global_settings->arm_get_all_roles();
                                             </tr>
                                 <?php
                                         }
-									$default_rules[ $rtype ]        = ( ! empty( $default_rules[ $rtype ] ) ) ? $default_rules[ $rtype ] : array();
 									$arm_default_restriction_option = '';
 									if ( empty( $default_rules[ $rtype ] ) ) {
 										$arm_default_restriction_option = '';

@@ -16,7 +16,6 @@ if ( ! class_exists( 'ARM_common_lite' ) ) {
 				'features'         => esc_html__( 'Not the features I wanted', 'armember-membership' ),
 				'better-plugin'    => esc_html__( 'Found a better plugin', 'armember-membership' ),
 				'incompatibility'  => esc_html__( 'Incompatible with theme or plugin', 'armember-membership' ),
-				'bought-premium'   => esc_html__( 'I bought premium version of ARMember', 'armember-membership' ),
 				'maintenance'      => esc_html__( 'Other', 'armember-membership' ),
 			);
 
@@ -84,7 +83,7 @@ if ( ! class_exists( 'ARM_common_lite' ) ) {
 				.armlite-deactivate-form-active .armlite-deactivate-form-wrapper {display: inline-block;}
 				.armlite-deactivate-form {display: none;}
 				.armlite-deactivate-form-active .armlite-deactivate-form {position: absolute;bottom: 30px;left: 0;max-width: 500px;min-width: 360px;background: #fff;white-space: normal;}
-				.armlite-deactivate-form-head {background: #00b2f0;color: #fff;padding: 8px 18px;}
+				.armlite-deactivate-form-head {background: #005aee;color: #fff;padding: 8px 18px;}
 				.armlite-deactivate-form-body {padding: 8px 18px 0;color: #444;}
 				.armlite-deactivate-form-body label[for="armlite-remove-settings"] {font-weight: bold;}
 				.deactivating-spinner {display: none;}
@@ -120,7 +119,6 @@ if ( ! class_exists( 'ARM_common_lite' ) ) {
 							'features' : '<?php echo esc_html__( 'How could we improve?', 'armember-membership' ); ?>',
 							'better-plugin' : '<?php echo esc_html__( 'Can you mention it?', 'armember-membership' ); ?>',
 							'incompatibility' : '<?php echo esc_html__( 'With what plugin or theme is incompatible?', 'armember-membership' ); ?>',
-							'bought-premium' : '<?php echo esc_html__( 'Please specify experience', 'armember-membership' ); ?>',
 							'maintenance' : '<?php echo esc_html__( 'Please specify', 'armember-membership' ); ?>',
 						};
 

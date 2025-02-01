@@ -18,11 +18,11 @@ if (!class_exists('ARM_lite_divi_builder_restriction')) {
 		public static function toggle( $modules ) {
 
 			if ( isset( $modules['et_pb_row'] ) && is_object( $modules['et_pb_row'] ) ) {
-				$modules['et_pb_row']->settings_modal_toggles['custom_css']['toggles']['ARMember'] = __( 'ARMember', 'armember-membership' );
+				$modules['et_pb_row']->settings_modal_toggles['custom_css']['toggles']['ARMember'] = esc_html__( 'ARMember', 'armember-membership' );
 			}
 
 			if ( isset( $modules['et_pb_section'] ) && is_object( $modules['et_pb_section'] ) ) {
-				$modules['et_pb_section']->settings_modal_toggles['custom_css']['toggles']['ARMember'] = __( 'ARMember', 'armember-membership' );
+				$modules['et_pb_section']->settings_modal_toggles['custom_css']['toggles']['ARMember'] = esc_html__( 'ARMember', 'armember-membership' );
 			}
 
 			return $modules;

@@ -1000,7 +1000,9 @@ if ( ! class_exists( 'ARM_access_rules_Lite' ) ) {
 		 */
 		function arm_add_meta_boxes_access_rules( $screen = '', $arm_context = 'side', $arm_priority = 'high' ) {
 			global $wpdb, $pagenow, $ARMemberLite, $arm_global_settings, $arm_access_rules;
-			if ( current_user_can( 'administrator' ) || current_user_can( 'arm_content_access_rules_metabox' ) ) {
+			
+			$post_type = get_post_type();
+			if( ( current_user_can( 'administrator' ) || current_user_can( 'arm_content_access_rules_metabox' ) ) && in_array($post_type,array('page','post')) ) {
 				if ( ! empty( $screen ) ) {
 					$arm_context  = ( ! empty( $arm_context ) ) ? 'side' : '';
 					$arm_priority = ( ! empty( $arm_priority ) ) ? 'high' : '';

@@ -1,5 +1,5 @@
 <?php
-global $wpdb, $ARMemberLite, $arm_slugs, $arm_global_settings, $arm_members_class,  $arm_payment_gateways, $arm_subscription_plans;
+global $wpdb, $ARMemberLite, $arm_slugs, $arm_global_settings, $arm_members_class,$arm_manage_coupons,  $arm_payment_gateways, $arm_subscription_plans;
 $currencies      = $arm_payment_gateways->arm_get_all_currencies();
 $global_currency = $arm_payment_gateways->arm_get_global_currency();
 $all_members     = $arm_members_class->arm_get_all_members_without_administrator( 0, 0 );
@@ -31,7 +31,11 @@ if ( isset( $posted_data['action'] ) && $posted_data['action'] == 'add_payment_h
 							<div class="arm_users_items arm_required_wrapper" id="arm_users_items" style="display: none;"></div>
 						</td>
 					</tr>
-					<tr class="form-field form-required">
+					<?php if($ARMemberLite->is_arm_pro_active){
+						$arm_selection_options = '';
+						echo apply_filters('arm_payment_gateway_selection_options',$arm_selection_options);
+					}?>
+					<tr class="form-field form-required arm_transaction_membership_plan_wrapper">
 						<th>
 							<label for="arm_plan_id"><?php esc_html_e( 'Select Membership Plan', 'armember-membership' ); ?></label>
 						</th>
@@ -59,6 +63,10 @@ if ( isset( $posted_data['action'] ) && $posted_data['action'] == 'add_payment_h
 							</dl>
 						</td>
 					</tr>
+					<?php if($ARMemberLite->is_arm_pro_active){
+						$arm_plans_selection_options = '';
+						echo apply_filters('arm_payment_gateway_plans_selection_options',$arm_plans_selection_options);
+					}?>
 					<tr class="form-field form-required">
 						<th>
 							<label for=""><?php esc_html_e( 'Status', 'armember-membership' ); ?></label>

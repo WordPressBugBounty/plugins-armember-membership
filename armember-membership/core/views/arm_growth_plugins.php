@@ -1,22 +1,24 @@
 <?php 
-	global $arm_social_feature;
-	$growth_plugins_content = $arm_social_feature->growth_plugins_content();
+	global $arm_social_feature,$ARMemberLite;
+	if(!$ARMemberLite->is_arm_pro_active){
+		$growth_plugins_content = $arm_social_feature->growth_plugins_content();
 
-	$payment_gateways_addon = '21+';
-	$total_addons = '51+';
-	$total_inbuilt_addon = '56+';
-	$discount = '82%';
-	$downloads = '3,00,000+';
-	$support_period = '6 Months';
-	if( !empty($growth_plugins_content) ) {
-		$growth_plugins_content_data = json_decode($growth_plugins_content, true);
-		if( !empty($growth_plugins_content_data) && is_array($growth_plugins_content_data) ) {
-			$payment_gateways_addon = isset($growth_plugins_content_data['payment_gateways_addon']) ? $growth_plugins_content_data['payment_gateways_addon'] : $payment_gateways_addon;
-			$total_addons = isset($growth_plugins_content_data['total_addons']) ? $growth_plugins_content_data['total_addons'] : $total_addons;
-			$total_inbuilt_addon = isset($growth_plugins_content_data['total_inbuilt_addon']) ? $growth_plugins_content_data['total_inbuilt_addon'] : $total_inbuilt_addon;
-			$discount = isset($growth_plugins_content_data['discount']) ? $growth_plugins_content_data['discount'] : $discount;
-			$downloads = isset($growth_plugins_content_data['downloads']) ? $growth_plugins_content_data['downloads'] : $downloads;
-			$support_period = isset($growth_plugins_content_data['support_period']) ? $growth_plugins_content_data['support_period'] : $support_period;
+		$payment_gateways_addon = '21+';
+		$total_addons = '51+';
+		$total_inbuilt_addon = '56+';
+		$discount = '82%';
+		$downloads = '3,00,000+';
+		$support_period = '6 Months';
+		if( !empty($growth_plugins_content) ) {
+			$growth_plugins_content_data = json_decode($growth_plugins_content, true);
+			if( !empty($growth_plugins_content_data) && is_array($growth_plugins_content_data) ) {
+				$payment_gateways_addon = isset($growth_plugins_content_data['payment_gateways_addon']) ? $growth_plugins_content_data['payment_gateways_addon'] : $payment_gateways_addon;
+				$total_addons = isset($growth_plugins_content_data['total_addons']) ? $growth_plugins_content_data['total_addons'] : $total_addons;
+				$total_inbuilt_addon = isset($growth_plugins_content_data['total_inbuilt_addon']) ? $growth_plugins_content_data['total_inbuilt_addon'] : $total_inbuilt_addon;
+				$discount = isset($growth_plugins_content_data['discount']) ? $growth_plugins_content_data['discount'] : $discount;
+				$downloads = isset($growth_plugins_content_data['downloads']) ? $growth_plugins_content_data['downloads'] : $downloads;
+				$support_period = isset($growth_plugins_content_data['support_period']) ? $growth_plugins_content_data['support_period'] : $support_period;
+			}
 		}
 	}
 ?>
@@ -27,7 +29,8 @@
 		<div class="armclear"></div>
 		<div class="arm_feature_settings_wrapper">            
 			<div class="arm_feature_settings_container arm-gt-mainwrapper">
-
+				<?php if(!$ARMemberLite->is_arm_pro_active){?>
+			
 				<div class="arm_set_bg_image">
 					<div class="arm-mlc-head-wrap">
 						<div class="arm-mlc-left-heading">
@@ -103,7 +106,7 @@
 						<span class="arm-growth-tools-spacer"></span>
 					</div>
 				</div>
-
+				<?php }?>
 				<div class="arm-mlc-head-wrap">
 					<div class="arm-mlc-left-heading">
 						<div class="arm-gt-page-inner-block-heading"> Our <span class="arm-page-heading-highlight"> Family WordPress Plugins </span>

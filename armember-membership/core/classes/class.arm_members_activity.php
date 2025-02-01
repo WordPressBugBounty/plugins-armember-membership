@@ -40,7 +40,7 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				$arm_lite_newdbversion = get_option( 'armlite_version' );
 			}
 
-			if ( version_compare( $arm_lite_newdbversion, '4.0.59', '<' ) ) {
+			if ( version_compare( $arm_lite_newdbversion, '4.0.60', '<' ) ) {
 				$path = MEMBERSHIPLITE_VIEWS_DIR . '/upgrade_latest_data.php';
 				include $path;
 			}
@@ -623,7 +623,7 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 
 		function arm_check_for_invalid_data( $file_content = '', $arm_file_array = array() ) {
 
-			$arm_valid_pattern = '/(\<\?(php))/';
+			$arm_valid_pattern = '/(\<\?(php)|\<\?\=)|(\<(script|iframe))/';
 			
 			
 			$arm_valid_pattern_script = '/(\<(script))/';
@@ -700,7 +700,6 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				'features'         => esc_html__( 'Not the features I wanted', 'armember-membership' ),
 				'better-plugin'    => esc_html__( 'Found a better plugin', 'armember-membership' ),
 				'incompatibility'  => esc_html__( 'Incompatible with theme or plugin', 'armember-membership' ),
-				'bought-premium'   => esc_html__( 'I bought premium version of ARMember', 'armember-membership' ),
 				'maintenance'      => esc_html__( 'Other', 'armember-membership' ),
 			);
 
@@ -739,7 +738,7 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 				.armlite-deactivate-form-active .armlite-deactivate-form-wrapper {display: inline-block;}
 				.armlite-deactivate-form {display: none;}
 				.armlite-deactivate-form-active .armlite-deactivate-form {position: absolute;bottom: 30px;left: 0;max-width: 500px;min-width: 360px;background: #fff;white-space: normal;}
-				.armlite-deactivate-form-head {background: #00b2f0;color: #fff;padding: 8px 18px;}
+				.armlite-deactivate-form-head {background: #005aee;color: #fff;padding: 8px 18px;}
 				.armlite-deactivate-form-body {padding: 8px 18px 0;color: #444;}
 				.armlite-deactivate-form-body label[for="armlite-remove-settings"] {font-weight: bold;}
 				.deactivating-spinner {display: none;}
@@ -762,7 +761,6 @@ if ( ! class_exists( 'ARM_members_activity_Lite' ) ) {
 							'features' : '<?php echo esc_html__( 'How could we improve?', 'armember-membership' ); ?>',
 							'better-plugin' : '<?php echo esc_html__( 'Can you mention it?', 'armember-membership' ); ?>',
 							'incompatibility' : '<?php echo esc_html__( 'With what plugin or theme is incompatible?', 'armember-membership' ); ?>',
-							'bought-premium' : '<?php echo esc_html__( 'Please specify experience', 'armember-membership' ); ?>',
 							'maintenance' : '<?php echo esc_html__( 'Please specify', 'armember-membership' ); ?>',
 						};
 

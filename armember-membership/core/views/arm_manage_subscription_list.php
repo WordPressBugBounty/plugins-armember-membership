@@ -614,6 +614,11 @@ global $wpdb, $ARMember, $arm_global_settings;
                                             <li data-label="<?php esc_attr_e('Expired', 'armember-membership'); ?>" data-value="2" class="arm_status_subscription "><?php esc_html_e('Expired', 'armember-membership'); ?></li>
                                             <li data-label="<?php esc_attr_e('Suspended', 'armember-membership'); ?>" data-value="3" class="arm_status_subscription "><?php esc_html_e('Suspended', 'armember-membership'); ?></li>
                                             <li data-label="<?php esc_attr_e('Canceled', 'armember-membership'); ?>" data-value="4" class="arm_status_subscription"><?php esc_html_e('Canceled', 'armember-membership'); ?></li>
+                                            <?php if($ARMemberLite->is_arm_pro_active){
+                                                $additional_filter = '';
+                                                $additional_filter = apply_filters('arm_add_option_in_membership_filters_status', $additional_filter);
+                                                echo $additional_filter; //phpcs:ignore
+                                            } ?>
                                         </ul>
                                     </dd>
                                 </dl>
